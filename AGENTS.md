@@ -6,7 +6,7 @@
 | Door | |
 |---|---|
 | Where it sits | `~/SISO_Workspace/Great_Library_of_SISO/foundry` · district Great_Library_of_SISO · GitHub sisodias/siso-foundry |
-| Owner | not yet assigned; the top Agent Zero (herdr A0, SISO_Agents/agent-zero/siso-firstmate) holds it |
+| Owner | not yet assigned; Agent Zero (SISO_Agents/agent-zero/siso-agent-zero) holds it |
 | Run it | `npm run test` |
 | Write here | `.agents/memory/MEMORY.md` (durable facts, one file each plus an index line) |
 | Worktrees | `~/SISO_Workspace/_data/worktrees/foundry/<lane>` (never beside or inside the repo) |

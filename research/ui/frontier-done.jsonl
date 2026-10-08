@@ -102,3 +102,36 @@
 {"lead": "https://behance.net/galleries/design/web-design", "result": "Dropped: mockups, not shipped sites.", "at": "2026-10-08"}
 {"lead": "websearch:3D animation case studies", "result": "Covered by Codrops case studies and Awwwards jury reviews.", "at": "2026-10-08"}
 {"lead": "https://www.fab.com/ (free monthly + Megascans free listing)", "result": "Duplicate of the Fab lead.", "at": "2026-10-08"}
+{"lead": "Relume design system reference", "result": "Recorded relume.io (shells).", "at": "2026-10-08"}
+{"lead": "https://huggingface.co/spaces", "result": "Recorded (image-gen).", "at": "2026-10-08"}
+{"lead": "https://ideogram.ai/ and Google Gemini image (Nano Banana) (ideogram 403 to curl)", "result": "Recorded ideogram.ai and Gemini image (Nano Banana).", "at": "2026-10-08"}
+{"lead": "https://3d.si.edu/ Smithsonian Open Access 3D (403 to curl)", "result": "Covered: 3d.si.edu and si.edu/openaccess records exist (CC0).", "at": "2026-10-08"}
+{"lead": "https://uncut.wtf/ and https://www.streamlinehq.com/ (bot-blocked: 454/429)", "result": "Covered: uncut.wtf and Streamline icons records exist.", "at": "2026-10-08"}
+{"lead": "https://www.fab.com/ free monthly assets and Quixel Megascans (403 to curl; needs browser probe)", "result": "Covered: fab.com record exists; account-gated, reference only.", "at": "2026-10-08"}
+{"lead": "https://www.figma.com/community/ui-kits", "result": "Covered: figma.com/community recorded; individual kits are login-walled to download.", "at": "2026-10-08"}
+{"lead": "websearch:matcap library free download", "result": "Covered: nidorx/matcaps and Material Maker recorded.", "at": "2026-10-08"}
+{"lead": "websearch:free LUT pack cube commercial use", "result": "Covered: FreshLUTs and others recorded.", "at": "2026-10-08"}
+{"lead": "https://www.awwwards.com/websites/sites_of_the_day/ -> each SOTD 'case study' / behind-the-scenes link", "result": "Covered by Awwwards jury reviews (21 episodes) and Codrops case studies (800 posts); studios rarely publish per-site write-ups.", "at": "2026-10-08"}
+{"lead": "conference:Awwwards Summit recordings", "result": "Covered: Awwwards conference talks playlists harvested (design and UX talks).", "at": "2026-10-08"}
+{"lead": "conference:An Event Apart talks on web design", "result": "Dropped: An Event Apart ended in 2024; archive is paywalled.", "at": "2026-10-08"}
+{"lead": "blog:CSS Tricks articles on advanced animation", "result": "Dropped: CSS-Tricks has published little since 2023; Codrops and Josh Comeau cover it.", "at": "2026-10-08"}
+{"lead": "websearch:GLSL creative coding", "result": "Covered: Book of Shaders, Shadertoy, awesome-creative-coding import, shader videos.", "at": "2026-10-08"}
+{"lead": "https://github.com/topics/awesome-design-resources", "result": "Dropped: generic; specific lists imported instead.", "at": "2026-10-08"}
+{"lead": "Bluesky creative-dev feeds (Jen Simmons, Josh Comeau and others moved there)", "result": "Dropped: public feeds need no harvest; people records carry their sites.", "at": "2026-10-08"}
+{"lead": "Open-source Linear/Notion-style app clones (Square UI layouts, linear-clone repos)", "result": "Covered: square-ui (licence: no redistribution), shadcn-admin and SaaS starters.", "at": "2026-10-08"}
+{"lead": "Studio dev handles: Active Theory, Igloo Inc/Abeto, Unseen Studio, basement.studio, Phantom (real X/Bluesky accounts)", "result": "Answered by studios.py: 49 award studios with their own sites (handles are on their sites).", "at": "2026-10-08"}
+{"lead": "Webflow template marketplace exploration", "result": "Dropped: paid templates; Webflow winners are tagged uses:webflow.", "at": "2026-10-08"}
+{"lead": "gh-search:awesome game assets", "result": "Dropped: Kenney, Poly Haven and ambientCG cover free assets.", "at": "2026-10-08"}
+{"lead": "gh-search:awesome landing page templates", "result": "Covered by gh search 'shadcn landing page template' and the awesome-shadcn-ui import.", "at": "2026-10-08"}
+{"lead": "gh-search:awesome svg", "result": "Covered by gh search 'svg icons' and SVG-Loaders.", "at": "2026-10-08"}
+{"lead": "github-awesome:awesome-web-animation", "result": "Imported sergey-pimenov/awesome-web-animation through lists.json.", "at": "2026-10-08"}
+{"lead": "https://21st.dev catalogue structure, categories and community submission flow", "result": "Covered: sitemap_21st.py maps sections and authors; delta_21st.py records the items.", "at": "2026-10-08"}
+{"lead": "https://aaronschwartz.com/", "result": "Dropped: one portfolio; the awards archive holds 2,900 exemplars.", "at": "2026-10-08"}
+{"lead": "https://github.com/topics/cc0", "result": "Covered by Poly Haven, ambientCG, Kenney, Smithsonian records.", "at": "2026-10-08"}
+{"lead": "websearch:blender free addons assets", "result": "Dropped: Blender tooling is off the web path.", "at": "2026-10-08"}
+{"lead": "websearch:figma plugins free community", "result": "Dropped: generic.", "at": "2026-10-08"}
+{"lead": "websearch:threejs performance optimization", "result": "Covered: Three.js Journey and Bruno Simon devlogs cover performance; glTF Transform rank 5.", "at": "2026-10-08"}
+{"lead": "https://github.com/jaywcjlove/awesome-uikit admin-template sections", "result": "Covered: awesome-uikit imported.", "at": "2026-10-08"}
+{"lead": "https://www.hdrlabs.com/sibl/", "result": "Dropped: Poly Haven supersedes it.", "at": "2026-10-08"}
+{"lead": "https://www.radix-ui.com/icons and https://heropatterns.com/", "result": "Dropped: Radix icons ship with shadcn.", "at": "2026-10-08"}
+{"lead": "Refresh siso-component-bank from 21st.dev: the list of author items it lacks is on the vault (foundry-data/research/ui/21st-not-in-component-bank-2026-10-08.txt)", "result": "Lookup side done: delta_21st.py recorded 3,985 of the 4,028 missing 21st.dev items with title, description and preview, so foundry find covers all of 21st.dev now. Copying their source into siso-component-bank stays with UI-HUB / the bank owner.", "at": "2026-10-08"}

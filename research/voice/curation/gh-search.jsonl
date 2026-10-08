@@ -1,0 +1,94 @@
+{"id": "f-18257239a3", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-e9108817f0", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-db489683bf", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-c3b5227de9", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-388dabe940", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-f418b5674c", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-209a3479df", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-29f09d265a", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-d7c4bea5e0", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-6052beed3f", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-0739af21c5", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-28e75a8c63", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-77b96c0e9a", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-d7974248c6", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-aefdf97199", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-f3ab290d84", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-4f7e53f8b2", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-b18b6e2e9e", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-65ed5780db", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-a2b742d85b", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-427d703f76", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-0d9c667727", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-101190aabf", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-ccc5a09741", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-5b09c2fbc9", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-b35c583453", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-130fc6e4de", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-9e817a5f60", "verdict": "drop", "note": "not voice input, voice agents or speech models SISO would use"}
+{"id": "f-0e44dc8a1d", "verdict": "keep", "rank": 5, "why": "MIT dictation app with local Parakeet or Whisper plus cloud models (9k stars): the closest open base to SISO Voice besides Handy."}
+{"id": "f-eee32eafc9", "verdict": "keep", "rank": 5, "why": "Most-starred open Superwhisper/Wispr Flow alternative for macOS (6.7k); GPL-3.0, so forking it makes SISO Voice GPL; study it, fork Handy (MIT)."}
+{"id": "f-1b02dcac69", "verdict": "keep", "rank": 5, "why": "macOS dictation with on-device STT and custom transforms (12k stars, GPL-3.0): the feature bar for SISO Voice on Mac."}
+{"id": "f-74765dab38", "verdict": "keep", "rank": 5, "why": "The open voice-agent framework (BSD-2): pipelines, transports, Smart Turn; SISO's voice agents should sit on it."}
+{"id": "f-c3a0449768", "verdict": "keep", "rank": 5, "why": "CoreML speech models (Parakeet STT, TTS, VAD, diarization) for Swift apps on Apple Silicon: the engine for a native SISO Voice."}
+{"id": "f-841ab8d80f", "verdict": "keep", "rank": 5, "why": "TTS, STT and speech-to-speech on Apple's MLX: local voice models on the Mac mini with one library."}
+{"id": "f-6d3152badb", "verdict": "keep", "rank": 4, "why": "MIT, minimal free Wispr Flow clone: small enough to read in an afternoon."}
+{"id": "f-431e661e38", "verdict": "keep", "rank": 4}
+{"id": "f-0b756affff", "verdict": "keep", "rank": 4, "why": "Local-first Parakeet dictation for Apple Silicon."}
+{"id": "f-bade995ac4", "verdict": "keep", "rank": 4, "why": "On-device dictation and meeting transcription, 100% private (no licence file: reference only)."}
+{"id": "f-36ed60cee6", "verdict": "keep", "rank": 4}
+{"id": "f-1ddde437ae", "verdict": "keep", "rank": 4}
+{"id": "f-c27a084aab", "verdict": "keep", "rank": 4}
+{"id": "f-c8b6ff4d64", "verdict": "keep", "rank": 4}
+{"id": "f-164a0d6e6a", "verdict": "keep", "rank": 4}
+{"id": "f-00f30164df", "verdict": "keep", "rank": 4}
+{"id": "f-e318bc5cb6", "verdict": "keep", "rank": 4}
+{"id": "f-9334e10689", "verdict": "keep", "rank": 4}
+{"id": "f-a24a83fb5e", "verdict": "keep", "rank": 4}
+{"id": "f-61667d7ba5", "verdict": "keep", "rank": 4}
+{"id": "f-9c68cb87e1", "verdict": "keep", "rank": 4}
+{"id": "f-009c57b5d0", "verdict": "keep", "rank": 4}
+{"id": "f-b4aa1f676d", "verdict": "keep", "rank": 4}
+{"id": "f-0a4db4c0f2", "verdict": "keep", "rank": 4}
+{"id": "f-e98068aadb", "verdict": "keep", "rank": 4}
+{"id": "f-9b81c6c14f", "verdict": "keep", "rank": 4}
+{"id": "f-9b23921a76", "verdict": "keep", "rank": 4}
+{"id": "f-9ce20a1cd2", "verdict": "keep", "rank": 3}
+{"id": "f-60dc6c0c00", "verdict": "keep", "rank": 3}
+{"id": "f-385b79545f", "verdict": "keep", "rank": 3}
+{"id": "f-c1798802a5", "verdict": "keep", "rank": 3}
+{"id": "f-d5b785b3e1", "verdict": "keep", "rank": 3}
+{"id": "f-af984be38e", "verdict": "keep", "rank": 3}
+{"id": "f-9d62707336", "verdict": "keep", "rank": 3}
+{"id": "f-f52daa5706", "verdict": "keep", "rank": 3}
+{"id": "f-48b028da30", "verdict": "keep", "rank": 3}
+{"id": "f-ef39964f5f", "verdict": "keep", "rank": 3}
+{"id": "f-1bacd6ff66", "verdict": "keep", "rank": 3}
+{"id": "f-f24ec14d1e", "verdict": "keep", "rank": 3}
+{"id": "f-bb13d0f72f", "verdict": "keep", "rank": 3}
+{"id": "f-4acc2a6204", "verdict": "keep", "rank": 3}
+{"id": "f-b3d732ec81", "verdict": "keep", "rank": 3}
+{"id": "f-67723d9ddd", "verdict": "keep", "rank": 3}
+{"id": "f-b9c65f8ac9", "verdict": "keep", "rank": 3}
+{"id": "f-a65c1f14e8", "verdict": "keep", "rank": 3}
+{"id": "f-7dba76c566", "verdict": "keep", "rank": 3}
+{"id": "f-67d4ef9134", "verdict": "keep", "rank": 3}
+{"id": "f-cb6a5cff9b", "verdict": "keep", "rank": 3}
+{"id": "f-3e618de801", "verdict": "keep", "rank": 3}
+{"id": "f-024585bb55", "verdict": "keep", "rank": 3}
+{"id": "f-8b0d5161a7", "verdict": "keep", "rank": 3}
+{"id": "f-c0d4cbbc53", "verdict": "keep", "rank": 3}
+{"id": "f-ca96146751", "verdict": "keep", "rank": 3}
+{"id": "f-8a4c464b20", "verdict": "keep", "rank": 3}
+{"id": "f-6e105ac999", "verdict": "keep", "rank": 3}
+{"id": "f-77499c0b72", "verdict": "keep", "rank": 3}
+{"id": "f-04e6f98816", "verdict": "keep", "rank": 3}
+{"id": "f-ee4a8ab7e7", "verdict": "keep", "rank": 3}
+{"id": "f-4b17e4d41b", "verdict": "keep", "rank": 3}
+{"id": "f-7348c09a55", "verdict": "keep", "rank": 3}
+{"id": "f-728fa34422", "verdict": "keep", "rank": 3}
+{"id": "f-a91ecbcbe8", "verdict": "keep", "rank": 3}
+{"id": "f-09ca96fd09", "verdict": "keep", "rank": 3}
+{"id": "f-ba0522c68e", "verdict": "keep", "rank": 3}
+{"id": "f-75fe6dd67b", "verdict": "keep", "rank": 3}
+{"id": "f-cb87c987d0", "verdict": "keep", "rank": 3}

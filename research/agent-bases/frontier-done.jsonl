@@ -1,1 +1,20 @@
 {"lead": "gh-search: \"claude code\" OR codex agents gui OR orchestrator, created:>2026-06-01 sort:stars", "result": "233 repos created since June swept; 48 hand-ranked into agent-bases and ui (observations/gh-new-since-june.jsonl).", "at": "2026-10-08"}
+{"lead": "gh search repos \"multi-agent\" topic:orchestration --limit 50", "result": "research/tools/gh_search.py (pushed since June 2026), judged in curation/gh-search.jsonl: 'agent orchestration', 'multi-agent framework'.", "at": "2026-10-08"}
+{"lead": "https://github.com/search?q=topic:agent+language:python+stars:>500", "result": "research/tools/gh_search.py (pushed since June 2026), judged in curation/gh-search.jsonl: 'agent framework python', 'agent sdk'.", "at": "2026-10-08"}
+{"lead": "https://mcp.run/docs/tools", "result": "mcp.run now redirects to turbomcp.ai (rebranded; recorded); the official MCP Registry, Smithery, Glama and docker/mcp-registry are recorded.", "at": "2026-10-08"}
+{"lead": "gh search repos \"coding agent\" --limit 30", "result": "research/tools/gh_search.py (pushed since June 2026), judged in curation/gh-search.jsonl: 'coding agent', 'codex cli', 'claude code'.", "at": "2026-10-08"}
+{"lead": "https://skillsmp.com", "result": "Recorded skillsmp.com and claude-plugins.dev.", "at": "2026-10-08"}
+{"lead": "https://www.latent.space", "result": "Recorded latent.space; 21 Latent Space episodes on Claude Code and Codex via yt_harvest.", "at": "2026-10-08"}
+{"lead": "https://www.youtube.com/c/AnthropicAI", "result": "yt_harvest --playlist: every video on the Claude channel (110).", "at": "2026-10-08"}
+{"lead": "https://x.com/_catwu", "result": "Dropped as X handles: X needs a login; their talks are in the video records (Claude channel, Latent Space).", "at": "2026-10-08"}
+{"lead": "yt-dlp --flat-playlist -J 'ytsearchdate30:claude code tutorial'", "result": "yt_harvest: 'claude code tutorial', 'subagents', 'skills', 'codex cli', 'opencode', 'amp' (139 videos this year).", "at": "2026-10-08"}
+{"lead": "ytsearch:advanced context engineering for coding agents Dex Horthy", "result": "Covered: Dex Horthy's talk and humanlayer/12-factor-agents recorded; 'context engineering coding agents' searched.", "at": "2026-10-08"}
+{"lead": "commercial harnesses: factory.ai Droid, kiro.dev, jules.google, cursor.com/cli, warp.dev, github/copilot-cli, QwenLM/qwen-code", "result": "Recorded Factory, Kiro, Jules, Cursor CLI, Warp, Amp, Conductor.", "at": "2026-10-08"}
+{"lead": "gh search repos \"agent memory\" topic:framework --limit 20", "result": "research/tools/gh_search.py (pushed since June 2026), judged in curation/gh-search.jsonl: 'agent memory', 'context engineering'.", "at": "2026-10-08"}
+{"lead": "gh search repos \"herdr\" --limit 20", "result": "research/tools/gh_search.py (pushed since June 2026), judged in curation/gh-search.jsonl: 'herdr' (14 repos, incl. herdr-projects).", "at": "2026-10-08"}
+{"lead": "https://github.com/mitsuhiko/agent-stuff", "result": "Recorded.", "at": "2026-10-08"}
+{"lead": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools", "result": "Covered: already recorded.", "at": "2026-10-08"}
+{"lead": "https://python.langchain.com/docs/agents/", "result": "Dropped: LangChain agents are off Agent Base's path (coding-agent harnesses).", "at": "2026-10-08"}
+{"lead": "https://steve-yegge.medium.com", "result": "Covered: Gas Town and Beads repos and Yegge's talk recorded; Medium blocks fetches.", "at": "2026-10-08"}
+{"lead": "https://github.com/awesome-lists/awesome-lists", "result": "Dropped: meta-list; specific agent lists are imported.", "at": "2026-10-08"}
+{"lead": "https://github.com/stacklok/toolhive", "result": "Recorded toolhive; docker/mcp-registry already recorded.", "at": "2026-10-08"}

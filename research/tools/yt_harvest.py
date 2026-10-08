@@ -102,7 +102,7 @@ def main():
         title, entries = playlist(pid)
         kept = 0
         for e in entries:
-            if e["id"] in seen or e["id"] in found or (e.get("duration") or a.min_seconds) < a.min_seconds:
+            if not e.get("title") or e["id"] in seen or e["id"] in found or (e.get("duration") or a.min_seconds) < a.min_seconds:
                 continue
             found[e["id"]] = (f"playlist:{title}", e, pid)
             kept += 1

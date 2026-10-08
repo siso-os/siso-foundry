@@ -1,0 +1,151 @@
+{"id": "f-0d6822adb7", "verdict": "drop", "note": "LLM model hub/management platform, not coding agents"}
+{"id": "f-11cd5640e7", "verdict": "keep", "rank": 2, "why": "Multi-agent orchestration framework; a reference for agent-to-agent role and messaging patterns, not a pane runtime.", "tags": ["framework"]}
+{"id": "f-1c22995184", "verdict": "drop", "note": "pentest domain app"}
+{"id": "f-21025ef663", "verdict": "drop", "note": "finance trading app"}
+{"id": "f-2595a579e8", "verdict": "keep", "rank": 1, "why": "Python agent/workflow framework with tools and memory; generic framework, marginal for Agent Base.", "tags": ["framework"]}
+{"id": "f-2b3c24624a", "verdict": "keep", "rank": 2, "why": "Agent monitoring and LLM cost-tracking SDK; ideas for per-agent cost and session telemetry in the dashboard.", "tags": ["observability", "cost"]}
+{"id": "f-2d28ee465e", "verdict": "drop", "note": "finance trading app"}
+{"id": "f-329c002c03", "verdict": "drop", "note": "value-investing domain app"}
+{"id": "f-364129dc4b", "verdict": "keep", "rank": 3, "why": "Spec-driven multi-agent project-management workflow; borrow its planner/worker handoff structure for Agent Base task briefs.", "tags": ["spec-driven", "workflow"]}
+{"id": "f-3ca1951903", "verdict": "drop", "note": "LLM gateway; SISO runs no proxy"}
+{"id": "f-45bd6fd41c", "verdict": "keep", "rank": 3, "why": "Plan-first, approval-gated agent workflows for OpenCode with automatic test/review/validation; model for approval gates on worker panes.", "tags": ["opencode", "approval"]}
+{"id": "f-5020df779f", "verdict": "drop", "note": "enterprise knowledge/RAG platform"}
+{"id": "f-54662a4d24", "verdict": "keep", "rank": 1, "why": ".NET multi-agent framework; marginal, framework reference only.", "tags": ["framework"]}
+{"id": "f-546d4a1f57", "verdict": "keep", "rank": 2, "why": "Python SDK for building agents on Google Antigravity; a path to drive Antigravity as another harness.", "tags": ["sdk", "harness"]}
+{"id": "f-5dc9e5239d", "verdict": "keep", "rank": 1, "why": "Java agentic framework; marginal framework reference.", "tags": ["framework"]}
+{"id": "f-5eeed1a16f", "verdict": "keep", "rank": 2, "why": "Google's code-first Go agent toolkit with evaluation and deployment; reference for agent eval structure.", "tags": ["framework", "eval"]}
+{"id": "f-60b3939f21", "verdict": "keep", "rank": 3, "why": "Fast, accurate file-search SDK aimed at AI agents; candidate search tool to give agents in panes.", "tags": ["tooling", "search"]}
+{"id": "f-6c305a5d8a", "verdict": "drop", "note": "canvas SDK, unrelated"}
+{"id": "f-906b8b3e8b", "verdict": "drop", "note": "crypto agent wallets"}
+{"id": "f-945b121e09", "verdict": "keep", "rank": 2, "why": "Agent runtime/TUI with ReAct and an Agent Team mode where a coordinator keeps a task board and delegates to parallel sub-agents; compare its coordinator loop.", "tags": ["coordinator", "tui"]}
+{"id": "f-994b8266bd", "verdict": "keep", "rank": 1, "why": "LLM multi-agent framework; marginal.", "tags": ["framework"]}
+{"id": "f-9f0c86a800", "verdict": "keep", "rank": 1, "why": "Visual playground for agentic workflows; marginal UI reference for workflow views.", "tags": ["workflow-ui"]}
+{"id": "f-a6a38063c0", "verdict": "drop", "note": "industrial benchmark"}
+{"id": "f-ae6405c102", "verdict": "drop", "note": "domain research app"}
+{"id": "f-b195438ff5", "verdict": "keep", "rank": 1, "why": "Multi-agent LLM app framework; marginal.", "tags": ["framework"]}
+{"id": "f-c9c7ccd8bc", "verdict": "keep", "rank": 3, "why": "Official SDK to embed the GitHub Copilot agent in apps; a way to add Copilot as a programmatic harness in Agent Base.", "tags": ["sdk", "harness"]}
+{"id": "f-ca99c48c7d", "verdict": "drop", "note": "chatbot microservice"}
+{"id": "f-cab68ab93a", "verdict": "drop", "note": "LLM red-teaming"}
+{"id": "f-d39863c12b", "verdict": "drop", "note": "IM chatbot platform"}
+{"id": "f-da2132439f", "verdict": "keep", "rank": 1, "why": "Google's agentic app framework (JS/Go/Dart/Python); marginal framework reference.", "tags": ["framework"]}
+{"id": "f-daa65d3446", "verdict": "drop", "note": "generative UI SDK, unrelated"}
+{"id": "f-e56101567d", "verdict": "drop", "note": "enterprise RAG/LLM platform"}
+{"id": "f-f753637afa", "verdict": "drop", "note": "office suite"}
+{"id": "f-0274e52d48", "verdict": "drop", "note": "ML pipeline orchestration"}
+{"id": "f-028b4f20b5", "verdict": "keep", "rank": 4, "why": "Native macOS console for herdr showing all coding agents and live terminals across devices; reference for an Agent Base native client.", "tags": ["herdr", "client"]}
+{"id": "f-0918072ce2", "verdict": "keep", "rank": 1, "why": "Unofficial NotebookLM API packaged as an agentic skill for Claude Code/Codex; example of a skill wrapping a web product.", "tags": ["skill"]}
+{"id": "f-099a578948", "verdict": "keep", "rank": 2, "why": "Google's open agentic orchestration runtime; worth a look as an orchestration-runtime reference.", "tags": ["runtime"]}
+{"id": "f-0c190aefce", "verdict": "drop", "note": "LLM pipeline engine"}
+{"id": "f-10349d1ce5", "verdict": "keep", "rank": 4, "why": "Terminal-first ADE and tmux alternative: a daemon keeps sessions alive, agent hooks report working/idle/needs-you, remote VPS setup over ssh, phone companion, and a CLI that lets an agent spawn and brief a sibling; close rival to study.", "tags": ["rival", "tmux-alt", "needs-you"]}
+{"id": "f-14a4eeca19", "verdict": "keep", "rank": 2, "why": "277 plug-in expert agent role files for Claude Code/Cursor/Copilot plus a DAG orchestrator; reference for packaging agent personas.", "tags": ["agents", "roles"]}
+{"id": "f-217cc7aad5", "verdict": "keep", "rank": 3, "why": "Collected system prompts of Claude Code, Cursor, Devin, Kiro and others; reference when writing Agent Base harness prompts.", "tags": ["prompts", "reference"]}
+{"id": "f-220bdaa5a5", "verdict": "drop", "note": "job-search app"}
+{"id": "f-23e473bcf2", "verdict": "keep", "rank": 3, "why": "Documented system prompts for Claude Code, Codex, Gemini and others; prompt-design reference.", "tags": ["prompts", "reference"]}
+{"id": "f-28b7178b21", "verdict": "keep", "rank": 4, "why": "Git worktree management CLI designed for parallel AI agent workflows; candidate to adopt or mirror for Agent Base lane worktrees.", "tags": ["worktrees", "cli"]}
+{"id": "f-2cb1f1e622", "verdict": "keep", "rank": 3, "why": "Open-source Rust clean-room reimplementation of Claude Code behaviour, multi-provider, with /goal multi-turn objectives; harness internals reference.", "tags": ["harness", "rust"]}
+{"id": "f-3171b0ae7c", "verdict": "keep", "rank": 2, "why": "Collection of DESIGN.md files for brand design systems that coding agents consume; a context-file format to support in projects.", "tags": ["context-files", "design"]}
+{"id": "f-3640b5e00a", "verdict": "keep", "rank": 3, "why": "Rust multiplexer with a typed SDK to drive any CLI/TUI app from code; relevant to programmatically driving agent panes.", "tags": ["multiplexer", "sdk"]}
+{"id": "f-40b08ea685", "verdict": "keep", "rank": 4, "why": "Skill that stops coding agents burying the answer with ADHD-friendly output; compare directly against SISO's adhd-agent-output skill.", "tags": ["skill", "output-style"]}
+{"id": "f-44baef3484", "verdict": "drop", "note": "personal dotfiles"}
+{"id": "f-472e01cff6", "verdict": "keep", "rank": 5, "why": "Agentic dev environment with a local daemon and desktop/mobile/web/CLI clients, parallel agents in worktrees, agents that launch and talk to other agents, and daemon-side plugins; direct rival to Agent Base.", "tags": ["rival", "daemon", "plugins", "mobile"]}
+{"id": "f-4a7a603228", "verdict": "keep", "rank": 3, "why": "herdr plugin to annotate terminal text and agent replies and send feedback back to the agent; review-loop pattern for Agent Base.", "tags": ["herdr", "plugin", "review"]}
+{"id": "f-4b0d4af065", "verdict": "keep", "rank": 3, "why": "Lean OpenCode multi-agent suite with mixed models and auto-delegation; reference for delegation configs in OpenCode.", "tags": ["opencode", "delegation"]}
+{"id": "f-4bb3f4842d", "verdict": "drop", "note": "reverse-engineering domain app"}
+{"id": "f-4da65cadcd", "verdict": "keep", "rank": 3, "why": "CLI that interviews you, plans, dispatches parallel agents in isolated worktrees and reviews code before you see it; the spec-dispatch-review loop Agent Base runs.", "tags": ["worktrees", "dispatch"]}
+{"id": "f-4e93e54d38", "verdict": "keep", "rank": 1, "why": "Enterprise multi-agent orchestration framework; marginal framework reference.", "tags": ["framework"]}
+{"id": "f-52c1284004", "verdict": "drop", "note": "video production domain"}
+{"id": "f-5b5eee513a", "verdict": "keep", "rank": 4, "why": "Browser and phone client for herdr with chat and live terminal per agent pane, remote PCs over SSH and web push alerts; close to the Agent Base web dashboard.", "tags": ["herdr", "web", "mobile"]}
+{"id": "f-5f2638d103", "verdict": "keep", "rank": 4, "why": "Claude Code workflow where self-correcting memory compounds from user corrections, plus worktrees, agent teams and 17 skills; compare with SISO lessons/memory loop (no licence declared).", "tags": ["memory", "skills", "corrections"]}
+{"id": "f-5f96a72ca3", "verdict": "keep", "rank": 1, "why": "Rust 'claw' CLI agent harness kept as an agent-maintained exhibit, not a product; curiosity reference only.", "tags": ["harness", "rust"]}
+{"id": "f-60172b77e9", "verdict": "drop", "note": "general durable workflow platform"}
+{"id": "f-6279fc1f29", "verdict": "keep", "rank": 3, "why": "herdr pane with file explorer, git source control, diffs and AI commit messages; reference for an in-workspace git panel.", "tags": ["herdr", "plugin", "git"]}
+{"id": "f-6bdb3c6113", "verdict": "keep", "rank": 3, "why": "Watches a Claude Code or Codex session as a live flow graph in terminal or browser; idea for session visualisation in the dashboard.", "tags": ["visualisation", "sessions"]}
+{"id": "f-6bdba745ad", "verdict": "drop", "note": "Java low-code platform"}
+{"id": "f-6efcfa1b98", "verdict": "keep", "rank": 4, "why": "Self-hosted PWA to drive Claude Code, Pi, Codex and OpenCode in herdr, tmux or zellij from a phone with push alerts; reference for Agent Base mobile.", "tags": ["herdr", "mobile", "pwa"]}
+{"id": "f-74ecaa87d0", "verdict": "keep", "rank": 3, "why": "First-class herdr plugin adding Projects and Quick Actions; example of herdr plugin structure.", "tags": ["herdr", "plugin"]}
+{"id": "f-78b40922d4", "verdict": "keep", "rank": 4, "why": "Go terminal window manager with agent state, one Inbox for every coding agent, approvals, fleets, a tmux shim for Claude Code agent teams and a JSON control protocol; strong rival reference.", "tags": ["rival", "multiplexer", "inbox"]}
+{"id": "f-8052e547df", "verdict": "drop", "note": "general task queue"}
+{"id": "f-8202d3919a", "verdict": "keep", "rank": 3, "why": "Native iOS console for herdr over SSH with libghostty terminal, QR pairing and push notifications when an agent needs you.", "tags": ["herdr", "ios"]}
+{"id": "f-845919e3ba", "verdict": "drop", "note": "anomaly detection library"}
+{"id": "f-858d9d88e8", "verdict": "drop", "note": "enterprise LLM devops platform"}
+{"id": "f-898b38d856", "verdict": "keep", "rank": 4, "why": "Opinionated agent workspace: each task in its own worktree, many CLIs in parallel, plan/build modes, headless jean-server with remote projects, web UI over HTTP; close rival to compare features.", "tags": ["rival", "worktrees", "remote"]}
+{"id": "f-8fd4ccfbdd", "verdict": "keep", "rank": 4, "why": "TypeScript API (sandcastle.run()) to orchestrate sandboxed coding agents; reference for a programmatic dispatch API.", "tags": ["sandbox", "api"]}
+{"id": "f-8feb558d2a", "verdict": "keep", "rank": 3, "why": "Mission control for a fleet of coding agents: Kanban plus git worktrees plus tmux for Claude Code, Codex, Gemini CLI and OpenCode; small direct rival.", "tags": ["rival", "kanban", "tmux"]}
+{"id": "f-99e1512223", "verdict": "drop", "note": "office file tooling"}
+{"id": "f-9dea3e72c8", "verdict": "keep", "rank": 5, "why": "herdr plugin with a coordinator conversation that never does the work, parallel worker threads in their own worktrees, shared project memory and 'needs you' grouping; nearly the Agent Base pattern, study now.", "tags": ["rival", "herdr", "coordinator", "memory"]}
+{"id": "f-a2ee81f00e", "verdict": "drop", "note": "free-token proxy; SISO runs no proxy"}
+{"id": "f-a4e88f7dc6", "verdict": "keep", "rank": 3, "why": "Open agentic coding project covering agent harness, loop engineering and multi-agent orchestration; harness design reference.", "tags": ["harness"]}
+{"id": "f-ab39d62992", "verdict": "keep", "rank": 4, "why": "Codebase-to-knowledge-graph skill for Claude Code/Codex/Gemini with local AST parsing; SISO already uses graphify-out, so track upstream.", "tags": ["skill", "code-graph", "in-use"]}
+{"id": "f-acbfc8b678", "verdict": "keep", "rank": 3, "why": "Native Rust/GPUI herdr client showing sessions, workspaces, worktrees and agent activity via the local herdr daemon.", "tags": ["herdr", "client"]}
+{"id": "f-b2a10b9601", "verdict": "drop", "note": "office suite"}
+{"id": "f-bb9da678b4", "verdict": "keep", "rank": 5, "why": "Desktop workspace plus local daemon to plan, run and supervise coding-agent workers across 25+ harnesses with a live Kanban of workers, PRs, CI and reviews; direct rival.", "tags": ["rival", "kanban", "daemon"]}
+{"id": "f-c22e3213ec", "verdict": "keep", "rank": 3, "why": "Curated list of Codex skills; source to mine for the skills hub.", "tags": ["skills", "list"]}
+{"id": "f-c29faccbaa", "verdict": "keep", "rank": 2, "why": "OpenAI Codex Security CLI/SDK for finding and fixing vulnerabilities; possible security-review lane.", "tags": ["codex", "security"]}
+{"id": "f-c50e41fea6", "verdict": "keep", "rank": 2, "why": "Windows terminal multiplexer for AI agents; marginal since SISO is macOS/Linux.", "tags": ["multiplexer", "windows"]}
+{"id": "f-ca075b3d16", "verdict": "drop", "note": "RAG knowledge platform"}
+{"id": "f-cad7dc1867", "verdict": "keep", "rank": 2, "why": "OpenClaw multi-agent orchestration with 9 role agents, real-time dashboard and audit trails; dashboard/audit-trail reference.", "tags": ["orchestration", "dashboard"]}
+{"id": "f-d098c9254a", "verdict": "drop", "note": "LLM gateway; SISO runs no proxy"}
+{"id": "f-d355ff6797", "verdict": "keep", "rank": 4, "why": "Multi-agent harness wrapping Claude Code, Codex, OpenCode, Pi and more on existing subscriptions, with per-agent long-term memory, mailboxes and a coordinating clone; rival for coordination and mailbox design.", "tags": ["rival", "mailbox", "memory"]}
+{"id": "f-e0074fcddd", "verdict": "drop", "note": "ChatGPT clone"}
+{"id": "f-e2e077a239", "verdict": "keep", "rank": 3, "why": "Renders a Chromium view in a herdr pane driven over CDP; browser-in-pane pattern for Agent Base.", "tags": ["herdr", "browser"]}
+{"id": "f-e5d8177a38", "verdict": "keep", "rank": 5, "why": "herdr itself, 'the runtime your coding agents live on'; the base Agent Base sits on, so track its releases and plugin API closely.", "tags": ["rival", "herdr", "runtime"]}
+{"id": "f-e88f53c4ff", "verdict": "keep", "rank": 4, "why": "herdr plugin to review an agent's diff in a pane and send line comments back to Claude Code, Codex, OpenCode or Pi; adopt the diff-review loop.", "tags": ["herdr", "review", "plugin"]}
+{"id": "f-f0d72b980c", "verdict": "drop", "note": "enterprise workflow platform"}
+{"id": "f-f4da05330e", "verdict": "keep", "rank": 3, "why": "Monitor and drive herdr agents from menu bar, phone or Telegram with a free tunnel; remote-control reference.", "tags": ["herdr", "remote"]}
+{"id": "f-fdeadd68ba", "verdict": "keep", "rank": 2, "why": "Read-only git-aware file viewer TUI for herdr with diffs and rendered markdown.", "tags": ["herdr", "plugin"]}
+{"id": "f-feb1372fc7", "verdict": "keep", "rank": 5, "why": "ADE for a fleet of parallel agents: Codex/Claude Code/OpenCode/Pi each in its own worktree, mobile companion, SSH worktrees, design mode and diff annotations; leading direct rival.", "tags": ["rival", "worktrees", "mobile"]}
+{"id": "f-043559640f", "verdict": "keep", "rank": 3, "why": "Context and harness engineering for Claude Code and Codex with spec-driven development, persistent memory and quality gates; compare its gates and memory layout.", "tags": ["harness", "memory", "spec-driven"]}
+{"id": "f-09007fca32", "verdict": "keep", "rank": 3, "why": "Community edition of RepoPrompt, a macOS context-engineering app for coding agents with an MCP CLI.", "tags": ["context", "mcp"]}
+{"id": "f-2d803da478", "verdict": "keep", "rank": 2, "why": "Grounding layer where agents propose and deterministic tools decide, with evidence-checked claims surviving resets; aligns with prove-before-claim.", "tags": ["verification", "memory"]}
+{"id": "f-310bbf4cc1", "verdict": "keep", "rank": 1, "why": "Chinese guide to context engineering and agent harness construction; marginal reading.", "tags": ["guide", "context"]}
+{"id": "f-3ebeede08d", "verdict": "drop", "note": "database"}
+{"id": "f-47a4e85474", "verdict": "keep", "rank": 3, "why": "HumanLayer's write-up on advanced context engineering for coding agents; reference for context discipline.", "tags": ["context", "guide"]}
+{"id": "f-522905e183", "verdict": "keep", "rank": 2, "why": "LLM-agnostic agent memory infrastructure turning execution and conversation into persistent structured state; database-backed, less fit for file-first memory.", "tags": ["memory"]}
+{"id": "f-538f1b85bb", "verdict": "keep", "rank": 2, "why": "TypeScript terminal coding agent for DeepSeek-V4 built around byte-stable prefixes and cache-reusing forks; relevant to cheap DeepSeek workers.", "tags": ["harness", "deepseek", "cache"]}
+{"id": "f-5ad008d2c1", "verdict": "keep", "rank": 5, "why": "Long-term memory shared across 20+ coding agents with typed, claimed-once handoffs and a cross-project user profile below each repo's rules file; directly relevant to .agents/memory and HANDOFF.", "tags": ["memory", "handoff", "cross-agent"]}
+{"id": "f-69cc0d0070", "verdict": "drop", "note": "search research"}
+{"id": "f-8b273fee5b", "verdict": "keep", "rank": 2, "why": "Agentic workspace with 100+ integrations, MCP and shared memory for any agent including Claude Code and Codex.", "tags": ["workspace", "memory"]}
+{"id": "f-a8c35e0174", "verdict": "keep", "rank": 3, "why": "Deep dive into Claude Code internals: architecture, agent loop, context engineering and tool system.", "tags": ["claude-code", "internals"]}
+{"id": "f-acbbfcc41a", "verdict": "keep", "rank": 3, "why": "Self-evolving context database unifying agent memory, knowledge RAG and skills; reference for memory+skills unification.", "tags": ["memory", "skills"]}
+{"id": "f-b43325e85d", "verdict": "keep", "rank": 4, "why": "Local-first coding agent with milestone/slice/task auto mode, worktree-aware git and project memory stored as files under .gsd/; file-first memory model close to .agents/.", "tags": ["memory", "file-first", "spec-driven"]}
+{"id": "f-b5c9ccabb3", "verdict": "keep", "rank": 3, "why": "Ryan Lopopolo's anthology and field guide on harness engineering with an agent context bundle.", "tags": ["harness", "guide"]}
+{"id": "f-bc29c6a84a", "verdict": "drop", "note": "data agent"}
+{"id": "f-d6db9acbe0", "verdict": "keep", "rank": 2, "why": "Lightweight containerised OpenClaw alternative with messaging-app connectors, memory and scheduled jobs.", "tags": ["agent", "containers"]}
+{"id": "f-d82f68e78d", "verdict": "keep", "rank": 2, "why": "Serverless single-file memory layer for agents replacing RAG pipelines; single-file idea is adjacent to file-first memory.", "tags": ["memory"]}
+{"id": "f-e9110ec2b6", "verdict": "drop", "note": "SQL client"}
+{"id": "f-f2e8a0ec49", "verdict": "keep", "rank": 3, "why": "Team-level memory hub turning conversations, docs and code into Chat Memory, Skill, LLM-Wiki and Code-Graph assets; taxonomy worth comparing.", "tags": ["memory", "team"]}
+{"id": "f-f7d628d121", "verdict": "keep", "rank": 2, "why": "Engineering-context indexing tool; possible code-context backend.", "tags": ["context"]}
+{"id": "f-fa19936848", "verdict": "keep", "rank": 2, "why": "MCP server combining RAG, Tree-sitter AST and Obsidian-style linking for codebase context.", "tags": ["mcp", "context"]}
+{"id": "f-0321795852", "verdict": "drop", "note": "SaaS boilerplate"}
+{"id": "f-0329cb22f8", "verdict": "keep", "rank": 2, "why": "Codebase intelligence as plugin/skill or MCP with semantic search and dependency graphs (AGPL).", "tags": ["mcp", "code-graph"]}
+{"id": "f-09834d3d26", "verdict": "keep", "rank": 4, "why": "Agent-first control plane over 2,400+ agentic skills with CLI, local MCP, catalog and plugins; reference for skills-hub discovery and selection.", "tags": ["skills", "catalog", "hub"]}
+{"id": "f-0b4bc923f1", "verdict": "drop", "note": "Java interview guide"}
+{"id": "f-2a3d083b4e", "verdict": "keep", "rank": 5, "why": "Anthropic's community plugin marketplace mirror for Claude Code; the canonical plugin format and marketplace layout SISO's skills hub should match.", "tags": ["plugins", "format", "marketplace"]}
+{"id": "f-3644367977", "verdict": "keep", "rank": 2, "why": "De-AI writing skill shipped for 77+ Agent Skills-compatible agents with native plugins for Claude Code, Codex and others; multi-harness packaging example.", "tags": ["skill", "packaging"]}
+{"id": "f-3b3a44aa59", "verdict": "keep", "rank": 3, "why": "Registry with CLI and web UI to find, manage and run MCP servers, agents and skills; reference for a skills/MCP registry.", "tags": ["registry", "mcp", "skills"]}
+{"id": "f-4b8e788c90", "verdict": "keep", "rank": 2, "why": "Enterprise MCP gateway and registry with OAuth and dynamic tool discovery.", "tags": ["mcp", "registry"]}
+{"id": "f-518facf74c", "verdict": "keep", "rank": 3, "why": "'OpenRouter for tools': one token to a priced catalog of tool endpoints plus team-registered keys, CLIs and SKILL.md files with credentials kept server-side.", "tags": ["tools", "registry", "credentials"]}
+{"id": "f-56e121cd76", "verdict": "keep", "rank": 2, "why": "Agent platform pitched as a chief agent operator that schedules and reports on an AI team; dashboard reference.", "tags": ["platform"]}
+{"id": "f-5ac2ffff99", "verdict": "keep", "rank": 2, "why": "Design MCP server plus shadcn/ui registry of brand themes for coding agents.", "tags": ["mcp", "design"]}
+{"id": "f-624dc1c5c9", "verdict": "keep", "rank": 1, "why": "Enterprise MCP/agent gateway with identity and access control; marginal.", "tags": ["mcp", "gateway"]}
+{"id": "f-712cb49d4f", "verdict": "drop", "note": "Chinese data API MCP, unrelated"}
+{"id": "f-7c4bc9dde4", "verdict": "drop", "note": "cross-protocol agent registry (hashgraph), off-scope"}
+{"id": "f-83f9b949e2", "verdict": "drop", "note": "debugger MCP, unrelated domain"}
+{"id": "f-87ff4238f0", "verdict": "keep", "rank": 1, "why": "Claude Code plugin that teaches you while AI writes code; marginal plugin example.", "tags": ["plugin"]}
+{"id": "f-b1e0090ea3", "verdict": "keep", "rank": 2, "why": "Enterprise AI platform with MCP registry, gateway and orchestrator plus guardrails.", "tags": ["mcp", "registry"]}
+{"id": "f-b222d56522", "verdict": "keep", "rank": 3, "why": "CLI MCP package manager and registry for all clients with router and profiles; reference for managing MCP sets per agent.", "tags": ["mcp", "package-manager"]}
+{"id": "f-b2389770f0", "verdict": "keep", "rank": 3, "why": "Curated list of Claude Code plugins (commands, agents, hooks, MCP); source to mine.", "tags": ["plugins", "list"]}
+{"id": "f-b297ada001", "verdict": "drop", "note": "website cloner template"}
+{"id": "f-b3e17ca957", "verdict": "keep", "rank": 2, "why": "JetBrains GUI plugin for Claude Code and Codex.", "tags": ["ide", "client"]}
+{"id": "f-b7636fe85e", "verdict": "keep", "rank": 3, "why": "Official Docker MCP registry; trusted source for MCP server metadata.", "tags": ["mcp", "registry"]}
+{"id": "f-b94caf9fa4", "verdict": "keep", "rank": 3, "why": "Community instructions, agents and skills for GitHub Copilot; reference for cross-harness instruction formats.", "tags": ["skills", "instructions"]}
+{"id": "f-c3b5227de9", "verdict": "drop", "note": "WiFi sensing, unrelated"}
+{"id": "f-c9b674f511", "verdict": "keep", "rank": 2, "why": "Gateway, registry and proxy in front of MCP, A2A and REST APIs with discovery and guardrails.", "tags": ["mcp", "gateway"]}
+{"id": "f-d2a3f5d6eb", "verdict": "keep", "rank": 2, "why": "Agent skill for scroll-driven websites, packaged for Codex, Claude Code and as a Claude Code plugin.", "tags": ["skill"]}
+{"id": "f-e30554673c", "verdict": "keep", "rank": 2, "why": "HeyClaude registry of Claude agents, MCP servers, skills, commands, hooks and rules with data exports and an MCP package.", "tags": ["registry", "skills"]}
+{"id": "f-e9d9bb6e53", "verdict": "drop", "note": "crypto MCP"}
+{"id": "f-eebdba4fc1", "verdict": "drop", "note": "tutorial collection of everything"}
+{"id": "f-f10b887255", "verdict": "drop", "note": "data API SDK, unrelated"}
+{"id": "f-f2a3daa6f2", "verdict": "keep", "rank": 3, "why": "Spec-driven development plugin for Antigravity and Claude Code (specify, plan, implement).", "tags": ["plugin", "spec-driven"]}
+{"id": "f-f392a521a5", "verdict": "keep", "rank": 4, "why": "Self-hosted registry and control plane for skills, MCPs and agents that bundles them and renders the right config per harness, with usage insights; maps onto SISO skills-hub projections.", "tags": ["registry", "skills", "projection"]}
+{"id": "f-f76bd91ccb", "verdict": "keep", "rank": 2, "why": "Obsidian plugin embedding Claude Code/Codex in a vault.", "tags": ["client", "obsidian"]}

@@ -2,6 +2,10 @@
 """foundry: look up what SISO has already mapped, before you build or search.
 
   foundry find <words> [--domain ui] [--area awards] [--kind site] [--limit 12] [--json]
+  foundry ask <words> [--domain D] [--json]       answered questions and research notes
+  foundry question new "<question>" --domain D  open a decision question
+  foundry curate emit|ingest --domain D         hand out batches and validate verdicts
+  foundry refresh [--due | --all | NAME ...] [--dry-run] [--domain D]
   foundry frontier [--domain ui] [--limit 10]      the leads worth working next
   foundry stats                                    records, sources and lookups per domain
   foundry build                                    merge observations into records and frontier
@@ -13,7 +17,7 @@ $FOUNDRY_DATA/usage/find.jsonl on the machine that ran them. Any other subcomman
 (repos, transcripts, people, ...) is passed to the corpus CLI from the foundry-corpus skill.
 Exit codes: 0 found, 2 usage, 3 nothing found.
 """
-import argparse, math, hashlib, html, json, os, re, socket, subprocess, sys, time
+import argparse, datetime, math, hashlib, html, json, os, re, socket, subprocess, sys, time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -24,7 +28,7 @@ COMPONENT_BANK = [Path(os.environ["FOUNDRY_COMPONENT_BANK"])] if os.environ.get(
     ROOT.parent / "banks" / "siso-component-bank" / "index.jsonl",
     Path("/Volumes/SISO-STORAGE-VAULT/foundry-data/clones/siso-component-bank/index.jsonl")]
 CORPUS_CLI = Path.home() / ".claude" / "skills" / "foundry-corpus" / "foundry"
-OWN = {"find", "frontier", "stats", "build", "page", "serve"}
+OWN = {"find", "frontier", "stats", "build", "page", "serve", "curate", "refresh", "question", "ask"}
 
 
 def data_root():
@@ -397,6 +401,224 @@ def cmd_build(a):
     return 0
 
 
+# ---------------------------------------------------------------- curate, refresh, questions
+
+def cmd_curate(a):
+    base = RESEARCH / a.domain / "curation"
+    directory = Path(a.directory) if a.action == "ingest" else Path(a.out)
+    if a.action == "emit":
+        if a.batch < 1:
+            print("batch must be positive", file=sys.stderr)
+            return 2
+        curated = {r.get("id") for p in base.glob("*.jsonl") for r in read_jsonl(p)}
+        rows = [r for r in read_jsonl(RESEARCH / a.domain / "records.jsonl") if r["id"] not in curated
+                and (not a.area or r.get("area") == a.area) and (not a.only_github or github_of(r))]
+        directory.mkdir(parents=True, exist_ok=True)
+        manifest = {"domain": a.domain, "created": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "batches": {}}
+        fields = ("id", "title", "url", "github", "stars", "area", "kind", "licence", "why", "date")
+        for start in range(0, len(rows), a.batch):
+            batch = rows[start:start + a.batch]
+            name = f"batch-{start // a.batch + 1:03d}.jsonl"
+            write_jsonl(directory / name, [{f: r.get(f, "") for f in fields} for r in batch])
+            manifest["batches"][name] = [r["id"] for r in batch]
+            print(f"{name}: {len(batch)} records")
+        (directory / "manifest.json").write_text(json.dumps(manifest, indent=1) + "\n", encoding="utf-8")
+        return 0
+    if not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9_-]*", a.name):
+        print("name must contain only letters, numbers, underscores or hyphens", file=sys.stderr)
+        return 2
+    target = base / (a.name + ".jsonl")
+    problems, verdicts, all_ids = [], [], set()
+    if target.exists() and not a.force:
+        problems.append(f"refusing to overwrite {target.relative_to(ROOT)}; use --force")
+    try:
+        manifest = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))
+        if manifest["domain"] != a.domain:
+            problems.append("manifest domain does not match --domain")
+        batches = manifest["batches"]
+        if not isinstance(batches, dict):
+            raise ValueError("batches must be an object")
+        for name, ids in batches.items():
+            if not re.fullmatch(r"batch-[0-9]{3,}\.jsonl", name) or not isinstance(ids, list) or not all(isinstance(i, str) for i in ids):
+                problems.append(f"{name}: invalid batch name or ids")
+                continue
+            if len(ids) != len(set(ids)) or all_ids.intersection(ids):
+                problems.append(f"{name}: duplicate input ids")
+            all_ids.update(ids)
+            path = directory / name.replace(".jsonl", ".verdicts.jsonl")
+            seen = set()
+            try:
+                lines = path.read_text(encoding="utf-8").split("\n")
+            except OSError as e:
+                problems.append(f"{path.name}: {e.strerror}")
+                lines = []
+            for n, line in enumerate(lines, 1):
+                if not line.strip():
+                    continue
+                try:
+                    row = json.loads(line)
+                except json.JSONDecodeError:
+                    problems.append(f"{path.name}:{n}: not JSON")
+                    continue
+                if not isinstance(row, dict) or not isinstance(row.get("id"), str):
+                    problems.append(f"{path.name}:{n}: missing string id")
+                    continue
+                rid = row["id"]
+                if rid in seen:
+                    problems.append(f"{name}: duplicate id {rid}")
+                seen.add(rid)
+                if row.get("verdict") not in ("keep", "drop"):
+                    problems.append(f"{rid}: verdict must be keep or drop")
+                elif row["verdict"] == "keep" and (type(row.get("rank")) is not int or not 1 <= row["rank"] <= 5):
+                    problems.append(f"{rid}: keep needs integer rank 1-5")
+                elif row["verdict"] == "drop" and (not isinstance(row.get("note"), str) or not row["note"].strip()):
+                    problems.append(f"{rid}: drop needs a note")
+                verdicts.append({f: row[f] for f in ("id", "verdict", "rank", "why", "tags", "note") if f in row})
+            for rid in sorted(set(ids) - seen):
+                problems.append(f"{name}: missing id {rid}")
+            for rid in sorted(seen - set(ids)):
+                problems.append(f"{name}: extra id {rid}")
+    except (OSError, ValueError, KeyError, TypeError) as e:
+        problems.append(f"invalid manifest: {e}")
+    if problems:
+        print("\n".join(problems), file=sys.stderr)
+        return 1
+    base.mkdir(parents=True, exist_ok=True)
+    with target.open("w" if a.force else "x", encoding="utf-8") as fh:
+        fh.write("".join(json.dumps(r, ensure_ascii=False, sort_keys=True) + "\n" for r in verdicts))
+    kept = [r for r in verdicts if r["verdict"] == "keep"]
+    print(f"keep: {len(kept)}, drop: {len(verdicts) - len(kept)}")
+    print("ranks: " + ", ".join(f"{rank}: {sum(r['rank'] == rank for r in kept)}" for rank in range(1, 6)))
+    return 0
+
+
+def observation_lines():
+    return sum(sum(1 for line in p.read_text(encoding="utf-8").split("\n") if line.strip())
+               for p in RESEARCH.glob("*/observations/*.jsonl"))
+
+
+def cmd_refresh(a):
+    sources = json.loads((RESEARCH / "sources.json").read_text(encoding="utf-8"))["sources"]
+    if a.names and (a.due or a.all):
+        print("choose --due, --all, or source names", file=sys.stderr)
+        return 2
+    unknown = set(a.names) - {s["name"] for s in sources}
+    if unknown:
+        print("unknown sources: " + ", ".join(sorted(unknown)), file=sys.stderr)
+        return 2
+    path = data_root() / "research" / "refresh-state.json"
+    state = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    now, failed = time.time(), False
+    for source in sources:
+        name = source["name"]
+        if a.domain and source["domain"] not in (a.domain, "all") or a.names and name not in a.names:
+            continue
+        last = state.get(name, {}).get("last_run")
+        days = (now - last) / 86400 if last is not None else None
+        if not a.all and not a.names and days is not None and days < source["cadence_days"]:
+            continue
+        ds = ([a.domain] if a.domain else ["ui", "agent-bases", "voice"]) if source["domain"] == "all" else [source["domain"]]
+        commands = [["python3", *[arg.replace("{domain}", d) for arg in source["cmd"]]] for d in ds]
+        if a.dry_run:
+            reason = "never run before" if days is None else f"{days:.1f} days since last run"
+            print(f"{name}: {reason}; " + " ; ".join(" ".join(cmd) for cmd in commands))
+            continue
+        before, started, status = observation_lines(), time.monotonic(), 0
+        for cmd in commands:
+            try:
+                result = subprocess.run(cmd, cwd=ROOT).returncode
+            except OSError as e:
+                print(f"{name}: {e}", file=sys.stderr)
+                result = 1
+            status = status or result
+        secs, added = time.monotonic() - started, observation_lines() - before
+        state[name] = {"last_run": time.time(), "exit": status, "secs": round(secs, 3), "added": added}
+        path.parent.mkdir(parents=True, exist_ok=True)
+        pending = path.with_suffix(".tmp")
+        pending.write_text(json.dumps(state, indent=1) + "\n", encoding="utf-8")
+        pending.replace(path)
+        print(f"{name}: exit={status}, secs={secs:.1f}, lines added={added}")
+        failed |= status != 0
+    if not a.dry_run:
+        failed |= cmd_build(a) != 0
+    return 1 if failed else 0
+
+
+def cmd_question(a):
+    slug = re.sub(r"[^a-z0-9]+", "-", a.question.lower()).strip("-")[:60].rstrip("-")
+    if not slug or "\n" in a.question or "\n" in a.asked_by:
+        print("question and asked-by must be single lines; question needs letters or numbers", file=sys.stderr)
+        return 2
+    path = RESEARCH / "questions" / (slug + ".md")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        with path.open("x", encoding="utf-8") as fh:
+            fh.write(f"---\nquestion: {a.question}\ndomain: {a.domain}\nasked_by: {a.asked_by}\nstatus: open\n"
+                     "answered: \nrecheck: \nsources: \n---\n\n## Answer\n\n## Evidence\n\n## Unknown\n")
+    except FileExistsError:
+        print(f"refusing to overwrite {path.relative_to(ROOT)}", file=sys.stderr)
+        return 1
+    print(path.relative_to(ROOT))
+    return 0
+
+
+def cmd_ask(a):
+    words, phrase = tokens(" ".join(a.words)), squash(" ".join(a.words))
+    if not words:
+        return 2
+    hits = []
+    today = datetime.date.today().isoformat()
+    paths = sorted((RESEARCH / "questions").glob("*.md")) + sorted(RESEARCH.glob("*/notes/*.md"))
+    for path in paths:
+        if path.name == "README.md" or path.name.startswith("_"):
+            continue
+        text = path.read_text(encoding="utf-8")
+        lines, meta = text.split("\n"), {}
+        if lines and lines[0] == "---" and "---" in lines[1:]:
+            end = lines.index("---", 1)
+            meta = {k.strip(): v.strip() for line in lines[1:end] if ":" in line for k, v in [line.split(":", 1)]}
+            lines = lines[end + 1:]
+        is_question = path.parent.name == "questions"
+        domain = meta.get("domain", "") if is_question else path.parent.parent.name
+        if a.domain and domain != a.domain:
+            continue
+        title = meta.get("question") or next((l.lstrip("# ") for l in lines if l.startswith("# ")), path.stem)
+        title_tokens, body_tokens = tokens(title + " " + path.stem), tokens("\n".join(lines))
+        weights = [4 * has(title_tokens, w) + has(body_tokens, w) for w in words]
+        if not all(weights):
+            continue
+        weight = sum(weights) + (8 if len(phrase) > 3 and phrase in squash(title + path.stem) else 0)
+        if is_question:
+            answer = []
+            in_answer = False
+            for line in lines:
+                if line.startswith("## "):
+                    in_answer = line.strip() == "## Answer"
+                elif in_answer and line.strip():
+                    answer.append(line)
+        else:
+            answer = [line for line in lines if line.strip() and not line.startswith("#")]
+        hits.append((weight, {"path": str(path.relative_to(ROOT)), "title": title, "domain": domain,
+                             "status": meta.get("status", "note"), "answered": meta.get("answered", ""),
+                             "recheck": meta.get("recheck", ""), "recheck_due": bool(meta.get("recheck") and meta["recheck"] < today),
+                             "answer": answer[:3]}))
+    hits.sort(key=lambda item: -item[0])
+    count_lookup({"at": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "host": socket.gethostname().split(".")[0],
+                  "cmd": "ask", "q": " ".join(a.words), "domain": a.domain or "", "hits": len(hits)})
+    shown = [row for _, row in hits[:10]]
+    if a.json:
+        print(json.dumps({"query": " ".join(a.words), "total": len(hits), "results": shown}, ensure_ascii=False))
+    elif not shown:
+        print("NOT FOUND in questions or notes.")
+    else:
+        for row in shown:
+            print(f"{row['path']} [{row['status']}] answered={row['answered']} recheck={row['recheck']}"
+                  + (" RECHECK DUE" if row["recheck_due"] else ""))
+            for line in row["answer"]:
+                print("  " + line)
+    return 0 if hits else 3
+
+
 # ---------------------------------------------------------------- page
 
 PAGE = """<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -501,8 +723,37 @@ def main(argv):
     sv = sub.add_parser("serve")
     sv.add_argument("--host", default="127.0.0.1")
     sv.add_argument("--port", type=int, default=8766)
+    cu = sub.add_parser("curate")
+    actions = cu.add_subparsers(dest="action", required=True)
+    emit = actions.add_parser("emit")
+    emit.add_argument("--domain", required=True, choices=domains())
+    emit.add_argument("--out", required=True)
+    emit.add_argument("--batch", type=int, default=350)
+    emit.add_argument("--area")
+    emit.add_argument("--only-github", action="store_true")
+    ingest = actions.add_parser("ingest")
+    ingest.add_argument("--domain", required=True, choices=domains())
+    ingest.add_argument("--name", required=True)
+    ingest.add_argument("directory")
+    ingest.add_argument("--force", action="store_true")
+    refresh = sub.add_parser("refresh")
+    selection = refresh.add_mutually_exclusive_group()
+    selection.add_argument("--due", action="store_true")
+    selection.add_argument("--all", action="store_true")
+    refresh.add_argument("names", nargs="*")
+    refresh.add_argument("--dry-run", action="store_true")
+    refresh.add_argument("--domain", choices=domains())
+    question = sub.add_parser("question")
+    new = question.add_subparsers(dest="action", required=True).add_parser("new")
+    new.add_argument("question")
+    new.add_argument("--domain", required=True, choices=domains())
+    new.add_argument("--asked-by", default="")
+    ask = sub.add_parser("ask")
+    ask.add_argument("words", nargs="+")
+    ask.add_argument("--domain")
+    ask.add_argument("--json", action="store_true")
     a = p.parse_args(argv)
-    return {"serve": cmd_serve, "find": cmd_find, "frontier": cmd_frontier, "stats": cmd_stats, "build": cmd_build, "page": cmd_page}[a.cmd](a)
+    return {"serve": cmd_serve, "find": cmd_find, "frontier": cmd_frontier, "stats": cmd_stats, "build": cmd_build, "page": cmd_page, "curate": cmd_curate, "refresh": cmd_refresh, "question": cmd_question, "ask": cmd_ask}[a.cmd](a)
 
 
 if __name__ == "__main__":

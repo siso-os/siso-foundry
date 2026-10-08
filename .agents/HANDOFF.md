@@ -7,8 +7,11 @@ decision ADR 0006. Updated 2026-10-08 18:00 UTC.
 
 ```bash
 foundry find <words> [--domain ui|agent-bases|voice] [--area awards] [--kind site] [--json]
+foundry ask <question words>        # answered research questions and notes (exit 3: not answered yet)
 foundry frontier [--domain ui]      # leads worth working next
 foundry stats                       # records, sources, lookups
+foundry refresh --due               # re-run every source whose cadence lapsed (research/sources.json), then build
+foundry curate emit|ingest          # batch rows out to curators, take verdicts back through the id gate
 ```
 
 - Mac mini: `foundry` is on PATH (a link in `~/.local/bin` to this checkout's `bin/foundry`). Works now.
@@ -48,6 +51,16 @@ Agent-bases areas: skill-hubs 462 · harnesses 395 · videos 355 · mcp 112 · m
 top 1,060 skills (areas `catalog-skill`, `catalog-plugin`, `catalog-mcp`; ordered partly by installs).
 Voice areas: videos 139 · speech-models 115 · dictation-apps 79 · stt 79 · voice-agents 49 · tts 47 · people 22 · voice-ui 21.
 Lookups on the mini: 74, all RESEARCH's own; no other agent has run `foundry find` yet.
+
+## The research system (proposal and phase 1)
+
+`research/SYSTEM.md` (page: http://100.66.34.21:8766/research-system.html) sets out how research should work across
+the base: Sources (re-runnable feeds with a cadence), Questions (decisions answered once, rechecked on a date) and
+Records; four gates (probe, id, quote, receipt); and roles (Opus owns and judges, Codex builds adapters and heavy
+Questions, Haiku only judges or extracts from rows it is handed). It also lists the seven persistent domains and the
+evidence behind them: Haiku invented 248 items, 4 research jobs died silently on 4 Oct, and Agent Base rivals were
+researched four times. Phase 1 is built: curate, refresh, ask. Next: `foundry extract` (quote gate); the receipt gate
+needs codex-run's owner; one UI id space needs UI-HUB.
 
 ## Findings worth his attention
 

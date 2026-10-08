@@ -6,6 +6,8 @@ import os
 from pathlib import Path
 import py_compile
 import re
+import shutil
+import time
 import subprocess
 import sys
 import tempfile
@@ -209,6 +211,102 @@ with tempfile.TemporaryDirectory() as usage_root:
     missing = subprocess.run([sys.executable, "bin/foundry", "find", "zzqqxnotathing"], cwd=ROOT, env=env, capture_output=True, text=True)
     assert missing.returncode == 3, missing.stdout
     assert (Path(usage_root) / "usage" / "find.jsonl").read_text().count("\n") >= 1, "lookups are not counted"
+
+# Research OS: isolated checkout fixtures never write curation or questions into this repository.
+with tempfile.TemporaryDirectory(prefix="foundry-research-check-") as directory:
+    fixture = Path(directory)
+    (fixture / "bin").mkdir()
+    shutil.copyfile(ROOT / "bin" / "foundry", fixture / "bin" / "foundry")
+    research = fixture / "research"
+    base = research / "voice"
+    (base / "observations").mkdir(parents=True)
+    (base / "curation").mkdir()
+    records = [{"id": f"fixture-{n}", "title": f"Fixture {n}", "url": f"https://example.org/{n}",
+                "github": "sample/repo" if n == 1 else "", "area": "stt" if n == 1 else "tts"} for n in range(4)]
+    (base / "records.jsonl").write_text("".join(json.dumps(r) + "\n" for r in records))
+    (base / "curation" / "existing.jsonl").write_text(json.dumps({"id": "fixture-0", "verdict": "drop", "note": "done"}) + "\n")
+    shutil.copyfile(ROOT / "research" / "sources.json", research / "sources.json")
+    env = {**os.environ, "FOUNDRY_DATA": str(fixture / "data")}
+
+    def research_cli(*args):
+        return subprocess.run([sys.executable, str(fixture / "bin" / "foundry"), *args],
+                              cwd=fixture, env=env, capture_output=True, text=True)
+
+    batches = fixture / "batches"
+    emitted = research_cli("curate", "emit", "--domain", "voice", "--out", str(batches), "--batch", "2")
+    assert emitted.returncode == 0, emitted.stderr
+    manifest = json.loads((batches / "manifest.json").read_text())
+    assert manifest["domain"] == "voice" and list(manifest["batches"]) == ["batch-001.jsonl", "batch-002.jsonl"]
+    assert [i for ids in manifest["batches"].values() for i in ids] == ["fixture-1", "fixture-2", "fixture-3"]
+    assert set(json.loads((batches / "batch-001.jsonl").read_text().split("\n")[0])) == {
+        "id", "title", "url", "github", "stars", "area", "kind", "licence", "why", "date"}
+    exact = {}
+    for name, ids in manifest["batches"].items():
+        rows = [{"id": rid, "verdict": "keep", "rank": 4} if rid != "fixture-3" else
+                {"id": rid, "verdict": "drop", "note": "off topic"} for rid in ids]
+        path = batches / name.replace(".jsonl", ".verdicts.jsonl")
+        exact[path] = "".join(json.dumps(r) + "\n" for r in rows)
+        path.write_text(exact[path])
+    first = next(iter(exact))
+    first.write_text(exact[first] + json.dumps({"id": "extra", "verdict": "keep", "rank": 3}) + "\n")
+    rejected = research_cli("curate", "ingest", "--domain", "voice", "--name", "test", str(batches))
+    assert rejected.returncode == 1 and "extra id extra" in rejected.stderr, rejected
+    assert not (base / "curation" / "test.jsonl").exists()
+    first.write_text('{"id":"fixture-1","verdict":"keep","rank":true}\n'
+                     '{"id":"fixture-1","verdict":"invalid"}\n'
+                     '{"id":"extra","verdict":"drop"}\nnot-json\n')
+    rejected = research_cli("curate", "ingest", "--domain", "voice", "--name", "test", str(batches))
+    assert rejected.returncode == 1 and all(problem in rejected.stderr for problem in (
+        "integer rank", "duplicate id", "verdict must", "drop needs", "not JSON", "missing id", "extra id")), rejected.stderr
+    assert not (base / "curation" / "test.jsonl").exists()
+    first.write_text(exact[first])
+    accepted = research_cli("curate", "ingest", "--domain", "voice", "--name", "test", str(batches))
+    assert accepted.returncode == 0 and "keep: 2, drop: 1" in accepted.stdout and "4: 2" in accepted.stdout, accepted.stderr
+    target = base / "curation" / "test.jsonl"
+    saved = target.read_text()
+    assert len(saved.splitlines()) == 3
+    assert research_cli("curate", "ingest", "--domain", "voice", "--name", "test", str(batches)).returncode == 1
+    assert target.read_text() == saved
+    assert research_cli("curate", "ingest", "--domain", "voice", "--name", "test", str(batches), "--force").returncode == 0
+    selected = fixture / "selected"
+    # Before any curation for this selector, the matching repo is fixture-1.
+    target.unlink()
+    assert research_cli("curate", "emit", "--domain", "voice", "--out", str(selected), "--area", "stt", "--only-github").returncode == 0
+    assert json.loads((selected / "manifest.json").read_text())["batches"] == {"batch-001.jsonl": ["fixture-1"]}
+
+    dry = research_cli("refresh", "--dry-run")
+    sources = json.loads((research / "sources.json").read_text())["sources"]
+    assert dry.returncode == 0 and all(s["name"] + ": never run before" in dry.stdout for s in sources), dry.stderr
+    assert "--domain ui" in dry.stdout and "--domain agent-bases" in dry.stdout and "--domain voice" in dry.stdout
+    state = fixture / "data" / "research" / "refresh-state.json"
+    assert not state.exists(), "dry-run wrote refresh state"
+    state.parent.mkdir(parents=True)
+    state.write_text(json.dumps({s["name"]: {"last_run": time.time()} for s in sources}))
+    assert research_cli("refresh", "--due", "--dry-run").stdout == ""
+    assert "open-asr:" in research_cli("refresh", "open-asr", "--dry-run").stdout
+    assert research_cli("refresh", "unknown-fixture-source", "--dry-run").returncode == 2
+    assert research_cli("refresh", "--all", "--dry-run").stdout.count("days since last run") == len(sources)
+
+    created = research_cli("question", "new", "Fixture local stt choice?", "--domain", "voice", "--asked-by", "tester")
+    assert created.returncode == 0, created.stderr
+    question = fixture / created.stdout.strip()
+    assert "status: open" in question.read_text()
+    assert research_cli("question", "new", "Fixture local stt choice?", "--domain", "voice").returncode == 1
+    question.write_text(question.read_text().replace("status: open", "status: answered").replace("answered: ", "answered: 2000-01-01")
+                        .replace("recheck: ", "recheck: 2000-01-02").replace("## Answer\n", "## Answer\nFirst line\nSecond line\nThird line\nFourth line\n"))
+    answer = research_cli("ask", "fixture", "local", "stt", "--domain", "voice", "--json")
+    assert answer.returncode == 0, answer.stderr
+    hit = json.loads(answer.stdout)["results"][0]
+    assert hit["status"] == "answered" and hit["recheck_due"] and hit["answer"] == ["First line", "Second line", "Third line"]
+    assert "RECHECK DUE" in research_cli("ask", "fixture", "stt").stdout
+    assert research_cli("ask", "zzqqxnotathing").returncode == 3
+    assert research_cli("ask", "fixture", "--domain", "ui").returncode == 3
+    (base / "notes").mkdir()
+    (base / "notes" / "local-stt.md").write_text("# Speech choice\n\nFirst note line\nSecond note line\nThird note line\nFourth note line\n")
+    note = json.loads(research_cli("ask", "local", "stt", "--json").stdout)["results"]
+    assert any(r["status"] == "note" and r["answer"] == ["First note line", "Second note line", "Third note line"] for r in note)
+    lookups = [json.loads(line) for line in (fixture / "data" / "usage" / "find.jsonl").read_text().splitlines()]
+    assert lookups and all(row["cmd"] == "ask" for row in lookups)
 
 publication_patterns = [
     re.compile("/" + "Users" + "/"),

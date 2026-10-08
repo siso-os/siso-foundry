@@ -97,5 +97,8 @@ competitors"), so they land next to the records they cite.
 6. **One id space for UI.** Feed UI-HUB picks and the component bank through the Foundry's identity (`gh:` or `url:`
    keys) so a lookup finds a thing once with all its sources. Needs UI-HUB's agreement.
 
-Items 1 to 4 are inside the Foundry and RESEARCH can build them. Item 5 belongs to codex-run's owner and item 6 to
+**Built 8 Oct (items 1 to 3):** `foundry curate emit|ingest` (id gate tested: an invented id fails the batch and nothing
+is written), `research/sources.json` with 21 sources and `foundry refresh [--due|--dry-run]`, and `research/questions/`
+with `foundry question new` and `foundry ask`, seeded with six Questions. Built by Codex (Sol) to RESEARCH's spec,
+then checked by RESEARCH. Item 4 is next. Items 1 to 4 are inside the Foundry and RESEARCH can build them. Item 5 belongs to codex-run's owner and item 6 to
 UI-HUB.

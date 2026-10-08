@@ -159,8 +159,10 @@ assert len(cap_map["capabilities"]) == 189 == len({c["capability_id"] for c in c
 assert all(c["canonical_pillars"] and set(c["canonical_pillars"]).issubset(set(cap_map["canonical_pillars"])) for c in cap_map["capabilities"])
 assert all(c["raw_slice"] and c["rationale"].endswith(".") for c in cap_map["capabilities"])
 atlas_path = ROOT.parents[2] / ".agents" / "runs" / "agency-os-god-source-expansion-20260802" / "lane-b-capability-atlas.jsonl"
-atlas_ids = {json.loads(line)["capability_id"] for line in atlas_path.read_text().splitlines() if line.strip()}
-assert {c["capability_id"] for c in cap_map["capabilities"]} == atlas_ids
+# The lane receipt is an external run artifact that lives on the machine that ran the lane; check it where it exists.
+if atlas_path.exists():
+    atlas_ids = {json.loads(line)["capability_id"] for line in atlas_path.read_text().splitlines() if line.strip()}
+    assert {c["capability_id"] for c in cap_map["capabilities"]} == atlas_ids
 assert coverage["record_type"] == "agency_os_coverage_inventory"
 assert coverage["counts"]["candidate_application_rows"] == 497
 assert coverage["counts"]["frontier_rows"] == 30
@@ -189,6 +191,24 @@ assert all("slice" not in r["canonical_verticals"] for r in coverage_rows)
 assert all(set(r["canonical_verticals"]).issubset(set(canonical)) for r in coverage_rows)
 for pillar, detail in coverage["vertical_coverage"].items():
     assert detail["repository_count"] == len(detail["projects"]) == len(set(detail["projects"]))
+
+# Domain research: records are rebuilt from append-only observations, ids are unique, and the lookup answers.
+for records_path in sorted((ROOT / "research").glob("*/records.jsonl")):
+    rows = [json.loads(line) for line in records_path.read_text().splitlines() if line.strip()]
+    ids = [r["id"] for r in rows]
+    assert len(ids) == len(set(ids)), f"duplicate record id in {records_path}"
+    assert len({r["key"] for r in rows}) == len(rows), f"duplicate record key in {records_path}"
+    for r in rows:
+        assert r["url"] and r["title"] and r["domain"] == records_path.parent.name, r
+with tempfile.TemporaryDirectory() as usage_root:
+    env = {**os.environ, "FOUNDRY_DATA": usage_root}
+    sample = next((json.loads(l) for p in sorted((ROOT / "research").glob("*/records.jsonl")) for l in p.read_text().splitlines() if l.strip()), None)
+    if sample:
+        found = subprocess.run([sys.executable, "bin/foundry", "find", sample["title"], "--no-items", "--json"], cwd=ROOT, env=env, capture_output=True, text=True)
+        assert found.returncode == 0 and any(r["id"] == sample["id"] for r in json.loads(found.stdout)["results"][:50]), found.stdout[:300]
+    missing = subprocess.run([sys.executable, "bin/foundry", "find", "zzqqxnotathing"], cwd=ROOT, env=env, capture_output=True, text=True)
+    assert missing.returncode == 3, missing.stdout
+    assert (Path(usage_root) / "usage" / "find.jsonl").read_text().count("\n") >= 1, "lookups are not counted"
 
 publication_patterns = [
     re.compile("/" + "Users" + "/"),

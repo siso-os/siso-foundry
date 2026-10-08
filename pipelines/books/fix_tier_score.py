@@ -25,11 +25,13 @@ for every page where (score, tier) disagree with the schema bands:
 CONSTRAINT: read-only on SISO_Knowledge when run without --apply.
 """
 import argparse
+import os
 import sys
 import yaml
 from pathlib import Path
 
-LIB = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
+# The SISO_Knowledge library root; set SISO_KNOWLEDGE where it lives elsewhere.
+LIB = Path(os.environ.get("SISO_KNOWLEDGE", Path.home() / "SISO_Knowledge")).expanduser()
 SECTIONS = LIB / "sections"
 
 # Schema bands from module_templates/page/PAGE_SCHEMA.md

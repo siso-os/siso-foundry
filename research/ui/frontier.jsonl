@@ -1,0 +1,12 @@
+{"area": "components", "from": ["components"], "lead": "Explore 21st.dev/community/authors for top component creators", "rank": 5, "status": "open", "why": "Identify influential designers and developers in component ecosystem"}
+{"area": "components", "from": ["components"], "lead": "https://github.com/search?q=topic:react-components stars:>1000", "rank": 5, "status": "open", "why": "High-star React component repositories on GitHub"}
+{"area": "components", "from": ["components"], "lead": "https://ui.shadcn.com/docs/directory", "rank": 5, "status": "open", "why": "Official shadcn/ui directory of registries"}
+{"area": "components", "from": ["components"], "lead": "AI-powered UI generation tools (v0, UI2Code, Galileo Design)", "rank": 4, "status": "open", "why": "Emerging tools for component generation and design automation"}
+{"area": "components", "from": ["components"], "lead": "Design tokens and theming libraries (Tokens Studio, Themekit)", "rank": 4, "status": "open", "why": "Design system token management and component theming"}
+{"area": "components", "from": ["components"], "lead": "Web Components and design system tooling (Web Components, Lit, FAST)", "rank": 4, "status": "open", "why": "Framework-agnostic component standards ecosystem"}
+{"area": "components", "from": ["components"], "lead": "https://www.producthunt.com/?topic=UI%20Kits", "rank": 4, "status": "open", "why": "Product Hunt UI Kit releases and component library launches"}
+{"area": "components", "from": ["components"], "lead": "CSS-in-JS component libraries (styled-components, Emotion, Vanilla Extract)", "rank": 3, "status": "open", "why": "Styling approaches used in component libraries"}
+{"area": "components", "from": ["components"], "lead": "Component documentation generators (react-docgen, Ladle, Dostoevsky)", "rank": 3, "status": "open", "why": "Tools for automatically generating component documentation"}
+{"area": "components", "from": ["components"], "lead": "Data table/grid components (TanStack Table, AG Grid, React-Table)", "rank": 3, "status": "open", "why": "Complex data visualization component libraries"}
+{"area": "components", "from": ["components"], "lead": "Form libraries (React Hook Form, Formik, TanStack Form)", "rank": 3, "status": "open", "why": "Specialized component libraries for form handling"}
+{"area": "components", "from": ["components"], "lead": "Explore component library monetization models (free vs premium vs enterprise)", "rank": 2, "status": "open", "why": "Understanding business models in component ecosystem"}

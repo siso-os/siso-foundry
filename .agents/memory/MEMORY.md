@@ -1,0 +1,1 @@
+- [Research helpers invent URLs](research-helpers-invent-urls.md) — probe every record; mechanical harvests are scripts

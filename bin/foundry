@@ -146,9 +146,13 @@ def build_domain(domain):
         records.setdefault(k, prev)
     apply_facts(base, records.values())
     apply_curation(base, records.values())
+    done = {d["lead"].lower(): d for d in read_jsonl(base / "frontier-done.jsonl")}
+    for k, lead in leads.items():
+        if k in done:
+            lead["status"], lead["result"] = "done", done[k].get("result", "")
     known = {url_key(r["url"]) for r in records.values()} | {r["github"] for r in records.values() if r.get("github")}
     for lead in leads.values():
-        if url_key(lead["lead"]) in known or lead["lead"].lower().strip("/") in known:
+        if lead["status"] == "open" and url_key(lead["lead"]) in known or lead["lead"].lower().strip("/") in known:
             lead["status"] = "covered"
     rejected = sorted((r for r in records.values() if r.get("rejected")), key=lambda r: r["id"])
     rec_rows = sorted((r for r in records.values() if not r.get("rejected")), key=lambda r: (r.get("area") or "", r["id"]))
@@ -163,7 +167,12 @@ def apply_facts(base, records):
     """Fold in what research/tools/probe.py observed at the source: liveness, og:image, GitHub's own numbers."""
     probes = {p["url"]: p for p in read_jsonl(base / "probes.jsonl")}  # later lines win
     repos = {g["github"]: g for g in read_jsonl(base / "github.jsonl")}
+    stacks = {x["url"]: x for x in read_jsonl(base / "stacks.jsonl") if not x.get("error")}
     for r in records:
+        st = stacks.get(r["url"])
+        if st:
+            r["stack"] = st["stack"]
+            r["tags"] = [t for t in r["tags"] if not t.startswith("uses:")] + [f"uses:{x}" for x in st["stack"]]
         p = probes.get(r["url"])
         if p and "://github.com/" in r["url"]:
             p = None  # GitHub rate-limits page fetches; github.jsonl from its API is the authority for repos
@@ -218,10 +227,15 @@ def tokens(text):
 
 
 def has(field_tokens, w):
-    return any(t.startswith(w) for t in field_tokens)
+    # Short words ("ui", "3d", "ag") match whole tokens only; longer ones match prefixes ("anim" finds "animation").
+    return w in field_tokens if len(w) <= 2 else any(t.startswith(w) for t in field_tokens)
 
 
-def score(row, words):
+def squash(text):
+    return re.sub(r"[^a-z0-9]", "", str(text).lower())
+
+
+def score(row, words, phrase=""):
     title = tokens(row.get("title", ""))
     tags = tokens(" ".join(row.get("tags") or []))
     rest = tokens(" ".join(str(row.get(f) or "") for f in ("why", "kind", "area", "by", "url", "github", "desc", "lib")))
@@ -231,6 +245,8 @@ def score(row, words):
         if not got:  # every word must appear somewhere
             return 0
         s += got
+    if len(phrase) > 3 and (phrase in squash(row.get("title", "")) or phrase in squash(row.get("url", ""))):
+        s += 8  # the query as written, e.g. "ag-ui" or "three.js", names this thing
     return s + int(row.get("rank") or 3) / 2 + min(int(row.get("stars") or 0), 100000) / 100000
 
 
@@ -267,7 +283,8 @@ def cmd_find(a):
         rows = [r for r in rows if r.get("area") == a.area]
     if a.kind:
         rows = [r for r in rows if r.get("kind") == a.kind]
-    ranked = sorted(((score(r, words), r) for r in rows), key=lambda x: -x[0])
+    phrase = squash(" ".join(a.words))
+    ranked = sorted(((score(r, words, phrase), r) for r in rows), key=lambda x: -x[0])
     hits = [r for s, r in ranked if s > 0]
     count_lookup({"at": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "host": socket.gethostname().split(".")[0], "q": " ".join(a.words),
                   "domain": a.domain or "", "hits": len(hits), "agent": os.environ.get("SISO_AGENT_NAME") or os.environ.get("HERDR_PANE_NAME") or ""})

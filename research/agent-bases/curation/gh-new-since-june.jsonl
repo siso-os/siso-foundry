@@ -1,0 +1,39 @@
+{"id": "f-f665e78609", "verdict": "keep", "rank": 4, "why": "xAI's own harness and TUI (27k stars since July); compare its pane and mouse model with herdr.", "by": "RESEARCH"}
+{"id": "f-049ddab7f4", "verdict": "keep", "rank": 5, "why": "YC's multiplayer agent harness for work: shared sessions across people and agents, the shape Agent Base is heading to.", "by": "RESEARCH"}
+{"id": "f-df402d2c55", "verdict": "keep", "rank": 5, "why": "Meta-harness that orchestrates Claude Code, Codex and others as workers; closest open match to Agent Base's owner/worker model.", "by": "RESEARCH"}
+{"id": "f-bcfef5fc23", "verdict": "keep", "rank": 5, "why": "Native control plane for Claude Code, Codex, Cursor and Devin; read its session model before building more of Agent Base's fleet view.", "by": "RESEARCH"}
+{"id": "f-addbab3545", "verdict": "keep", "rank": 3, "why": "Z.ai's harness; another vendor harness to track for model routing.", "by": "RESEARCH"}
+{"id": "f-5e58f599b2", "verdict": "keep", "rank": 3, "why": "Open-source agent runtime layer; useful comparison for the hosted-seat runtime.", "by": "RESEARCH"}
+{"id": "f-a2b1105a3d", "verdict": "keep", "rank": 3, "why": "GUI for coding agents; UI patterns for watching several agents.", "by": "RESEARCH"}
+{"id": "f-fc9e2e6fe0", "verdict": "keep", "rank": 4, "why": "Node-based tmux-backed terminal manager for parallel agent sessions; the herdr idea as a canvas.", "by": "RESEARCH"}
+{"id": "f-80f1d2ba24", "verdict": "keep", "rank": 3, "why": "Async-first agent harness; queueing model to compare with Agent Base's prompt queues.", "by": "RESEARCH"}
+{"id": "f-fe353e959c", "verdict": "keep", "rank": 4, "why": "Harness engineering platform: harnesses defined as code with runs and evals; a model for testing our own harness changes.", "by": "RESEARCH"}
+{"id": "f-559b3bc34c", "verdict": "keep", "rank": 3, "why": "Self-hosted unified interface over many harnesses (Apache-2.0).", "by": "RESEARCH"}
+{"id": "f-db7042a1b6", "verdict": "keep", "rank": 3, "why": "NVIDIA research on auto-research loops for efficient agent harnesses; evidence for harness tuning.", "by": "RESEARCH"}
+{"id": "f-88f9a0c310", "verdict": "keep", "rank": 3, "why": "Python port of Pi's minimalist coding agent; a small readable harness to learn from.", "by": "RESEARCH"}
+{"id": "f-de47577dfb", "verdict": "keep", "rank": 3, "why": "Vercel Labs' Unix-like coding agent; composable-tool design.", "by": "RESEARCH"}
+{"id": "f-689b0875b0", "verdict": "keep", "rank": 2, "why": "Minimal harness over MCP for chat apps.", "by": "RESEARCH"}
+{"id": "f-8d5a72440c", "verdict": "keep", "rank": 4, "why": "Provider proxy that lets Codex and Claude Code run on any model (17k stars); relevant to the model-routing seat.", "by": "RESEARCH"}
+{"id": "f-70cce2d5dd", "verdict": "keep", "rank": 4, "why": "Menu-bar switcher putting each harness on another model (Codex on DeepSeek, Claude Code on Kimi).", "by": "RESEARCH"}
+{"id": "f-19dcfcadf1", "verdict": "keep", "rank": 4, "why": "Team chat where agents are first-class teammates; the messaging layer Agent Base fakes with herdr-send.", "by": "RESEARCH"}
+{"id": "f-474bc088f5", "verdict": "keep", "rank": 4, "why": "Notch and iPhone companion that watches your coding agents; a status surface idea for Shaan's laptop and phone.", "by": "RESEARCH"}
+{"id": "f-e40278acfc", "verdict": "keep", "rank": 3, "why": "macOS notch app pinning usage limits from Claude Code, Codex and others; the rate-limit view Agent Base shows.", "by": "RESEARCH"}
+{"id": "f-cc5d1a77f8", "verdict": "keep", "rank": 3, "why": "Runs Pi and Claude Code inside Codex Desktop; cross-harness hosting.", "by": "RESEARCH"}
+{"id": "f-798a38ef8a", "verdict": "keep", "rank": 4, "why": "Astra or Sol orchestrating Luna sub-agents in Codex; the exact chain SISO runs, as someone else's code.", "by": "RESEARCH"}
+{"id": "f-4b26182f70", "verdict": "keep", "rank": 4, "why": "An agent organisation shaped as a company (15 departments, 125 skills); compare with SISO's owners and domains.", "by": "RESEARCH"}
+{"id": "f-d7f487ad5b", "verdict": "keep", "rank": 4, "why": "Distils skills from real Claude Code sessions automatically; a path to self-improving skills (a0-self-improve).", "by": "RESEARCH"}
+{"id": "f-7c51abe4de", "verdict": "keep", "rank": 4, "why": "Shows what Claude Code and Codex send to the API and what each part costs; direct input to the efficiency work.", "by": "RESEARCH"}
+{"id": "f-5798210233", "verdict": "keep", "rank": 4, "why": "Memory runtime with plain Markdown as truth and local ranked recall; matches SISO's file memory.", "by": "RESEARCH"}
+{"id": "f-c36a41f9d0", "verdict": "keep", "rank": 3, "why": "Local memory hub shared by every agent.", "by": "RESEARCH"}
+{"id": "f-db7da31a55", "verdict": "keep", "rank": 4, "why": "Plugin replacing the compaction summary with Jev decisions per tool call; relevant to self-compact.", "by": "RESEARCH"}
+{"id": "f-b652d485c8", "verdict": "keep", "rank": 3, "why": "Patterns and CLIs for loop engineering with coding agents (11k stars).", "by": "RESEARCH"}
+{"id": "f-4085aaced4", "verdict": "keep", "rank": 3, "why": "Context-saving layer for coding agents; measure against our context discipline.", "by": "RESEARCH"}
+{"id": "f-c84fbc6406", "verdict": "keep", "rank": 4, "why": "Delegate to another agent CLI, review the diff, land the commit; the omp-worker pattern as a skill.", "by": "RESEARCH"}
+{"id": "f-690ce90fd2", "verdict": "keep", "rank": 3, "why": "Plan hardening with a Codex adversarial review; the split-brain pattern.", "by": "RESEARCH"}
+{"id": "f-926fd02075", "verdict": "keep", "rank": 3, "why": "Find code by asking what it does, via Jev; complements Serena.", "by": "RESEARCH"}
+{"id": "f-35c6525b1a", "verdict": "keep", "rank": 3, "why": "Zero-dependency context finder CLI plus MCP for coding agents.", "by": "RESEARCH"}
+{"id": "f-3573d42f11", "verdict": "keep", "rank": 3, "why": "Hook and skill guard that blocks out-of-scope agent work; compare with our PreToolUse guards.", "by": "RESEARCH"}
+{"id": "f-6c1eed7098", "verdict": "keep", "rank": 3, "why": "Cloudflare's multi-phase security audit skill with verified machine-readable findings.", "by": "RESEARCH"}
+{"id": "f-1736f849f8", "verdict": "keep", "rank": 3, "why": "Skills for useful HTML artifacts and plans; matches the house HTML-artifact rule.", "by": "RESEARCH"}
+{"id": "f-01ebcf280c", "verdict": "keep", "rank": 3, "why": "Answers hard questions as one HTML page; the 'show him a URL' habit as a skill.", "by": "RESEARCH"}
+{"id": "f-cf4ddfb99c", "verdict": "keep", "rank": 3, "why": "Draws each PR as an animated architecture walkthrough; review UX idea.", "by": "RESEARCH"}

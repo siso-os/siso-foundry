@@ -1,0 +1,3 @@
+{"id": "f-b7ae460926", "verdict": "keep", "rank": 5, "why": "Agent-User Interaction Protocol (events between agent backends and frontends); the wire format Agent Base's web UI could speak to any agent runtime.", "tags": ["generative-ui"], "by": "RESEARCH"}
+{"id": "f-1c323cbb09", "verdict": "keep", "rank": 5, "why": "UI resources over MCP: servers return interactive UI; how SISO tools could show widgets inside chat.", "tags": ["generative-ui"], "by": "RESEARCH"}
+{"id": "f-725271ab48", "verdict": "keep", "rank": 5, "why": "Official MCP Apps spec and SDK for UIs embedded in AI chat, served by MCP servers; the standard to watch beside A2UI and AG-UI.", "tags": ["generative-ui"], "by": "RESEARCH"}

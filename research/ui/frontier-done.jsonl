@@ -1,0 +1,5 @@
+{"lead": "Awwwards SOTD/SOTY stack mining: https://www.awwwards.com/websites/three-js/", "result": "research/ui/notes/award-stacks.md: 1,333 winners probed; GSAP+ScrollTrigger ~60%, Lenis 59%, Three.js ~25%, R3F 8%.", "at": "2026-10-08"}
+{"lead": "Compare generative-UI specs: A2UI vs json-render vs OpenUI vs AG-UI (https://ag-ui.com)", "result": "Records for AG-UI, MCP-UI, MCP Apps, A2UI, json-render, OpenUI, Tambo, CopilotKit (foundry find generative ui); prose comparison still open.", "at": "2026-10-08"}
+{"lead": "https://tympanus.net/codrops/category/case-studies/", "result": "research/tools/codrops_harvest.py: 800 Codrops posts 2021-2026 incl. case studies, via camofox.", "at": "2026-10-08"}
+{"lead": "blog:Codrops advanced tutorials archive", "result": "Covered by codrops_harvest.py (800 posts).", "at": "2026-10-08"}
+{"lead": "Explore 21st.dev/community/authors for top component creators", "result": "research/tools/sitemap_21st.py: 1,435 authors in the sitemap, 250 with 5+ items recorded as people.", "at": "2026-10-08"}

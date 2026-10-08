@@ -194,7 +194,7 @@ for pillar, detail in coverage["vertical_coverage"].items():
 
 # Domain research: records are rebuilt from append-only observations, ids are unique, and the lookup answers.
 for records_path in sorted((ROOT / "research").glob("*/records.jsonl")):
-    rows = [json.loads(line) for line in records_path.read_text().splitlines() if line.strip()]
+    rows = [json.loads(line) for line in records_path.read_text().split("\n") if line.strip()]
     ids = [r["id"] for r in rows]
     assert len(ids) == len(set(ids)), f"duplicate record id in {records_path}"
     assert len({r["key"] for r in rows}) == len(rows), f"duplicate record key in {records_path}"
@@ -202,7 +202,7 @@ for records_path in sorted((ROOT / "research").glob("*/records.jsonl")):
         assert r["url"] and r["title"] and r["domain"] == records_path.parent.name, r
 with tempfile.TemporaryDirectory() as usage_root:
     env = {**os.environ, "FOUNDRY_DATA": usage_root}
-    sample = next((json.loads(l) for p in sorted((ROOT / "research").glob("*/records.jsonl")) for l in p.read_text().splitlines() if l.strip()), None)
+    sample = next((json.loads(l) for p in sorted((ROOT / "research").glob("*/records.jsonl")) for l in p.read_text().split("\n") if l.strip()), None)
     if sample:
         found = subprocess.run([sys.executable, "bin/foundry", "find", sample["title"], "--no-items", "--json"], cwd=ROOT, env=env, capture_output=True, text=True)
         assert found.returncode == 0 and any(r["id"] == sample["id"] for r in json.loads(found.stdout)["results"][:50]), found.stdout[:300]

@@ -6,6 +6,7 @@
   foundry stats                                    records, sources and lookups per domain
   foundry build                                    merge observations into records and frontier
   foundry page <domain> [--area awards] [--out F]  an HTML index with previews
+  foundry serve --host <tailscale-ip> [--port 8766] serve the generated pages (never on 0.0.0.0)
 
 Records live in research/<domain>/records.jsonl (Git). Lookups are counted in
 $FOUNDRY_DATA/usage/find.jsonl on the machine that ran them. Any other subcommand
@@ -19,7 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 RESEARCH = ROOT / "research"
 UI_HUB_ITEMS = ROOT.parent / "banks" / "siso-ui-hub" / "sources" / "items.jsonl"
 CORPUS_CLI = Path.home() / ".claude" / "skills" / "foundry-corpus" / "foundry"
-OWN = {"find", "frontier", "stats", "build", "page"}
+OWN = {"find", "frontier", "stats", "build", "page", "serve"}
 
 
 def data_root():
@@ -35,7 +36,7 @@ def read_jsonl(path):
     if not path.exists():
         return []
     rows = []
-    for n, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+    for n, line in enumerate(path.read_text(encoding="utf-8").split("\n"), 1):  # not splitlines: U+2028 lives inside titles
         line = line.strip()
         if not line:
             continue
@@ -143,15 +144,69 @@ def build_domain(domain):
     # A record that vanished from every observation file is kept: history is append-only.
     for k, prev in old.items():
         records.setdefault(k, prev)
+    apply_facts(base, records.values())
+    apply_curation(base, records.values())
     known = {url_key(r["url"]) for r in records.values()} | {r["github"] for r in records.values() if r.get("github")}
     for lead in leads.values():
         if url_key(lead["lead"]) in known or lead["lead"].lower().strip("/") in known:
             lead["status"] = "covered"
-    rec_rows = sorted(records.values(), key=lambda r: (r.get("area") or "", r["id"]))
+    rejected = sorted((r for r in records.values() if r.get("rejected")), key=lambda r: r["id"])
+    rec_rows = sorted((r for r in records.values() if not r.get("rejected")), key=lambda r: (r.get("area") or "", r["id"]))
+    write_jsonl(base / "rejected.jsonl", rejected)
     lead_rows = sorted(leads.values(), key=lambda r: (r["status"] != "open", -r["rank"], r["lead"]))
     write_jsonl(base / "records.jsonl", rec_rows)
     write_jsonl(base / "frontier.jsonl", lead_rows)
     return len(rec_rows), sum(1 for l in lead_rows if l["status"] == "open"), bad
+
+
+def apply_facts(base, records):
+    """Fold in what research/tools/probe.py observed at the source: liveness, og:image, GitHub's own numbers."""
+    probes = {p["url"]: p for p in read_jsonl(base / "probes.jsonl")}  # later lines win
+    repos = {g["github"]: g for g in read_jsonl(base / "github.jsonl")}
+    for r in records:
+        p = probes.get(r["url"])
+        if p:
+            r["http"] = p.get("status", 0)
+            if not r.get("preview") and p.get("og_image"):
+                r["preview"] = p["og_image"]
+            if p.get("og_description"):
+                r["desc"] = p["og_description"]
+        g = repos.get(r.get("github"))
+        if p and p.get("status") in (404, 410):
+            r["rejected"] = f"url returned {p['status']}"
+        if g and not g.get("found"):
+            r["rejected"] = "GitHub has no such repository"
+        elif g:
+            r["stars"], r["archived"], r["pushed"] = g["stars"], g["archived"], g["pushed"]
+            if g.get("licence") and g["licence"] != "NOASSERTION":
+                r["licence"] = g["licence"]
+            if g.get("description"):
+                r["desc"] = g["description"]
+            if not r.get("preview"):
+                r["preview"] = f"https://opengraph.githubassets.com/1/{r['github']}"
+
+
+def apply_curation(base, records):
+    """Judgments by RESEARCH or its curators, one line per record id in research/<domain>/curation/*.jsonl; later lines win."""
+    verdicts = {}
+    for path in sorted((base / "curation").glob("*.jsonl")):
+        for c in read_jsonl(path):
+            if c.get("id"):
+                verdicts[c["id"]] = c
+    for r in records:
+        c = verdicts.get(r["id"])
+        if not c:
+            continue
+        if c.get("verdict") == "drop":
+            r["rejected"] = "curated out: " + (c.get("note") or c.get("why") or "off-topic")
+            continue
+        if c.get("rank"):
+            r["rank"] = int(c["rank"])
+        if c.get("why"):
+            r["why"] = c["why"]
+        for t in c.get("tags") or []:
+            if t not in r["tags"]:
+                r["tags"].append(t)
 
 
 # ---------------------------------------------------------------- find
@@ -174,7 +229,7 @@ def score(row, words):
         if not got:  # every word must appear somewhere
             return 0
         s += got
-    return s + min(int(row.get("stars") or 0), 100000) / 100000
+    return s + int(row.get("rank") or 3) / 2 + min(int(row.get("stars") or 0), 100000) / 100000
 
 
 def ui_hub_rows():
@@ -310,6 +365,18 @@ def cmd_page(a):
     return 0
 
 
+def cmd_serve(a):
+    import functools, http.server
+    if a.host in ("0.0.0.0", "::", ""):
+        print("refusing to bind every interface; pass a loopback or Tailscale address", file=sys.stderr)
+        return 2
+    root = data_root() / "artifacts"
+    root.mkdir(parents=True, exist_ok=True)
+    handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(root))
+    print(f"serving {root} on http://{a.host}:{a.port}/", flush=True)
+    http.server.ThreadingHTTPServer((a.host, a.port), handler).serve_forever()
+
+
 def main(argv):
     if argv and argv[0] not in OWN and not argv[0].startswith("-"):
         if CORPUS_CLI.exists():
@@ -336,8 +403,11 @@ def main(argv):
     pg.add_argument("domain")
     pg.add_argument("--area")
     pg.add_argument("--out")
+    sv = sub.add_parser("serve")
+    sv.add_argument("--host", default="127.0.0.1")
+    sv.add_argument("--port", type=int, default=8766)
     a = p.parse_args(argv)
-    return {"find": cmd_find, "frontier": cmd_frontier, "stats": cmd_stats, "build": cmd_build, "page": cmd_page}[a.cmd](a)
+    return {"serve": cmd_serve, "find": cmd_find, "frontier": cmd_frontier, "stats": cmd_stats, "build": cmd_build, "page": cmd_page}[a.cmd](a)
 
 
 if __name__ == "__main__":

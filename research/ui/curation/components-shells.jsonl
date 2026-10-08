@@ -1,0 +1,575 @@
+{"id": "f-1f56693865", "verdict": "keep", "rank": 1, "why": "Mobile-web kit in three frameworks; reference only for mobile-first operator views.", "tags": ["mobile"]}
+{"id": "f-1ab71ce33f", "verdict": "keep", "rank": 1, "why": "Dated Bootstrap 4 dashboard kit; only the page inventory is worth a glance.", "tags": ["dashboard", "admin"]}
+{"id": "f-013c55d0c9", "verdict": "keep", "rank": 2, "why": "Enterprise web-component design system; study its token and theming docs, not the visuals.", "tags": ["admin"]}
+{"id": "f-b609b71d20", "verdict": "keep", "rank": 2, "why": "Chakra block catalogue; useful as a checklist of section types a block library must cover.", "tags": ["blocks", "marketing"]}
+{"id": "f-f758b5ee8b", "verdict": "keep", "rank": 1, "why": "Mantine for Python Dash; off-stack, keep for completeness.", "tags": ["dashboard"]}
+{"id": "f-aa85818fdd", "verdict": "keep", "rank": 3, "why": "IBM Carbon product patterns (datagrid, tearsheets, side panels) are a mature reference for dense operator tools.", "tags": ["admin", "data-table"]}
+{"id": "f-7362ee6c31", "verdict": "keep", "rank": 1, "why": "Android Material components in maintenance mode; off-stack for SISO web UI.", "tags": []}
+{"id": "f-38b9804e0d", "verdict": "keep", "rank": 1, "why": "Flutter Material components; off-stack.", "tags": []}
+{"id": "f-c995f5bf46", "verdict": "keep", "rank": 1, "why": "iOS Material components in maintenance mode; off-stack.", "tags": []}
+{"id": "f-1ca597b810", "verdict": "keep", "rank": 1, "why": "Material Components Web is superseded by Material Web; completeness only.", "tags": []}
+{"id": "f-74dd8f0300", "verdict": "keep", "rank": 1, "why": "Pivotal UI is a retired design system; historical reference only.", "tags": []}
+{"id": "f-9597052a5a", "verdict": "keep", "rank": 1, "why": "Polymer is legacy web-components history; no reuse value.", "tags": []}
+{"id": "f-ff3d9ac79d", "verdict": "keep", "rank": 2, "why": "Small headless React kit; compare its API choices against Radix and Base UI, nothing to take wholesale.", "tags": []}
+{"id": "f-9fad79523e", "verdict": "keep", "rank": 3, "why": "shadcn/ui for React Native; the path if SISO ships native companion apps with the same component vocabulary.", "tags": ["mobile"]}
+{"id": "f-4a8dc8676e", "verdict": "keep", "rank": 2, "why": "SAP Fundamental shows enterprise shell patterns (shellbar, side nav, object pages); reference only.", "tags": ["admin"]}
+{"id": "f-cb4e8f7682", "verdict": "keep", "rank": 1, "why": "CSS layer of SAP Fundamental; completeness only.", "tags": ["admin"]}
+{"id": "f-cebc072265", "verdict": "keep", "rank": 3, "why": "Canonical Svelte port of shadcn/ui; relevant only if a SISO surface goes Svelte.", "tags": []}
+{"id": "f-2ea6a920cc", "verdict": "keep", "rank": 3, "why": "Canonical Vue port of shadcn/ui; relevant only for Vue surfaces.", "tags": []}
+{"id": "f-18b6ebcd26", "verdict": "drop", "rank": 1, "why": "Duplicate of the ui.shadcn.com record (same project, repo URL).", "tags": [], "note": "Duplicate of the ui.shadcn.com record (same project, repo URL)."}
+{"id": "f-8db3910f97", "verdict": "keep", "rank": 1, "why": "Tiny grid CSS starter; nothing to take.", "tags": []}
+{"id": "f-97ea8b94b5", "verdict": "keep", "rank": 1, "why": "Unofficial Svelte Headless UI port; completeness.", "tags": []}
+{"id": "f-9c3f03f686", "verdict": "keep", "rank": 1, "why": "Student a11y Svelte kit; completeness.", "tags": []}
+{"id": "f-d36617ff2b", "verdict": "keep", "rank": 1, "why": "Two-star Tailwind snippet collection; completeness.", "tags": []}
+{"id": "f-b6dcfc3ad4", "verdict": "keep", "rank": 1, "why": "Six-star agent block kit; only the idea of typed agent/plugin blocks is interesting.", "tags": ["ai-chat"]}
+{"id": "f-8cceea0b9b", "verdict": "keep", "rank": 2, "why": "VS Code Elements: dense IDE-style controls, a reference for agent-tool panels that should feel like an editor.", "tags": []}
+{"id": "f-fdd6061d65", "verdict": "keep", "rank": 1, "why": "RN grid layout utility; completeness.", "tags": ["mobile"]}
+{"id": "f-6c6d880962", "verdict": "keep", "rank": 1, "why": "Vue auto-responsive grid; completeness.", "tags": []}
+{"id": "f-2fc5e274d1", "verdict": "keep", "rank": 4, "why": "cmdk is the command palette every SISO operator app needs; adopt directly (shadcn Command wraps it).", "tags": ["admin"]}
+{"id": "f-26430865b6", "verdict": "drop", "rank": 1, "why": "Duplicate of the platejs.org registry record (same project, repo URL).", "tags": [], "note": "Duplicate of the platejs.org registry record (same project, repo URL)."}
+{"id": "f-e76948a5b1", "verdict": "keep", "rank": 1, "why": "Flutter grid; off-stack.", "tags": ["mobile"]}
+{"id": "f-76d3d480d9", "verdict": "drop", "rank": 1, "why": "Aceternity company site; the component library is the ui.aceternity.com record.", "tags": [], "note": "Aceternity company site; the component library is the ui.aceternity.com record."}
+{"id": "f-50632eb22a", "verdict": "keep", "rank": 3, "why": "Animata: hundreds of free animated React pieces; mine for micro-interactions and text effects.", "tags": ["motion"]}
+{"id": "f-83a255cecc", "verdict": "keep", "rank": 2, "why": "Already researched by UI-HUB (intake gallery); no further work.", "tags": []}
+{"id": "f-c352c97acc", "verdict": "keep", "rank": 2, "why": "Already researched by UI-HUB (watch); small, careful stepper/heat pieces.", "tags": []}
+{"id": "f-fab928c763", "verdict": "keep", "rank": 4, "why": "Already researched by UI-HUB (pick): agent-run and dense-table pieces already in use.", "tags": ["ai-chat", "dashboard"]}
+{"id": "f-0836f33bc8", "verdict": "keep", "rank": 1, "why": "Already researched by UI-HUB (skip): canvas toys.", "tags": ["motion"]}
+{"id": "f-84d570c232", "verdict": "keep", "rank": 3, "why": "Headless UI from Tailwind Labs; accessible primitives, but Radix/Base UI are the better base for shadcn-style kits.", "tags": ["forms"]}
+{"id": "f-2c88fe7b99", "verdict": "keep", "rank": 2, "why": "Hover.dev: interactive components, mostly paid; reference for playful marketing interactions.", "tags": ["motion", "marketing"]}
+{"id": "f-c4a9495bd3", "verdict": "keep", "rank": 2, "why": "Already researched by UI-HUB (reference only, no licence).", "tags": ["motion"]}
+{"id": "f-21322b2a0e", "verdict": "drop", "rank": 1, "why": "Dead URL (http 0); Motion Primitives is covered by the motion-primitives.com record.", "tags": [], "note": "Dead URL (http 0); Motion Primitives is covered by the motion-primitives.com record."}
+{"id": "f-d7abec7548", "verdict": "keep", "rank": 1, "why": "Already researched by UI-HUB (reference): mostly phone-widget mock-ups.", "tags": []}
+{"id": "f-afb6b0bbc4", "verdict": "drop", "rank": 1, "why": "originui.com now 301-redirects to coss.com/ui; covered by the coss record.", "tags": [], "note": "originui.com now 301-redirects to coss.com/ui; covered by the coss record."}
+{"id": "f-0ba8635f8d", "verdict": "keep", "rank": 4, "why": "Radix Primitives: the accessibility base under shadcn; learn its composition and data-state patterns.", "tags": ["forms"]}
+{"id": "f-31d350c45f", "verdict": "keep", "rank": 5, "why": "The substrate of UI-HUB: registry schema, CLI, blocks (sidebar, dashboard, login) and charts; the hub's own registry must be shadcn-compatible.", "tags": ["blocks", "dashboard", "forms", "charts", "auth"]}
+{"id": "f-bd0c9184c8", "verdict": "keep", "rank": 2, "why": "Already researched by UI-HUB (internal): tuning panels and settings export.", "tags": ["admin"]}
+{"id": "f-f0201e4cb6", "verdict": "keep", "rank": 1, "why": "Meta-list of awesome lists; too general to harvest directly.", "tags": []}
+{"id": "f-422198d4e4", "verdict": "keep", "rank": 2, "why": "Small list of headless React libraries; quick checklist for primitives coverage.", "tags": []}
+{"id": "f-e04ec537d6", "verdict": "keep", "rank": 4, "why": "awesome-shadcn-ui (20k stars) is the best maintained index of the shadcn ecosystem; harvest it for anything this map lacks.", "tags": ["blocks"]}
+{"id": "f-affe69897a", "verdict": "keep", "rank": 3, "why": "Awesome UIKit lists frameworks and admin templates across stacks; harvest for admin-template gaps.", "tags": ["admin"]}
+{"id": "f-032a92fda2", "verdict": "keep", "rank": 2, "why": "Dashboard/visualisation list; mostly older tools, harvest only the frameworks.", "tags": ["dashboard", "charts"]}
+{"id": "f-b41cbbacfe", "verdict": "keep", "rank": 1, "why": "Short list of free dashboards; mostly dated.", "tags": ["dashboard"]}
+{"id": "f-c5394eb28a", "verdict": "keep", "rank": 1, "why": "Four-star boilerplate list; completeness.", "tags": []}
+{"id": "f-90e8371390", "verdict": "keep", "rank": 2, "why": "GitHub topic page for shadcn-ui; a discovery feed for new registries, not a resource itself.", "tags": []}
+{"id": "f-3e748af001", "verdict": "keep", "rank": 2, "why": "Organic-shape expressive components; large count, mine for distinctive motion pieces.", "tags": ["motion"]}
+{"id": "f-7fb726fafc", "verdict": "keep", "rank": 1, "why": "Claymorphism novelty kit; off-brand for SISO.", "tags": []}
+{"id": "f-ec36443601", "verdict": "keep", "rank": 1, "why": "Small registry with no stated focus.", "tags": []}
+{"id": "f-66a54500c3", "verdict": "keep", "rank": 2, "why": "Single R3F 3D model viewer as a shadcn item; handy for product showcase sections.", "tags": []}
+{"id": "f-b049e4cf0f", "verdict": "keep", "rank": 3, "why": "243 free Base UI blocks plus Pro; a free block corpus to compare section coverage against.", "tags": ["blocks", "marketing"]}
+{"id": "f-0fb10c57c8", "verdict": "keep", "rank": 2, "why": "8-bit retro kit; novelty, but a good example of a full themed registry.", "tags": []}
+{"id": "f-200a53f927", "verdict": "keep", "rank": 2, "why": "Niche high-utility elements; skim for components standard kits miss.", "tags": []}
+{"id": "f-6209e26810", "verdict": "keep", "rank": 1, "why": "Minimal personal registry; completeness.", "tags": []}
+{"id": "f-03b0069826", "verdict": "drop", "rank": 1, "why": "Zero components; web3 app kit for Abstract chain, off-topic.", "tags": [], "note": "Zero components; web3 app kit for Abstract chain, off-topic."}
+{"id": "f-e9d46cfc01", "verdict": "keep", "rank": 1, "why": "Small personal registry.", "tags": []}
+{"id": "f-a5b6a9ce8a", "verdict": "keep", "rank": 4, "why": "Aceternity: 200+ award-style motion components and landing templates (free core, paid templates); prime source for marketing hero effects.", "tags": ["motion", "marketing"]}
+{"id": "f-5ae3541103", "verdict": "keep", "rank": 1, "why": "Six-item shadcn add-on; completeness.", "tags": []}
+{"id": "f-ac6bcd4b8a", "verdict": "keep", "rank": 2, "why": "Terminal/CRT-styled Base UI kit; a reference if an agent console wants a terminal aesthetic.", "tags": []}
+{"id": "f-7cd36661e4", "verdict": "keep", "rank": 1, "why": "AI-crawler-friendly blog install; adjacent SEO tooling, not components.", "tags": ["marketing"]}
+{"id": "f-52afbfd1cf", "verdict": "keep", "rank": 3, "why": "Complete agent recipes (Mastra etc.) as registry items; shows how to ship whole agent features, not just widgets.", "tags": ["ai-chat"]}
+{"id": "f-c08f27231e", "verdict": "keep", "rank": 2, "why": "Agent faces for work states (thinking, needs you, done); directly relevant to SISO's agent status characters.", "tags": ["ai-chat"]}
+{"id": "f-8996695042", "verdict": "keep", "rank": 4, "why": "LiveKit Agents UI: open shadcn components for voice-agent interfaces; the reference for SISO voice agent UI.", "tags": ["ai-chat"]}
+{"id": "f-996e5a9458", "verdict": "keep", "rank": 3, "why": "Agent chat, reasoning, tool activity and approvals as copyable source; compare with assistant-ui and AI Elements.", "tags": ["ai-chat"]}
+{"id": "f-811df0ce5e", "verdict": "drop", "rank": 1, "why": "Zero components; protocol landing page, off-topic.", "tags": [], "note": "Zero components; protocol landing page, off-topic."}
+{"id": "f-e87f61b3d8", "verdict": "keep", "rank": 5, "why": "Vercel AI Elements: the reference AI-native registry (message, reasoning, tool, artifact, prompt input) on shadcn; base for SISO agent apps.", "tags": ["ai-chat"]}
+{"id": "f-0f9262e937", "verdict": "keep", "rank": 3, "why": "Open-core design system with a full variant matrix built for agents; study how it documents variants for AI consumption.", "tags": ["forms"]}
+{"id": "f-3ac64f5044", "verdict": "keep", "rank": 2, "why": "Finished blocks and design systems via CLI; mixed quality aggregator.", "tags": ["blocks"]}
+{"id": "f-5062c546e7", "verdict": "keep", "rank": 1, "why": "Personal SaaS blog with a few items; completeness.", "tags": []}
+{"id": "f-7a439a5355", "verdict": "keep", "rank": 2, "why": "Algolia search-experience components; reference for search UIs.", "tags": []}
+{"id": "f-3327a96fdd", "verdict": "keep", "rank": 1, "why": "Single AMap (China) map component; completeness.", "tags": []}
+{"id": "f-3445664c35", "verdict": "keep", "rank": 1, "why": "Small registry without description.", "tags": []}
+{"id": "f-abd7e9bd50", "verdict": "keep", "rank": 2, "why": "160+ motion/transition components; another motion corpus, check for overlap with Animate UI.", "tags": ["motion"]}
+{"id": "f-9088e11d68", "verdict": "keep", "rank": 2, "why": "OKLCH, P3-aware colour picker; take it for theme editors.", "tags": ["forms"]}
+{"id": "f-70f0ffbc33", "verdict": "keep", "rank": 5, "why": "Animate UI: fully animated shadcn distribution (primitives, components, icons); best free source for motion-on-shadcn patterns. Licence needs checking (not plain MIT).", "tags": ["motion"]}
+{"id": "f-1b57fa6f91", "verdict": "keep", "rank": 3, "why": "1170 animated Lucide-based icons; drop-in polish for app chrome.", "tags": ["icons", "motion"]}
+{"id": "f-f10e6074f7", "verdict": "keep", "rank": 2, "why": "Animation hooks and components suite; mine for hooks.", "tags": ["motion"]}
+{"id": "f-fd1db35cf1", "verdict": "keep", "rank": 2, "why": "React Native shadcn port claiming 149 components (index shows 0 items); recheck.", "tags": ["mobile"]}
+{"id": "f-ceb388fd6d", "verdict": "keep", "rank": 3, "why": "React Flow approval-workflow components (quorum gates, thresholds); directly useful for agent approval UIs.", "tags": ["admin"]}
+{"id": "f-9576f62cae", "verdict": "keep", "rank": 2, "why": "Ark UI based shadcn-style kit; compare with Park UI.", "tags": []}
+{"id": "f-b4d6eb7b51", "verdict": "keep", "rank": 1, "why": "Small LLM-ready design system; completeness.", "tags": []}
+{"id": "f-ac4f93ddda", "verdict": "keep", "rank": 5, "why": "assistant-ui: MIT runtime plus 170+ chat elements (tool calls, approvals, artifacts, composer; Tool UI merged in); the strongest agent-chat foundation.", "tags": ["ai-chat"]}
+{"id": "f-0c2991be93", "verdict": "keep", "rank": 2, "why": "Creative web animations and tools; skim for award-style effects.", "tags": ["motion"]}
+{"id": "f-e393a6a3c5", "verdict": "keep", "rank": 2, "why": "591 CSS dot-matrix loaders; a loading-state source for agent \"thinking\" indicators.", "tags": ["motion"]}
+{"id": "f-c4cd3291a3", "verdict": "keep", "rank": 2, "why": "Dark-first MIT section catalogue; a second source for dark marketing sections.", "tags": ["marketing"]}
+{"id": "f-09c5ba58b3", "verdict": "keep", "rank": 3, "why": "Audio components (mixers, meters, knobs, waveforms); relevant to SISO voice tooling.", "tags": []}
+{"id": "f-ea2e324edd", "verdict": "keep", "rank": 2, "why": "Auth0 shadcn auth components; reference for login flows.", "tags": ["auth"]}
+{"id": "f-866dd1582b", "verdict": "keep", "rank": 1, "why": "Generated company registry; completeness.", "tags": []}
+{"id": "f-09fce8910a", "verdict": "keep", "rank": 1, "why": "Five creative components; completeness.", "tags": ["motion"]}
+{"id": "f-5db8e050b4", "verdict": "keep", "rank": 3, "why": "Blocks designed to compose into whole pages; study the page-composition model.", "tags": ["blocks", "marketing"]}
+{"id": "f-61b060aded", "verdict": "keep", "rank": 3, "why": "244 free native-feel components plus 213 blocks (Pro tier); notable desktop-interface and AI-chat pieces.", "tags": ["blocks", "motion", "ai-chat"]}
+{"id": "f-d134693e9e", "verdict": "keep", "rank": 1, "why": "Braille-character loaders; tiny novelty.", "tags": []}
+{"id": "f-b602e5a1ea", "verdict": "keep", "rank": 3, "why": "shadcn components ported to Base UI; the reference if UI-HUB moves off Radix.", "tags": []}
+{"id": "f-9ab41b03d7", "verdict": "keep", "rank": 2, "why": "Component system for web apps; small, skim only.", "tags": []}
+{"id": "f-aa936ac314", "verdict": "keep", "rank": 2, "why": "Logo-to-dot-field thinking indicator for agent UIs; a nice branded loading state.", "tags": ["ai-chat"]}
+{"id": "f-a56cba93be", "verdict": "keep", "rank": 4, "why": "Beste UI: 2236 blocks across marketing, e-commerce, dashboards and app screens (MIT free tier plus Pro); the widest block taxonomy to benchmark against.", "tags": ["blocks", "marketing", "dashboard"]}
+{"id": "f-9fa34c2136", "verdict": "keep", "rank": 4, "why": "Better Auth UI: ready auth, account and settings screens for Better Auth; take for SISO app sign-in and settings.", "tags": ["auth"]}
+{"id": "f-1f2cf0665f", "verdict": "keep", "rank": 3, "why": "Better Upload: S3 upload components; take for file upload in operator tools.", "tags": ["forms"]}
+{"id": "f-1d75aeff5c", "verdict": "keep", "rank": 2, "why": "Free animated components on Motion; another motion corpus.", "tags": ["motion"]}
+{"id": "f-1d0d858d2d", "verdict": "keep", "rank": 4, "why": "BillingSDK: pricing, subscription and usage components; the billing pages SISO SaaS products need.", "tags": ["admin"]}
+{"id": "f-e8b5e69cf7", "verdict": "keep", "rank": 1, "why": "Generic custom registry demo; completeness.", "tags": []}
+{"id": "f-099d55dcf5", "verdict": "keep", "rank": 2, "why": "Motion studies by Isaiah Bjork; reference for craft.", "tags": ["motion"]}
+{"id": "f-bd1dea5e39", "verdict": "keep", "rank": 4, "why": "Bklit UI: shadcn chart and data-viz components; candidate chart layer for dashboards.", "tags": ["charts"]}
+{"id": "f-65ef687173", "verdict": "keep", "rank": 1, "why": "Deterministic blob avatars; tiny utility.", "tags": []}
+{"id": "f-bbba596e07", "verdict": "keep", "rank": 1, "why": "Block registry with zero indexed items; recheck.", "tags": ["blocks"]}
+{"id": "f-7cb704c49c", "verdict": "keep", "rank": 3, "why": "blocks.so: free shadcn app blocks (login, settings, dialogs); clean, product-oriented.", "tags": ["blocks"]}
+{"id": "f-3bfff58609", "verdict": "drop", "rank": 1, "why": "Mirror reusing shadcnblocks' marketing copy; covered by the shadcnblocks record.", "tags": [], "note": "Mirror reusing shadcnblocks' marketing copy; covered by the shadcnblocks record."}
+{"id": "f-b3bfa664f0", "verdict": "keep", "rank": 2, "why": "Base UI + Tailwind v4 registry; compare with basecn.", "tags": []}
+{"id": "f-367df53ab9", "verdict": "keep", "rank": 2, "why": "Neubrutalism kit for React and Vue; style reference only.", "tags": []}
+{"id": "f-c87ec78310", "verdict": "keep", "rank": 3, "why": "Claude Code, Codex and Grok interfaces as shadcn components; directly relevant to SISO agent consoles.", "tags": ["ai-chat"]}
+{"id": "f-adf388871b", "verdict": "keep", "rank": 1, "why": "Neo-brutalist themes; style reference.", "tags": []}
+{"id": "f-113210a1bd", "verdict": "keep", "rank": 3, "why": "Bundui: 200+ components plus admin dashboard templates; useful dashboard page set.", "tags": ["dashboard", "blocks"]}
+{"id": "f-298eac563d", "verdict": "keep", "rank": 3, "why": "Schema-driven type-safe forms; compare with formscn for SISO CRM forms.", "tags": ["forms"]}
+{"id": "f-4cc7ce2cf7", "verdict": "keep", "rank": 3, "why": "420 html-in-canvas creative effects across frameworks; source for award-grade backgrounds.", "tags": ["motion"]}
+{"id": "f-6188134034", "verdict": "keep", "rank": 1, "why": "Card component gallery; completeness.", "tags": []}
+{"id": "f-6948a13540", "verdict": "keep", "rank": 4, "why": "Catalogs.dev: components, screens and themes collected into a cart and handed to a coding agent; closest analog to UI-HUB's agent-facing hub, study the flow.", "tags": []}
+{"id": "f-6956ca76fd", "verdict": "keep", "rank": 3, "why": "Shader components and interactive backgrounds; source for award-grade hero visuals.", "tags": ["motion", "marketing"]}
+{"id": "f-37cbb214e1", "verdict": "keep", "rank": 1, "why": "Product-search components tied to one SDK.", "tags": []}
+{"id": "f-25d44ab6f0", "verdict": "keep", "rank": 2, "why": "Clerk via shadcn CLI; auth reference.", "tags": ["auth"]}
+{"id": "f-1089e63e96", "verdict": "keep", "rank": 3, "why": "CLI blocks for agents (trust ladders, killswitch, --json); relevant to SISO agent tooling.", "tags": []}
+{"id": "f-1097497802", "verdict": "keep", "rank": 3, "why": "1100+ Base UI items; large corpus, check quality before mining.", "tags": []}
+{"id": "f-3f281cdf4a", "verdict": "keep", "rank": 1, "why": "Four items, no description.", "tags": []}
+{"id": "f-324fa2e48a", "verdict": "keep", "rank": 1, "why": "Gradient colour picker; single utility.", "tags": ["forms"]}
+{"id": "f-0eb9cad823", "verdict": "keep", "rank": 2, "why": "E-commerce shadcn blocks; reference.", "tags": ["blocks"]}
+{"id": "f-672ba23282", "verdict": "keep", "rank": 2, "why": "Animated components; another motion corpus.", "tags": ["motion"]}
+{"id": "f-54c97e7c0a", "verdict": "keep", "rank": 2, "why": "Page contracts and agent briefs for content; an interesting agent-facing content idea, not UI.", "tags": []}
+{"id": "f-714d4998c6", "verdict": "keep", "rank": 1, "why": "Small custom registry.", "tags": []}
+{"id": "f-73d39e3470", "verdict": "keep", "rank": 1, "why": "No description.", "tags": []}
+{"id": "f-2d84fb0e51", "verdict": "keep", "rank": 2, "why": "Components, motion effects and blocks; mid-size corpus.", "tags": ["blocks", "motion"]}
+{"id": "f-37d0994899", "verdict": "keep", "rank": 5, "why": "coss ui (Origin UI's successor, Cal.com): 500+ particles on Base UI; best-in-class product components. Licence check needed (monorepo is AGPL).", "tags": ["forms", "blocks"]}
+{"id": "f-755e532a0a", "verdict": "keep", "rank": 1, "why": "Small motion set.", "tags": ["motion"]}
+{"id": "f-b6f70cab41", "verdict": "keep", "rank": 2, "why": "Interactive SVG icons and loaders.", "tags": ["icons", "motion"]}
+{"id": "f-ec1d1f61d8", "verdict": "keep", "rank": 2, "why": "Creative Tim shadcn components and agent blocks; index shows 0 items, recheck.", "tags": ["blocks", "ai-chat"]}
+{"id": "f-a795d0ba6b", "verdict": "keep", "rank": 2, "why": "Base UI component library; compare with basecn.", "tags": []}
+{"id": "f-c6526d1fe8", "verdict": "keep", "rank": 4, "why": "Cult UI: MIT animated components, blocks and full templates; strong taste, mine for distinctive pieces.", "tags": ["motion", "blocks"]}
+{"id": "f-cc7c145114", "verdict": "keep", "rank": 1, "why": "Premium 50-component set; little free value.", "tags": []}
+{"id": "f-e3b4840024", "verdict": "drop", "rank": 1, "why": "Dead (http 0), one item.", "tags": [], "note": "Dead (http 0), one item."}
+{"id": "f-f2266bcb0e", "verdict": "keep", "rank": 5, "why": "DashboardBlocks: 239 MIT blocks for KPIs, charts, tables, app shells and whole pages; the dashboard block layer SISO operator tools need.", "tags": ["dashboard", "charts", "data-table"]}
+{"id": "f-37da74f797", "verdict": "keep", "rank": 4, "why": "Dashboard and analytics components (KPI, funnels, tables); second dashboard source to cross-check.", "tags": ["dashboard", "charts"]}
+{"id": "f-e03b6c87d5", "verdict": "keep", "rank": 5, "why": "OpenStatus data-table-filters: faceted filters, infinite scroll, URL state on TanStack; the reference data table for CRM and logs views.", "tags": ["data-table"]}
+{"id": "f-b61aa0f74b", "verdict": "keep", "rank": 2, "why": "Agent decision pill and signed receipt components; small but on-theme for agent approvals.", "tags": ["ai-chat"]}
+{"id": "f-ee9784db42", "verdict": "keep", "rank": 1, "why": "Small free registry.", "tags": []}
+{"id": "f-ff7fbccfc5", "verdict": "keep", "rank": 2, "why": "Designer portfolio registry; skim for crafted pieces.", "tags": ["motion"]}
+{"id": "f-22199389d8", "verdict": "keep", "rank": 2, "why": "UI experiments on coss-ui; index shows 0 items.", "tags": []}
+{"id": "f-82dc06e501", "verdict": "keep", "rank": 1, "why": "Eleven-item theme kit.", "tags": []}
+{"id": "f-c48ea3679d", "verdict": "keep", "rank": 2, "why": "Blocks and templates registry; mid-size.", "tags": ["blocks"]}
+{"id": "f-135dd0ff62", "verdict": "keep", "rank": 5, "why": "Dice UI (MIT, sadmann7): data table, kanban, mention, sortable and other hard composables; site returned 526 at check, repo active.", "tags": ["data-table", "forms"]}
+{"id": "f-680f51713b", "verdict": "keep", "rank": 1, "why": "Three personal components.", "tags": []}
+{"id": "f-718b14b655", "verdict": "keep", "rank": 1, "why": "Four AI-app components.", "tags": ["ai-chat"]}
+{"id": "f-0282e64a3c", "verdict": "keep", "rank": 1, "why": "Index shows 0 items.", "tags": []}
+{"id": "f-4870d52cd5", "verdict": "keep", "rank": 2, "why": "Dot-matrix loaders; loading-state source.", "tags": ["motion"]}
+{"id": "f-edfb5b46fd", "verdict": "keep", "rank": 2, "why": "Headless date-range picker; compare with shadcn date picker.", "tags": ["forms"]}
+{"id": "f-dcfecdd6fc", "verdict": "keep", "rank": 2, "why": "Easing/spring components.", "tags": ["motion"]}
+{"id": "f-89f6cc1693", "verdict": "keep", "rank": 2, "why": "E-commerce blocks shadcn lacks; reference.", "tags": ["blocks"]}
+{"id": "f-2576286389", "verdict": "keep", "rank": 3, "why": "Efferd: clean shadcn blocks; good marketing section baseline.", "tags": ["blocks", "marketing"]}
+{"id": "f-b714066b4c", "verdict": "keep", "rank": 2, "why": "Liquid-glass components; style experiment.", "tags": ["motion"]}
+{"id": "f-125a698ee8", "verdict": "keep", "rank": 3, "why": "Eldora UI: landing-page components and templates; marketing source.", "tags": ["marketing", "motion"]}
+{"id": "f-d3637a11eb", "verdict": "keep", "rank": 3, "why": "Elements: full-stack components (auth, payments, uploads); useful for wiring, check quality.", "tags": []}
+{"id": "f-204e49c2d3", "verdict": "keep", "rank": 5, "why": "ElevenLabs UI (MIT): agent and audio components (orb, waveform, voice chat); the reference for SISO voice-agent surfaces.", "tags": ["ai-chat"]}
+{"id": "f-fb483d8543", "verdict": "keep", "rank": 1, "why": "Three patterns.", "tags": []}
+{"id": "f-f4b0688741", "verdict": "keep", "rank": 3, "why": "Email components for React Email/MJML; take for transactional email.", "tags": []}
+{"id": "f-f886cad428", "verdict": "keep", "rank": 1, "why": "Index shows 0 items.", "tags": []}
+{"id": "f-87b19a2405", "verdict": "keep", "rank": 1, "why": "One item.", "tags": []}
+{"id": "f-379f23debe", "verdict": "keep", "rank": 2, "why": "Motion-focused registry.", "tags": ["motion"]}
+{"id": "f-4002624e2a", "verdict": "keep", "rank": 1, "why": "No description.", "tags": []}
+{"id": "f-f45bdc7ac1", "verdict": "keep", "rank": 1, "why": "Single dither button.", "tags": ["motion"]}
+{"id": "f-8f3b063af2", "verdict": "keep", "rank": 4, "why": "EvilCharts: free animated chart components on Recharts and ECharts; candidate chart look for dashboards.", "tags": ["charts"]}
+{"id": "f-e4ec57a93f", "verdict": "keep", "rank": 1, "why": "Corporate design system (Japanese); completeness.", "tags": []}
+{"id": "f-5daf84bd7a", "verdict": "keep", "rank": 4, "why": "Extend UI: PDF/DOCX/XLSX viewers with bounding-box citations and e-signing; the document layer for agent review apps.", "tags": ["ai-chat"]}
+{"id": "f-576348b2ae", "verdict": "keep", "rank": 2, "why": "Base UI components.", "tags": []}
+{"id": "f-00982aa68c", "verdict": "keep", "rank": 5, "why": "Facade (MIT, no paid tier): marketing sections and page templates on Base UI, WCAG 2.2 AA tested in light and dark; the accessible marketing block standard.", "tags": ["marketing", "blocks"]}
+{"id": "f-ec4c1447b5", "verdict": "keep", "rank": 2, "why": "Experimental parts.", "tags": ["motion"]}
+{"id": "f-920e7b67b3", "verdict": "keep", "rank": 1, "why": "Flag components.", "tags": ["icons"]}
+{"id": "f-8d20103680", "verdict": "keep", "rank": 2, "why": "MapLibre flight/route visualisations; niche maps.", "tags": ["charts"]}
+{"id": "f-68cb00ba9c", "verdict": "keep", "rank": 1, "why": "One pattern.", "tags": []}
+{"id": "f-bf2d510929", "verdict": "keep", "rank": 1, "why": "Small dev-flow registry.", "tags": []}
+{"id": "f-df41821026", "verdict": "keep", "rank": 2, "why": "Fluent 2 styled shadcn-API kit; reference for enterprise look.", "tags": []}
+{"id": "f-4984bbe254", "verdict": "keep", "rank": 2, "why": "No description; 74 items.", "tags": []}
+{"id": "f-53b88566e7", "verdict": "keep", "rank": 3, "why": "Blocks, patterns, intents and prompts for agents; study the \"intents and prompts\" packaging for UI-HUB.", "tags": ["blocks"]}
+{"id": "f-84e2bea1f1", "verdict": "keep", "rank": 2, "why": "Curated font pairings installable via shadcn; useful for theme presets.", "tags": []}
+{"id": "f-2c92842756", "verdict": "keep", "rank": 2, "why": "Animated components and marketing blocks.", "tags": ["marketing", "motion"]}
+{"id": "f-c54e4add7f", "verdict": "keep", "rank": 1, "why": "Nine form items, no description.", "tags": ["forms"]}
+{"id": "f-641be6b588", "verdict": "keep", "rank": 3, "why": "Visual form builder exporting shadcn code; useful for CRM forms.", "tags": ["forms"]}
+{"id": "f-0e409bcf0e", "verdict": "keep", "rank": 2, "why": "Video components on Editframe.", "tags": []}
+{"id": "f-19eef10748", "verdict": "keep", "rank": 2, "why": "Components from the GAIA assistant; AI assistant UI reference.", "tags": ["ai-chat"]}
+{"id": "f-77bab38ab3", "verdict": "keep", "rank": 1, "why": "Browser games; novelty.", "tags": []}
+{"id": "f-df25d844e9", "verdict": "keep", "rank": 1, "why": "Three gamification items.", "tags": []}
+{"id": "f-da339c2613", "verdict": "keep", "rank": 2, "why": "Landing-page components.", "tags": ["marketing"]}
+{"id": "f-8838466403", "verdict": "keep", "rank": 2, "why": "Composable SVG gauges; good for operator KPIs.", "tags": ["charts"]}
+{"id": "f-8182fbb059", "verdict": "keep", "rank": 1, "why": "Solid port, no description.", "tags": []}
+{"id": "f-681ffd926e", "verdict": "keep", "rank": 1, "why": "Glassmorphic kit.", "tags": []}
+{"id": "f-3f124b2d95", "verdict": "keep", "rank": 1, "why": "Liquid-glass shadcn kit.", "tags": []}
+{"id": "f-218a53bf79", "verdict": "keep", "rank": 2, "why": "354 animated components.", "tags": ["motion"]}
+{"id": "f-e1b33fccaf", "verdict": "keep", "rank": 1, "why": "Small library.", "tags": []}
+{"id": "f-5dcc3f0d13", "verdict": "keep", "rank": 3, "why": "AntV GPT-Vis: charts designed to be emitted by LLMs; relevant to generative agent UIs.", "tags": ["charts", "ai-chat"]}
+{"id": "f-60b9984e95", "verdict": "keep", "rank": 1, "why": "Index shows 0 items.", "tags": ["icons"]}
+{"id": "f-495f1bb4b0", "verdict": "keep", "rank": 4, "why": "gridcn: spreadsheet-grade data grid (range select, clipboard, typed editors); the CRM grid candidate.", "tags": ["data-table"]}
+{"id": "f-8c3c0c0683", "verdict": "keep", "rank": 1, "why": "Small SEO blocks set.", "tags": ["blocks"]}
+{"id": "f-cb36abdf93", "verdict": "drop", "rank": 1, "why": "Sales-outreach product, not a UI registry.", "tags": [], "note": "Sales-outreach product, not a UI registry."}
+{"id": "f-0059b4b3a0", "verdict": "keep", "rank": 1, "why": "No description; 49 items.", "tags": []}
+{"id": "f-8fe7baf06b", "verdict": "keep", "rank": 2, "why": "Home Assistant dashboard components; reference for device/status tiles.", "tags": ["dashboard"]}
+{"id": "f-6227153cb2", "verdict": "keep", "rank": 1, "why": "Single transfer-list component.", "tags": ["forms"]}
+{"id": "f-5a6da7e0ab", "verdict": "drop", "rank": 1, "why": "Zero components; a CMS, off-topic.", "tags": [], "note": "Zero components; a CMS, off-topic."}
+{"id": "f-3f4359432e", "verdict": "keep", "rank": 2, "why": "Calendar/status heatmaps; useful activity views (index shows 0 items).", "tags": ["charts"]}
+{"id": "f-fbd74a5b7b", "verdict": "keep", "rank": 3, "why": "HeroUI design on shadcn abstraction; 625 items, a HeroUI look without the runtime.", "tags": []}
+{"id": "f-ff4b782df3", "verdict": "keep", "rank": 2, "why": "Animated Heroicons.", "tags": ["icons", "motion"]}
+{"id": "f-1786c58d4b", "verdict": "keep", "rank": 4, "why": "HextaUI (MIT, Pro extra): AI product blocks with streaming, tool-call, reasoning and voice screens; strong agent-app block source.", "tags": ["ai-chat"]}
+{"id": "f-a0fa0649bb", "verdict": "keep", "rank": 2, "why": "Free marketing sections.", "tags": ["marketing"]}
+{"id": "f-dff6663d19", "verdict": "keep", "rank": 3, "why": "Hirael: multi-select and other hard inputs plus page templates on Radix and Base UI.", "tags": ["forms", "blocks"]}
+{"id": "f-6c8c080fe2", "verdict": "keep", "rank": 2, "why": "Components plus charts and effects.", "tags": ["charts"]}
+{"id": "f-a06070e25e", "verdict": "keep", "rank": 2, "why": "Animated Hugeicons for React.", "tags": ["icons", "motion"]}
+{"id": "f-61b9696d8b", "verdict": "keep", "rank": 1, "why": "Animated Hugeicons for Vue.", "tags": ["icons", "motion"]}
+{"id": "f-78a8b9f296", "verdict": "keep", "rank": 2, "why": "Product-engineer components.", "tags": []}
+{"id": "f-8718124976", "verdict": "keep", "rank": 2, "why": "Motion primitives registry.", "tags": ["motion"]}
+{"id": "f-24d7339523", "verdict": "keep", "rank": 1, "why": "Index shows 0 items.", "tags": ["icons"]}
+{"id": "f-a4a966e68b", "verdict": "keep", "rank": 3, "why": "64 high-level composed components; good for composed-component patterns.", "tags": ["blocks"]}
+{"id": "f-b9eef1d560", "verdict": "keep", "rank": 1, "why": "Indian government design-system kit; completeness.", "tags": []}
+{"id": "f-5e2e14d580", "verdict": "keep", "rank": 3, "why": "Chat, A2UI widgets and tool approvals; an early A2UI renderer to learn from.", "tags": ["ai-chat"]}
+{"id": "f-679d5fd70b", "verdict": "keep", "rank": 3, "why": "Marketing blocks plus agent skills for coding agents; study how it packages skills with blocks.", "tags": ["marketing"]}
+{"id": "f-0abc02e8b5", "verdict": "keep", "rank": 4, "why": "Intent UI: 87+ React Aria components; the accessibility-first alternative to Radix-based kits.", "tags": ["forms"]}
+{"id": "f-90d3d31dbb", "verdict": "keep", "rank": 2, "why": "Micro-interactions for the half-second after a click.", "tags": ["motion"]}
+{"id": "f-da0a721b52", "verdict": "keep", "rank": 1, "why": "Isometric illustrations.", "tags": []}
+{"id": "f-8132d6dd2f", "verdict": "keep", "rank": 1, "why": "Index shows 0 items.", "tags": []}
+{"id": "f-80ac93709a", "verdict": "keep", "rank": 2, "why": "Joly UI animated components.", "tags": ["motion"]}
+{"id": "f-ca4dba6b29", "verdict": "keep", "rank": 2, "why": "JOYCO studio internal hub.", "tags": []}
+{"id": "f-ba3bc04f30", "verdict": "keep", "rank": 2, "why": "Radial pie menu; interesting operator interaction.", "tags": []}
+{"id": "f-5aa9e1c236", "verdict": "keep", "rank": 2, "why": "JSON tree viewer; useful for agent debugging panels.", "tags": []}
+{"id": "f-84a73009ef", "verdict": "keep", "rank": 3, "why": "Kanpeki: 259 components on React Aria and Motion; polished alternative base.", "tags": []}
+{"id": "f-d997eec336", "verdict": "keep", "rank": 1, "why": "Small design-system docs.", "tags": []}
+{"id": "f-6c98756255", "verdict": "keep", "rank": 1, "why": "Personal registry.", "tags": []}
+{"id": "f-6fa5d2fe79", "verdict": "keep", "rank": 3, "why": "Keyline: 1366 MIT icons in four styles; candidate icon set.", "tags": ["icons"]}
+{"id": "f-3dc2666518", "verdict": "keep", "rank": 5, "why": "Kibo UI (MIT, now under shadcnblocks): Gantt, Kanban, calendar, editor, dropzone; the composable app components a CRM and ops tools need.", "tags": ["data-table", "forms", "dashboard"]}
+{"id": "f-af4e568bab", "verdict": "keep", "rank": 1, "why": "Scrub number input.", "tags": ["forms"]}
+{"id": "f-fb3b51d069", "verdict": "keep", "rank": 1, "why": "Private-preview screens.", "tags": []}
+{"id": "f-6a3ad09133", "verdict": "keep", "rank": 1, "why": "Small registry.", "tags": []}
+{"id": "f-599b9a6b70", "verdict": "keep", "rank": 2, "why": "Already researched by UI-HUB (Kobra): OTP input.", "tags": ["forms"]}
+{"id": "f-2125d46ca0", "verdict": "keep", "rank": 4, "why": "KokonutUI: 100+ free components with strong AI-chat inputs and cards; proven taste.", "tags": ["motion", "ai-chat"]}
+{"id": "f-9638c5faf5", "verdict": "keep", "rank": 3, "why": "Launch UI: landing-page components and templates (index shows 0 items, site live).", "tags": ["marketing"]}
+{"id": "f-cb59058928", "verdict": "keep", "rank": 1, "why": "Two agent blocks.", "tags": ["ai-chat"]}
+{"id": "f-9adc8f75a4", "verdict": "keep", "rank": 1, "why": "University design system (Portuguese); completeness.", "tags": []}
+{"id": "f-38e5622788", "verdict": "keep", "rank": 1, "why": "Lens social blocks; web3 niche.", "tags": []}
+{"id": "f-f02330d9e2", "verdict": "keep", "rank": 2, "why": "Video/audio player components on Shaka.", "tags": []}
+{"id": "f-e319ef166b", "verdict": "keep", "rank": 2, "why": "WebGL refraction primitives; style experiment.", "tags": ["motion"]}
+{"id": "f-dd45ef817e", "verdict": "keep", "rank": 3, "why": "Composable dashboard charts; another chart layer to compare.", "tags": ["charts"]}
+{"id": "f-b7d8d1f132", "verdict": "keep", "rank": 1, "why": "LMS components.", "tags": []}
+{"id": "f-0b502915b8", "verdict": "keep", "rank": 2, "why": "Animated loaders.", "tags": ["motion"]}
+{"id": "f-55d4c5c54f", "verdict": "keep", "rank": 2, "why": "Accessible loaders.", "tags": ["motion"]}
+{"id": "f-3654c46423", "verdict": "keep", "rank": 3, "why": "Browser-local AI UI components and blocks.", "tags": ["ai-chat"]}
+{"id": "f-c302d4a277", "verdict": "keep", "rank": 2, "why": "1011 SVG tool logos; useful for integration pickers.", "tags": ["icons"]}
+{"id": "f-4b5bb6b5c0", "verdict": "keep", "rank": 3, "why": "Lucide Animated: 350+ MIT motion icons on SISO's default icon set.", "tags": ["icons", "motion"]}
+{"id": "f-06c4b8daaf", "verdict": "keep", "rank": 2, "why": "Base UI components.", "tags": []}
+{"id": "f-0143dc6f80", "verdict": "keep", "rank": 3, "why": "LyteNyte Grid: fast data table with pivoting and tree data; enterprise-grid alternative.", "tags": ["data-table"]}
+{"id": "f-aa76a9bec9", "verdict": "keep", "rank": 5, "why": "Magic UI (MIT, 22k stars): landing-page motion components and templates; the standard source for award-grade marketing effects.", "tags": ["marketing", "motion"]}
+{"id": "f-8da986b7b6", "verdict": "keep", "rank": 3, "why": "Components for ChatGPT apps and agentic UIs.", "tags": ["ai-chat"]}
+{"id": "f-a69504ac5a", "verdict": "keep", "rank": 4, "why": "mapcn: MapLibre map components styled for shadcn; maps for operator dashboards.", "tags": ["charts"]}
+{"id": "f-090d250b73", "verdict": "keep", "rank": 1, "why": "Material-styled shadcn port.", "tags": []}
+{"id": "f-597708c2d5", "verdict": "keep", "rank": 1, "why": "Upload components.", "tags": ["forms"]}
+{"id": "f-6ab162f2bf", "verdict": "keep", "rank": 2, "why": "Motion and GSAP sections.", "tags": ["motion"]}
+{"id": "f-418630421d", "verdict": "keep", "rank": 2, "why": "Microinteractions.", "tags": ["motion"]}
+{"id": "f-7873ff0666", "verdict": "keep", "rank": 2, "why": "500+ free components and blocks.", "tags": ["blocks", "marketing"]}
+{"id": "f-7554ec44f6", "verdict": "keep", "rank": 3, "why": "Document viewers, redaction and agent chat; agent review tooling.", "tags": ["ai-chat"]}
+{"id": "f-61cb544af4", "verdict": "keep", "rank": 1, "why": "Personal registry.", "tags": []}
+{"id": "f-7615adf519", "verdict": "keep", "rank": 2, "why": "React and Solid components with CSS Modules.", "tags": []}
+{"id": "f-1c348cec18", "verdict": "drop", "rank": 1, "why": "Dead (http 0), no items.", "tags": [], "note": "Dead (http 0), no items."}
+{"id": "f-ce6ab1d12c", "verdict": "keep", "rank": 2, "why": "Model-driven interactive components (optics, mechanics); craft reference.", "tags": ["motion"]}
+{"id": "f-8933251a70", "verdict": "keep", "rank": 2, "why": "150 motion implementations (Chinese docs); skim for effects.", "tags": ["motion"]}
+{"id": "f-4e1f760285", "verdict": "keep", "rank": 4, "why": "Motion-Primitives (ibelick): MIT animated primitives for app UIs; restrained, product-grade motion.", "tags": ["motion"]}
+{"id": "f-ac41398dab", "verdict": "keep", "rank": 2, "why": "Animated components.", "tags": ["motion"]}
+{"id": "f-6df76b5489", "verdict": "keep", "rank": 1, "why": "Small library.", "tags": []}
+{"id": "f-c3a454def2", "verdict": "keep", "rank": 2, "why": "Small lab with build write-ups; learning reference.", "tags": []}
+{"id": "f-d65b8a1d55", "verdict": "keep", "rank": 4, "why": "Mozaika: real product screens and flows structured for agents; a model for how UI-HUB should describe screens to agents.", "tags": []}
+{"id": "f-bc8c93895f", "verdict": "keep", "rank": 2, "why": "MUI Treasury: recipes for MUI projects; off-stack.", "tags": []}
+{"id": "f-3e2a69a532", "verdict": "keep", "rank": 1, "why": "Personal kit.", "tags": []}
+{"id": "f-6176d1d663", "verdict": "keep", "rank": 2, "why": "Components, blocks and templates.", "tags": ["blocks"]}
+{"id": "f-0098a800d9", "verdict": "keep", "rank": 3, "why": "chanhdai: pixel-perfect personal components; high craft.", "tags": []}
+{"id": "f-da385148ec", "verdict": "keep", "rank": 3, "why": "Form fields and blocks for shadcn; CRM form source.", "tags": ["forms"]}
+{"id": "f-fe4f233598", "verdict": "keep", "rank": 1, "why": "Neobrutalist kit.", "tags": []}
+{"id": "f-fdbe311371", "verdict": "keep", "rank": 2, "why": "neobrutalism.dev: the reference neobrutalist shadcn kit (index shows 0 items).", "tags": []}
+{"id": "f-351ee8f135", "verdict": "keep", "rank": 2, "why": "Neon database UI layer; DB-console reference.", "tags": []}
+{"id": "f-8d3aaaee07", "verdict": "keep", "rank": 1, "why": "Index shows 0 items.", "tags": []}
+{"id": "f-2c32ebf04c", "verdict": "keep", "rank": 3, "why": "Nexus UI: primitives for AI-native apps.", "tags": ["ai-chat"]}
+{"id": "f-11d2a344bc", "verdict": "keep", "rank": 3, "why": "TanStack Table components with filters and virtualisation.", "tags": ["data-table"]}
+{"id": "f-efb84d9090", "verdict": "drop", "rank": 1, "why": "Dead (http 0), no description.", "tags": [], "note": "Dead (http 0), no description."}
+{"id": "f-e308ff77ec", "verdict": "keep", "rank": 1, "why": "Mac OS 9 recreation; novelty.", "tags": []}
+{"id": "f-f9883d54ac", "verdict": "keep", "rank": 1, "why": "Package showcase.", "tags": []}
+{"id": "f-7469ec416c", "verdict": "keep", "rank": 3, "why": "542 single-interaction components with screenshot tests; study the screenshot-gated quality bar.", "tags": []}
+{"id": "f-73a548dea2", "verdict": "keep", "rank": 2, "why": "Notebook interface components; reference for agent notebooks.", "tags": []}
+{"id": "f-06f75382a1", "verdict": "keep", "rank": 2, "why": "nuqs URL-state parsers; pairs with data tables.", "tags": ["data-table"]}
+{"id": "f-4a32985498", "verdict": "keep", "rank": 3, "why": "Motion-first marketing sections with tuned easing.", "tags": ["marketing", "motion"]}
+{"id": "f-b55e7b3f72", "verdict": "keep", "rank": 1, "why": "Government AI app, no description.", "tags": []}
+{"id": "f-b2fa550a23", "verdict": "keep", "rank": 2, "why": "Design-focused Next.js library.", "tags": []}
+{"id": "f-aa3a5b356b", "verdict": "keep", "rank": 2, "why": "OG image components on Satori.", "tags": []}
+{"id": "f-40304370ed", "verdict": "keep", "rank": 1, "why": "OIDC policy forms; niche.", "tags": ["forms"]}
+{"id": "f-b3719cc666", "verdict": "keep", "rank": 1, "why": "Web3 components.", "tags": []}
+{"id": "f-0812b62a7b", "verdict": "keep", "rank": 1, "why": "Liquid-glass components.", "tags": []}
+{"id": "f-df7f4c5fe1", "verdict": "keep", "rank": 1, "why": "Studio site, one item.", "tags": []}
+{"id": "f-2eff511478", "verdict": "drop", "rank": 1, "why": "Zero components; privacy-policy generator, off-topic.", "tags": [], "note": "Zero components; privacy-policy generator, off-topic."}
+{"id": "f-83e5113a60", "verdict": "keep", "rank": 3, "why": "OpenStatus status-page components; take for SISO status pages.", "tags": ["dashboard"]}
+{"id": "f-1ef70a2199", "verdict": "keep", "rank": 2, "why": "Optics design system registry.", "tags": []}
+{"id": "f-da25698ab5", "verdict": "keep", "rank": 2, "why": "React Aria components alongside shadcn.", "tags": ["forms"]}
+{"id": "f-8e7d0373ea", "verdict": "drop", "rank": 1, "why": "Duplicate of paceui (identical description, same product).", "tags": [], "note": "Duplicate of paceui (identical description, same product)."}
+{"id": "f-082ef66a5b", "verdict": "keep", "rank": 2, "why": "PaceUI animated components (free plus paid).", "tags": ["motion"]}
+{"id": "f-fe355e14e8", "verdict": "keep", "rank": 2, "why": "PaceUI GSAP timeline components.", "tags": ["motion"]}
+{"id": "f-2463ed65be", "verdict": "keep", "rank": 1, "why": "Paddle billing docs, not a UI library.", "tags": []}
+{"id": "f-ff3040cf52", "verdict": "keep", "rank": 2, "why": "Colour systems for shadcn; theme presets.", "tags": []}
+{"id": "f-b6c3e54741", "verdict": "keep", "rank": 1, "why": "Liquid-glass kit.", "tags": []}
+{"id": "f-6861001c96", "verdict": "keep", "rank": 1, "why": "Instructure tokens and icons.", "tags": ["icons"]}
+{"id": "f-22cf4edc95", "verdict": "keep", "rank": 2, "why": "Polished defaults registry.", "tags": []}
+{"id": "f-7e6b23b622", "verdict": "keep", "rank": 2, "why": "Tool to host shareable registry URLs; relevant infra idea for UI-HUB.", "tags": []}
+{"id": "f-9bba72b759", "verdict": "keep", "rank": 1, "why": "Payment toolkit, not UI.", "tags": []}
+{"id": "f-0f1c57efcd", "verdict": "keep", "rank": 2, "why": "Payload CMS blocks; CMS-backed marketing.", "tags": ["blocks"]}
+{"id": "f-2ee5b49f21", "verdict": "keep", "rank": 1, "why": "RTL-first library.", "tags": []}
+{"id": "f-27f8399ab9", "verdict": "keep", "rank": 2, "why": "WebGL photo editor components.", "tags": []}
+{"id": "f-c34a292f10", "verdict": "drop", "rank": 1, "why": "Zero components; description is a 404 page.", "tags": [], "note": "Zero components; description is a 404 page."}
+{"id": "f-884c13e58b", "verdict": "keep", "rank": 3, "why": "Pipecat voice-AI UI components; voice agent reference.", "tags": ["ai-chat"]}
+{"id": "f-1400533007", "verdict": "keep", "rank": 2, "why": "Agents as pixel-art employees in an office; a playful agent-fleet view.", "tags": ["ai-chat"]}
+{"id": "f-f2d2e8b47d", "verdict": "keep", "rank": 1, "why": "Pixel-art kit.", "tags": []}
+{"id": "f-6846427167", "verdict": "keep", "rank": 4, "why": "Plate: AI rich-text editor on shadcn (324 items); the editor for SISO docs and notes.", "tags": ["forms"]}
+{"id": "f-d5cad63042", "verdict": "keep", "rank": 2, "why": "Recharts/D3 visualisations.", "tags": ["charts"]}
+{"id": "f-c60fe75b94", "verdict": "keep", "rank": 2, "why": "260 accessible components.", "tags": []}
+{"id": "f-030007ca12", "verdict": "keep", "rank": 5, "why": "prompt-kit (MIT, ibelick): prompt input, message, reasoning, tool and markdown blocks; tight, high-craft AI chat primitives.", "tags": ["ai-chat"]}
+{"id": "f-5e285302e6", "verdict": "keep", "rank": 3, "why": "ProseKit rich-text editor; editor alternative.", "tags": ["forms"]}
+{"id": "f-5387a26940", "verdict": "keep", "rank": 1, "why": "Personal site.", "tags": []}
+{"id": "f-7fe33bfaca", "verdict": "keep", "rank": 2, "why": "Agent-oriented open registry.", "tags": []}
+{"id": "f-cb8bc8a5a8", "verdict": "drop", "rank": 1, "why": "Dead (http 0), no items.", "tags": [], "note": "Dead (http 0), no items."}
+{"id": "f-c0d0fee135", "verdict": "keep", "rank": 2, "why": "Quill design system; warm editorial palette reference.", "tags": []}
+{"id": "f-e644dc64fe", "verdict": "keep", "rank": 1, "why": "Quiz-funnel components.", "tags": ["forms"]}
+{"id": "f-85c74aba6f", "verdict": "keep", "rank": 1, "why": "Small registry.", "tags": []}
+{"id": "f-054969ca4d", "verdict": "keep", "rank": 1, "why": "No description.", "tags": []}
+{"id": "f-958f40dcf4", "verdict": "keep", "rank": 4, "why": "React Aria (Adobe): world-class accessible behaviour hooks and components; the accessibility reference.", "tags": ["forms"]}
+{"id": "f-2116cfebb9", "verdict": "keep", "rank": 5, "why": "React Bits (48k stars): 200+ animated, interactive components and backgrounds; the richest free source for award-grade effects (MIT + Commons Clause, check terms).", "tags": ["motion", "marketing"]}
+{"id": "f-b9a02ff2ed", "verdict": "keep", "rank": 1, "why": "Modal helper.", "tags": []}
+{"id": "f-8f7fc8f913", "verdict": "keep", "rank": 1, "why": "Slot helper.", "tags": []}
+{"id": "f-aded6d6c5a", "verdict": "keep", "rank": 2, "why": "Animated components.", "tags": ["motion"]}
+{"id": "f-6b60d1b70a", "verdict": "keep", "rank": 5, "why": "registry.directory: index of public shadcn registries with items.json API; the feed UI-HUB should ingest to track the ecosystem.", "tags": []}
+{"id": "f-68f5eed029", "verdict": "keep", "rank": 3, "why": "Remotion demo-video kit; product videos for marketing.", "tags": ["marketing", "motion"]}
+{"id": "f-a34cabf8f7", "verdict": "keep", "rank": 2, "why": "Remotion motion components (index shows 0).", "tags": ["motion"]}
+{"id": "f-82d214ce1d", "verdict": "keep", "rank": 1, "why": "ReScript port.", "tags": []}
+{"id": "f-2072700a61", "verdict": "keep", "rank": 3, "why": "Virtualised document and structured-data viewers; agent review tooling.", "tags": ["ai-chat"]}
+{"id": "f-3caa89cfd6", "verdict": "keep", "rank": 2, "why": "RetroUI neobrutalism kit.", "tags": []}
+{"id": "f-494a6956b4", "verdict": "keep", "rank": 4, "why": "ReUI: free shadcn components incl. data grid, plus pro blocks; strong product components.", "tags": ["data-table", "forms"]}
+{"id": "f-b3ea1f72b2", "verdict": "keep", "rank": 2, "why": "Base UI with CSS Modules.", "tags": []}
+{"id": "f-536ec8b506", "verdict": "keep", "rank": 1, "why": "Index shows 0 items.", "tags": []}
+{"id": "f-8aa5deacde", "verdict": "keep", "rank": 2, "why": "Astro and React blocks.", "tags": ["blocks"]}
+{"id": "f-7126a85e21", "verdict": "drop", "rank": 1, "why": "Dead (http 0), no items.", "tags": [], "note": "Dead (http 0), no items."}
+{"id": "f-5cc9c5b6cd", "verdict": "keep", "rank": 1, "why": "Personal site.", "tags": []}
+{"id": "f-35a19ab11e", "verdict": "keep", "rank": 1, "why": "Small registry.", "tags": []}
+{"id": "f-09b63e3abd", "verdict": "keep", "rank": 1, "why": "Base UI design system.", "tags": []}
+{"id": "f-efc7913729", "verdict": "keep", "rank": 3, "why": "Streaming, tool calls and citations patterns.", "tags": ["ai-chat"]}
+{"id": "f-7de188200d", "verdict": "keep", "rank": 2, "why": "ScrollX UI animated components.", "tags": ["motion"]}
+{"id": "f-0a754dd8a4", "verdict": "keep", "rank": 3, "why": "seamui: shadcn model on Base UI with motion depth.", "tags": ["motion"]}
+{"id": "f-57cf6e12de", "verdict": "keep", "rank": 1, "why": "Canvas effects.", "tags": ["motion"]}
+{"id": "f-8a8bc44e40", "verdict": "keep", "rank": 2, "why": "Base UI primitives (free plus Pro).", "tags": []}
+{"id": "f-348d5609f3", "verdict": "keep", "rank": 3, "why": "Dark sci-fi fleet-ops HUD kit (MIT); on-theme for an agent fleet console.", "tags": ["dashboard"]}
+{"id": "f-b1f27807e8", "verdict": "keep", "rank": 3, "why": "Large shadcn dashboard kit collection.", "tags": ["dashboard", "blocks"]}
+{"id": "f-56660abdc1", "verdict": "keep", "rank": 1, "why": "Single editor.", "tags": ["forms"]}
+{"id": "f-703886dee3", "verdict": "keep", "rank": 2, "why": "Leaflet/MapLibre maps.", "tags": ["charts"]}
+{"id": "f-c7f51900e3", "verdict": "keep", "rank": 3, "why": "ShadcnSpace: ~1000 blocks and dashboard layouts (mixed free/pro).", "tags": ["blocks", "dashboard"]}
+{"id": "f-a4c356d194", "verdict": "keep", "rank": 3, "why": "shadcn/studio: 1000+ blocks, theme generator (mostly Pro).", "tags": ["blocks"]}
+{"id": "f-343403dfbc", "verdict": "keep", "rank": 3, "why": "3900+ blocks in three tiers; the largest block corpus, mostly paid.", "tags": ["blocks"]}
+{"id": "f-f9117ab287", "verdict": "keep", "rank": 3, "why": "Shadcnblocks: large premium block library (now owns Kibo); paid reference.", "tags": ["blocks", "marketing"]}
+{"id": "f-44b15655de", "verdict": "keep", "rank": 2, "why": "Design system plus Figma kit (paid).", "tags": []}
+{"id": "f-c5d7cf4b00", "verdict": "keep", "rank": 2, "why": "shadcn Figma kit; design-side reference.", "tags": []}
+{"id": "f-109ea91424", "verdict": "keep", "rank": 2, "why": "React hooks collection.", "tags": []}
+{"id": "f-f2b31d3b0c", "verdict": "keep", "rank": 1, "why": "CSS loaders.", "tags": ["motion"]}
+{"id": "f-08c3fbcd61", "verdict": "keep", "rank": 2, "why": "170+ SVG maps.", "tags": ["charts"]}
+{"id": "f-1543c8e6de", "verdict": "keep", "rank": 2, "why": "Blocks, mostly paid.", "tags": ["blocks"]}
+{"id": "f-500e892733", "verdict": "keep", "rank": 3, "why": "Free shadcn blocks catalogue.", "tags": ["blocks"]}
+{"id": "f-631eca6fe2", "verdict": "keep", "rank": 3, "why": "Admin dashboards and templates (mixed free/pro).", "tags": ["dashboard", "admin"]}
+{"id": "f-9a984f187d", "verdict": "keep", "rank": 1, "why": "Ark UI shadcn kit (0 indexed).", "tags": []}
+{"id": "f-e127c49240", "verdict": "keep", "rank": 1, "why": "README badges; off-core.", "tags": []}
+{"id": "f-7f58ced330", "verdict": "keep", "rank": 1, "why": "Personal site.", "tags": []}
+{"id": "f-397cd5e59f", "verdict": "keep", "rank": 2, "why": "Search across shadcn registries; competitor to study.", "tags": []}
+{"id": "f-dd5221779e", "verdict": "keep", "rank": 1, "why": "One item.", "tags": []}
+{"id": "f-c0a94c59ad", "verdict": "keep", "rank": 3, "why": "simple-ai: AI chat and workflow components.", "tags": ["ai-chat"]}
+{"id": "f-c9b98d9f92", "verdict": "keep", "rank": 2, "why": "Motion components.", "tags": ["motion"]}
+{"id": "f-b973d0a85a", "verdict": "keep", "rank": 4, "why": "Skiper UI: Rauno-style uncommon interactions (free set plus Pro); award-grade motion reference.", "tags": ["motion", "marketing"]}
+{"id": "f-d3c1b9955d", "verdict": "keep", "rank": 2, "why": "Token-driven design system.", "tags": []}
+{"id": "f-4896f572de", "verdict": "keep", "rank": 2, "why": "Presentation framework.", "tags": []}
+{"id": "f-503faa1ce5", "verdict": "keep", "rank": 1, "why": "Slides on reveal.js.", "tags": []}
+{"id": "f-2ae159fa2a", "verdict": "keep", "rank": 3, "why": "SmoothUI animated components.", "tags": ["motion"]}
+{"id": "f-db7b0bc267", "verdict": "keep", "rank": 2, "why": "Remotion components.", "tags": ["motion"]}
+{"id": "f-032fabbe17", "verdict": "keep", "rank": 2, "why": "Marketing blocks.", "tags": ["marketing"]}
+{"id": "f-565df93169", "verdict": "keep", "rank": 2, "why": "Components and blocks.", "tags": ["blocks"]}
+{"id": "f-6f1e3c9f55", "verdict": "keep", "rank": 2, "why": "Animated components.", "tags": ["motion"]}
+{"id": "f-3c5ca53b4c", "verdict": "keep", "rank": 1, "why": "Dot loaders.", "tags": ["motion"]}
+{"id": "f-c474db723f", "verdict": "keep", "rank": 2, "why": "Motion/GSAP components.", "tags": ["motion"]}
+{"id": "f-ae10fad1ea", "verdict": "keep", "rank": 3, "why": "700+ UI sound effects; audio feedback for apps.", "tags": []}
+{"id": "f-fb2b97198e", "verdict": "keep", "rank": 2, "why": "Already researched by UI-HUB (Space UI).", "tags": []}
+{"id": "f-76a8a4eeb8", "verdict": "keep", "rank": 1, "why": "Signature components.", "tags": ["motion"]}
+{"id": "f-5fab802c6a", "verdict": "keep", "rank": 2, "why": "Spectrum UI.", "tags": ["motion", "blocks"]}
+{"id": "f-b63641fdae", "verdict": "keep", "rank": 2, "why": "Spell UI components.", "tags": []}
+{"id": "f-15604a1d57", "verdict": "keep", "rank": 5, "why": "Square UI (6k stars, ln-dev7): open-source shadcn app layouts (Linear-style task apps, dashboards, mail); the app-shell reference set (index shows 0 items).", "tags": ["dashboard", "admin"]}
+{"id": "f-6bfe79e5e4", "verdict": "keep", "rank": 3, "why": "Dense dark dashboards for trading and agent consoles.", "tags": ["dashboard", "data-table"]}
+{"id": "f-58c1eb7b72", "verdict": "keep", "rank": 1, "why": "Animated components.", "tags": ["motion"]}
+{"id": "f-fe4683e524", "verdict": "keep", "rank": 2, "why": "Shipped-product components.", "tags": []}
+{"id": "f-a8b38bd432", "verdict": "keep", "rank": 1, "why": "Themed registry.", "tags": []}
+{"id": "f-fb215b349b", "verdict": "keep", "rank": 2, "why": "Micro-interaction-rich library.", "tags": ["motion"]}
+{"id": "f-e9ab3b015c", "verdict": "keep", "rank": 2, "why": "Stepper primitive.", "tags": ["forms"]}
+{"id": "f-1a154ebfda", "verdict": "keep", "rank": 1, "why": "Four templates.", "tags": ["marketing"]}
+{"id": "f-00b4fd2796", "verdict": "keep", "rank": 1, "why": "StyleX components.", "tags": []}
+{"id": "f-7ee0cdcc8e", "verdict": "keep", "rank": 4, "why": "Supabase UI: auth, storage, realtime blocks wired to Supabase; take for SISO apps on Supabase.", "tags": ["auth"]}
+{"id": "f-c220ff5eb1", "verdict": "keep", "rank": 3, "why": "Confirmation components (hold, type, undo); good for destructive actions in operator tools.", "tags": ["forms"]}
+{"id": "f-5e481aa9b5", "verdict": "keep", "rank": 1, "why": "Svelte port of React Bits.", "tags": ["motion"]}
+{"id": "f-87d3a07fe3", "verdict": "keep", "rank": 2, "why": "SVGL logos.", "tags": ["icons"]}
+{"id": "f-d78755a667", "verdict": "keep", "rank": 1, "why": "SwiftUI components.", "tags": []}
+{"id": "f-f431c6515d", "verdict": "keep", "rank": 2, "why": "E-commerce blocks.", "tags": ["blocks"]}
+{"id": "f-f6c40d3db0", "verdict": "keep", "rank": 2, "why": "URL-synced data table.", "tags": ["data-table"]}
+{"id": "f-a117ffcd80", "verdict": "keep", "rank": 5, "why": "Tailark (MIT): marketing blocks, pages and illustrations on shadcn; the cleanest free marketing-site block set.", "tags": ["marketing", "blocks"]}
+{"id": "f-2c1aa3fb9e", "verdict": "keep", "rank": 3, "why": "Tailgrids React components.", "tags": []}
+{"id": "f-945ef6953d", "verdict": "keep", "rank": 3, "why": "Free React admin template on Tailwind.", "tags": ["dashboard", "admin"]}
+{"id": "f-6c7256cf34", "verdict": "keep", "rank": 1, "why": "Index shows 0.", "tags": []}
+{"id": "f-6a6cc821cc", "verdict": "keep", "rank": 3, "why": "React Aria components (540 items).", "tags": ["forms"]}
+{"id": "f-bfa8d94ea0", "verdict": "keep", "rank": 3, "why": "Terminal UI components on Ink; for agent CLIs.", "tags": []}
+{"id": "f-a746c6070f", "verdict": "keep", "rank": 2, "why": "Mapbox maps.", "tags": ["charts"]}
+{"id": "f-3d5c655c80", "verdict": "keep", "rank": 1, "why": "RN foundations.", "tags": ["mobile"]}
+{"id": "f-1e735ea24a", "verdict": "keep", "rank": 1, "why": "One item.", "tags": []}
+{"id": "f-447dc44f81", "verdict": "keep", "rank": 2, "why": "Tron-style HUD theme; sci-fi console reference.", "tags": ["dashboard"]}
+{"id": "f-63efb41d4d", "verdict": "keep", "rank": 2, "why": "R3F scenes themed by shadcn tokens.", "tags": ["motion"]}
+{"id": "f-52dcb4c7f2", "verdict": "keep", "rank": 1, "why": "Cross-framework kit.", "tags": []}
+{"id": "f-ef788bf5fd", "verdict": "keep", "rank": 1, "why": "Table of contents.", "tags": []}
+{"id": "f-79e2d0a00f", "verdict": "keep", "rank": 1, "why": "Theme toggles.", "tags": []}
+{"id": "f-6f06aec2f8", "verdict": "keep", "rank": 1, "why": "Token docs components.", "tags": []}
+{"id": "f-f1a38bc1ad", "verdict": "keep", "rank": 3, "why": "Tool UI: now redirects into assistant-ui Elements; research it through the assistant-ui record.", "tags": ["ai-chat"]}
+{"id": "f-d4ab363db2", "verdict": "keep", "rank": 2, "why": "Onboarding tour component.", "tags": []}
+{"id": "f-ccc18f7ac3", "verdict": "keep", "rank": 1, "why": "Gamification kit.", "tags": []}
+{"id": "f-cc346ff9aa", "verdict": "keep", "rank": 2, "why": "OpenTUI recipes; terminal agent UIs.", "tags": []}
+{"id": "f-de2e6d8742", "verdict": "keep", "rank": 1, "why": "Telehealth platform kit.", "tags": []}
+{"id": "f-e5d41a59eb", "verdict": "keep", "rank": 2, "why": "GSAP components.", "tags": ["motion"]}
+{"id": "f-793f0b4c13", "verdict": "keep", "rank": 2, "why": "Tweakable animations.", "tags": ["motion"]}
+{"id": "f-62021af9f2", "verdict": "keep", "rank": 1, "why": "Type-safe shadcn replacements.", "tags": []}
+{"id": "f-fe5001b563", "verdict": "keep", "rank": 4, "why": "UI-Layouts (MIT): layouts and interaction components (tabs, galleries, sticky scroll); strong product and marketing craft.", "tags": ["motion", "blocks"]}
+{"id": "f-bdd90cf7d3", "verdict": "keep", "rank": 1, "why": "Personal components.", "tags": []}
+{"id": "f-1a3be95b3b", "verdict": "keep", "rank": 3, "why": "uiable: full design system with dashboards.", "tags": ["blocks", "dashboard"]}
+{"id": "f-423f768021", "verdict": "keep", "rank": 3, "why": "Already researched by UI-HUB (Arc).", "tags": ["motion"]}
+{"id": "f-d251b2f8c8", "verdict": "keep", "rank": 2, "why": "UI Capsule components.", "tags": []}
+{"id": "f-665a9bd6b9", "verdict": "keep", "rank": 2, "why": "Next.js blocks and templates.", "tags": ["blocks", "marketing"]}
+{"id": "f-4b87c4e8ab", "verdict": "keep", "rank": 1, "why": "Index shows 0 items.", "tags": ["motion"]}
+{"id": "f-21779c3295", "verdict": "keep", "rank": 2, "why": "SaaS components.", "tags": ["blocks"]}
+{"id": "f-28f49094da", "verdict": "keep", "rank": 2, "why": "Unlumen UI.", "tags": ["motion"]}
+{"id": "f-22499e05bc", "verdict": "keep", "rank": 3, "why": "Already researched by UI-HUB (uselayouts).", "tags": ["motion"]}
+{"id": "f-2ac9470dd3", "verdict": "keep", "rank": 2, "why": "Source-available design system.", "tags": []}
+{"id": "f-030d65336c", "verdict": "keep", "rank": 1, "why": "Utility functions, not UI.", "tags": []}
+{"id": "f-84bb368670", "verdict": "keep", "rank": 1, "why": "Inspiration site, 0 items.", "tags": []}
+{"id": "f-762fe7fe01", "verdict": "keep", "rank": 1, "why": "Repo-only registry.", "tags": []}
+{"id": "f-4816b53259", "verdict": "keep", "rank": 1, "why": "Company design system.", "tags": []}
+{"id": "f-17371250d0", "verdict": "keep", "rank": 3, "why": "Velora (MIT, Colorlib): animated shadcn components and landing templates.", "tags": ["marketing", "motion"]}
+{"id": "f-3d6ad7ad00", "verdict": "keep", "rank": 1, "why": "Five items.", "tags": []}
+{"id": "f-296f4a7f22", "verdict": "keep", "rank": 2, "why": "Components in 14 styles with prompts.", "tags": ["blocks"]}
+{"id": "f-56b35b22c0", "verdict": "keep", "rank": 2, "why": "Video player for shadcn.", "tags": []}
+{"id": "f-6e21188374", "verdict": "keep", "rank": 3, "why": "vllnt-ui: chat, streaming, tool calls, citations, agent activity.", "tags": ["ai-chat"]}
+{"id": "f-5a531233d9", "verdict": "keep", "rank": 1, "why": "Crypto analytics.", "tags": []}
+{"id": "f-a3cd911e92", "verdict": "keep", "rank": 2, "why": "Vue Bits port.", "tags": ["motion"]}
+{"id": "f-2e7364166a", "verdict": "keep", "rank": 1, "why": "Web3 kit, 0 items.", "tags": []}
+{"id": "f-39e3d9df64", "verdict": "keep", "rank": 1, "why": "WhatsApp Web clone components.", "tags": []}
+{"id": "f-e67f46e3a7", "verdict": "drop", "rank": 1, "why": "Dead (http 0), no items.", "tags": [], "note": "Dead (http 0), no items."}
+{"id": "f-2d044d5b7a", "verdict": "keep", "rank": 1, "why": "Themed registry.", "tags": []}
+{"id": "f-9930a80308", "verdict": "keep", "rank": 3, "why": "Watermelon: 1100+ free components, blocks and dashboards; large free corpus.", "tags": ["blocks", "dashboard"]}
+{"id": "f-dba3c8b9b6", "verdict": "keep", "rank": 2, "why": "Waveform components.", "tags": []}
+{"id": "f-992c686bb3", "verdict": "keep", "rank": 1, "why": "Small accessible set.", "tags": []}
+{"id": "f-8b13957543", "verdict": "keep", "rank": 2, "why": "Heroes, pricing and AI chat blocks.", "tags": ["marketing"]}
+{"id": "f-b6bdae29c5", "verdict": "keep", "rank": 1, "why": "Tauri-first design language.", "tags": []}
+{"id": "f-397dfc6050", "verdict": "keep", "rank": 2, "why": "80+ widgets; dashboard tile ideas.", "tags": ["dashboard"]}
+{"id": "f-a86ffddcef", "verdict": "keep", "rank": 1, "why": "No description.", "tags": []}
+{"id": "f-71c24d3e6f", "verdict": "keep", "rank": 1, "why": "Index shows 0 items.", "tags": []}
+{"id": "f-4b2992779c", "verdict": "keep", "rank": 2, "why": "Interaction experiments.", "tags": ["motion"]}
+{"id": "f-6c4a267ebe", "verdict": "keep", "rank": 1, "why": "Repo-only design system.", "tags": []}
+{"id": "f-5c153a01e6", "verdict": "keep", "rank": 1, "why": "Lexical editor.", "tags": ["forms"]}
+{"id": "f-b16dfc10e5", "verdict": "keep", "rank": 2, "why": "ZippyStarter registry.", "tags": []}
+{"id": "f-9e05ea4185", "verdict": "keep", "rank": 1, "why": "Seven-star Tailwind admin; completeness.", "tags": ["admin"]}
+{"id": "f-c32f99567a", "verdict": "keep", "rank": 1, "why": "Bootstrap 5 admin; completeness.", "tags": ["admin"]}
+{"id": "f-d4a330655b", "verdict": "keep", "rank": 2, "why": "AI-ops admin dashboard (telemetry, review workflows); on-theme layout ideas despite low stars.", "tags": ["dashboard", "admin"]}
+{"id": "f-7f9fc119eb", "verdict": "keep", "rank": 1, "why": "Flutter admin; off-stack.", "tags": ["admin"]}
+{"id": "f-d3f43a4a4c", "verdict": "keep", "rank": 2, "why": "AntV G2 dashboard examples; chart-layout reference.", "tags": ["dashboard", "charts"]}
+{"id": "f-5dac84b757", "verdict": "keep", "rank": 1, "why": "Astro starter; completeness.", "tags": ["marketing"]}
+{"id": "f-dcc2355de4", "verdict": "keep", "rank": 1, "why": "One-star boilerplate.", "tags": []}
+{"id": "f-12c9d4ce4e", "verdict": "keep", "rank": 1, "why": "Bulma admin; dated.", "tags": ["admin"]}
+{"id": "f-9872afb851", "verdict": "keep", "rank": 1, "why": "SvelteKit app template; off-stack.", "tags": []}
+{"id": "f-ec7ed10789", "verdict": "keep", "rank": 1, "why": "CodeIgniter admin; off-stack.", "tags": ["admin"]}
+{"id": "f-e509479382", "verdict": "keep", "rank": 1, "why": "Small React admin.", "tags": ["admin"]}
+{"id": "f-a4d60fe0ff", "verdict": "keep", "rank": 3, "why": "CoreUI React admin (5k stars): mature sidebar/header shell; reference for shell structure.", "tags": ["admin", "dashboard"]}
+{"id": "f-56adac065e", "verdict": "keep", "rank": 2, "why": "CoreUI Vue admin; Vue counterpart.", "tags": ["admin"]}
+{"id": "f-c7c95697a7", "verdict": "keep", "rank": 1, "why": "Deno SvelteKit starter.", "tags": []}
+{"id": "f-7c450554cd", "verdict": "keep", "rank": 1, "why": "E-commerce dashboard demo.", "tags": ["dashboard"]}
+{"id": "f-3ab8ae07d7", "verdict": "keep", "rank": 1, "why": "Minimal Electron template.", "tags": []}
+{"id": "f-423a2931cb", "verdict": "keep", "rank": 1, "why": "Electron React template (GPL).", "tags": []}
+{"id": "f-ee8a6f0242", "verdict": "keep", "rank": 2, "why": "Next.js 16 admin with hand-built components and MCP; small but current.", "tags": ["admin", "dashboard"]}
+{"id": "f-892b22e87d", "verdict": "keep", "rank": 3, "why": "FastAPI full-stack template (46k stars) with shadcn frontend; the shell if a SISO tool has a Python backend.", "tags": ["admin"]}
+{"id": "f-c36dda0859", "verdict": "keep", "rank": 1, "why": "Gatsby Storybook starter.", "tags": []}
+{"id": "f-c194876d06", "verdict": "keep", "rank": 1, "why": "AGPL glass dashboard; style only.", "tags": ["dashboard"]}
+{"id": "f-7e230bce99", "verdict": "keep", "rank": 1, "why": "Go + SvelteKit template.", "tags": []}
+{"id": "f-daf026b80f", "verdict": "drop", "rank": 1, "why": "Online Gomoku game platform, off-topic.", "tags": [], "note": "Online Gomoku game platform, off-topic."}
+{"id": "f-1bd5669982", "verdict": "keep", "rank": 1, "why": "Old Flask wallboard.", "tags": ["dashboard"]}
+{"id": "f-a0518b8eda", "verdict": "keep", "rank": 1, "why": "Course boilerplate.", "tags": ["dashboard"]}
+{"id": "f-5fb149d6c4", "verdict": "keep", "rank": 1, "why": "One-star landing template.", "tags": ["marketing"]}
+{"id": "f-ce5c2ba8f7", "verdict": "keep", "rank": 1, "why": "AngularJS/AdminLTE; legacy.", "tags": ["admin"]}
+{"id": "f-811075a078", "verdict": "keep", "rank": 1, "why": "Laravel admin.", "tags": ["admin"]}
+{"id": "f-f0e4360adc", "verdict": "keep", "rank": 2, "why": "Laravel + shadcn admin; Laravel path.", "tags": ["admin"]}
+{"id": "f-e591c1f0b8", "verdict": "keep", "rank": 1, "why": "Bootstrap 3 admin; legacy.", "tags": ["admin"]}
+{"id": "f-e1d469b60e", "verdict": "keep", "rank": 1, "why": "Flatlogic React admin.", "tags": ["admin"]}
+{"id": "f-5f71af5458", "verdict": "keep", "rank": 1, "why": "Flatlogic Vue admin.", "tags": ["admin"]}
+{"id": "f-3e56bd8d3f", "verdict": "keep", "rank": 1, "why": "Laravel/Inertia admin.", "tags": ["admin"]}
+{"id": "f-661994fbe3", "verdict": "keep", "rank": 3, "why": "MakerKit lite: Next.js + Supabase SaaS shell with auth and accounts; good SaaS shell reference.", "tags": ["admin", "auth"]}
+{"id": "f-cad2f72186", "verdict": "keep", "rank": 1, "why": "Mapbox BI boilerplate; dated.", "tags": ["dashboard"]}
+{"id": "f-dbf642af91", "verdict": "keep", "rank": 1, "why": "AngularJS Material admin; legacy.", "tags": ["admin"]}
+{"id": "f-499738694e", "verdict": "keep", "rank": 1, "why": "Modernize lite admin.", "tags": ["admin"]}
+{"id": "f-ea9991aa44", "verdict": "keep", "rank": 2, "why": "Cruip Mosaic Lite (Vue): one of the best-designed free Tailwind dashboards; layout reference.", "tags": ["admin", "dashboard"]}
+{"id": "f-5505e2e560", "verdict": "keep", "rank": 1, "why": "Bootstrap 4 admin.", "tags": ["admin"]}
+{"id": "f-54aad8a247", "verdict": "keep", "rank": 1, "why": "Istio dashboard; dated.", "tags": ["dashboard"]}
+{"id": "f-0a2852b431", "verdict": "keep", "rank": 1, "why": "Bulma landing.", "tags": ["marketing"]}
+{"id": "f-7b6b83fdb8", "verdict": "keep", "rank": 1, "why": "Next 13 dashboard.", "tags": ["dashboard"]}
+{"id": "f-5de74d65d2", "verdict": "keep", "rank": 1, "why": "Next dashboard with auth.", "tags": ["dashboard", "auth"]}
+{"id": "f-f04aab650a", "verdict": "keep", "rank": 1, "why": "Mantine blog.", "tags": ["marketing"]}
+{"id": "f-8b059dfffb", "verdict": "keep", "rank": 1, "why": "NVIDIA NIM chatbot.", "tags": ["ai-chat"]}
+{"id": "f-1802c0cc0f", "verdict": "keep", "rank": 4, "why": "Official Next.js SaaS starter (16k stars): Postgres, Stripe, shadcn; the minimal SaaS shell to copy.", "tags": ["admin", "auth"]}
+{"id": "f-6a466076a1", "verdict": "keep", "rank": 1, "why": "Small SaaS boilerplate.", "tags": ["admin"]}
+{"id": "f-c98d6982f9", "verdict": "keep", "rank": 1, "why": "Small SaaS starter.", "tags": ["admin"]}
+{"id": "f-f5ac7d1161", "verdict": "keep", "rank": 1, "why": "Small SaaS starter.", "tags": ["admin"]}
+{"id": "f-a03a7af242", "verdict": "keep", "rank": 1, "why": "Small SaaS starter.", "tags": ["admin"]}
+{"id": "f-7343180c0e", "verdict": "keep", "rank": 5, "why": "next-shadcn-dashboard-starter (MIT, 7k stars): Next 16 admin with tables, forms, kanban, auth, billing; the Next.js operator-shell baseline.", "tags": ["dashboard", "admin", "data-table", "forms", "auth"]}
+{"id": "f-1dafa04248", "verdict": "keep", "rank": 1, "why": "Clerk dashboard boilerplate.", "tags": ["dashboard"]}
+{"id": "f-01dca5fe83", "verdict": "keep", "rank": 1, "why": "Small SaaS starter.", "tags": ["admin"]}
+{"id": "f-c958a39b52", "verdict": "keep", "rank": 1, "why": "PHP admin.", "tags": ["admin"]}
+{"id": "f-26647c7fac", "verdict": "keep", "rank": 1, "why": "Bootstrap portfolio.", "tags": ["marketing"]}
+{"id": "f-f5f8deb73b", "verdict": "keep", "rank": 1, "why": "Artist portfolio.", "tags": ["marketing"]}
+{"id": "f-2548f76350", "verdict": "keep", "rank": 1, "why": "Ant Design admin.", "tags": ["admin"]}
+{"id": "f-7688f781d6", "verdict": "keep", "rank": 1, "why": "Admin boilerplate.", "tags": ["admin"]}
+{"id": "f-9fef6891b5", "verdict": "keep", "rank": 1, "why": "Admin panel.", "tags": ["admin"]}
+{"id": "f-d606d5449e", "verdict": "keep", "rank": 1, "why": "Node/MySQL admin.", "tags": ["admin"]}
+{"id": "f-3b6ddc7895", "verdict": "keep", "rank": 1, "why": "Flatlogic React dashboard; dated.", "tags": ["admin"]}
+{"id": "f-1785f2f3f0", "verdict": "keep", "rank": 1, "why": "React boilerplate.", "tags": ["dashboard"]}
+{"id": "f-6cd580e80b", "verdict": "keep", "rank": 1, "why": "Storybook library boilerplate.", "tags": []}
+{"id": "f-b5d9158908", "verdict": "keep", "rank": 1, "why": "Remix + Radix demo.", "tags": []}
+{"id": "f-0e3c87fd08", "verdict": "keep", "rank": 4, "why": "ixartz SaaS Boilerplate (7k stars): multi-tenancy, roles, i18n, landing page on shadcn; full SaaS shell reference.", "tags": ["admin", "auth", "marketing"]}
+{"id": "f-c6ae5f14d5", "verdict": "keep", "rank": 1, "why": "Small SaaS template.", "tags": ["admin"]}
+{"id": "f-21d17b16b2", "verdict": "keep", "rank": 1, "why": "Angular dashboards.", "tags": ["dashboard"]}
+{"id": "f-c5e18ed160", "verdict": "keep", "rank": 5, "why": "shadcn-admin (MIT, 16k stars): Vite admin with sidebar, command palette, tasks table, settings, chats; the most-forked shadcn app shell.", "tags": ["dashboard", "admin", "data-table"]}
+{"id": "f-243a901af5", "verdict": "keep", "rank": 1, "why": "Small shadcn dashboard.", "tags": ["dashboard"]}
+{"id": "f-e95ab097b0", "verdict": "keep", "rank": 2, "why": "Shards React dashboard; dated design system.", "tags": ["dashboard"]}
+{"id": "f-9a9874571b", "verdict": "keep", "rank": 1, "why": "Shards Vue.", "tags": ["dashboard"]}
+{"id": "f-e7a7367251", "verdict": "keep", "rank": 1, "why": "Flatlogic Sing App.", "tags": ["admin"]}
+{"id": "f-ff82a5b2bd", "verdict": "keep", "rank": 1, "why": "Storybook site template.", "tags": []}
+{"id": "f-b26b40ac86", "verdict": "keep", "rank": 1, "why": "SurveyJS demo.", "tags": ["forms"]}
+{"id": "f-04bbbf36f0", "verdict": "keep", "rank": 1, "why": "Svelte library template.", "tags": []}
+{"id": "f-7ed5b9378e", "verdict": "keep", "rank": 1, "why": "Svelte library template.", "tags": []}
+{"id": "f-59187c474e", "verdict": "keep", "rank": 1, "why": "SvelteKit Cloudflare template.", "tags": []}
+{"id": "f-3892438634", "verdict": "keep", "rank": 1, "why": "Official SvelteKit default.", "tags": []}
+{"id": "f-cc48c176ae", "verdict": "keep", "rank": 1, "why": "SvelteKit template.", "tags": []}
+{"id": "f-e15a74cc49", "verdict": "keep", "rank": 1, "why": "Electron + SvelteKit.", "tags": []}
+{"id": "f-0e222935d4", "verdict": "keep", "rank": 1, "why": "Old Tailwind admin.", "tags": ["admin"]}
+{"id": "f-f29ee58b2d", "verdict": "keep", "rank": 1, "why": "Small boilerplate.", "tags": ["dashboard"]}
+{"id": "f-3bdb211fb1", "verdict": "keep", "rank": 2, "why": "Tauri + SvelteKit desktop shell; desktop path reference.", "tags": []}
+{"id": "f-54620125c3", "verdict": "keep", "rank": 3, "why": "Taxonomy (shadcn): reference App Router app shell; aged (Next 13) but canonical structure.", "tags": ["admin"]}
+{"id": "f-305c29347f", "verdict": "keep", "rank": 1, "why": "Uko React admin.", "tags": ["admin"]}
+{"id": "f-bb3726a2f0", "verdict": "keep", "rank": 5, "why": "Vercel AI Chatbot (21k stars): the canonical full agent-chat app shell (history, artifacts, auth); start point for SISO agent apps (licence \"Other\", check).", "tags": ["ai-chat"]}
+{"id": "f-12b4c57869", "verdict": "keep", "rank": 1, "why": "Vue Electron template.", "tags": []}
+{"id": "f-5a04f21eba", "verdict": "keep", "rank": 1, "why": "One-star Vue template.", "tags": []}
+{"id": "f-b861e22bef", "verdict": "keep", "rank": 1, "why": "Nuxt Vuetify admin.", "tags": ["admin"]}
+{"id": "f-f3fbbedaea", "verdict": "keep", "rank": 3, "why": "Vue Vben Admin (34k stars) now on shadcn-vue; the mature Vue admin shell.", "tags": ["admin"]}
+{"id": "f-0321795852", "verdict": "keep", "rank": 4, "why": "Wasp Open SaaS (16k stars): free full SaaS with auth, payments, admin dashboard, landing; complete SaaS reference.", "tags": ["admin", "auth"]}
+{"id": "f-761127df5b", "verdict": "keep", "rank": 1, "why": "Vue NaiveUI admin.", "tags": ["admin"]}
+{"id": "f-4c762501dd", "verdict": "keep", "rank": 1, "why": "Minimal SvelteKit sidebar.", "tags": []}
+{"id": "f-7adfc42c31", "verdict": "keep", "rank": 2, "why": "Chromatic visual testing; the QA layer for a component hub (paid).", "tags": []}
+{"id": "f-37ba707fc0", "verdict": "keep", "rank": 2, "why": "Figma; design-source tool (paid).", "tags": []}
+{"id": "f-895becc868", "verdict": "keep", "rank": 2, "why": "Framer; award-site builder (paid), reference for marketing motion.", "tags": ["marketing"]}
+{"id": "f-b5dbb8a1d0", "verdict": "keep", "rank": 3, "why": "Storybook: workshop and docs for components; candidate preview/test harness for UI-HUB.", "tags": []}
+{"id": "f-a2d6ddba79", "verdict": "keep", "rank": 4, "why": "TweakCN: visual theme editor for shadcn; take its theme model for UI-HUB presets.", "tags": []}
+{"id": "f-7aaac2b822", "verdict": "drop", "rank": 1, "why": "Dead URL (http 0); Cult UI is covered by the cult-ui.com record.", "tags": [], "note": "Dead URL (http 0); Cult UI is covered by the cult-ui.com record."}

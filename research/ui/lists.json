@@ -1,0 +1,35 @@
+{
+ "_about": "Which awesome lists in the Foundry catalog feed which area of this domain; research/tools/awesome_import.py reads it.",
+ "lists": [
+  {
+   "list": "brillout/awesome-react-components",
+   "area": "components",
+   "min_stars": 200
+  },
+  {
+   "list": "anubhavsrivastava/awesome-ui-component-library",
+   "area": "components",
+   "min_stars": 200
+  },
+  {
+   "list": "jaywcjlove/awesome-uikit",
+   "area": "components",
+   "min_stars": 300
+  },
+  {
+   "list": "izorg/finduikit",
+   "area": "components",
+   "min_stars": 200
+  },
+  {
+   "list": "devanshutak25/3d-resources",
+   "area": "3d-motion",
+   "min_stars": 150
+  },
+  {
+   "list": "jalberty2018/awesome-comfyui",
+   "area": "image-gen",
+   "min_stars": 300
+  }
+ ]
+}

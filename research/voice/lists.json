@@ -1,0 +1,10 @@
+{
+ "_about": "Which awesome lists in the Foundry catalog feed which area of this domain; research/tools/awesome_import.py reads it.",
+ "lists": [
+  {
+   "list": "YuChen-06/awesome-speech-ai",
+   "area": "speech-models",
+   "min_stars": 100
+  }
+ ]
+}

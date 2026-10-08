@@ -1,0 +1,10 @@
+{"lead": "https://github.com/search?q=topic:agent+language:python+stars:>500", "why": "Search for high-quality Python agent frameworks on GitHub", "rank": 5, "area": "frameworks"}
+{"lead": "gh search repos \"multi-agent\" topic:orchestration --limit 50", "why": "Find multi-agent orchestration systems and patterns", "rank": 5, "area": "frameworks"}
+{"lead": "https://mcp.run/docs/tools", "why": "Official MCP tools and servers directory", "rank": 5, "area": "skill-hubs"}
+{"lead": "gh search repos \"coding agent\" --limit 30", "why": "Find AI-powered coding agent tools and harnesses", "rank": 4, "area": "harnesses"}
+{"lead": "yt-dlp --flat-playlist -J 'ytsearchdate30:claude code tutorial'", "why": "Find recent YouTube tutorials on Claude Code usage", "rank": 4, "area": "videos"}
+{"lead": "https://www.youtube.com/c/AnthropicAI", "why": "Anthropic official YouTube channel for latest agent updates", "rank": 4, "area": "videos"}
+{"lead": "gh search repos \"herdr\" --limit 20", "why": "Search for herdr-based agent orchestration tools", "rank": 3, "area": "harnesses"}
+{"lead": "gh search repos \"agent memory\" topic:framework --limit 20", "why": "Find memory and context persistence solutions for agents", "rank": 3, "area": "frameworks"}
+{"lead": "https://github.com/awesome-lists/awesome-lists", "why": "Master list of all awesome lists on GitHub", "rank": 2, "area": "skill-hubs"}
+{"lead": "https://python.langchain.com/docs/agents/", "why": "LangChain official agent framework documentation", "rank": 3, "area": "frameworks"}

@@ -1,12 +1,114 @@
+{"area": "3d-motion", "from": ["gaps-3d-assets"], "lead": "Awwwards SOTD/SOTY stack mining: https://www.awwwards.com/websites/three-js/", "rank": 5, "status": "open", "why": "Extract which libs (OGL, Lenis, GSAP, Unicorn) winners actually ship, to rank our 3D stack by evidence"}
 {"area": "components", "from": ["components"], "lead": "Explore 21st.dev/community/authors for top component creators", "rank": 5, "status": "open", "why": "Identify influential designers and developers in component ecosystem"}
+{"area": "shells", "from": ["shells"], "lead": "gh-search:awesome landing page templates", "rank": 5, "status": "open", "why": "Comprehensive curated lists of landing page shells and marketing templates"}
+{"area": "shells", "from": ["shells"], "lead": "gh-search:spa single page application", "rank": 5, "status": "open", "why": "Single-page app shells and patterns - important for modern dashboard applications"}
 {"area": "components", "from": ["components"], "lead": "https://github.com/search?q=topic:react-components stars:>1000", "rank": 5, "status": "open", "why": "High-star React component repositories on GitHub"}
+{"area": "awards", "from": ["awards"], "lead": "https://thefwa.com/directory/", "rank": 5, "status": "open", "why": "FWA complete directory of award winners and nominees"}
 {"area": "components", "from": ["components"], "lead": "https://ui.shadcn.com/docs/directory", "rank": 5, "status": "open", "why": "Official shadcn/ui directory of registries"}
+{"area": "awards", "from": ["awards"], "lead": "https://www.awwwards.com/websites/interaction-design/", "rank": 5, "status": "open", "why": "Awwwards interaction design category showcasing interaction and UX patterns"}
+{"area": "awards", "from": ["awards"], "lead": "https://www.awwwards.com/websites/portfolio/", "rank": 5, "status": "open", "why": "Awwwards portfolio category with award-winning designer portfolios"}
+{"area": "awards", "from": ["awards"], "lead": "https://www.awwwards.com/websites/scrolling/", "rank": 5, "status": "open", "why": "Awwwards scrolling effects category highlighting scroll-based interactions"}
+{"area": "awards", "from": ["awards"], "lead": "https://www.cssdesignawards.com/winners/", "rank": 5, "status": "open", "why": "CSS Design Awards complete winners list across all years"}
+{"area": "assets", "from": ["gaps-3d-assets"], "lead": "https://www.fab.com/ free monthly assets and Quixel Megascans (403 to curl; needs browser probe)", "rank": 5, "status": "open", "why": "Megascans moved to Fab; huge free/paid photoscanned library, licence terms changed 2024-25"}
+{"area": "people", "from": ["videos-people"], "lead": "known-creator:Felix Turner", "rank": 5, "status": "open", "why": "Advanced 3D web development and WebGL"}
+{"area": "people", "from": ["videos-people"], "lead": "known-creator:Florian Bruggisser", "rank": 5, "status": "open", "why": "WebGL and creative coding expert"}
+{"area": "people", "from": ["videos-people"], "lead": "known-creator:Matt Deslauriers", "rank": 5, "status": "open", "why": "Creative developer and artist in generative design"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:WebGPU 3D frameworks 2024", "rank": 5, "status": "open", "why": "Find emerging WebGPU rendering engines"}
+{"area": "videos", "from": ["videos-people"], "lead": "ytsearch:creative coding generative art", "rank": 5, "status": "open", "why": "Generative art and creative coding techniques"}
+{"area": "videos", "from": ["videos-people"], "lead": "ytsearch:figma to react components", "rank": 5, "status": "open", "why": "Design-to-code workflow automation"}
+{"area": "videos", "from": ["videos-people"], "lead": "ytsearch:neo brutalism web design", "rank": 5, "status": "open", "why": "Emerging design trend gaining popularity"}
+{"area": "videos", "from": ["videos-people"], "lead": "ytsearch:wasm webgl graphics", "rank": 5, "status": "open", "why": "WebAssembly + WebGL combination for high-performance graphics"}
 {"area": "components", "from": ["components"], "lead": "AI-powered UI generation tools (v0, UI2Code, Galileo Design)", "rank": 4, "status": "open", "why": "Emerging tools for component generation and design automation"}
+{"area": "shells", "from": ["shells"], "lead": "Awesome lists: awesome-nextjs, awesome-vue, awesome-react", "rank": 4, "status": "open", "why": "Meta-lists that consolidate framework-specific shells and templates"}
+{"area": "awards", "from": ["awards"], "lead": "Awwwards RSS/API", "rank": 4, "status": "open", "why": "Check for official Awwwards RSS feed or API for programmatic access"}
 {"area": "components", "from": ["components"], "lead": "Design tokens and theming libraries (Tokens Studio, Themekit)", "rank": 4, "status": "open", "why": "Design system token management and component theming"}
+{"area": "shells", "from": ["shells"], "lead": "Relume design system reference", "rank": 4, "status": "open", "why": "Popular web design system - reference for shell patterns and layouts"}
 {"area": "components", "from": ["components"], "lead": "Web Components and design system tooling (Web Components, Lit, FAST)", "rank": 4, "status": "open", "why": "Framework-agnostic component standards ecosystem"}
-{"area": "components", "from": ["components"], "lead": "https://www.producthunt.com/?topic=UI%20Kits", "rank": 4, "status": "open", "why": "Product Hunt UI Kit releases and component library launches"}
+{"area": "videos", "from": ["videos-people"], "lead": "blog:CSS Tricks articles on advanced animation", "rank": 4, "status": "open", "why": "Deep dives into CSS animation techniques"}
+{"area": "videos", "from": ["videos-people"], "lead": "blog:Codrops advanced tutorials archive", "rank": 4, "status": "open", "why": "Historical collection of innovative web techniques"}
+{"area": "3d-motion", "from": ["gaps-3d-assets"], "lead": "gh-search: three.js TSL WebGPU node material examples", "rank": 4, "status": "open", "why": "TSL/WebGPURenderer is where Three.js is heading; need a curated set of TSL effects for UI-HUB"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "gh-search:awesome-babylon", "rank": 4, "status": "open", "why": "Find more Babylon.js communities and tutorials"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "gh-search:awesome-shaders glsl", "rank": 4, "status": "open", "why": "Find shader collections and GLSL resources"}
+{"area": "shells", "from": ["shells"], "lead": "gh-search:chart graph visualization library", "rank": 4, "status": "open", "why": "Chart, graph, and visualization libraries that integrate with dashboard shells"}
+{"area": "shells", "from": ["shells"], "lead": "gh-search:css framework template", "rank": 4, "status": "open", "why": "Additional CSS frameworks (Foundation, Semantic, UIKit) not yet fully covered"}
+{"area": "shells", "from": ["shells"], "lead": "gh-search:data table grid component", "rank": 4, "status": "open", "why": "Advanced data table and grid components for admin shells"}
+{"area": "shells", "from": ["shells"], "lead": "gh-search:pwa progressive web app template", "rank": 4, "status": "open", "why": "Progressive web app shells with offline support and app-like experience"}
+{"area": "videos", "from": ["videos-people"], "lead": "github-awesome:awesome-react-three-fiber", "rank": 4, "status": "open", "why": "React Three Fiber ecosystem and examples"}
+{"area": "videos", "from": ["videos-people"], "lead": "github-awesome:awesome-three-js", "rank": 4, "status": "open", "why": "Curated Three.js resources and libraries"}
+{"area": "assets", "from": ["gaps-3d-assets"], "lead": "https://3d.si.edu/ Smithsonian Open Access 3D (403 to curl)", "rank": 4, "status": "open", "why": "CC0 museum-grade scanned 3D models; verify via camofox"}
+{"area": "assets", "from": ["assets"], "lead": "https://github.com/topics/awesome-design-resources", "rank": 4, "status": "open", "why": "Meta-topic for design resource lists"}
+{"area": "assets", "from": ["assets"], "lead": "https://github.com/topics/awesome-fonts", "rank": 4, "status": "open", "why": "Typography and font resource lists"}
+{"area": "assets", "from": ["assets"], "lead": "https://github.com/topics/awesome-icons", "rank": 4, "status": "open", "why": "Icon library and tool collections"}
+{"area": "image-gen", "from": ["assets"], "lead": "https://github.com/topics/stable-diffusion-models", "rank": 4, "status": "open", "why": "Community Stable Diffusion model collections"}
+{"area": "image-gen", "from": ["assets"], "lead": "https://github.com/topics/text-to-image", "rank": 4, "status": "open", "why": "Text-to-image generation tools and models"}
+{"area": "image-gen", "from": ["assets"], "lead": "https://huggingface.co/spaces", "rank": 4, "status": "open", "why": "Runnable AI model demos on Hugging Face"}
+{"area": "assets", "from": ["gaps-3d-assets"], "lead": "https://uncut.wtf/ and https://www.streamlinehq.com/ (bot-blocked: 454/429)", "rank": 4, "status": "open", "why": "Uncut = free contemporary display fonts; Streamline = 100k icons incl. free 3D/illustration sets"}
+{"area": "awards", "from": ["awards"], "lead": "https://www.awwwards.com/websites/design-agencies/", "rank": 4, "status": "open", "why": "Awwwards design agency category with award-winning agencies"}
+{"area": "awards", "from": ["awards"], "lead": "https://www.awwwards.com/websites/fashion/", "rank": 4, "status": "open", "why": "Awwwards fashion category with luxury and brand design"}
+{"area": "awards", "from": ["awards"], "lead": "https://www.awwwards.com/websites/webflow/", "rank": 4, "status": "open", "why": "Awwwards Webflow category showcasing modern web framework designs"}
+{"area": "people", "from": ["videos-people"], "lead": "known-creator:Joren Seven", "rank": 4, "status": "open", "why": "Experimental web design and interaction"}
+{"area": "people", "from": ["videos-people"], "lead": "known-creator:Linear Design", "rank": 4, "status": "open", "why": "Minimalist design and smooth interactions"}
+{"area": "people", "from": ["videos-people"], "lead": "known-creator:Stripe Design", "rank": 4, "status": "open", "why": "Industry-leading design and interaction patterns"}
+{"area": "awards", "from": ["awards"], "lead": "web search: awwwards 2024 winners", "rank": 4, "status": "open", "why": "Search for recent 2024 Awwwards winners not yet indexed"}
+{"area": "awards", "from": ["awards"], "lead": "web search: design award winning websites 2025", "rank": 4, "status": "open", "why": "Recent 2025 award-winning sites from multiple award bodies"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:3D animation case studies", "rank": 4, "status": "open", "why": "Find documented case studies of award-winning 3D animation"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:Awwwards 3D motion sites", "rank": 4, "status": "open", "why": "Catalog award-winning 3D motion websites for inspiration"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:GLSL creative coding", "rank": 4, "status": "open", "why": "Find shader art and algorithmic art resources"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:WebXR VR AR frameworks", "rank": 4, "status": "open", "why": "Discover VR/AR capabilities for immersive 3D web"}
+{"area": "image-gen", "from": ["assets"], "lead": "websearch:diffusion model leaderboard", "rank": 4, "status": "open", "why": "Ranking and comparison of diffusion models"}
+{"area": "image-gen", "from": ["assets"], "lead": "websearch:open source text to 3d", "rank": 4, "status": "open", "why": "Text-to-3D model and tool collection"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:three.js examples gallery", "rank": 4, "status": "open", "why": "Discover more Three.js showcase projects and demos"}
+{"area": "videos", "from": ["videos-people"], "lead": "ytsearch:ai generative ui components", "rank": 4, "status": "open", "why": "AI-powered component generation and UI"}
+{"area": "videos", "from": ["videos-people"], "lead": "ytsearch:motion capture web", "rank": 4, "status": "open", "why": "Real-time motion capture integration on web"}
+{"area": "videos", "from": ["videos-people"], "lead": "ytsearch:web3 interactive dapps", "rank": 4, "status": "open", "why": "Interactive web3 and blockchain-based experiences"}
 {"area": "components", "from": ["components"], "lead": "CSS-in-JS component libraries (styled-components, Emotion, Vanilla Extract)", "rank": 3, "status": "open", "why": "Styling approaches used in component libraries"}
 {"area": "components", "from": ["components"], "lead": "Component documentation generators (react-docgen, Ladle, Dostoevsky)", "rank": 3, "status": "open", "why": "Tools for automatically generating component documentation"}
 {"area": "components", "from": ["components"], "lead": "Data table/grid components (TanStack Table, AG Grid, React-Table)", "rank": 3, "status": "open", "why": "Complex data visualization component libraries"}
 {"area": "components", "from": ["components"], "lead": "Form libraries (React Hook Form, Formik, TanStack Form)", "rank": 3, "status": "open", "why": "Specialized component libraries for form handling"}
+{"area": "shells", "from": ["shells"], "lead": "Webflow template marketplace exploration", "rank": 3, "status": "open", "why": "Webflow no-code templates for visual reference of shell patterns"}
+{"area": "videos", "from": ["videos-people"], "lead": "conference:An Event Apart talks on web design", "rank": 3, "status": "open", "why": "Expert talks on modern web design trends"}
+{"area": "videos", "from": ["videos-people"], "lead": "conference:Awwwards Summit recordings", "rank": 3, "status": "open", "why": "Award-winning designers sharing techniques"}
+{"area": "image-gen", "from": ["gaps-3d-assets"], "lead": "gh-search: Wan-Video/Wan2.1 and Hunyuan video for hero loops", "rank": 3, "status": "open", "why": "Open video models for generated background loops; Wan2.1 repo verified, licence Apache-2.0"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "gh-search:3d ui components react", "rank": 3, "status": "open", "why": "Find 3D UI component libraries"}
+{"area": "shells", "from": ["shells"], "lead": "gh-search:animation library motion ui", "rank": 3, "status": "open", "why": "Animation and motion UI libraries that enhance shell interactions"}
+{"area": "shells", "from": ["shells"], "lead": "gh-search:authentication library ui", "rank": 3, "status": "open", "why": "Auth UI components and patterns for login shells"}
+{"area": "assets", "from": ["assets"], "lead": "gh-search:awesome game assets", "rank": 3, "status": "open", "why": "Extend game asset coverage for UI inspiration"}
+{"area": "assets", "from": ["assets"], "lead": "gh-search:awesome svg", "rank": 3, "status": "open", "why": "SVG tools and animation resources"}
+{"area": "shells", "from": ["shells"], "lead": "gh-search:invoice billing receipt template", "rank": 3, "status": "open", "why": "Invoice and billing UI shells for SaaS"}
+{"area": "shells", "from": ["shells"], "lead": "gh-search:modal dialog component library", "rank": 3, "status": "open", "why": "Modal and dialog component collections for interactive shells"}
+{"area": "shells", "from": ["shells"], "lead": "gh-search:notification ui component", "rank": 3, "status": "open", "why": "Toast, alert, and notification component systems for app shells"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "gh-search:three.js examples", "rank": 3, "status": "open", "why": "Catalog Three.js official examples"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "gh-search:threejs physics", "rank": 3, "status": "open", "why": "Find physics engine integrations for Three.js"}
+{"area": "videos", "from": ["videos-people"], "lead": "github-awesome:awesome-web-animation", "rank": 3, "status": "open", "why": "Web animation tools and tutorials collection"}
+{"area": "awards", "from": ["awards"], "lead": "https://aaronschwartz.com/", "rank": 3, "status": "open", "why": "Award-winning designer personal portfolio (exemplar)"}
+{"area": "awards", "from": ["awards"], "lead": "https://behance.net/galleries/design/web-design", "rank": 3, "status": "open", "why": "Behance web design galleries with professional work"}
+{"area": "image-gen", "from": ["gaps-3d-assets"], "lead": "https://ideogram.ai/ and Google Gemini image (Nano Banana) (ideogram 403 to curl)", "rank": 3, "status": "open", "why": "Top proprietary generators for text-in-image and edits; rank on the Artificial Analysis arena"}
+{"area": "awards", "from": ["awards"], "lead": "https://www.dribbble.com/search/shots?q=award-winning", "rank": 3, "status": "open", "why": "Dribbble design showcase with award-winning work"}
+{"area": "people", "from": ["videos-people"], "lead": "known-creator:Electron Community", "rank": 3, "status": "open", "why": "Desktop web apps and cross-platform development"}
+{"area": "people", "from": ["videos-people"], "lead": "known-creator:Figma Team", "rank": 3, "status": "open", "why": "Official source for design tool development"}
+{"area": "people", "from": ["videos-people"], "lead": "known-creator:Svelte Community", "rank": 3, "status": "open", "why": "Emerging reactive web framework with unique approach"}
+{"area": "people", "from": ["videos-people"], "lead": "known-creator:Tauri Community", "rank": 3, "status": "open", "why": "Rust-based web app framework"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:React Three Fiber ecosystem", "rank": 3, "status": "open", "why": "Map out the full React Three Fiber plugin ecosystem"}
+{"area": "assets", "from": ["assets"], "lead": "websearch:blender free addons assets", "rank": 3, "status": "open", "why": "3D modeling asset libraries for Blender"}
+{"area": "assets", "from": ["assets"], "lead": "websearch:bootstrap ui kits free", "rank": 3, "status": "open", "why": "Web framework component libraries"}
+{"area": "assets", "from": ["assets"], "lead": "websearch:figma plugins free community", "rank": 3, "status": "open", "why": "Extend Figma with free plugins"}
+{"area": "assets", "from": ["assets"], "lead": "websearch:material design components free", "rank": 3, "status": "open", "why": "Material Design libraries and templates"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:motion capture web", "rank": 3, "status": "open", "why": "Find motion capture tools for web 3D"}
+{"area": "image-gen", "from": ["assets"], "lead": "websearch:nerf neural radiance fields", "rank": 3, "status": "open", "why": "3D reconstruction and novel view synthesis"}
+{"area": "image-gen", "from": ["assets"], "lead": "websearch:open source video generation", "rank": 3, "status": "open", "why": "Open video generation models (extending image-gen)"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:procedural generation 3D web", "rank": 3, "status": "open", "why": "Find procedural generation libraries"}
+{"area": "assets", "from": ["assets"], "lead": "websearch:tailwind css templates free", "rank": 3, "status": "open", "why": "Utility-first CSS templates"}
+{"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:threejs performance optimization", "rank": 3, "status": "open", "why": "Find performance optimization techniques and tools"}
+{"area": "videos", "from": ["videos-people"], "lead": "ytsearch:ar augmented reality web", "rank": 3, "status": "open", "why": "Augmented reality experiences in browsers"}
+{"area": "videos", "from": ["videos-people"], "lead": "ytsearch:haptic feedback web api", "rank": 3, "status": "open", "why": "Haptic interactions and tactile feedback"}
+{"area": "videos", "from": ["videos-people"], "lead": "ytsearch:voice ui web development", "rank": 3, "status": "open", "why": "Voice interaction and audio-based UI"}
 {"area": "components", "from": ["components"], "lead": "Explore component library monetization models (free vs premium vs enterprise)", "rank": 2, "status": "open", "why": "Understanding business models in component ecosystem"}
+{"area": "shells", "from": ["shells"], "lead": "Theme Forest marketplace top shells", "rank": 2, "status": "open", "why": "Commercial premium shell templates for design reference"}
+{"area": "assets", "from": ["assets"], "lead": "gh-search:awesome-3d-printing", "rank": 2, "status": "open", "why": "3D printing models for product mockups"}
+{"area": "shells", "from": ["shells"], "lead": "gh-search:error page template 404", "rank": 2, "status": "open", "why": "Error page shell templates and patterns"}
+{"area": "shells", "from": ["shells"], "lead": "gh-search:icon library system", "rank": 2, "status": "open", "why": "Icon libraries and systems for shell components"}
+{"area": "awards", "from": ["awards"], "lead": "https://www.instagram.com/awwwards/", "rank": 2, "status": "open", "why": "Awwwards Instagram with recent winners and announcements"}
+{"area": "assets", "from": ["gaps-3d-assets"], "lead": "https://www.radix-ui.com/icons and https://heropatterns.com/", "rank": 2, "status": "open", "why": "Resolved 200 but cut for space: Radix 15x15 icons (MIT) and SVG repeating patterns (CC BY 4.0)"}
+{"area": "image-gen", "from": ["assets"], "lead": "websearch:gan generative adversarial networks", "rank": 2, "status": "open", "why": "Alternative generative model family"}
+{"area": "assets", "from": ["assets"], "lead": "websearch:icon font custom generators", "rank": 2, "status": "open", "why": "Build custom icon fonts from SVGs"}
+{"area": "components", "from": ["components"], "lead": "https://www.producthunt.com/?topic=UI%20Kits", "rank": 4, "status": "covered", "why": "Product Hunt UI Kit releases and component library launches"}

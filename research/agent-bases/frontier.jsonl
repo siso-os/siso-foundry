@@ -1,0 +1,10 @@
+{"area": "frameworks", "from": ["harvest-1"], "lead": "gh search repos \"multi-agent\" topic:orchestration --limit 50", "rank": 5, "status": "open", "why": "Find multi-agent orchestration systems and patterns"}
+{"area": "frameworks", "from": ["harvest-1"], "lead": "https://github.com/search?q=topic:agent+language:python+stars:>500", "rank": 5, "status": "open", "why": "Search for high-quality Python agent frameworks on GitHub"}
+{"area": "skill-hubs", "from": ["harvest-1"], "lead": "https://mcp.run/docs/tools", "rank": 5, "status": "open", "why": "Official MCP tools and servers directory"}
+{"area": "harnesses", "from": ["harvest-1"], "lead": "gh search repos \"coding agent\" --limit 30", "rank": 4, "status": "open", "why": "Find AI-powered coding agent tools and harnesses"}
+{"area": "videos", "from": ["harvest-1"], "lead": "https://www.youtube.com/c/AnthropicAI", "rank": 4, "status": "open", "why": "Anthropic official YouTube channel for latest agent updates"}
+{"area": "videos", "from": ["harvest-1"], "lead": "yt-dlp --flat-playlist -J 'ytsearchdate30:claude code tutorial'", "rank": 4, "status": "open", "why": "Find recent YouTube tutorials on Claude Code usage"}
+{"area": "frameworks", "from": ["harvest-1"], "lead": "gh search repos \"agent memory\" topic:framework --limit 20", "rank": 3, "status": "open", "why": "Find memory and context persistence solutions for agents"}
+{"area": "harnesses", "from": ["harvest-1"], "lead": "gh search repos \"herdr\" --limit 20", "rank": 3, "status": "open", "why": "Search for herdr-based agent orchestration tools"}
+{"area": "frameworks", "from": ["harvest-1"], "lead": "https://python.langchain.com/docs/agents/", "rank": 3, "status": "open", "why": "LangChain official agent framework documentation"}
+{"area": "skill-hubs", "from": ["harvest-1"], "lead": "https://github.com/awesome-lists/awesome-lists", "rank": 2, "status": "open", "why": "Master list of all awesome lists on GitHub"}

@@ -206,12 +206,12 @@ def apply_facts(base, records):
 
 
 def apply_curation(base, records):
-    """Judgments by RESEARCH or its curators, one line per record id in research/<domain>/curation/*.jsonl; later lines win."""
+    """Judgments by RESEARCH or its curators, lines keyed by record id in research/<domain>/curation/*.jsonl; later keys win."""
     verdicts = {}
     for path in sorted((base / "curation").glob("*.jsonl")):
         for c in read_jsonl(path):
             if c.get("id"):
-                verdicts[c["id"]] = c
+                verdicts.setdefault(c["id"], {}).update(c)
     for r in records:
         c = verdicts.get(r["id"])
         if not c:
@@ -223,6 +223,8 @@ def apply_curation(base, records):
             r["rank"] = int(c["rank"])
         if c.get("why"):
             r["why"] = c["why"]
+        if c.get("licence"):
+            r["licence"] = c["licence"]
         for t in c.get("tags") or []:
             if t not in r["tags"]:
                 r["tags"].append(t)

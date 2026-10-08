@@ -3,6 +3,9 @@
 
   python3 research/tools/yt_harvest.py --domain ui --area videos --per 25 "three.js website tutorial" "gsap scrolltrigger"
   python3 research/tools/yt_harvest.py --domain ui --area videos --queries-file q.txt
+  python3 research/tools/yt_harvest.py --domain ui --area videos --playlist PLxxxx --playlist https://www.youtube.com/channel/UC.../streams
+
+A playlist is the channel owner's own curation, so every episode is kept (any year, no relevance or view gate).
 
 Searches are filtered to this year's uploads, videos only. Each kept video gets its upload date from a
 per-video metadata call. Appends to research/<domain>/observations/yt-<area>.jsonl, skipping ids already there.
@@ -42,6 +45,16 @@ def search(query, per):
     return [e for e in (json.loads(out.stdout).get("entries") or []) if e and e.get("id")]
 
 
+def playlist(pid):
+    url = pid if pid.startswith("http") else f"https://www.youtube.com/playlist?list={pid}"
+    out = subprocess.run(["yt-dlp", "--no-update", "--flat-playlist", "-J", url], capture_output=True, text=True)
+    if out.returncode or not out.stdout.strip():
+        print(f"playlist failed: {pid}: {out.stderr.strip()[-200:]}", file=sys.stderr)
+        return "", []
+    d = json.loads(out.stdout)
+    return d.get("title") or pid, [e for e in (d.get("entries") or []) if e and e.get("id")]
+
+
 def upload_dates(ids):
     out = subprocess.run(["yt-dlp", "--no-update", "--skip-download", "--ignore-errors", "--print", "%(id)s\t%(upload_date)s",
                           *[f"https://www.youtube.com/watch?v={i}" for i in ids]], capture_output=True, text=True)
@@ -61,6 +74,7 @@ def main():
     p.add_argument("--min-views", type=int, default=1500)
     p.add_argument("--min-seconds", type=int, default=120)
     p.add_argument("--queries-file")
+    p.add_argument("--playlist", action="append", default=[])
     p.add_argument("queries", nargs="*")
     a = p.parse_args()
     queries = list(a.queries)
@@ -81,21 +95,32 @@ def main():
                     continue
                 if (e.get("duration") or 0) < a.min_seconds or (e.get("view_count") or 0) < a.min_views:
                     continue
-                found[e["id"]] = (q, e)
+                found[e["id"]] = (q, e, None)
                 kept += 1
             print(f"{kept:3d} kept  {q}", file=sys.stderr)
+    for pid in a.playlist:
+        title, entries = playlist(pid)
+        kept = 0
+        for e in entries:
+            if e["id"] in seen or e["id"] in found or (e.get("duration") or a.min_seconds) < a.min_seconds:
+                continue
+            found[e["id"]] = (f"playlist:{title}", e, pid)
+            kept += 1
+        print(f"{kept:3d} kept  playlist {title}", file=sys.stderr)
     ids = list(found)
     dates = {}
     with cf.ThreadPoolExecutor(4) as pool:
         for part in pool.map(upload_dates, [ids[i:i + 15] for i in range(0, len(ids), 15)]):
             dates.update(part)
     with open(out_path, "a", encoding="utf-8") as fh:
-        for vid, (q, e) in found.items():
+        for vid, (q, e, pid) in found.items():
+            src = (pid if pid.startswith("http") else f"https://www.youtube.com/playlist?list={pid}") if pid else f"ytsearch:{q}"
+            label = f"Episode of '{q[9:]}'" if pid else f"Found for '{q}'"
             fh.write(json.dumps({
                 "url": f"https://www.youtube.com/watch?v={vid}", "title": e.get("title", ""), "kind": "video", "area": a.area,
-                "source": f"ytsearch:{q}", "licence": "YouTube standard licence", "preview": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg",
-                "why": f"Found for '{q}': {int(e.get('view_count') or 0):,} views, {int((e.get('duration') or 0) // 60)} min.",
-                "tags": [t for t in q.lower().split() if len(t) > 2][:6], "github": "", "stars": None, "free": True,
+                "source": src, "licence": "YouTube standard licence", "preview": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg",
+                "why": f"{label}: {int(e.get('view_count') or 0):,} views, {int((e.get('duration') or 0) // 60)} min.",
+                "tags": [t for t in re.findall(r"[a-z0-9.]+", q.lower().removeprefix("playlist:")) if len(t) > 2][:6], "github": "", "stars": None, "free": True,
                 "date": dates.get(vid, ""), "by": e.get("channel") or "", "views": e.get("view_count"),
                 "channel_url": f"https://www.youtube.com/channel/{e['channel_id']}" if e.get("channel_id") else "",
             }, ensure_ascii=False) + "\n")

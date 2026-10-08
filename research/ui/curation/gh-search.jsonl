@@ -1,0 +1,182 @@
+{"id": "f-d4706c3197", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-940ee43e81", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-ed9eee0b58", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-ceb0b5836f", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-e8b0ba9a3c", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-0f891f7f2a", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-7f1de61e9b", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-35b5220d69", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-da4f6d7596", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-81dae2cf88", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-3e618de801", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-61b2a0997d", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-112ade5227", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-1cd13573f2", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-1cd02035f4", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-1971796cb6", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-e969ead6e2", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-4cba79bda0", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-591234fa61", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-70b0193498", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-1051517b6e", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-0998130fa7", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-c8ea61c99b", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-7672864d34", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-c172670dd9", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-e593ca80e7", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-203a3f427a", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-bba0c9d743", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-96f349bfe6", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-579e7d6805", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-beae4107ef", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-f3187f69fd", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-af898acb71", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-32616d6cc0", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-4e49bdf879", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-77fdc3eda4", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-fdd08a045a", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-38e242af54", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-7dbd0eab41", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-48697888c2", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-4083e0c5a3", "verdict": "keep", "rank": 4}
+{"id": "f-1802c0cc0f", "verdict": "keep", "rank": 4}
+{"id": "f-499f0f6b1b", "verdict": "keep", "rank": 4}
+{"id": "f-8b1ee6bf8b", "verdict": "keep", "rank": 4}
+{"id": "f-d042b31600", "verdict": "keep", "rank": 4}
+{"id": "f-7eef60afda", "verdict": "keep", "rank": 4}
+{"id": "f-46de8bfa97", "verdict": "keep", "rank": 4, "why": "Extracts any website's design system (DTCG tokens) in one command: feed award sites into SISO's design system."}
+{"id": "f-d9912092ff", "verdict": "keep", "rank": 4, "why": "Extracts a site's logo, colours, type and spacing into tokens in seconds."}
+{"id": "f-ddc61bea55", "verdict": "keep", "rank": 4, "why": "Turns reference UIs (screenshots, URLs) into quantified design DNA an agent can build from."}
+{"id": "f-9d81638ba5", "verdict": "keep", "rank": 4, "why": "The official DTCG design-token format; the standard SISO tokens should follow."}
+{"id": "f-63cfc5b9b1", "verdict": "keep", "rank": 4}
+{"id": "f-a1a0bd2922", "verdict": "keep", "rank": 4}
+{"id": "f-8a9f0ec140", "verdict": "keep", "rank": 4}
+{"id": "f-fda6392bb6", "verdict": "keep", "rank": 4, "why": "Bruno Simon's Three.js Shading Language (TSL) sandbox: WebGPU-era shader examples."}
+{"id": "f-560b5b7ba8", "verdict": "keep", "rank": 4}
+{"id": "f-f37d59ee56", "verdict": "keep", "rank": 4}
+{"id": "f-13161ee250", "verdict": "keep", "rank": 4}
+{"id": "f-6bbefbc3e7", "verdict": "keep", "rank": 3}
+{"id": "f-ed4adba1b4", "verdict": "keep", "rank": 3}
+{"id": "f-30f5be87ca", "verdict": "keep", "rank": 3}
+{"id": "f-4a188b5fe2", "verdict": "keep", "rank": 3}
+{"id": "f-a43a58945e", "verdict": "keep", "rank": 3}
+{"id": "f-7d395f82f1", "verdict": "keep", "rank": 3}
+{"id": "f-2fad7498d3", "verdict": "keep", "rank": 3}
+{"id": "f-33ace49507", "verdict": "keep", "rank": 3}
+{"id": "f-c0aa6edca0", "verdict": "keep", "rank": 3}
+{"id": "f-03e35433e3", "verdict": "keep", "rank": 3}
+{"id": "f-fa2532d666", "verdict": "keep", "rank": 3}
+{"id": "f-eabb956dde", "verdict": "keep", "rank": 3}
+{"id": "f-ad45e3c78a", "verdict": "keep", "rank": 3}
+{"id": "f-9ffc9d3e11", "verdict": "keep", "rank": 3}
+{"id": "f-a5171b9aa5", "verdict": "keep", "rank": 3}
+{"id": "f-33d54c7a92", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-fb7d655423", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-74fcc59abb", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-3a60b33d8f", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-74d33ce586", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-792d41d4b0", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-99234a9efd", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-9a61884179", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-5f698934ac", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-d4fde2c13e", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-4a10999fd3", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-aefdf97199", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-72e6299cd6", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-71ecc1e321", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-812b13b521", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-4c32a480ee", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-307d9fd4ba", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-18257239a3", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-5fc72758ee", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-33a5633b33", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-0561bf19aa", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-91b9bdedb0", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-b6018e94d5", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-6dbcd1a2f1", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-f26367dae7", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-e929f6bac8", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-8d70bb1cbd", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-ac74919147", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-20156f0c69", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-0ac48f75c3", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-11aae7c9fd", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-acceefcf8e", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-dc6f9e5b28", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-93a16dfb22", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-a2c4a05ef9", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-b377cdc375", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-9e24fd0206", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-b57d6e3a1b", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-70fa254c0d", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-96ae1c3e1d", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-47368a5eb4", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-2257f0f3a0", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-d97224e7cc", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-b050273c4f", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-b5d92ebd4e", "verdict": "drop", "note": "off the SISO UI path (another platform, language or subject)"}
+{"id": "f-a6d90789f9", "verdict": "keep", "rank": 5, "why": "The toast shadcn/ui ships; Emil Kowalski's opinionated, animated notifications."}
+{"id": "f-bd3c92acc7", "verdict": "keep", "rank": 5, "why": "Gaussian splat renderer for Three.js (World Labs): the way to put photoreal captured scenes in a site."}
+{"id": "f-fa1f43614f", "verdict": "keep", "rank": 5, "why": "Free browser editor for 3D Gaussian splats: crop, clean and export captured scenes."}
+{"id": "f-3bf1f333ae", "verdict": "keep", "rank": 5}
+{"id": "f-84d570c232", "verdict": "keep", "rank": 4}
+{"id": "f-3c133675df", "verdict": "keep", "rank": 4}
+{"id": "f-4a63e33407", "verdict": "keep", "rank": 4, "why": "React Bits author's WebGL canvas components with real HTML (check its licence before copying)."}
+{"id": "f-509c903d3a", "verdict": "keep", "rank": 4}
+{"id": "f-ea9d0a5d5b", "verdict": "keep", "rank": 4}
+{"id": "f-05f5f24f04", "verdict": "keep", "rank": 4}
+{"id": "f-0f3ef55b97", "verdict": "keep", "rank": 4, "why": "Rebuilds the object in a reference image as procedural Three.js code (no mesh): agent-friendly 3D."}
+{"id": "f-e9e91cd363", "verdict": "keep", "rank": 4}
+{"id": "f-f1afecea99", "verdict": "keep", "rank": 4}
+{"id": "f-95944b36b1", "verdict": "keep", "rank": 4}
+{"id": "f-62eda89030", "verdict": "keep", "rank": 4}
+{"id": "f-7c437b9dcb", "verdict": "keep", "rank": 4}
+{"id": "f-939467f3d5", "verdict": "keep", "rank": 4}
+{"id": "f-77d964c164", "verdict": "keep", "rank": 4}
+{"id": "f-0f318545fa", "verdict": "keep", "rank": 4}
+{"id": "f-1b519ad959", "verdict": "keep", "rank": 4}
+{"id": "f-f1a21f2be0", "verdict": "keep", "rank": 4}
+{"id": "f-e7c2d28bce", "verdict": "keep", "rank": 4}
+{"id": "f-f17c98aa27", "verdict": "keep", "rank": 4}
+{"id": "f-098d7d1afb", "verdict": "keep", "rank": 4}
+{"id": "f-cb60fe43c4", "verdict": "keep", "rank": 4}
+{"id": "f-fc603df4b1", "verdict": "keep", "rank": 4}
+{"id": "f-7a0f3a07ce", "verdict": "keep", "rank": 4, "why": "Syncs WebGL meshes with DOM elements on scroll: the award-site pattern in React."}
+{"id": "f-7659c5ddc8", "verdict": "keep", "rank": 4}
+{"id": "f-eee4b11ec1", "verdict": "keep", "rank": 4}
+{"id": "f-3ab778b1d7", "verdict": "keep", "rank": 4}
+{"id": "f-b66c497e0a", "verdict": "keep", "rank": 4}
+{"id": "f-c29cd4858c", "verdict": "keep", "rank": 4}
+{"id": "f-58343bfe7a", "verdict": "keep", "rank": 4}
+{"id": "f-25a3f1872c", "verdict": "keep", "rank": 4}
+{"id": "f-c73f87bb19", "verdict": "keep", "rank": 4}
+{"id": "f-a6ea6af739", "verdict": "keep", "rank": 3}
+{"id": "f-aef62aa4c2", "verdict": "keep", "rank": 3}
+{"id": "f-d9d9bb998f", "verdict": "keep", "rank": 3}
+{"id": "f-c6e28642d7", "verdict": "keep", "rank": 3}
+{"id": "f-9971eabbcf", "verdict": "keep", "rank": 3}
+{"id": "f-07da64d1cc", "verdict": "keep", "rank": 3}
+{"id": "f-c6ac27ea4a", "verdict": "keep", "rank": 3}
+{"id": "f-224d510da6", "verdict": "keep", "rank": 3}
+{"id": "f-e603a93337", "verdict": "keep", "rank": 3}
+{"id": "f-46b7c5f2be", "verdict": "keep", "rank": 3}
+{"id": "f-a4d85529bf", "verdict": "keep", "rank": 3}
+{"id": "f-330533e83d", "verdict": "keep", "rank": 3}
+{"id": "f-8d25209dc0", "verdict": "keep", "rank": 3}
+{"id": "f-4d2e8095a7", "verdict": "keep", "rank": 3}
+{"id": "f-27b58a4c83", "verdict": "keep", "rank": 3}
+{"id": "f-6a9fc754a0", "verdict": "keep", "rank": 3}
+{"id": "f-05b966aaa9", "verdict": "keep", "rank": 3}
+{"id": "f-2b73c1bd7b", "verdict": "keep", "rank": 3}
+{"id": "f-dbbf380f16", "verdict": "keep", "rank": 3}
+{"id": "f-b72881aa12", "verdict": "keep", "rank": 3}
+{"id": "f-911acb406e", "verdict": "keep", "rank": 3}
+{"id": "f-f7485e8f79", "verdict": "keep", "rank": 3}
+{"id": "f-893514de6a", "verdict": "keep", "rank": 3}
+{"id": "f-9b3b6b5f21", "verdict": "keep", "rank": 3}
+{"id": "f-48567ef5e8", "verdict": "keep", "rank": 3}
+{"id": "f-5b30c39673", "verdict": "keep", "rank": 3}
+{"id": "f-b64eb56adf", "verdict": "keep", "rank": 3}
+{"id": "f-9eb171431c", "verdict": "keep", "rank": 3}
+{"id": "f-19671827b3", "verdict": "keep", "rank": 3}
+{"id": "f-140162db9a", "verdict": "keep", "rank": 3}

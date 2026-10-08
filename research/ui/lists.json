@@ -30,6 +30,84 @@
    "list": "jalberty2018/awesome-comfyui",
    "area": "image-gen",
    "min_stars": 300
+  },
+  {
+   "list": "birobirobiro/awesome-shadcn-ui",
+   "area": "components",
+   "min_stars": 50,
+   "web": true
+  },
+  {
+   "list": "bytefer/awesome-shadcn-ui",
+   "area": "components",
+   "min_stars": 50
+  },
+  {
+   "list": "narrowin/awesome-generative-ui",
+   "area": "components",
+   "min_stars": 50
+  },
+  {
+   "list": "alexpate/awesome-design-systems",
+   "area": "components",
+   "min_stars": 100,
+   "web": true
+  },
+  {
+   "list": "aniftyco/awesome-tailwindcss",
+   "area": "components",
+   "min_stars": 200
+  },
+  {
+   "list": "obazoud/awesome-dashboard",
+   "area": "shells",
+   "min_stars": 200
+  },
+  {
+   "list": "unicodeveloper/awesome-nextjs",
+   "area": "shells",
+   "min_stars": 200
+  },
+  {
+   "list": "Symbitic/awesome-babylonjs",
+   "area": "3d-motion",
+   "min_stars": 50
+  },
+  {
+   "list": "terkelg/awesome-creative-coding",
+   "area": "3d-motion",
+   "min_stars": 200
+  },
+  {
+   "list": "sergey-pimenov/awesome-web-animation",
+   "area": "3d-motion",
+   "min_stars": 200
+  },
+  {
+   "list": "mikbry/awesome-webgpu",
+   "area": "3d-motion",
+   "min_stars": 50
+  },
+  {
+   "list": "AxiomeCG/awesome-threejs",
+   "area": "3d-motion",
+   "min_stars": 50
+  },
+  {
+   "list": "sjfricke/awesome-webgl",
+   "area": "3d-motion",
+   "min_stars": 100
+  },
+  {
+   "list": "notlmn/awesome-icons",
+   "area": "assets",
+   "min_stars": 200
+  },
+  {
+   "list": "brabadu/awesome-fonts",
+   "area": "assets",
+   "min_stars": 100,
+   "web": true
   }
  ]
 }

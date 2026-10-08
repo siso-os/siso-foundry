@@ -24,3 +24,81 @@
 {"lead": "Web Components and design system tooling (Web Components, Lit, FAST)", "result": "Dropped: SISO is React/shadcn.", "at": "2026-10-08"}
 {"lead": "ytsearch:neo brutalism web design", "result": "Dropped: a style search, not a source.", "at": "2026-10-08"}
 {"lead": "ytsearch:wasm webgl graphics", "result": "Dropped: off the SISO site path.", "at": "2026-10-08"}
+{"lead": "Licence audit before copying: coss (AGPL monorepo), React Bits (Commons Clause), Animate UI (NOASSERTION), Vercel AI Chatbot ('Other')", "result": "research/ui/notes/licences.md: every rank-5 pick's LICENSE read; React Bits, Animate UI and Square UI forbid redistribution; coss ui is MIT. Records tagged licence:copy-ok or licence:no-redistribution.", "at": "2026-10-08"}
+{"lead": "ytsearch: awwwards. channel playlists 'Live Website Case Study' and 'Live Jury Website Reviews'", "result": "yt_harvest.py --playlist: Jury Website Reviews, Live Sessions, Academy lessons and masterclasses, design and UX talks (81 episodes); the channel's live tab is fully covered.", "at": "2026-10-08"}
+{"lead": "Bruno Simon 'Portfolio - Devlog' playlist (episodes 0-14+)", "result": "yt_harvest.py --playlist: New portfolio devlog, Three.js Journey, My Room in 3D, Organic Sphere (50 episodes).", "at": "2026-10-08"}
+{"lead": "ytsearch:creative coding generative art", "result": "Searched (this year's videos, relevance gated).", "at": "2026-10-08"}
+{"lead": "ytsearch:figma to react components", "result": "Searched as 'figma to react code': 6 kept.", "at": "2026-10-08"}
+{"lead": "ytsearch:ai generative ui components", "result": "Searched: 12 kept.", "at": "2026-10-08"}
+{"lead": "ytsearch: three.js TSL WebGPU tutorial 2026 (Visionary 3D, SBCODE, Robot Bobby, Andrew Woan)", "result": "Searched 'three.js tsl webgpu' and 'webgpu tutorial': 7 kept, plus Bruno Simon's TSL course.", "at": "2026-10-08"}
+{"lead": "ytsearch:motion capture web", "result": "Dropped: off the SISO site path.", "at": "2026-10-08"}
+{"lead": "ytsearch:web3 interactive dapps", "result": "Dropped: off path.", "at": "2026-10-08"}
+{"lead": "ytsearch:ar augmented reality web", "result": "Dropped: off path for now.", "at": "2026-10-08"}
+{"lead": "ytsearch:haptic feedback web api", "result": "Dropped: off path.", "at": "2026-10-08"}
+{"lead": "ytsearch:voice ui web development", "result": "Moved: voice UI belongs to the voice domain.", "at": "2026-10-08"}
+{"lead": "known-creator:Felix Turner", "result": "Recorded: airtight.cc, github felixturner (verified).", "at": "2026-10-08"}
+{"lead": "known-creator:Florian Bruggisser", "result": "Recorded: bildspur.ch, github cansik (verified).", "at": "2026-10-08"}
+{"lead": "known-creator:Matt Deslauriers", "result": "Recorded: mattdesl.com, github mattdesl (verified).", "at": "2026-10-08"}
+{"lead": "known-creator:Joren Seven", "result": "Dropped: no verifiable site or profile found.", "at": "2026-10-08"}
+{"lead": "known-creator:Linear Design", "result": "Dropped: a company, not a person; Linear-style layouts are covered by square-ui and shells.", "at": "2026-10-08"}
+{"lead": "known-creator:Stripe Design", "result": "Dropped: a company; Stripe's site is in the awards and inspiration records.", "at": "2026-10-08"}
+{"lead": "X lists of creative developers (e.g. Codrops 'Creative Devs', Awwwards jury members)", "result": "Answered from evidence instead: research/tools/studios.py records the 49 studios and developers with 6+ web awards, their own sites and the stack they ship (Locomotive, Immersive Garden, Active Theory, Unseen, Lusion \u2026).", "at": "2026-10-08"}
+{"lead": "websearch:WebGPU 3D frameworks 2024", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl): Babylon.js, PlayCanvas, Orillusion, Three.js TSL examples; LLM and Rust engines dropped.", "at": "2026-10-08"}
+{"lead": "gh-search: three.js TSL WebGPU node material examples", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl): singularity, poseidon, tsl-textures, Bruno Simon's TSL sandbox.", "at": "2026-10-08"}
+{"lead": "gh search repos 'shadcn admin dashboard' --sort stars (stars >1000)", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl): shadcn-admin, next-shadcn-dashboard-starter, next-shadcn-admin-dashboard, Next.js saas-starter.", "at": "2026-10-08"}
+{"lead": "gh-search:chart graph visualization library", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl): Recharts, Tremor, Nivo, unovis, Perspective.", "at": "2026-10-08"}
+{"lead": "gh-search:data table grid component", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl): AG Grid, Glide Data Grid, openstatus data-table-filters, LyteNyte.", "at": "2026-10-08"}
+{"lead": "Data table/grid components (TanStack Table, AG Grid, React-Table)", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl): AG Grid, Glide, TanStack (Table via the shadcn data-table).", "at": "2026-10-08"}
+{"lead": "Form libraries (React Hook Form, Formik, TanStack Form)", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl): TanStack Form; React Hook Form is in the awesome-list imports.", "at": "2026-10-08"}
+{"lead": "gh-search:awesome-babylon", "result": "Imported Symbitic/awesome-babylonjs through lists.json; Babylon.js itself recorded.", "at": "2026-10-08"}
+{"lead": "gh-search:awesome-shaders glsl", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl): glNoise and shader collections; Book of Shaders and Shadertoy already rank 5.", "at": "2026-10-08"}
+{"lead": "github-awesome:awesome-react-three-fiber", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl) 'react three fiber': R3F, drei, uikit, postprocessing, r3f-scroll-rig, xr, triplex, ecctrl.", "at": "2026-10-08"}
+{"lead": "github-awesome:awesome-three-js", "result": "Imported AxiomeCG/awesome-threejs through lists.json.", "at": "2026-10-08"}
+{"lead": "https://github.com/birobirobiro/awesome-shadcn-ui (libs, boilerplates, tools sections)", "result": "Imported through lists.json (repos plus its web links).", "at": "2026-10-08"}
+{"lead": "https://github.com/topics/awesome-fonts", "result": "Imported brabadu/awesome-fonts; gh search 'fonts open source' (Fontsource, Beautiful Web Type, Maple Mono).", "at": "2026-10-08"}
+{"lead": "https://github.com/topics/awesome-icons", "result": "Imported notlmn/awesome-icons; gh search 'svg icons' and 'icon library' (Lucide, Tabler, Iconify, Remix \u2026).", "at": "2026-10-08"}
+{"lead": "https://github.com/topics/text-to-image", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl) 'image generation model': diffusers, Qwen-Image, HunyuanImage 3.0.", "at": "2026-10-08"}
+{"lead": "https://github.com/topics/stable-diffusion-models", "result": "Covered by awesome-comfyui import and gh search 'image generation model'.", "at": "2026-10-08"}
+{"lead": "websearch:open source text to 3d", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl): Hunyuan3D 2.1, Wonder3D, InstantMesh, Modly, img2threejs.", "at": "2026-10-08"}
+{"lead": "websearch:open source video generation", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl): HunyuanVideo 1.5, Mochi, Awesome-Video-Diffusion.", "at": "2026-10-08"}
+{"lead": "gh-search: Wan-Video/Wan2.1 and Hunyuan video for hero loops", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl) 'video generation model'; Wan is in the awesome-comfyui import.", "at": "2026-10-08"}
+{"lead": "websearch:Gaussian splat scenes CC0 download", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl) 'gaussian splatting': Spark (Three.js renderer), SuperSplat editor and viewer, GaussianSplats3D, gsplat.js, OpenSplat and ooosplat to make your own. Downloadable CC0 scene packs: none verified yet.", "at": "2026-10-08"}
+{"lead": "websearch:nerf neural radiance fields", "result": "Superseded by Gaussian splatting records.", "at": "2026-10-08"}
+{"lead": "websearch:WebXR VR AR frameworks", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl) 'webxr': A-Frame, model-viewer, pmndrs/xr, WebXR samples.", "at": "2026-10-08"}
+{"lead": "gh-search:threejs physics", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl): enable3d, ecctrl; Rapier via drei.", "at": "2026-10-08"}
+{"lead": "gh-search:three.js examples", "result": "mrdoob/three.js examples are part of the rank-5 Three.js record.", "at": "2026-10-08"}
+{"lead": "websearch:three.js examples gallery", "result": "Three.js examples, Codrops demos (800 posts) and the awards archive cover it.", "at": "2026-10-08"}
+{"lead": "websearch:React Three Fiber ecosystem", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl) 'react three fiber' (8 pmndrs and community repos).", "at": "2026-10-08"}
+{"lead": "gh-search:3d ui components react", "result": "pmndrs/uikit and canvas-ui recorded.", "at": "2026-10-08"}
+{"lead": "gh-search:animation library motion ui", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl): Motion, React Spring; GSAP and Lenis rank 5.", "at": "2026-10-08"}
+{"lead": "gh-search:notification ui component", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl): Sonner (rank 5), react-hot-toast, react-toastify.", "at": "2026-10-08"}
+{"lead": "gh-search:modal dialog component library", "result": "Covered by shadcn/ui, Radix, Headless UI, Ark, Reka.", "at": "2026-10-08"}
+{"lead": "websearch:procedural generation 3D web", "result": "THREE.Terrain recorded; img2threejs for procedural objects.", "at": "2026-10-08"}
+{"lead": "websearch:diffusion model leaderboard", "result": "Dropped: model leaderboards change weekly; use Artificial Analysis or LMArena when choosing.", "at": "2026-10-08"}
+{"lead": "websearch:gan generative adversarial networks", "result": "Dropped: superseded by diffusion.", "at": "2026-10-08"}
+{"lead": "AI-powered UI generation tools (v0, UI2Code, Galileo Design)", "result": "Covered by curation/generative-ui.jsonl (v0, Lovable, bolt, AI Elements, assistant-ui).", "at": "2026-10-08"}
+{"lead": "Design tokens and theming libraries (Tokens Studio, Themekit)", "result": "research/tools/gh_search.py (GitHub's own search API, curated in curation/gh-search.jsonl) 'design tokens': DTCG spec, design-extract, dembrandt, design-dna.", "at": "2026-10-08"}
+{"lead": "Awesome lists: awesome-nextjs, awesome-vue, awesome-react", "result": "Imported unicodeveloper/awesome-nextjs and awesome-tailwindcss through lists.json.", "at": "2026-10-08"}
+{"lead": "CSS-in-JS component libraries (styled-components, Emotion, Vanilla Extract)", "result": "Dropped: SISO is Tailwind/shadcn.", "at": "2026-10-08"}
+{"lead": "Component documentation generators (react-docgen, Ladle, Dostoevsky)", "result": "Dropped: not a SISO need.", "at": "2026-10-08"}
+{"lead": "known-creator:Electron Community", "result": "Dropped: not a creator.", "at": "2026-10-08"}
+{"lead": "known-creator:Figma Team", "result": "Dropped: not a creator.", "at": "2026-10-08"}
+{"lead": "known-creator:Svelte Community", "result": "Dropped: not a creator.", "at": "2026-10-08"}
+{"lead": "known-creator:Tauri Community", "result": "Dropped: not a creator.", "at": "2026-10-08"}
+{"lead": "Explore component library monetization models (free vs premium vs enterprise)", "result": "Dropped: off mission.", "at": "2026-10-08"}
+{"lead": "Theme Forest marketplace top shells", "result": "Dropped: paid templates.", "at": "2026-10-08"}
+{"lead": "gh-search:awesome-3d-printing", "result": "Dropped: off path.", "at": "2026-10-08"}
+{"lead": "gh-search:error page template 404", "result": "Dropped: trivial.", "at": "2026-10-08"}
+{"lead": "gh-search:icon library system", "result": "Covered by gh search 'icon library'.", "at": "2026-10-08"}
+{"lead": "websearch:icon font custom generators", "result": "Dropped: SVG icons replaced icon fonts.", "at": "2026-10-08"}
+{"lead": "websearch:bootstrap ui kits free", "result": "Dropped: SISO is Tailwind/shadcn.", "at": "2026-10-08"}
+{"lead": "websearch:material design components free", "result": "Dropped: off style.", "at": "2026-10-08"}
+{"lead": "websearch:tailwind css templates free", "result": "Covered by tailwind admin dashboard and landing searches.", "at": "2026-10-08"}
+{"lead": "websearch:motion capture web", "result": "Dropped: off path.", "at": "2026-10-08"}
+{"lead": "gh-search:invoice billing receipt template", "result": "Dropped: trivial.", "at": "2026-10-08"}
+{"lead": "gh-search:authentication library ui", "result": "Dropped: auth UI ships with shadcn blocks and the SaaS starters.", "at": "2026-10-08"}
+{"lead": "https://www.instagram.com/awwwards/", "result": "Dropped: login-gated; the archive harvest covers winners.", "at": "2026-10-08"}
+{"lead": "https://www.dribbble.com/search/shots?q=award-winning", "result": "Dropped: shots, not shipped sites.", "at": "2026-10-08"}
+{"lead": "https://behance.net/galleries/design/web-design", "result": "Dropped: mockups, not shipped sites.", "at": "2026-10-08"}
+{"lead": "websearch:3D animation case studies", "result": "Covered by Codrops case studies and Awwwards jury reviews.", "at": "2026-10-08"}
+{"lead": "https://www.fab.com/ (free monthly + Megascans free listing)", "result": "Duplicate of the Fab lead.", "at": "2026-10-08"}

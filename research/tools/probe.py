@@ -31,7 +31,7 @@ def fetch(url):
     except Exception as e:  # dns, tls, timeout: the record stays, flagged
         return {"status": 0, "error": type(e).__name__}
     og = {}
-    for tag in META.findall(body.split("</head>")[0] if "</head>" in body else body):
+    for tag in META.findall(body):  # whole body: streamed React pages put their metadata after a "</head>" in a script
         key = (attr(tag, "property") or attr(tag, "name")).lower()
         if key in ("og:image", "twitter:image", "og:title", "og:description", "description") and key not in og:
             og[key] = attr(tag, "content")

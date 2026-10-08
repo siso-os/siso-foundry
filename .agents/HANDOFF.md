@@ -61,6 +61,10 @@ Lookups on the mini: 66, all RESEARCH's own; no other agent has run `foundry fin
   CI), akitaonrails/ai-memory (9k; shared memory and claimed handoffs across 20+ agents, closest to .agents/memory), and
   eliasstravik/herdr-projects, a herdr plugin with coordinator, worktree workers and shared memory: almost the Agent
   Base pattern. Commercial: Conductor (parallel worktrees, now cloud), Warp, Amp, Factory, Kiro, Jules, Cursor CLI.
+  Feature comparison and what to take (`research/agent-bases/notes/rivals.md`): a "needs you" board derived from pane,
+  PR and CI facts (Orchestrator.inc); herdr-projects' coordinator brief and `## Remember` writeback (MIT, runs on herdr
+  already); claim-once handoffs and an agent inbox (ai-memory); CI and review comments routed back to the owning
+  worktree; one daemon with an encrypted relay for the phone (Paseo); diff-line comments sent to the agent (Orca).
 - **What award winners ship (`research/ui/notes/award-stacks.md`, 2,961 sites 2020-2026):** GSAP on half to two thirds,
   Lenis on half since 2024, Three.js a steady quarter, React Three Fiber 8%. The 49 studios with six or more awards
   (Locomotive 50, Immersive Garden 40, Active Theory 32, Obys, Unseen …) are records with their stack: `foundry find studio`.

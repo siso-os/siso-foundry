@@ -1,0 +1,353 @@
+{"id": "f-006bf09887", "verdict": "keep", "rank": 2}
+{"id": "f-0084ffbaf7", "verdict": "keep", "rank": 3, "why": "Cloudflare's own modern component library for web apps; a credible reference design system for UI-HUB."}
+{"id": "f-00cedbd2da", "verdict": "keep", "rank": 3, "why": "Theme that makes Clerk auth components follow shadcn/ui tokens; drop-in for Next apps using Clerk."}
+{"id": "f-01e563ad64", "verdict": "keep", "rank": 2}
+{"id": "f-024fa6484a", "verdict": "keep", "rank": 3, "why": "Turborepo starter with a shared shadcn/Tailwind UI package; a template for UI-HUB's monorepo registry layout."}
+{"id": "f-029b08fa52", "verdict": "keep", "rank": 2}
+{"id": "f-02b3390b71", "verdict": "keep", "rank": 1}
+{"id": "f-0362806b58", "verdict": "keep", "rank": 2}
+{"id": "f-0380eecba3", "verdict": "keep", "rank": 1}
+{"id": "f-03ba56f8de", "verdict": "drop", "note": "terminal (blessed) renderer, not web UI"}
+{"id": "f-0403bc7892", "verdict": "keep", "rank": 3, "why": "Copy-paste website blocks built on shadcn, Radix, Tailwind and Next.js; quick landing/marketing sections."}
+{"id": "f-05cb285290", "verdict": "keep", "rank": 3, "why": "shadcn/ui calendar date-range picker component; ready for Next app forms."}
+{"id": "f-0617a9bf0c", "verdict": "keep", "rank": 2}
+{"id": "f-06851be610", "verdict": "keep", "rank": 2}
+{"id": "f-06d28b3379", "verdict": "keep", "rank": 2}
+{"id": "f-07272535c6", "verdict": "drop", "note": "obsolete react-hot-loader era boilerplate"}
+{"id": "f-0746238d6e", "verdict": "keep", "rank": 2}
+{"id": "f-07691c0899", "verdict": "keep", "rank": 1}
+{"id": "f-07e5395018", "verdict": "keep", "rank": 2}
+{"id": "f-080b4301a5", "verdict": "drop", "note": "old CKEditor-based WYSIWYG superseded by Tiptap/Lexical"}
+{"id": "f-08758c8b80", "verdict": "drop", "note": "non-UI build plugin, propTypes era"}
+{"id": "f-0878f7c4d3", "verdict": "keep", "rank": 2}
+{"id": "f-08b30aeb91", "verdict": "keep", "rank": 3, "why": "AI tool that converts screenshots/designs into HTML/React/Tailwind code; speeds turning references into components."}
+{"id": "f-08cf85004c", "verdict": "keep", "rank": 3, "why": "Fast extensible cmd+k command palette for React; alternative to cmdk for app navigation."}
+{"id": "f-08fc9e704a", "verdict": "drop", "note": "non-UI data fetching, superseded by TanStack Query"}
+{"id": "f-090eae7c78", "verdict": "drop", "note": "non-UI state management"}
+{"id": "f-09745bbb60", "verdict": "drop", "note": "DraftJS-based editor, superseded by Tiptap/Lexical"}
+{"id": "f-09c3ba4f07", "verdict": "keep", "rank": 2}
+{"id": "f-0a18d54b96", "verdict": "drop", "note": "Rails integration, not SISO's stack"}
+{"id": "f-0a8da7a89c", "verdict": "drop", "note": "React Native UI kit"}
+{"id": "f-0abf9a903c", "verdict": "keep", "rank": 3, "why": "ByteDance's maintained, comprehensive React design system; solid reference for large app component sets."}
+{"id": "f-0b0cb2e9de", "verdict": "drop", "note": "Redux devtools, non-UI"}
+{"id": "f-0b414f324e", "verdict": "drop", "note": "explicitly not maintained, non-UI state"}
+{"id": "f-0b42405bd5", "verdict": "keep", "rank": 2}
+{"id": "f-0b75e8b841", "verdict": "keep", "rank": 4, "why": "Notion-style Tiptap editor with AI autocompletion built for Next/Tailwind; drop-in rich editor for apps."}
+{"id": "f-0bf6141d3b", "verdict": "keep", "rank": 1}
+{"id": "f-0cbe5e2b86", "verdict": "keep", "rank": 1}
+{"id": "f-0d5122987b", "verdict": "drop", "note": "superseded by Radix/React Aria dialogs"}
+{"id": "f-0d919a0ed7", "verdict": "keep", "rank": 2}
+{"id": "f-0e4af1ea39", "verdict": "keep", "rank": 3, "why": "Next.js + shadcn/ui dashboard with drag-to-swap layouts via swapy; pattern for customizable dashboards."}
+{"id": "f-0e943b3e1a", "verdict": "keep", "rank": 2}
+{"id": "f-0f04fc8967", "verdict": "drop", "note": "React Native, not maintained"}
+{"id": "f-0f25cd5192", "verdict": "keep", "rank": 2}
+{"id": "f-0f38745d70", "verdict": "drop", "note": "medium-editor wrapper, unmaintained era"}
+{"id": "f-1032ad36dd", "verdict": "keep", "rank": 1}
+{"id": "f-10bb21e36c", "verdict": "drop", "note": "unmaintained-era DOM framework"}
+{"id": "f-1105a0fb32", "verdict": "keep", "rank": 3, "why": "Retractable responsive sidebar for Next on shadcn/ui; useful app-shell reference beside shadcn's own sidebar."}
+{"id": "f-11ecad59ac", "verdict": "keep", "rank": 2}
+{"id": "f-120f9c624d", "verdict": "keep", "rank": 2}
+{"id": "f-122638603f", "verdict": "drop", "note": "superseded component framework"}
+{"id": "f-1306906f3b", "verdict": "keep", "rank": 3, "why": "Standard React QR code component; small dependable utility for client apps."}
+{"id": "f-1315c53dae", "verdict": "drop", "note": "React Native-first UI kit"}
+{"id": "f-1382fecc15", "verdict": "drop", "note": "WeChat mini-program UI kit"}
+{"id": "f-13b7a41fb6", "verdict": "keep", "rank": 1}
+{"id": "f-1409cfa34b", "verdict": "drop", "note": "old chatbot component superseded by assistant-ui"}
+{"id": "f-1481721905", "verdict": "keep", "rank": 3, "why": "Reference implementation of generative UI with LangChain.js, AI SDK and Next.js; pattern for agent-rendered components."}
+{"id": "f-149f323721", "verdict": "keep", "rank": 2}
+{"id": "f-15862a7220", "verdict": "keep", "rank": 3, "why": "Production Convex SaaS stack with auth, Stripe, Resend and Tailwind; fast base for SISO app builds."}
+{"id": "f-16c105af38", "verdict": "drop", "note": "non-UI state management"}
+{"id": "f-1745cf7f68", "verdict": "drop", "note": "non-UI state management"}
+{"id": "f-175d5b7f8f", "verdict": "keep", "rank": 3, "why": "Parallax tilt hover effect component for React; quick tactile motion on award-style cards."}
+{"id": "f-17675df54d", "verdict": "keep", "rank": 2}
+{"id": "f-17abf8342b", "verdict": "keep", "rank": 3, "why": "React bindings for Konva canvas graphics; for interactive canvas editors and visual tools."}
+{"id": "f-17cd339bab", "verdict": "keep", "rank": 1}
+{"id": "f-17e6a670f2", "verdict": "keep", "rank": 3, "why": "Thesys generative UI framework that renders LLM output as interactive components; relevant to AI app UIs."}
+{"id": "f-17fea0ab37", "verdict": "drop", "note": "outdated D3 wrapper, superseded"}
+{"id": "f-1850281414", "verdict": "keep", "rank": 2}
+{"id": "f-192bd281b2", "verdict": "keep", "rank": 1}
+{"id": "f-196b5ee28c", "verdict": "drop", "note": "i18n, non-UI"}
+{"id": "f-19d2cfc2be", "verdict": "keep", "rank": 1}
+{"id": "f-19e96c7128", "verdict": "drop", "note": "WeChat-specific mobile web UI"}
+{"id": "f-1a43d44ebd", "verdict": "keep", "rank": 1}
+{"id": "f-1a68bb8bf7", "verdict": "keep", "rank": 2}
+{"id": "f-1b1e143706", "verdict": "keep", "rank": 2}
+{"id": "f-1b9613c7c3", "verdict": "keep", "rank": 2}
+{"id": "f-1bc16b1722", "verdict": "keep", "rank": 3, "why": "Google Places address autocomplete built with shadcn components; drop-in for checkout and booking forms."}
+{"id": "f-1bfb6e2784", "verdict": "drop", "note": "build tooling, non-UI"}
+{"id": "f-1c69ab90eb", "verdict": "drop", "note": "instrumentation, non-UI"}
+{"id": "f-1cc65f4b37", "verdict": "keep", "rank": 2}
+{"id": "f-1d1fe842a8", "verdict": "drop", "note": "React Native UI kit"}
+{"id": "f-1d29cefade", "verdict": "keep", "rank": 4, "why": "Large Next/Tailwind/Framer Motion collection of animated components and effects; strong source for award-style UI."}
+{"id": "f-1d9ed81838", "verdict": "drop", "note": "superseded by shadcn tag inputs like emblor"}
+{"id": "f-1ddc245f56", "verdict": "keep", "rank": 1}
+{"id": "f-1e246f72d8", "verdict": "keep", "rank": 1}
+{"id": "f-1ea2e28a08", "verdict": "keep", "rank": 3, "why": "Fully customizable rich-text editor framework for React; base for bespoke editing experiences."}
+{"id": "f-1ea8e581a1", "verdict": "keep", "rank": 2}
+{"id": "f-1edcbc0ad2", "verdict": "drop", "note": "testing tool, non-UI"}
+{"id": "f-1f41bd84d8", "verdict": "keep", "rank": 1}
+{"id": "f-1f72078cf4", "verdict": "drop", "note": "Vue 2 era, unmaintained"}
+{"id": "f-1fd34bb503", "verdict": "drop", "note": "Redux devtools, non-UI"}
+{"id": "f-1ff79eebd9", "verdict": "keep", "rank": 1}
+{"id": "f-20ec4a02bd", "verdict": "drop", "note": "Vue 2 era UIkit wrapper"}
+{"id": "f-20fc0bcd23", "verdict": "drop", "note": "SwiftUI native-only"}
+{"id": "f-21372dbcfd", "verdict": "drop", "note": "superseded by react-hook-form"}
+{"id": "f-214fc59972", "verdict": "drop", "note": "old reCAPTCHA wrapper"}
+{"id": "f-217c53b2ee", "verdict": "drop", "note": "mobile-native framework"}
+{"id": "f-21acd54fe4", "verdict": "drop", "note": "old mobile CSS kit"}
+{"id": "f-21c7726cb6", "verdict": "keep", "rank": 2}
+{"id": "f-21ee3f47b0", "verdict": "keep", "rank": 1}
+{"id": "f-228c95c041", "verdict": "drop", "note": "old admin template framework"}
+{"id": "f-22c7bc1790", "verdict": "drop", "note": "deprecated Vue 2 kit"}
+{"id": "f-22d38dd441", "verdict": "keep", "rank": 5, "why": "TypeScript/React primitives for AI chat with generative-UI support, shadcn-styled; SISO's default for chat interfaces."}
+{"id": "f-24301aad5e", "verdict": "keep", "rank": 1}
+{"id": "f-252727780b", "verdict": "keep", "rank": 1}
+{"id": "f-25c0f498a9", "verdict": "keep", "rank": 2}
+{"id": "f-25f947d593", "verdict": "drop", "note": "unmaintained desktop-look kit"}
+{"id": "f-2630f563ce", "verdict": "keep", "rank": 3, "why": "SVG icons from all popular packs as React components; quick icon access in any React build."}
+{"id": "f-26434ea380", "verdict": "keep", "rank": 2}
+{"id": "f-265a753dfb", "verdict": "drop", "note": "agent benchmark, non-UI"}
+{"id": "f-26eb44a1f6", "verdict": "keep", "rank": 2}
+{"id": "f-2757974210", "verdict": "keep", "rank": 2}
+{"id": "f-27df8a3271", "verdict": "keep", "rank": 3, "why": "Builder.io compiler that writes components once and outputs React/Vue/Svelte; relevant to a multi-framework registry."}
+{"id": "f-285b008d64", "verdict": "keep", "rank": 2}
+{"id": "f-286eafa0f6", "verdict": "drop", "note": "formsy-era, superseded"}
+{"id": "f-28debb8d34", "verdict": "keep", "rank": 3, "why": "Zag, Chakra's framework-agnostic state machines for headless components (powers Ark UI); solid primitive logic reference."}
+{"id": "f-291987d641", "verdict": "keep", "rank": 2}
+{"id": "f-29ae44e372", "verdict": "keep", "rank": 3, "why": "Enhanced shadcn button with extra variants and effects; drop-in upgrade for registry buttons."}
+{"id": "f-2a081be3ab", "verdict": "keep", "rank": 2}
+{"id": "f-2a7eb62768", "verdict": "drop", "note": "superseded by React createPortal"}
+{"id": "f-2bd50f668a", "verdict": "keep", "rank": 1}
+{"id": "f-2c5e3bd02b", "verdict": "drop", "note": "Vue 2 / Bulma 0.3 era"}
+{"id": "f-2dd50ab351", "verdict": "keep", "rank": 1}
+{"id": "f-2f5657aabf", "verdict": "keep", "rank": 1}
+{"id": "f-2fd77d126e", "verdict": "keep", "rank": 3, "why": "Official Tailwind forms reset plugin; baseline for styled form controls."}
+{"id": "f-2fdf01ab6a", "verdict": "keep", "rank": 2}
+{"id": "f-305a897cf8", "verdict": "keep", "rank": 2}
+{"id": "f-307dd16d45", "verdict": "keep", "rank": 2}
+{"id": "f-308b0ed10e", "verdict": "keep", "rank": 3, "why": "Reusable timeline component built on shadcn; for roadmaps, histories and process sections."}
+{"id": "f-30dc180d26", "verdict": "keep", "rank": 2}
+{"id": "f-30faa5bf36", "verdict": "drop", "note": "LLM structured generation, non-UI"}
+{"id": "f-3140bb20aa", "verdict": "keep", "rank": 4, "why": "Extra shadcn-ui components (multi-select, datetime, etc.) in shadcn style; fills gaps in the registry."}
+{"id": "f-31a1345f4b", "verdict": "keep", "rank": 2}
+{"id": "f-31bd360058", "verdict": "keep", "rank": 1}
+{"id": "f-32981230c4", "verdict": "drop", "note": "PureScript React wrapper, obsolete"}
+{"id": "f-32b8f6c4ec", "verdict": "drop", "note": "agent dataset, non-UI"}
+{"id": "f-32e525cad2", "verdict": "keep", "rank": 1}
+{"id": "f-32f5e6b22d", "verdict": "keep", "rank": 1}
+{"id": "f-330efee4b1", "verdict": "keep", "rank": 1}
+{"id": "f-33d4e5cc41", "verdict": "drop", "note": "Vue 2 era, unmaintained"}
+{"id": "f-33d7bca83f", "verdict": "keep", "rank": 1}
+{"id": "f-3493a7696f", "verdict": "drop", "note": "validation library, non-UI"}
+{"id": "f-349d55b2b0", "verdict": "drop", "note": "obsolete non-UI utility"}
+{"id": "f-34cb712c11", "verdict": "keep", "rank": 2}
+{"id": "f-34f84ffc01", "verdict": "keep", "rank": 1}
+{"id": "f-34f917bb50", "verdict": "drop", "note": "materializecss era, unmaintained"}
+{"id": "f-367cf94c72", "verdict": "drop", "note": "redux-saga framework, non-UI"}
+{"id": "f-3715018d9d", "verdict": "keep", "rank": 2}
+{"id": "f-385406ef08", "verdict": "drop", "note": "non-React framework, superseded"}
+{"id": "f-38c70a344d", "verdict": "keep", "rank": 1}
+{"id": "f-38fb886b69", "verdict": "drop", "note": "superseded by official swiper/react"}
+{"id": "f-3903f98882", "verdict": "keep", "rank": 2}
+{"id": "f-3906c49775", "verdict": "keep", "rank": 1}
+{"id": "f-3b607b4fd6", "verdict": "keep", "rank": 2}
+{"id": "f-3ba2ed4759", "verdict": "keep", "rank": 3, "why": "Next.js + Supabase + Stripe + shadcn/ui SaaS starter; quick base for subscription apps."}
+{"id": "f-3bc92bc9ca", "verdict": "keep", "rank": 3, "why": "Fluid responsive Tailwind utilities (clamp-based scaling); fits award-style fluid type and spacing."}
+{"id": "f-3c54ffea09", "verdict": "keep", "rank": 1}
+{"id": "f-3c7d50572d", "verdict": "drop", "note": "trivial old radio component"}
+{"id": "f-3c8fbb7023", "verdict": "keep", "rank": 3, "why": "Responsive React + Tailwind components and templates; useful marketing-page building blocks."}
+{"id": "f-3d19548ba9", "verdict": "keep", "rank": 1}
+{"id": "f-3d65574394", "verdict": "drop", "note": "old SSR framework, superseded by Next"}
+{"id": "f-3ea3acc0e3", "verdict": "drop", "note": "Redux routing, non-UI"}
+{"id": "f-3ee25da4dc", "verdict": "drop", "note": "Redux routing, non-UI"}
+{"id": "f-3f0609d0a8", "verdict": "keep", "rank": 2}
+{"id": "f-3f13bc39b8", "verdict": "keep", "rank": 3, "why": "Spreadsheet-like data grid with React wrapper; for heavy tabular editing in apps (commercial licence for prod)."}
+{"id": "f-3ff7eeddf6", "verdict": "keep", "rank": 2}
+{"id": "f-400d02527c", "verdict": "drop", "note": "AngularJS port, obsolete"}
+{"id": "f-40d6ec61b6", "verdict": "drop", "note": "mini-program cross-platform framework"}
+{"id": "f-40dda6677b", "verdict": "keep", "rank": 1}
+{"id": "f-40fc3607e6", "verdict": "drop", "note": "Bootstrap 3 flat kit"}
+{"id": "f-4123fdbc5e", "verdict": "drop", "note": "old web components abstraction"}
+{"id": "f-41f0eb1957", "verdict": "keep", "rank": 1}
+{"id": "f-41fa580fc1", "verdict": "keep", "rank": 2}
+{"id": "f-42aaecfbe4", "verdict": "drop", "note": "database, non-UI"}
+{"id": "f-435ed9dc5a", "verdict": "drop", "note": "Redux testing, non-UI"}
+{"id": "f-43eef9dc82", "verdict": "drop", "note": "AngularJS admin"}
+{"id": "f-4419fd13d3", "verdict": "keep", "rank": 1}
+{"id": "f-45a3b546f3", "verdict": "keep", "rank": 2}
+{"id": "f-45b10ec031", "verdict": "keep", "rank": 3, "why": "Guided tours and walkthroughs for React apps; onboarding flows for client apps."}
+{"id": "f-45e236b909", "verdict": "drop", "note": "MCP servers, non-UI"}
+{"id": "f-46d1ff331d", "verdict": "keep", "rank": 2}
+{"id": "f-47438fdf10", "verdict": "keep", "rank": 1}
+{"id": "f-478e574a37", "verdict": "drop", "note": "obsolete keyboard utility"}
+{"id": "f-47b657ef6d", "verdict": "drop", "note": "obsolete keyboard utility"}
+{"id": "f-48547868d1", "verdict": "keep", "rank": 2}
+{"id": "f-48ac749ce9", "verdict": "keep", "rank": 2}
+{"id": "f-48c6e58a3e", "verdict": "drop", "note": "superseded by dnd-kit"}
+{"id": "f-4933d73f53", "verdict": "keep", "rank": 2}
+{"id": "f-4a7f522925", "verdict": "keep", "rank": 2}
+{"id": "f-4ab3339e7e", "verdict": "keep", "rank": 1}
+{"id": "f-4b081b539f", "verdict": "keep", "rank": 4, "why": "Flexible React date picker that powers shadcn's Calendar; the standard date primitive for SISO apps."}
+{"id": "f-4b59f683f9", "verdict": "keep", "rank": 1}
+{"id": "f-4b89df6c5f", "verdict": "keep", "rank": 1}
+{"id": "f-4bd1c9020d", "verdict": "drop", "note": "obsolete state binding, non-UI"}
+{"id": "f-4be2a6668e", "verdict": "keep", "rank": 1}
+{"id": "f-4c9bb7ef9d", "verdict": "drop", "note": "React Native starter"}
+{"id": "f-4dc312bdf0", "verdict": "keep", "rank": 1}
+{"id": "f-4f36911c66", "verdict": "keep", "rank": 3, "why": "Storybook MCP server exposing component info to agents; relevant to agent-readable UI-HUB registry."}
+{"id": "f-4f72ee96ec", "verdict": "drop", "note": "framework superseded by Next/Astro for SISO"}
+{"id": "f-4fcb1217bd", "verdict": "keep", "rank": 3, "why": "Modern React lightbox with plugins; for portfolio and gallery client sites."}
+{"id": "f-5090dcf0c6", "verdict": "drop", "note": "old tabs component"}
+{"id": "f-50b2d097d0", "verdict": "drop", "note": "unmaintained styled-components kit"}
+{"id": "f-52050868cd", "verdict": "keep", "rank": 1}
+{"id": "f-52dd602b67", "verdict": "drop", "note": "superseded by GSAP ScrollTrigger"}
+{"id": "f-52f257c825", "verdict": "drop", "note": "head management, non-UI"}
+{"id": "f-532e4d3573", "verdict": "keep", "rank": 2}
+{"id": "f-5339c2c6d1", "verdict": "keep", "rank": 1}
+{"id": "f-5362ce0ac5", "verdict": "drop", "note": "Vue 2 core repo, superseded"}
+{"id": "f-536d9a1953", "verdict": "drop", "note": "old Element port for Angular"}
+{"id": "f-5394334721", "verdict": "keep", "rank": 1}
+{"id": "f-5459b9d008", "verdict": "keep", "rank": 2}
+{"id": "f-5559bda777", "verdict": "drop", "note": "obsolete router"}
+{"id": "f-55dbafa29b", "verdict": "drop", "note": "Redux devtools, non-UI"}
+{"id": "f-56f04241c9", "verdict": "drop", "note": "archived Uber charting library"}
+{"id": "f-5727bc9b20", "verdict": "keep", "rank": 1}
+{"id": "f-574d797408", "verdict": "keep", "rank": 3, "why": "Full-featured React component and hooks library with dark theme; strong alternative when shadcn is not required."}
+{"id": "f-576ee739a0", "verdict": "drop", "note": "React Native UI kit"}
+{"id": "f-57952f61f8", "verdict": "keep", "rank": 1}
+{"id": "f-58b78c5194", "verdict": "keep", "rank": 2}
+{"id": "f-58f8753509", "verdict": "keep", "rank": 4, "why": "Adobe's React Aria/Spectrum accessible primitives; best-in-class accessibility layer for custom components."}
+{"id": "f-592affa8de", "verdict": "keep", "rank": 1}
+{"id": "f-598ff726da", "verdict": "keep", "rank": 1}
+{"id": "f-5a8b0b672a", "verdict": "keep", "rank": 2}
+{"id": "f-5a93a889e9", "verdict": "keep", "rank": 2}
+{"id": "f-5bc8a8f752", "verdict": "keep", "rank": 3, "why": "Largest community collection of CSS/Tailwind UI elements; inspiration and copy source for micro-interactions."}
+{"id": "f-5c4145c042", "verdict": "keep", "rank": 4, "why": "Accessible animated number transitions (React/Vue/Svelte/Angular); polished stat counters for award sites and dashboards."}
+{"id": "f-5c5f614631", "verdict": "drop", "note": "trivial old blur component"}
+{"id": "f-5c9f2c8e0e", "verdict": "drop", "note": "non-UI state management"}
+{"id": "f-5d37e4317c", "verdict": "drop", "note": "Bootstrap 4 era kit"}
+{"id": "f-5e4ebad084", "verdict": "drop", "note": "framework core, not a UI resource"}
+{"id": "f-5f5ba06bc7", "verdict": "keep", "rank": 1}
+{"id": "f-5ffb05f290", "verdict": "keep", "rank": 1}
+{"id": "f-601009dd2a", "verdict": "keep", "rank": 3, "why": "Radix Themes styled component library; accessible base with consistent theming for apps."}
+{"id": "f-60e918348a", "verdict": "keep", "rank": 1}
+{"id": "f-61413cfa11", "verdict": "drop", "note": "JSX alternative, non-UI"}
+{"id": "f-61bcc34b1a", "verdict": "drop", "note": "WeChat UI port"}
+{"id": "f-621d1af984", "verdict": "drop", "note": "i18n, non-UI"}
+{"id": "f-621d526a54", "verdict": "drop", "note": "virtual DOM library, superseded"}
+{"id": "f-62a0c6ceb9", "verdict": "drop", "note": "Mithril UI library"}
+{"id": "f-62bf47a38a", "verdict": "keep", "rank": 2}
+{"id": "f-62e1a57708", "verdict": "drop", "note": "Knockout era framework"}
+{"id": "f-62f7bc840a", "verdict": "drop", "note": "superseded by ResizeObserver hooks"}
+{"id": "f-630eafaee0", "verdict": "drop", "note": "React-like library, non-UI resource"}
+{"id": "f-63165ef0ab", "verdict": "keep", "rank": 1}
+{"id": "f-63a60d7627", "verdict": "drop", "note": "mini-program framework"}
+{"id": "f-63fb764b1d", "verdict": "keep", "rank": 3, "why": "Headless WordPress starter on Next.js App Router and RSC; for client sites needing a WP CMS."}
+{"id": "f-642546e2ed", "verdict": "drop", "note": "niche framework, non-UI resource"}
+{"id": "f-6437543d02", "verdict": "drop", "note": "React Native UI kit"}
+{"id": "f-644062f4b7", "verdict": "keep", "rank": 1}
+{"id": "f-645923995f", "verdict": "drop", "note": "router, non-UI"}
+{"id": "f-6485e8542a", "verdict": "keep", "rank": 1}
+{"id": "f-64b22856f3", "verdict": "keep", "rank": 2}
+{"id": "f-64d4b3159d", "verdict": "keep", "rank": 1}
+{"id": "f-64ee60aec8", "verdict": "keep", "rank": 2}
+{"id": "f-651e625c6f", "verdict": "keep", "rank": 1}
+{"id": "f-65efe6ada4", "verdict": "keep", "rank": 4, "why": "Marmelab's admin/internal-tools kit on shadcn/ui over any REST API; fast dashboards in SISO's stack."}
+{"id": "f-66bda1f3f0", "verdict": "keep", "rank": 2}
+{"id": "f-66c996b214", "verdict": "drop", "note": "forms state, superseded by react-hook-form"}
+{"id": "f-66dd594c9c", "verdict": "keep", "rank": 1}
+{"id": "f-672679949b", "verdict": "keep", "rank": 2}
+{"id": "f-6753209de2", "verdict": "keep", "rank": 4, "why": "Modern React + Tailwind UI library (formerly NextUI); polished alternative component set for Next apps."}
+{"id": "f-679f2a544c", "verdict": "keep", "rank": 3, "why": "Responsive React photo album layouts (rows, columns, masonry); for portfolio and gallery sites."}
+{"id": "f-67f23b70ab", "verdict": "keep", "rank": 2}
+{"id": "f-67fadc6cac", "verdict": "drop", "note": "React Native UI kit"}
+{"id": "f-68ca6f6f2b", "verdict": "keep", "rank": 2}
+{"id": "f-68cb00338f", "verdict": "drop", "note": "old CSS-in-JS, superseded"}
+{"id": "f-6a304a9d2a", "verdict": "drop", "note": "non-UI state management"}
+{"id": "f-6a501e5a6d", "verdict": "drop", "note": "superseded by Motion layout animations"}
+{"id": "f-6a856a53ff", "verdict": "keep", "rank": 2}
+{"id": "f-6be4855ab2", "verdict": "drop", "note": "React Native starter"}
+{"id": "f-6c4b392720", "verdict": "drop", "note": "React Native UI kit"}
+{"id": "f-6c7ef909a6", "verdict": "drop", "note": "WeChat mini-program styles"}
+{"id": "f-6d35b0607b", "verdict": "drop", "note": "niche company kit, unmaintained"}
+{"id": "f-6d3ed58f5c", "verdict": "keep", "rank": 2}
+{"id": "f-6d55db41cc", "verdict": "drop", "note": "React clone, non-UI resource"}
+{"id": "f-6da941b895", "verdict": "drop", "note": "LLM evals, non-UI"}
+{"id": "f-6dd5dbbb42", "verdict": "drop", "note": "Ember Semantic UI port"}
+{"id": "f-6e47edec84", "verdict": "keep", "rank": 3, "why": "Official Prettier plugin that sorts Tailwind classes; keeps registry component code consistent."}
+{"id": "f-6e5bb43f8a", "verdict": "keep", "rank": 3, "why": "Open-source shadcn/ui blocks, templates and layouts with Radix/Base UI; registry-ready sections."}
+{"id": "f-6eb43736e8", "verdict": "keep", "rank": 1}
+{"id": "f-6f10d6d18c", "verdict": "keep", "rank": 1}
+{"id": "f-6f4a5e40e6", "verdict": "drop", "note": "react-motion era, superseded"}
+{"id": "f-6f96b4b9fc", "verdict": "keep", "rank": 2}
+{"id": "f-6f9b293b6d", "verdict": "keep", "rank": 3, "why": "File uploader built with shadcn/ui and Radix; drop-in upload UI for Next apps."}
+{"id": "f-6fb43cfc66", "verdict": "keep", "rank": 1}
+{"id": "f-70da401beb", "verdict": "keep", "rank": 3, "why": "Capsize trims font leading for precise typographic layout; useful for award-grade type systems."}
+{"id": "f-70e30260f0", "verdict": "keep", "rank": 2}
+{"id": "f-7102cf454a", "verdict": "drop", "note": "custom scrollbars superseded by native/Lenis"}
+{"id": "f-716a4d0a0f", "verdict": "drop", "note": "old mobile UI library"}
+{"id": "f-719760b27e", "verdict": "keep", "rank": 3, "why": "Accessible modular React component library; solid alternative design system for apps."}
+{"id": "f-7289dd1e2e", "verdict": "drop", "note": "example app, non-UI"}
+{"id": "f-72e698c431", "verdict": "keep", "rank": 3, "why": "React wrapper for Apache ECharts; rich charts for dashboards."}
+{"id": "f-72f95244c6", "verdict": "drop", "note": "react-motion era, superseded"}
+{"id": "f-732d1ce3f3", "verdict": "keep", "rank": 2}
+{"id": "f-73723090a8", "verdict": "keep", "rank": 1}
+{"id": "f-739f077840", "verdict": "keep", "rank": 1}
+{"id": "f-73a3c4cc27", "verdict": "drop", "note": "old UIkit React wrapper"}
+{"id": "f-73d004ad0e", "verdict": "keep", "rank": 2}
+{"id": "f-7414b38a47", "verdict": "drop", "note": "forms state, non-UI"}
+{"id": "f-742e582fdf", "verdict": "drop", "note": "old Vue Material kit"}
+{"id": "f-751435e7ed", "verdict": "keep", "rank": 1}
+{"id": "f-755eebe5a9", "verdict": "keep", "rank": 3, "why": "React access to 40k+ icons across 50+ sets via Iconify; broad icon coverage."}
+{"id": "f-759c33f2a5", "verdict": "drop", "note": "obsolete shortcut manager"}
+{"id": "f-7669568407", "verdict": "keep", "rank": 4, "why": "Modern Tailwind + Motion components for Next/shadcn; strong source of polished marketing and app UI."}
+{"id": "f-7677d55ee9", "verdict": "keep", "rank": 3, "why": "Tailwind-based component library and framework; quick vanilla Tailwind UI blocks."}
+{"id": "f-768abc7fb6", "verdict": "drop", "note": "unmaintained React Ionic port"}
+{"id": "f-76f88378c8", "verdict": "keep", "rank": 3, "why": "React components for Flowbite on Tailwind; ready UI blocks for Tailwind apps."}
+{"id": "f-774742abe1", "verdict": "drop", "note": "legacy Stripe checkout.js wrapper"}
+{"id": "f-77dfb20346", "verdict": "drop", "note": "old lightweight CSS framework"}
+{"id": "f-782d2f1cee", "verdict": "keep", "rank": 3, "why": "Streaming Markdown renderers across Vue/React/Svelte/Angular; for AI chat outputs."}
+{"id": "f-7859f0e422", "verdict": "keep", "rank": 3, "why": "Full-featured tag input built with shadcn/ui; drop-in for forms."}
+{"id": "f-78fcac6099", "verdict": "keep", "rank": 3, "why": "Mature admin framework over REST/GraphQL; for back-office apps."}
+{"id": "f-79615aae79", "verdict": "keep", "rank": 1}
+{"id": "f-7990b61e08", "verdict": "drop", "note": "superseded by Radix/React Aria menus"}
+{"id": "f-7995255665", "verdict": "drop", "note": "React Native UI kit"}
+{"id": "f-7a41129710", "verdict": "keep", "rank": 2}
+{"id": "f-7aa6c4898d", "verdict": "keep", "rank": 1}
+{"id": "f-7b1bb777db", "verdict": "drop", "note": "i18n, non-UI"}
+{"id": "f-7c1bd533a6", "verdict": "keep", "rank": 1}
+{"id": "f-7c46761c55", "verdict": "keep", "rank": 1}
+{"id": "f-7c64128dba", "verdict": "keep", "rank": 2}
+{"id": "f-7c7d3d6a33", "verdict": "drop", "note": "JSX syntax plugin, non-UI"}
+{"id": "f-7ca4b06eee", "verdict": "drop", "note": "unmaintained Material framework"}
+{"id": "f-7cbb69fbbb", "verdict": "keep", "rank": 3, "why": "Accessible kanban board with dnd-kit, Tailwind and shadcn/ui; pattern for drag-and-drop boards."}
+{"id": "f-7d0a4eda08", "verdict": "keep", "rank": 1}
+{"id": "f-7d416df384", "verdict": "keep", "rank": 2}
+{"id": "f-7d702a01f7", "verdict": "keep", "rank": 3, "why": "Responsive shadcn modal that becomes a drawer on mobile; drop-in dialog pattern."}
+{"id": "f-7ddc8f7ff7", "verdict": "drop", "note": "AMP framework, outdated for SISO"}
+{"id": "f-7e5cee39bc", "verdict": "keep", "rank": 3, "why": "MUI X data grid, pickers and charts; heavy-duty grid when needed."}
+{"id": "f-7e9f26aa67", "verdict": "keep", "rank": 2}
+{"id": "f-7eed810a80", "verdict": "keep", "rank": 1}
+{"id": "f-7f457e4ad1", "verdict": "drop", "note": "Vue 2 admin template"}
+{"id": "f-7f8bfffdc5", "verdict": "drop", "note": "niche reactive framework, non-UI resource"}
+{"id": "f-8000d8f6f5", "verdict": "keep", "rank": 3, "why": "Tiny accessible dependency-free React color picker; for theme and design tools."}
+{"id": "f-80711e6276", "verdict": "keep", "rank": 4, "why": "Unstyled React drawer used by shadcn's Drawer; the standard mobile sheet primitive."}
+{"id": "f-8131052286", "verdict": "keep", "rank": 1}
+{"id": "f-81777c8e82", "verdict": "drop", "note": "Ember awesome list, not a repo resource"}
+{"id": "f-81c7f1f986", "verdict": "keep", "rank": 2}
+{"id": "f-81e72e5645", "verdict": "drop", "note": "Vue 2 era Material kit"}
+{"id": "f-825c7d14ab", "verdict": "drop", "note": "archived Sketch renderer"}
+{"id": "f-8274960a74", "verdict": "keep", "rank": 2}
+{"id": "f-82e2638b32", "verdict": "keep", "rank": 2}
+{"id": "f-831617a8eb", "verdict": "keep", "rank": 1}
+{"id": "f-8371463eb5", "verdict": "keep", "rank": 1}
+{"id": "f-83c04aafd1", "verdict": "keep", "rank": 2}
+{"id": "f-843a50c0af", "verdict": "keep", "rank": 2}
+{"id": "f-84987c675c", "verdict": "drop", "note": "old full-stack starter, non-UI"}
+{"id": "f-84e327cb38", "verdict": "keep", "rank": 1}
+{"id": "f-84fce99988", "verdict": "keep", "rank": 1}
+{"id": "f-86348b504e", "verdict": "keep", "rank": 1}
+{"id": "f-86c56e40e7", "verdict": "keep", "rank": 1}
+{"id": "f-87d24b3a4f", "verdict": "keep", "rank": 3, "why": "MCP server giving coding agents Figma layout data; speeds design-to-code for client builds."}
+{"id": "f-88ea6f1065", "verdict": "keep", "rank": 3, "why": "Design rules and agent skills for UI coherence and hierarchy; improves agent-built UI quality."}
+{"id": "f-89046cdddb", "verdict": "keep", "rank": 2}

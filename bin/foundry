@@ -293,6 +293,18 @@ def registry_directory_rows():
                "licence": reg.get("name", ""), "rank": 2}
 
 
+def agent_catalog_rows():
+    """Claude Code skills and plugins (claude-plugins.dev, SkillsMP) and official MCP Registry servers, from the newest
+    agent_catalogs.py index on the data plane."""
+    snaps = sorted(Path("/Volumes/SISO-STORAGE-VAULT/foundry-data/research/agent-bases").glob("agent-catalog-items-*.jsonl")) + \
+        sorted((data_root() / "research" / "agent-bases").glob("agent-catalog-items-*.jsonl"))
+    if not snaps:
+        return
+    for it in read_jsonl(snaps[-1]):
+        it.update(domain="agent-bases", rank=2, licence=it.get("licence") or "see source")
+        yield it
+
+
 def count_lookup(entry):
     try:
         d = data_root() / "usage"
@@ -315,6 +327,8 @@ def cmd_find(a):
         rows += read_jsonl(RESEARCH / d / "records.jsonl")
     if (not a.domain or a.domain == "ui") and not a.no_items:
         rows += list(ui_hub_rows()) + list(component_bank_rows()) + list(registry_directory_rows())
+    if (not a.domain or a.domain == "agent-bases") and not a.no_items:
+        rows += list(agent_catalog_rows())
     if a.area:
         rows = [r for r in rows if r.get("area") == a.area]
     if a.kind:

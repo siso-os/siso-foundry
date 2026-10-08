@@ -92,7 +92,7 @@ def new_id(key):
 
 # ---------------------------------------------------------------- build
 
-FIELDS = ("title", "kind", "area", "licence", "preview", "why", "by", "date", "stars", "free")
+FIELDS = ("title", "kind", "area", "licence", "preview", "why", "by", "date", "stars", "free", "award")
 
 
 def build_domain(domain):
@@ -165,6 +165,8 @@ def apply_facts(base, records):
     repos = {g["github"]: g for g in read_jsonl(base / "github.jsonl")}
     for r in records:
         p = probes.get(r["url"])
+        if p and "://github.com/" in r["url"]:
+            p = None  # GitHub rate-limits page fetches; github.jsonl from its API is the authority for repos
         if p:
             r["http"] = p.get("status", 0)
             if not r.get("preview") and p.get("og_image"):
@@ -336,33 +338,58 @@ header{{padding:20px 24px;position:sticky;top:0;background:#0b0b0cee;backdrop-fi
 h1{{margin:0 0 4px;font-size:20px}} .sub{{color:#9a9aa2}} input{{margin-top:10px;width:min(480px,90%);padding:8px 10px;border-radius:8px;border:1px solid #333;background:#151517;color:#eee}}
 .grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;padding:8px 24px 40px}}
 a.card{{display:block;color:inherit;text-decoration:none;background:#151517;border:1px solid #232327;border-radius:12px;overflow:hidden}}
-a.card:hover{{border-color:#6b6bff}} .img{{aspect-ratio:16/10;background:#1c1c20 center/cover no-repeat}}
+a.card:hover{{border-color:#6b6bff}} .img{{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;background:#1c1c20}}
+.chips{{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px}} .chips button{{background:#1c1c20;color:#c9c9cf;border:1px solid #2c2c33;border-radius:99px;padding:3px 10px;font-size:12px;cursor:pointer}}
+.chips button:hover{{border-color:#6b6bff}} nav a{{color:#9aa0ff;margin-right:12px}}
 .b{{padding:10px 12px}} .t{{font-weight:600}} .m{{color:#9a9aa2;font-size:12px;margin:2px 0 6px}} .w{{font-size:13px;color:#c9c9cf}}
-</style><header><h1>{title}</h1><div class="sub">{sub}</div><input id="q" placeholder="filter…" oninput="f(this.value)"></header>
-<div class="grid">{cards}</div><script>function f(v){{v=v.toLowerCase();document.querySelectorAll('a.card').forEach(c=>c.style.display=c.dataset.s.includes(v)?'':'none')}}</script></html>"""
+</style><header><h1>{title}</h1><div class="sub">{sub}</div><input id="q" placeholder="filter…" oninput="f(this.value)"><div class="chips">{chips}</div></header>
+<div class="grid">{cards}</div><script>function c(v){{document.getElementById('q').value=v;f(v)}}function f(v){{v=v.toLowerCase();document.querySelectorAll('a.card').forEach(c=>c.style.display=c.dataset.s.includes(v)?'':'none')}}</script></html>"""
 
 
 def cmd_page(a):
+    if a.domain == "all":
+        rows = []
+        for d in domains():
+            areas = sorted({r.get("area") or "" for r in read_jsonl(RESEARCH / d / "records.jsonl")})
+            for area in areas:
+                n = cmd_page(argparse.Namespace(domain=d, area=area, out=None, quiet=True))
+                rows.append((d, area, n))
+        links = "".join(f'<li><a href="{d}-{ar}.html">{d} · {ar}</a> <span>{n}</span></li>' for d, ar, n in rows)
+        (data_root() / "artifacts" / "index.html").write_text(
+            '<!doctype html><meta charset="utf-8"><title>Foundry research</title><style>body{font:15px/1.6 -apple-system,system-ui;'
+            'background:#0b0b0c;color:#e8e8ea;padding:24px}a{color:#9aa0ff}span{color:#888}</style><h1>Foundry research domains</h1>'
+            f'<p>Built {time.strftime("%Y-%m-%d %H:%M")}. Look up from any agent: <code>foundry find &lt;words&gt; [--domain ui]</code></p><ul>{links}</ul>',
+            encoding="utf-8")
+        print(data_root() / "artifacts" / "index.html")
+        return 0
     recs = read_jsonl(RESEARCH / a.domain / "records.jsonl")
     if a.area:
         recs = [r for r in recs if r.get("area") == a.area]
-    recs.sort(key=lambda r: str(r.get("date") or ""), reverse=True)  # newest first, then previews first (stable sort)
+    recs.sort(key=lambda r: str(r.get("date") or ""), reverse=True)  # stable sorts: previews first, then curated rank, then newest
+    recs.sort(key=lambda r: -int(r.get("rank") or 3))
     recs.sort(key=lambda r: not r.get("preview"))
     cards = []
     for r in recs:
         e = html.escape
-        meta = " · ".join(str(x) for x in (r.get("kind"), r.get("by"), r.get("date"), (r.get("sources") or [""])[0].split("/")[2] if "://" in (r.get("sources") or [""])[0] else "") if x)
-        img = f'<div class="img" style="background-image:url(\'{e(r["preview"])}\')"></div>' if r.get("preview") else '<div class="img"></div>'
+        meta = " · ".join(str(x) for x in (r.get("award") or r.get("kind"), r.get("by"), r.get("date"), (r.get("sources") or [""])[0].split("/")[2] if "://" in (r.get("sources") or [""])[0] else "") if x)
+        img = f'<img class="img" loading="lazy" referrerpolicy="no-referrer" alt="" src="{e(r["preview"])}">' if r.get("preview") else '<div class="img"></div>'
         s = e(" ".join([r.get("title", ""), r.get("why", ""), " ".join(r.get("tags") or []), str(r.get("by") or "")]).lower())
         cards.append(f'<a class="card" href="{e(r["url"])}" target="_blank" rel="noopener" data-s="{s}">{img}<div class="b"><div class="t">{e(r.get("title",""))}</div><div class="m">{e(meta)}</div><div class="w">{e(str(r.get("why",""))[:180])}</div></div></a>')
+    counts = {}
+    for r in recs:
+        for t in set(r.get("tags") or []):
+            counts[t] = counts.get(t, 0) + 1
+    top = sorted((t for t in counts if 2 < len(t) < 24), key=lambda t: -counts[t])[:24]
+    chips = "".join(f'<button onclick="c(\'{html.escape(t)}\')">{html.escape(t)} {counts[t]}</button>' for t in top)
     title = f"Foundry · {a.domain}" + (f" · {a.area}" if a.area else "")
     sub = f"{len(recs)} records, {sum(1 for r in recs if r.get('preview'))} with previews · built {time.strftime('%Y-%m-%d %H:%M')} · source: research/{a.domain}/records.jsonl"
-    doc = PAGE.format(title=html.escape(title), sub=html.escape(sub), cards="\n".join(cards))
+    doc = PAGE.format(title=html.escape(title), sub=html.escape(sub), chips='<button onclick="c(\'\')">all</button>' + chips, cards="\n".join(cards))
     out = Path(a.out) if a.out else data_root() / "artifacts" / f"{a.domain}-{a.area or 'all'}.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(doc, encoding="utf-8")
-    print(out)
-    return 0
+    if not getattr(a, "quiet", False):
+        print(out)
+    return len(recs)
 
 
 def cmd_serve(a):

@@ -52,7 +52,7 @@ def web(a):
     base = ROOT / "research" / a.domain
     done = {p["url"] for p in load(base / "probes.jsonl")}
     todo = [r["url"] for r in load(base / "records.jsonl")
-            if (a.all or r["url"] not in done) and "youtube.com/watch" not in r["url"] and "x.com/" not in r["url"]]
+            if (a.all or r["url"] not in done) and "youtube.com/watch" not in r["url"] and "x.com/" not in r["url"] and "://github.com/" not in r["url"]]  # repos: see `github`
     todo = list(dict.fromkeys(todo))
     print(f"probing {len(todo)} urls", file=sys.stderr)
     alive = 0

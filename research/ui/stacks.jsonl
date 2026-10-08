@@ -1429,3 +1429,1533 @@
 {"url": "https://www.trevornoah.com/", "at": "2026-10-08", "stack": ["webflow"], "scripts": 2}
 {"url": "https://adcker.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "pixi.js", "scrolltrigger", "wordpress"], "scripts": 1}
 {"url": "https://www.paix-design.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "pixi.js", "scrolltrigger", "wordpress"], "scripts": 5}
+{"url": "https://www.quakerschool.org/", "at": "2026-10-08", "stack": ["lenis", "next.js", "react-three-fiber", "three.js", "wordpress"], "scripts": 6}
+{"url": "https://www.zendetta.com/", "at": "2026-10-08", "stack": ["next.js", "sanity", "three.js"], "scripts": 6}
+{"url": "https://weather.com/retro", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 1}
+{"url": "https://reboot.studio/", "at": "2026-10-08", "stack": ["next.js", "rive"], "scripts": 6}
+{"url": "http://griflan.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "tailwind", "vue"], "scripts": 2}
+{"url": "http://www.noth.in/", "at": "2026-10-08", "stack": ["webflow"], "scripts": 4}
+{"url": "https://dashdigital.studio/", "at": "2026-10-08", "stack": ["next.js", "prismic", "react-three-fiber", "scrolltrigger", "three.js", "webflow"], "scripts": 6}
+{"url": "https://path-robotics.studiofreight.dev/", "at": "2026-10-08", "stack": ["lottie", "next.js"], "scripts": 6}
+{"url": "https://www.vectrfl.com/", "at": "2026-10-08", "stack": ["astro", "scrolltrigger", "webgpu"], "scripts": 1}
+{"url": "https://www.marsrouge.com/realisations/apose/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://www.bullionproductions.com/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "nuxt", "prismic", "scrolltrigger", "tailwind", "vue"], "scripts": 6}
+{"url": "https://sturdy.co/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://www.humanastudio.com", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "sanity", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://peptone.io/", "at": "2026-10-08", "stack": ["astro", "gsap"], "scripts": 4}
+{"url": "http://www.craig-reynolds.com", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://blindsight.space", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 2}
+{"url": "https://www.limlondon.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://denderty.ava-case.com", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "matter.js", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "http://favorit.studio", "at": "2026-10-08", "stack": ["nuxt", "vue"], "scripts": 6}
+{"url": "https://mrbeast.basement.studio/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://wgb.agency/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://houseofyellow.nl/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "swup", "wordpress"], "scripts": 6}
+{"url": "http://interiorlab.creative-nights.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "wordpress"], "scripts": 2}
+{"url": "https://garden-eight.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "three.js", "vue"], "scripts": 6}
+{"url": "http://www.zoox.com", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://browserhistory.squarespace.com/", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://garoaskincare.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://experience.drdabber.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://ceramic-beats.zui.ooo/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://www.nodeck.online/", "at": "2026-10-08", "stack": ["gsap", "three.js"], "scripts": 1}
+{"url": "https://01.corentinbernadou.com/", "at": "2026-10-08", "stack": ["gsap"], "scripts": 2}
+{"url": "https://www.aainteriordesign.com.ua/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://control.chipsa.ru/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 6}
+{"url": "https://fidele-editions.com/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://aside.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.bornfight.studio/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://2022.abhishekjha.me/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger"], "scripts": 2}
+{"url": "https://www.freaksstore.com/freakmag/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "http://frenchbutnice.design/", "at": "2026-10-08", "stack": ["prismic"], "scripts": 0}
+{"url": "https://www.discoveredfoods.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "sanity", "scrolltrigger", "shopify", "vue"], "scripts": 3}
+{"url": "https://mycalmsite.com/", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://blackmadre.com", "at": "2026-10-08", "stack": [], "scripts": 3}
+{"url": "https://www.margotpriolet.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://milez.jp/", "at": "2026-10-08", "stack": ["gsap", "next.js", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://victor.work", "at": "2026-10-08", "stack": ["nuxt", "prismic"], "scripts": 0}
+{"url": "https://blobmixer.14islands.com/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 1}
+{"url": "http://nudot.com.tw/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://vizcom.com/", "at": "2026-10-08", "stack": ["lenis", "webflow"], "scripts": 3}
+{"url": "http://edoardosmerilli.com", "at": "2026-10-08", "stack": ["gsap", "nuxt", "three.js", "vue", "webflow"], "scripts": 6}
+{"url": "https://rupert-rothschildvignerons.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 1}
+{"url": "https://www.elite-designstudio.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "nuxt", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://eduardodelfraile.com/", "at": "2026-10-08", "stack": ["astro"], "scripts": 2}
+{"url": "https://madbox.io/", "at": "2026-10-08", "stack": ["nuxt", "prismic", "three.js", "vue"], "scripts": 6}
+{"url": "https://bennett-tea.com", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 3}
+{"url": "https://www.yanlinma.com/flat-ui-and-a-half/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://days.christou1910.com/en/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://collection-ii.mfisher.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.twomuch.studio/", "at": "2026-10-08", "stack": ["next.js", "react-three-fiber", "three.js"], "scripts": 6}
+{"url": "https://www.rhumb.co/", "at": "2026-10-08", "stack": ["gsap", "next.js", "prismic", "scrolltrigger"], "scripts": 6}
+{"url": "https://batcloud.art/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "three.js", "vue"], "scripts": 2}
+{"url": "https://virginhyperloop.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://kategora.com/en", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "wordpress"], "scripts": 2}
+{"url": "https://www.maisonauge.com/", "at": "2026-10-08", "stack": ["next.js", "prismic"], "scripts": 6}
+{"url": "https://www.ai-model.jp/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "three.js", "wordpress"], "scripts": 6}
+{"url": "https://atozofai.withgoogle.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://panamaera.fr/", "at": "2026-10-08", "stack": ["gsap", "next.js"], "scripts": 6}
+{"url": "http://rse.castoretpollux.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger"], "scripts": 2}
+{"url": "https://talent2020.foam.org/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "http://www.chriswilcock.co", "at": "2026-10-08", "stack": ["gsap", "sanity", "scrolltrigger"], "scripts": 1}
+{"url": "https://family.co/", "at": "2026-10-08", "stack": ["lottie", "next.js"], "scripts": 6}
+{"url": "https://thisisforyou.forces.ca/", "at": "2026-10-08", "stack": ["gsap", "next.js", "rive", "scrolltrigger"], "scripts": 6}
+{"url": "https://outhere-music.com/en", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://www.seen.space", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://21-capital.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://www.protohomes.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://jigsaw.google.com/the-current/white-supremacy/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://jant.fr/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.thebiggestchange.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://cloudcastles.gg", "at": "2026-10-08", "stack": ["sveltekit"], "scripts": 0}
+{"url": "https://rouvenat.com/", "at": "2026-10-08", "stack": ["barba.js", "lottie", "shopify"], "scripts": 6}
+{"url": "https://fingerspelling.xyz/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://mixpanel.com/home/", "at": "2026-10-08", "stack": ["framer", "next.js", "wordpress"], "scripts": 2}
+{"url": "https://aikawakenichi.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "three.js", "vue"], "scripts": 2}
+{"url": "http://www.nathansmith.design/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://thirdbykenjiro.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.thoughtsofayush.com/", "at": "2026-10-08", "stack": ["framer", "lenis"], "scripts": 0}
+{"url": "https://100daysofpoetry.gallery/", "at": "2026-10-08", "stack": ["nuxt", "vue"], "scripts": 6}
+{"url": "http://heycusp.com", "at": "2026-10-08", "stack": ["gsap", "pixi.js", "prismic", "three.js"], "scripts": 1}
+{"url": "https://www.ciaobellanairobi.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://astoncm.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger"], "scripts": 2}
+{"url": "https://wowpage.io/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://found.byspotify.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://talent.foam.org/", "at": "2026-10-08", "stack": ["next.js", "storyblok"], "scripts": 6}
+{"url": "https://karak.at/en", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "lottie", "scrolltrigger", "wordpress"], "scripts": 3}
+{"url": "https://hakaji.io/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://30ua.info/en", "at": "2026-10-08", "stack": ["nuxt", "prismic", "vue"], "scripts": 6}
+{"url": "https://www.lockerland.com.au/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "http://experience.covermymeds.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "http://flyingpapers.eu/", "at": "2026-10-08", "stack": ["next.js", "storyblok"], "scripts": 6}
+{"url": "https://crumbskees.com/", "at": "2026-10-08", "stack": ["lottie", "pixi.js"], "scripts": 1}
+{"url": "https://e-t.studio/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://solutions.centogene.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.future.1password.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.giuliatonon.it/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://shoya-kajita.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://www.fun-and-awe.io/operator", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 5}
+{"url": "https://www.cartier.com/fr-fr/collections/watchmaking/vision/timeproject", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://langmobile.com/", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 1}
+{"url": "https://pollykole.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "http://marxdesign.co.nz", "at": "2026-10-08", "stack": ["barba.js", "gsap", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 3}
+{"url": "https://kinoria.studio/", "at": "2026-10-08", "stack": ["three.js"], "scripts": 2}
+{"url": "http://seed.com", "at": "2026-10-08", "stack": ["next.js", "shopify"], "scripts": 6}
+{"url": "https://kortyeo.madebynull.com/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "nuxt", "scrolltrigger", "vue"], "scripts": 5}
+{"url": "https://rideradian.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://dwl.media/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://secrid.com", "at": "2026-10-08", "stack": ["next.js", "storyblok"], "scripts": 6}
+{"url": "http://letter-run.webflow.io", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 1}
+{"url": "https://www.fielddaysound.tv/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 3}
+{"url": "https://unboring.alexfrisondeisla.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://good-fella.com/", "at": "2026-10-08", "stack": ["lenis", "next.js", "sanity"], "scripts": 6}
+{"url": "http://antecamarastudio.com", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "tailwind"], "scripts": 4}
+{"url": "https://neuf.delpireandco.com", "at": "2026-10-08", "stack": ["gsap", "pixi.js", "scrolltrigger", "wordpress"], "scripts": 1}
+{"url": "https://www.thomasbosc.com/en", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 4}
+{"url": "https://vintageria2021.hce.it/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://experiencelab.publicisgroupe.jp/", "at": "2026-10-08", "stack": ["framer", "scrolltrigger"], "scripts": 0}
+{"url": "https://www.reed.be/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "http://charlotte-beaude.com/", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 6}
+{"url": "https://solace-store.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://theremin.app", "at": "2026-10-08", "stack": ["pixi.js"], "scripts": 1}
+{"url": "https://crazyabouteggs.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.mintlify.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://d-d-n-a.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "vue"], "scripts": 5}
+{"url": "https://cricut.com/en-us/cricut-autopress", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://eclettica.bulgari.com/emerald-strata", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://markus.se/", "at": "2026-10-08", "stack": ["gsap", "lottie", "wordpress"], "scripts": 2}
+{"url": "https://decodedadvertising.com", "at": "2026-10-08", "stack": ["gsap", "matter.js", "scrolltrigger"], "scripts": 1}
+{"url": "https://www.perimeterwatch.com", "at": "2026-10-08", "stack": ["gsap", "sanity", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://cannesprlions.com/en/lionsnews/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://sirup.online/5th/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://www.ukrainianpower.io/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://weeksync.app/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://bridgelanding.qodeinteractive.com/tour/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://www.behance.net/gallery/153009389/AAWU(M)", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://georgehatton.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.fuoripista.it/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 4}
+{"url": "https://mafanfa.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://atlason.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "tailwind"], "scripts": 1}
+{"url": "https://font.k95.it/july01", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://viragesmoto.com", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 5}
+{"url": "https://war.artmilitonian.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.sa-design.co", "at": "2026-10-08", "stack": ["gsap", "lottie", "three.js", "webflow"], "scripts": 6}
+{"url": "https://www.goodfight.shop/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://listeningtogether.atspotify.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.squadeasy.com/", "at": "2026-10-08", "stack": [], "scripts": 5}
+{"url": "https://booksofdesign.designstripe.com/artists/alphonse-mucha", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.rollienation.com", "at": "2026-10-08", "stack": ["lenis", "shopify"], "scripts": 6}
+{"url": "http://erikamoreira.co", "at": "2026-10-08", "stack": ["gsap", "prismic", "scrolltrigger"], "scripts": 1}
+{"url": "https://shelby.ashfall.studio/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "nuxt", "prismic", "scrolltrigger", "three.js", "vue"], "scripts": 2}
+{"url": "https://static.ssl.jimingkeji.com.cn/douyin_carnival_2022/index.html?sceneId=1#/home", "at": "2026-10-08", "stack": ["gsap", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 4}
+{"url": "https://fiveyears.minus99.com", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://poly.app/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "tailwind", "three.js", "vue"], "scripts": 2}
+{"url": "https://www.luckyfolks.fr/", "at": "2026-10-08", "stack": ["gsap", "matter.js", "scrolltrigger", "wordpress"], "scripts": 3}
+{"url": "https://www.goldensuisse.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://khaby.rocani.co", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://www.authkit.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://live.vanmoof.com/site", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.dillinger.tv", "at": "2026-10-08", "stack": ["prismic"], "scripts": 0}
+{"url": "https://www.artgalleryofballarat.com.au/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 1}
+{"url": "https://www.heartsandminds.la/work/hear360-brand-anthem-video", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 4}
+{"url": "https://keepgrading.com", "at": "2026-10-08", "stack": ["locomotive-scroll", "nuxt", "prismic", "tailwind", "vue"], "scripts": 6}
+{"url": "https://shawngolden.org/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 2}
+{"url": "https://airshifumi.hands.agency/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://vault49.com", "at": "2026-10-08", "stack": [], "scripts": 3}
+{"url": "https://www.erikasenftmiller.com", "at": "2026-10-08", "stack": ["gsap", "sanity"], "scripts": 2}
+{"url": "https://agrumeafarm.it/en", "at": "2026-10-08", "stack": ["gsap", "lenis", "matter.js", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "https://www.jameenctarlier.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://le-qb.com/", "at": "2026-10-08", "stack": ["nuxt", "react-three-fiber", "three.js", "vue"], "scripts": 6}
+{"url": "https://www.grovelust.be/", "at": "2026-10-08", "stack": ["gsap"], "scripts": 4}
+{"url": "https://shapefarm.net", "at": "2026-10-08", "stack": ["gsap", "swup", "three.js", "vue"], "scripts": 2}
+{"url": "https://www.glukhovsky.com/", "at": "2026-10-08", "stack": ["lenis", "lottie", "webflow"], "scripts": 5}
+{"url": "https://musotoku.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://rugby-man.fr", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://hobokenyogi.com/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "lottie", "prismic", "scrolltrigger"], "scripts": 2}
+{"url": "https://www.ultimacollection.com/en/collections/ultima-gstaad", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://wise.design/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://emotivefeels.com/", "at": "2026-10-08", "stack": ["lottie"], "scripts": 4}
+{"url": "https://rework.vitality.gg", "at": "2026-10-08", "stack": ["vue"], "scripts": 1}
+{"url": "https://www.livingwithocd.info/", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 1}
+{"url": "https://extraset.ch/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://okcclabs.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://emotion-agency.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "storyblok", "three.js", "vue"], "scripts": 1}
+{"url": "https://katiforner.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://unfurproject.com", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://65db.fr/en/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "http://www.sanrita.ca/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://interfere.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://dumplingdelivery.mailchimp.com/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 2}
+{"url": "https://loerarchitecten.com/en", "at": "2026-10-08", "stack": ["nuxt", "vue"], "scripts": 4}
+{"url": "https://antara.studio/", "at": "2026-10-08", "stack": ["gsap", "sanity", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://easol.studiofreight.dev/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://invictus-elixir-experience.rabanne.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "three.js", "vue"], "scripts": 2}
+{"url": "https://dirtverse.co/", "at": "2026-10-08", "stack": ["framer", "lenis"], "scripts": 0}
+{"url": "https://flshfrm.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "tailwind", "vue"], "scripts": 2}
+{"url": "https://www.robfwa.com/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 0}
+{"url": "https://www.draw-your-polo.lacoste.com/", "at": "2026-10-08", "stack": ["three.js", "vue", "wordpress"], "scripts": 1}
+{"url": "https://marqeta.com", "at": "2026-10-08", "stack": ["lottie", "next.js", "sanity", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.grilledpixels.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "react-three-fiber", "three.js"], "scripts": 6}
+{"url": "https://citadellegin.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 1}
+{"url": "https://www.danieltriendl.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "next.js", "sanity", "scrolltrigger"], "scripts": 6}
+{"url": "https://atria.non-linear.studio", "at": "2026-10-08", "stack": ["gsap", "ogl", "sanity", "scrolltrigger"], "scripts": 1}
+{"url": "https://edifis.ca/en/", "at": "2026-10-08", "stack": ["lottie", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://aaavatar.nl/", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "https://heirest.com/", "at": "2026-10-08", "stack": ["gsap", "react-three-fiber", "shopify", "three.js"], "scripts": 6}
+{"url": "https://exp-infinite-passerella.lusion.co/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://steven.com/", "at": "2026-10-08", "stack": ["lenis", "webflow"], "scripts": 2}
+{"url": "http://thepleasurepersuit.hello-jury.com", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.parsonsbranding.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "wordpress"], "scripts": 1}
+{"url": "https://postevand.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "shopify"], "scripts": 6}
+{"url": "http://www.bbqcultures.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 1}
+{"url": "https://guccimascarahunt.gucci.com/", "at": "2026-10-08", "error": "TimeoutError", "stack": []}
+{"url": "https://1987masters.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.bpco.kr/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://deathofmygeneration.fun", "at": "2026-10-08", "stack": ["nuxt", "prismic", "vue"], "scripts": 6}
+{"url": "https://www.ge.com/innovation-barometer/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "http://www.kommigraphics.com", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "lottie", "scrolltrigger", "three.js", "wordpress"], "scripts": 2}
+{"url": "https://bien-joue.ca/en/", "at": "2026-10-08", "stack": ["barba.js", "locomotive-scroll", "pixi.js", "wordpress"], "scripts": 2}
+{"url": "https://hsmkrt1996.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "vue"], "scripts": 6}
+{"url": "https://www.thebrowser.company/", "at": "2026-10-08", "stack": ["lottie", "next.js", "sanity"], "scripts": 6}
+{"url": "https://select.supabase.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://mecha-xyz.webflow.io/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "three.js", "webflow"], "scripts": 6}
+{"url": "https://www.magnetism.fr/en", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "prismic", "scrolltrigger", "tailwind", "vue"], "scripts": 3}
+{"url": "https://opx.studio/", "at": "2026-10-08", "stack": ["gsap", "wordpress"], "scripts": 6}
+{"url": "http://splinegroup.ca", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 6}
+{"url": "https://marble.studio/", "at": "2026-10-08", "stack": ["lottie", "next.js", "sanity"], "scripts": 6}
+{"url": "https://www.congrue.ai/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.haritos.co/", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 6}
+{"url": "https://togethxr.com", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://menudurable.ca/en/", "at": "2026-10-08", "stack": ["gsap", "lottie", "matter.js", "pixi.js", "three.js"], "scripts": 3}
+{"url": "https://loganliffick.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://wearebulletproof.com", "at": "2026-10-08", "stack": ["barba.js", "lottie", "webflow"], "scripts": 5}
+{"url": "https://www.wyth.live/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://wanderful.index.studio/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 3}
+{"url": "https://bttrhlf.com/", "at": "2026-10-08", "stack": ["next.js", "sanity"], "scripts": 6}
+{"url": "http://www.theseawebreathe.com", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js", "wordpress"], "scripts": 5}
+{"url": "http://www.appart.agency", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://www.wearejuliet.com", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 4}
+{"url": "https://olgaprudka.com/", "at": "2026-10-08", "stack": ["barba.js", "wordpress"], "scripts": 6}
+{"url": "https://benjaminrighetti.netlify.app/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 2}
+{"url": "https://www.koraliving.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 1}
+{"url": "https://geolava.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://www.artisansdidees.com/en", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "scrolltrigger", "three.js", "vue"], "scripts": 6}
+{"url": "https://www.matwidget.com/", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "https://montreal.mutek.org/", "at": "2026-10-08", "stack": ["gsap", "three.js"], "scripts": 2}
+{"url": "https://boyntonyards.com/", "at": "2026-10-08", "stack": ["gsap"], "scripts": 5}
+{"url": "https://weltio.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://nexus.hexagon.com/", "at": "2026-10-08", "stack": ["next.js", "sanity"], "scripts": 6}
+{"url": "http://charlielemaignan.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://technology.panasonic.eu/av-digital-world/", "at": "2026-10-08", "stack": ["vue"], "scripts": 3}
+{"url": "https://totem.itsoffbrand.com/", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 1}
+{"url": "https://stage-helias.myshopify.com/", "at": "2026-10-08", "stack": ["lottie", "shopify"], "scripts": 6}
+{"url": "https://www.ju.st/", "at": "2026-10-08", "stack": ["next.js", "storyblok"], "scripts": 6}
+{"url": "https://metajive.com/", "at": "2026-10-08", "stack": ["lenis", "next.js"], "scripts": 6}
+{"url": "https://cubitts.com/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://thayon.com/", "at": "2026-10-08", "stack": ["framer", "lenis"], "scripts": 0}
+{"url": "https://total-pr.net/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js", "wordpress"], "scripts": 2}
+{"url": "https://dragonfly1.studiofreight.dev/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://pixila.net/", "at": "2026-10-08", "stack": ["astro"], "scripts": 6}
+{"url": "https://www.editorx.com/prowebsites/web-design-trends?utm_source=submition&amp;utm_medium=cpc&amp;utm_campaign=ma_edx-brand-trends-submition&amp;experiment_id=awwwards", "at": "2026-10-08", "stack": ["lottie"], "scripts": 0}
+{"url": "https://estudionk.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "prismic", "rive", "scrolltrigger", "storyblok"], "scripts": 6}
+{"url": "https://kern.inc", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://monogrid.com/en/project/alpitour-infinity-lounge", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 3}
+{"url": "http://Proof.io", "at": "2026-10-08", "stack": ["next.js", "prismic"], "scripts": 6}
+{"url": "http://dreamers.squarespace.com", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://giftgiving.gucci.com/", "at": "2026-10-08", "error": "TimeoutError", "stack": []}
+{"url": "https://upperquad.com", "at": "2026-10-08", "stack": ["lenis", "next.js"], "scripts": 6}
+{"url": "https://www.worthitdocs.com/", "at": "2026-10-08", "stack": ["locomotive-scroll", "lottie", "webflow"], "scripts": 6}
+{"url": "https://www.salparasuco-22.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "http://dunderville.se", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://altermind.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 5}
+{"url": "https://kukla-kit.wannathis.one/", "at": "2026-10-08", "stack": ["webflow"], "scripts": 2}
+{"url": "https://iwantitall.merci-michel.com/", "at": "2026-10-08", "stack": ["vue"], "scripts": 1}
+{"url": "https://www.atomus.io/", "at": "2026-10-08", "stack": ["gsap", "lottie", "matter.js", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://bobmoll.tech/", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://www.squarespace.com/sell-anything", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://worldaftercovid.info", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 4}
+{"url": "https://mill3.studio/en", "at": "2026-10-08", "stack": ["lottie", "rive", "wordpress"], "scripts": 1}
+{"url": "http://fromanother.love/", "at": "2026-10-08", "stack": ["gsap", "next.js", "prismic", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://mubien.com/", "at": "2026-10-08", "stack": ["lenis", "three.js", "webgpu"], "scripts": 1}
+{"url": "https://endlessletter.com/en/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.billow.so/", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "https://amie.so/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://lucidmotors.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://gmunk.com/Rivian-Borealis-x-Art-Basel", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.juliajohnson.com/", "at": "2026-10-08", "stack": ["astro", "lenis"], "scripts": 0}
+{"url": "https://www.driesbos.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger", "storyblok"], "scripts": 6}
+{"url": "https://playbeatthat.acura.com/?awd", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.apple.com/go/iwd2020", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://www.aircompany.com/", "at": "2026-10-08", "stack": ["next.js", "sanity", "wordpress"], "scripts": 6}
+{"url": "https://portal.thenifty.com/", "at": "2026-10-08", "stack": ["lottie", "webflow", "wordpress"], "scripts": 4}
+{"url": "https://www.banorama.no", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger"], "scripts": 1}
+{"url": "https://www.display.care/", "at": "2026-10-08", "stack": ["lottie", "sanity"], "scripts": 1}
+{"url": "https://neutra-vdl.org/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "sanity", "scrolltrigger", "vue"], "scripts": 5}
+{"url": "https://manonjouet.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://davesocozy.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://arnaudrocca.fr/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 3}
+{"url": "https://www.moooi.com/a-life-extraordinary", "at": "2026-10-08", "stack": ["pixi.js"], "scripts": 0}
+{"url": "https://dola.studiofreight.dev/", "at": "2026-10-08", "stack": ["next.js", "three.js"], "scripts": 6}
+{"url": "https://artworld.agency/", "at": "2026-10-08", "stack": ["barba.js", "lottie", "playcanvas", "react-three-fiber", "three.js"], "scripts": 6}
+{"url": "https://www.icebug.com/en-GB", "at": "2026-10-08", "stack": ["next.js", "storyblok"], "scripts": 6}
+{"url": "https://areyou.okok.services/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://wakawaka.world/", "at": "2026-10-08", "stack": ["sanity"], "scripts": 0}
+{"url": "https://smartdevicetec.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "storyblok", "vue"], "scripts": 6}
+{"url": "https://tecatepalnorte.com/", "at": "2026-10-08", "stack": ["sveltekit"], "scripts": 1}
+{"url": "https://www.badass35.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 2}
+{"url": "https://www.leroymerlin.fr/big2/guides-2021/experience-inspiration.html", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://barge166.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 0}
+{"url": "https://www.loevenmorcel.com/", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 5}
+{"url": "https://www.cartier.com/followthebabypanther", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://bueno.fyi/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.bottleonthetable.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.runrobrun.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://dkton.at/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://chrismacarifilms.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "three.js", "vue"], "scripts": 2}
+{"url": "https://www.sixmorevodka.com", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "storyblok", "vue"], "scripts": 4}
+{"url": "https://www.nivisgear.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "shopify"], "scripts": 6}
+{"url": "https://www.easyseller.it/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "scrolltrigger", "three.js", "wordpress"], "scripts": 6}
+{"url": "https://sethlukin.com/", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "https://thinkdance.ca/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://chiaraluzzana.com", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "three.js", "webflow"], "scripts": 6}
+{"url": "https://zperinatal.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://ribant.co", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.schemeengine.com/", "at": "2026-10-08", "stack": ["shopify", "webflow"], "scripts": 1}
+{"url": "https://scepterandsword.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 4}
+{"url": "https://www.tiltongroup.com/en", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger"], "scripts": 3}
+{"url": "https://www.santateresafest.ca/en/", "at": "2026-10-08", "stack": ["gsap", "nuxt"], "scripts": 6}
+{"url": "https://www.aurelia-studio.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://colors.combinations.obys.agency/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "http://livingcorporate.workshopbuilt.com", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 1}
+{"url": "https://pets.byspotify.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://genius.design/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://cleo.show/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://v4prophecy.2advanced.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://wyre.studiofreight.dev/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://stelostories.co/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://expodcast.cmbv.fr/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "vue"], "scripts": 5}
+{"url": "https://nota.uprock.pro/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://china.circus-inc.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.oroswap.org/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://www.snogproductions.com/", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 3}
+{"url": "https://www.houseplant.com/", "at": "2026-10-08", "stack": ["shopify", "tailwind"], "scripts": 6}
+{"url": "https://www.finely-crafted.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "https://vredestein-newhorizons.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://partners.cpeople.ru/en/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 0}
+{"url": "https://culturenext.byspotify.com/en-US", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "http://fcxv.fabiennechapot.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://ej-architecture.fr/", "at": "2026-10-08", "stack": ["nuxt", "vue"], "scripts": 6}
+{"url": "https://neuroproductions.be/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "webgpu"], "scripts": 1}
+{"url": "https://bluereceipt.com/", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 6}
+{"url": "https://coastalworld.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 5}
+{"url": "https://x.cristobalbalenciagamuseoa.com/en", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://unspun-preprod.rejouice.io", "at": "2026-10-08", "stack": ["shopify", "wordpress"], "scripts": 1}
+{"url": "https://themarcus.com", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.steventaylor.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 0}
+{"url": "https://designedbywomen.org/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "vue"], "scripts": 1}
+{"url": "https://gh22.codebydennis.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "locomotive-scroll", "scrolltrigger"], "scripts": 6}
+{"url": "https://10ideesrecuesenuxdesign.castoretpollux.com/en", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://water.falmec.com", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://www.elespacio.net/", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 5}
+{"url": "http://www.wethinkelastic.com", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger"], "scripts": 2}
+{"url": "https://homunculus.jp/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 3}
+{"url": "https://dennissnellenberg.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "locomotive-scroll", "scrolltrigger"], "scripts": 6}
+{"url": "http://www.zen.ly", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://thisisdash.com", "at": "2026-10-08", "stack": ["gsap", "next.js", "sanity", "scrolltrigger"], "scripts": 6}
+{"url": "https://shapestudio.co.uk", "at": "2026-10-08", "stack": ["gsap", "three.js", "wordpress"], "scripts": 3}
+{"url": "https://www.eleveight.studio/", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "https://lestudiodigital.betc.com", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://maxilla.jp", "at": "2026-10-08", "stack": ["next.js", "playcanvas"], "scripts": 6}
+{"url": "https://tinycomputer.co/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "http://agora.estudionk.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "prismic", "rive", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.luakabop.com/", "at": "2026-10-08", "stack": ["next.js", "sanity"], "scripts": 6}
+{"url": "https://hennessy-house-of-moves.hello-jury.com/", "at": "2026-10-08", "stack": ["gsap", "react-three-fiber", "scrolltrigger", "three.js", "vue"], "scripts": 1}
+{"url": "https://rider404.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://verholy.com/en/", "at": "2026-10-08", "stack": ["nuxt", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://www.mersi-architecture.com/", "at": "2026-10-08", "stack": ["webflow"], "scripts": 3}
+{"url": "https://www.virugroup.com/en/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 3}
+{"url": "https://arvinleeuwis.xyz/", "at": "2026-10-08", "stack": ["react-three-fiber", "sveltekit", "three.js"], "scripts": 1}
+{"url": "https://atelier.net/social-mobility/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://lucerra.co/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "nuxt", "scrolltrigger", "vue"], "scripts": 3}
+{"url": "https://www.diko.co/", "at": "2026-10-08", "stack": ["gsap", "lottie", "webflow"], "scripts": 5}
+{"url": "https://www.sivikatelier.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "three.js", "webflow"], "scripts": 4}
+{"url": "https://nextbigthing.ag/", "at": "2026-10-08", "stack": ["nuxt", "prismic", "vue"], "scripts": 6}
+{"url": "https://atmos.leeroy.ca/", "at": "2026-10-08", "stack": ["gsap", "lottie", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://pendereckisgarden.pl/en", "at": "2026-10-08", "stack": ["gsap", "three.js"], "scripts": 2}
+{"url": "http://furobot.org/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 1}
+{"url": "https://www.quintinlodge.com/", "at": "2026-10-08", "stack": ["sanity", "three.js"], "scripts": 1}
+{"url": "https://www.heights.agency/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "prismic", "scrolltrigger", "tailwind", "vue"], "scripts": 4}
+{"url": "https://www.verostudio.com/", "at": "2026-10-08", "stack": ["next.js", "sanity"], "scripts": 6}
+{"url": "https://www.weareimpero.com/", "at": "2026-10-08", "stack": ["babylon.js", "gsap", "lenis", "react-three-fiber", "scrolltrigger", "three.js", "wordpress"], "scripts": 5}
+{"url": "https://www.chocapic-nutri-game.fr", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://sandland.numbered.studio/", "at": "2026-10-08", "stack": ["next.js", "react-three-fiber", "three.js"], "scripts": 6}
+{"url": "https://ore.co/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 4}
+{"url": "https://aquerone.com", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://marfala.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 5}
+{"url": "https://www.nexbank.com", "at": "2026-10-08", "stack": ["gsap", "wordpress"], "scripts": 5}
+{"url": "https://www.aardvarkbookclub.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://fleava.com/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "nuxt", "prismic", "scrolltrigger", "three.js", "vue"], "scripts": 2}
+{"url": "https://seunghyuk.com/", "at": "2026-10-08", "stack": ["lenis", "three.js"], "scripts": 1}
+{"url": "https://wonderwall-studio.pl/?lang=en", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://localadventure.mammut.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://myshaky.com/picks", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 6}
+{"url": "https://kontu.io/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://marseille.laphase5.com", "at": "2026-10-08", "stack": ["gsap", "prismic", "three.js", "vue"], "scripts": 2}
+{"url": "https://wearezizo.com/", "at": "2026-10-08", "stack": ["locomotive-scroll", "nuxt", "three.js", "vue"], "scripts": 6}
+{"url": "https://kaleidozdesign.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://manoverboard.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lottie", "scrolltrigger"], "scripts": 5}
+{"url": "https://shopping.google.com/m/bestthings/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 0}
+{"url": "https://hustla.app/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "http://julieguzal.fr/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 1}
+{"url": "http://eliasakentour.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://pluggedliveshows.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 1}
+{"url": "https://wannathis.one/humans", "at": "2026-10-08", "stack": ["nuxt", "react-three-fiber", "three.js", "vue"], "scripts": 3}
+{"url": "https://revistaelduende.com/", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 6}
+{"url": "https://www.oriorai.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.espn.com/espn/feature/story/_/id/34769042/ovechkin-800", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://bad-boys.studiofreight.dev/", "at": "2026-10-08", "stack": ["gsap", "lottie", "next.js", "scrolltrigger", "shopify"], "scripts": 6}
+{"url": "https://marioecg.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://buttons.evrone.com/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "http://www.everyneuron.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "http://spaincollection.com", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "three.js", "wordpress"], "scripts": 6}
+{"url": "https://kononenkogroup.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "prismic", "scrolltrigger", "three.js", "vue"], "scripts": 2}
+{"url": "https://www.museumofmoney.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://ovloopbrand.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://orgnzm.studio/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "unicorn-studio", "webflow"], "scripts": 6}
+{"url": "https://www.vaayu.tech/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "webflow", "wordpress"], "scripts": 4}
+{"url": "https://virtual-gallery.okeystudio.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 1}
+{"url": "https://aesop-aromatique-candles.regalepreviews.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.cubansedge.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger", "tailwind"], "scripts": 6}
+{"url": "https://fresque.ruinart.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "https://www.mschristensen.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://www.fromt.app/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://expo.dmlainfo.fr", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 1}
+{"url": "https://drivecapital.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.nftofthedead.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://annoyingmuseum.zendesk.com/", "at": "2026-10-08", "stack": ["next.js", "rive"], "scripts": 6}
+{"url": "http://deeponde.com/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://longhoang-lyo.com/", "at": "2026-10-08", "stack": ["gsap"], "scripts": 1}
+{"url": "https://razed-mods.webflow.io/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://fledge.tv", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js", "wordpress"], "scripts": 1}
+{"url": "https://racing.porsche.com/", "at": "2026-10-08", "stack": ["lenis", "next.js"], "scripts": 6}
+{"url": "https://miramacho.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "wordpress"], "scripts": 5}
+{"url": "https://www.boraborastudios.com/work/island-hoppers-interactive-led-halftime-game", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://secure-the-unknown.cyera.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://guillaumetomasi.com", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "three.js", "vue"], "scripts": 1}
+{"url": "https://theud.fr/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.honk.me/", "at": "2026-10-08", "stack": ["lottie", "next.js"], "scripts": 6}
+{"url": "https://noho.ink/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://altsdigital.com/", "at": "2026-10-08", "stack": ["locomotive-scroll", "lottie", "nuxt", "sanity", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://hanaiworld.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.cellag.org/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 2}
+{"url": "https://typefinder.bigbump.fr/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 4}
+{"url": "https://www.heartaerospace.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://public---domain.com/", "at": "2026-10-08", "stack": ["nuxt", "prismic", "three.js", "vue"], "scripts": 6}
+{"url": "https://cyberphotos.ca", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "vue"], "scripts": 4}
+{"url": "https://nannalagerman.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 4}
+{"url": "https://biite.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.1820productions.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "webflow"], "scripts": 2}
+{"url": "https://loftgarten.co", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://zoepepper.com", "at": "2026-10-08", "stack": ["gsap", "lottie", "wordpress"], "scripts": 6}
+{"url": "https://www.apple.com/macbook-pro-16", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://www.joinsparq.com/", "at": "2026-10-08", "stack": ["framer"], "scripts": 2}
+{"url": "https://www.poppr.be", "at": "2026-10-08", "stack": ["theatre.js", "three.js"], "scripts": 1}
+{"url": "https://www.foam.org/", "at": "2026-10-08", "stack": ["next.js", "storyblok"], "scripts": 6}
+{"url": "https://www.kikk.be/2020/en/home", "at": "2026-10-08", "stack": ["gsap", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://quintessence.ultranoir.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "locomotive-scroll", "scrolltrigger", "webgpu"], "scripts": 4}
+{"url": "http://plus.u-aid.org", "at": "2026-10-08", "stack": [], "scripts": 3}
+{"url": "https://www.caveworld.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "prismic", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://manet.agency/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://skolkovoforbusiness.ru/en/features/#home", "at": "2026-10-08", "stack": ["gsap", "three.js"], "scripts": 1}
+{"url": "http://globekit.co", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://infraredmindbody.com/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://pad.dotincorp.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://superfluid.numbered.studio/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://nuenofashion.com/", "at": "2026-10-08", "stack": ["nuxt", "vue"], "scripts": 6}
+{"url": "https://itomdev.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "react-three-fiber", "sanity", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://www.dialkit.dev/", "at": "2026-10-08", "stack": ["gsap", "lottie", "next.js"], "scripts": 6}
+{"url": "https://kazukinoda.com/", "at": "2026-10-08", "stack": ["nuxt", "vue"], "scripts": 6}
+{"url": "https://thiswasmajor.com/", "at": "2026-10-08", "stack": ["framer", "lenis"], "scripts": 0}
+{"url": "https://www.azzerad.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://elvalabs.ai/", "at": "2026-10-08", "stack": ["three.js"], "scripts": 1}
+{"url": "https://avantt.displaay.net/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://www.quentingoupille.com/", "at": "2026-10-08", "stack": ["next.js", "prismic"], "scripts": 6}
+{"url": "https://gallery.swell.ripple.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://rmc-studio.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://studio9p.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "https://thegameawards.dreamwave.live/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.area.tech/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.daoism.systems/", "at": "2026-10-08", "stack": ["sveltekit"], "scripts": 0}
+{"url": "https://dpt.co/en/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "lottie", "nuxt", "scrolltrigger", "vue"], "scripts": 4}
+{"url": "http://yannickgregoire.nl", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.waxpoetics.com/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://2022.vendredi-society.fr/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 1}
+{"url": "https://cobosrl.co", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "lottie", "scrolltrigger", "three.js", "webflow"], "scripts": 6}
+{"url": "https://www.hollywoodexhibit2026.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://swabtheworld.com/en/", "at": "2026-10-08", "stack": ["gsap", "lottie"], "scripts": 6}
+{"url": "https://kirschberg.co.nz/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://therace.montblanclegend.com", "at": "2026-10-08", "stack": ["vue"], "scripts": 1}
+{"url": "https://rainbowkit.com/", "at": "2026-10-08", "stack": ["next.js", "three.js"], "scripts": 6}
+{"url": "https://www.mrmold.ai/", "at": "2026-10-08", "stack": ["matter.js"], "scripts": 1}
+{"url": "https://sougen.co", "at": "2026-10-08", "stack": ["next.js", "react-three-fiber", "three.js"], "scripts": 6}
+{"url": "https://celebrating200.evian.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "webgpu"], "scripts": 1}
+{"url": "https://1minus1.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "tailwind", "three.js", "vue"], "scripts": 2}
+{"url": "https://www.cmcc.vc", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://www.seventh.tv/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://takingshape.adobe.com/", "at": "2026-10-08", "stack": ["gsap", "playcanvas", "react-three-fiber", "sanity", "scrolltrigger", "three.js", "vue"], "scripts": 2}
+{"url": "https://thelaartbox.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://rhythmofnature.armadillo-co.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 4}
+{"url": "https://delafolla.com/", "at": "2026-10-08", "stack": ["three.js"], "scripts": 4}
+{"url": "https://ljubicicacademy.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://lewahouse.com", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js", "wordpress"], "scripts": 6}
+{"url": "https://carnival.withspotify.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.fpp.net/", "at": "2026-10-08", "stack": [], "scripts": 5}
+{"url": "https://airforceecho.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://k95.it/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "three.js", "vue"], "scripts": 2}
+{"url": "http://aiaiai.audio", "at": "2026-10-08", "stack": ["gsap", "next.js", "prismic", "scrolltrigger"], "scripts": 6}
+{"url": "https://missjourney.ai", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://kacper.ch", "at": "2026-10-08", "stack": ["gsap", "prismic", "scrolltrigger"], "scripts": 1}
+{"url": "https://dopegood.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "react-three-fiber", "scrolltrigger", "spline", "three.js"], "scripts": 2}
+{"url": "https://www.elegantseagulls.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://foundry.basement.studio/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.flyplatoon.com/", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://us.byhabit.com/", "at": "2026-10-08", "stack": ["next.js", "sanity"], "scripts": 6}
+{"url": "https://likova.space/", "at": "2026-10-08", "stack": ["barba.js"], "scripts": 3}
+{"url": "https://www.tbwahakuhodo.co.jp/", "at": "2026-10-08", "stack": ["astro", "gsap", "lenis", "lottie", "scrolltrigger", "swup"], "scripts": 1}
+{"url": "https://silviasguotti.design/", "at": "2026-10-08", "stack": ["gsap", "matter.js", "prismic", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://sapiens.ui8.net/", "at": "2026-10-08", "stack": ["lottie"], "scripts": 3}
+{"url": "https://explore.flowersforsociety.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://rdapkuns.github.io/around-digiphy/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://innovations.vareximaging.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://rvlt-ranboo.basement.studio/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "next.js", "scrolltrigger", "shopify"], "scripts": 6}
+{"url": "https://www.aliciakeys.com/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://hyogen.design/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://matchmaker.merci-michel.com/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://www.simondaufresne.com", "at": "2026-10-08", "stack": ["gsap", "nuxt", "vue"], "scripts": 6}
+{"url": "https://type.kontrapunkt.com/", "at": "2026-10-08", "stack": ["sanity"], "scripts": 1}
+{"url": "https://odins-crow.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://contra.com/freelance-industry-report-2021/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "spline", "three.js"], "scripts": 3}
+{"url": "https://terminal27.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://peaknfilm.com/", "at": "2026-10-08", "stack": ["lottie"], "scripts": 1}
+{"url": "https://divinalingua.it/en", "at": "2026-10-08", "stack": ["lottie", "next.js"], "scripts": 6}
+{"url": "https://www.family.ikea.es/25aniv-demo-version/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://rcarecords.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://kathememorial.com", "at": "2026-10-08", "stack": ["gsap", "wordpress"], "scripts": 0}
+{"url": "https://www.floema.com/en/", "at": "2026-10-08", "stack": ["nuxt", "sanity", "vue"], "scripts": 2}
+{"url": "https://www.cieffemilano.it/en/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lottie", "scrolltrigger"], "scripts": 1}
+{"url": "https://lekhoa.com", "at": "2026-10-08", "stack": ["gsap"], "scripts": 3}
+{"url": "https://joseph-berry-webflow-master-class.webflow.io/", "at": "2026-10-08", "stack": ["webflow"], "scripts": 2}
+{"url": "https://humbleteam.com/", "at": "2026-10-08", "stack": ["astro", "lenis", "lottie", "webflow"], "scripts": 6}
+{"url": "https://www.minus99.com", "at": "2026-10-08", "stack": ["three.js", "wordpress"], "scripts": 3}
+{"url": "https://demophorius.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "wordpress"], "scripts": 3}
+{"url": "https://inspiring.nk.studio/", "at": "2026-10-08", "stack": ["lenis", "next.js"], "scripts": 6}
+{"url": "https://block.xyz/", "at": "2026-10-08", "stack": ["sanity", "sveltekit"], "scripts": 0}
+{"url": "https://rsquad.io/", "at": "2026-10-08", "stack": ["barba.js", "lottie", "rive", "scrolltrigger", "three.js", "webflow"], "scripts": 6}
+{"url": "https://www.resonant-link.com/", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://www.defeatboco.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.wisr.com.au/", "at": "2026-10-08", "stack": ["lottie", "matter.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.sorenrose.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 5}
+{"url": "https://charmerstudio.com/", "at": "2026-10-08", "stack": ["lenis", "nuxt", "sanity", "vue"], "scripts": 1}
+{"url": "https://www.fora-concept.com/", "at": "2026-10-08", "stack": ["gsap", "sanity", "scrolltrigger"], "scripts": 1}
+{"url": "https://www.thinkwithgoogle.com/feature/ml-fairness-for-marketers/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.jacquesmariemage.com", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://font.redcollar.co/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://theunholyproject.com/", "at": "2026-10-08", "stack": ["framer", "lenis", "rive", "unicorn-studio"], "scripts": 0}
+{"url": "https://paulethenriette.com", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.wildcatterla.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 4}
+{"url": "https://our-revolution.com/", "at": "2026-10-08", "stack": ["next.js", "react-three-fiber", "sanity", "tailwind", "three.js"], "scripts": 6}
+{"url": "https://sheets.works/data-viz/the-queue/", "at": "2026-10-08", "stack": [], "scripts": 4}
+{"url": "https://www.artsphere.fr/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "http://sharafrashidov.life/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://y-n10.com/", "at": "2026-10-08", "stack": [], "scripts": 3}
+{"url": "https://www.mcsaatchiabel.co.za/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 5}
+{"url": "https://nevflynn.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://le-voyage-azarien.art/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://12brewsofxmas.neverbland.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://www.tangan.fr/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://jenamdvacetpet.cz/", "at": "2026-10-08", "stack": ["vue"], "scripts": 1}
+{"url": "https://taroyoshimura.dev/", "at": "2026-10-08", "stack": ["gsap", "three.js"], "scripts": 2}
+{"url": "https://typographyprinciples.obys.agency/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.torebentsen.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "ogl", "scrolltrigger", "three.js", "webflow"], "scripts": 4}
+{"url": "https://regrocery.co/", "at": "2026-10-08", "stack": ["next.js", "sanity", "shopify"], "scripts": 6}
+{"url": "http://myafterglo.com/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://www.cula.tech/", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "https://theoutpost.nl", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://www.mathis-biabiany.fr/", "at": "2026-10-08", "stack": ["nuxt", "prismic", "vue"], "scripts": 2}
+{"url": "https://wepresent.wetransfer.com/story/marina-abramovic-traces/", "at": "2026-10-08", "stack": ["gsap", "lottie", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://floema.jewelry/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.byfrontyard.com/", "at": "2026-10-08", "stack": ["framer", "lenis"], "scripts": 0}
+{"url": "https://themessagetoukraine.obys.agency/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://portesfermees.ca/?sound=true", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://www.lightfactorynow.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://protipmarketing.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger"], "scripts": 4}
+{"url": "https://www.emons.de/en", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://degenesis.com", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "storyblok", "vue"], "scripts": 6}
+{"url": "https://martine-rose.com", "at": "2026-10-08", "stack": ["shopify", "vue"], "scripts": 6}
+{"url": "https://raggededge.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "scrolltrigger", "tailwind", "three.js"], "scripts": 6}
+{"url": "https://dottxt.ai/", "at": "2026-10-08", "stack": ["next.js", "react-three-fiber", "sanity", "three.js"], "scripts": 6}
+{"url": "https://blode.co/glide", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://fix.studio/", "at": "2026-10-08", "stack": ["nuxt", "prismic", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.aaronmcguire.design", "at": "2026-10-08", "stack": ["lottie", "next.js"], "scripts": 6}
+{"url": "https://kei-inc.jp/", "at": "2026-10-08", "stack": ["lenis", "wordpress"], "scripts": 1}
+{"url": "https://howdy.gr/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 1}
+{"url": "https://space.js.org/examples/mars/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://creative-nights.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "rive", "scrolltrigger", "three.js", "vue"], "scripts": 3}
+{"url": "https://utrust.madebyburo.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "matter.js", "pixi.js", "three.js", "wordpress"], "scripts": 1}
+{"url": "https://niarratravel.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://designworkout.readymag.com/?utm_source=awwwards.com/&amp;utm_medium=paid&amp;utm_campaign=designworkout_awwwards", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://www.tagheuer.com/fr/en/smartwatches/collection-connected.html", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://lights.lu", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger"], "scripts": 2}
+{"url": "https://www.mammothmeatball.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://vallourec.imm-g-prod.com/fr", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.pola.com/wecaremore/", "at": "2026-10-08", "stack": [], "scripts": 4}
+{"url": "https://anniversary.blindbarber.com/", "at": "2026-10-08", "stack": ["sanity"], "scripts": 0}
+{"url": "https://helixes.co", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.richardekwonye.com", "at": "2026-10-08", "stack": ["next.js", "react-three-fiber", "three.js"], "scripts": 6}
+{"url": "https://twks.ch/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger"], "scripts": 4}
+{"url": "https://business.x.com/en/advertising", "at": "2026-10-08", "stack": ["next.js", "sanity"], "scripts": 0}
+{"url": "https://alt-studios.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "wordpress"], "scripts": 1}
+{"url": "https://rwlasvegas.expedia.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://www.theoceanagency.org/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "next.js", "prismic", "scrolltrigger"], "scripts": 6}
+{"url": "https://mikematas.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.jomor.design", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 5}
+{"url": "https://grege-interieurs.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://hackfirst.io/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 3}
+{"url": "https://www.panicstudio.tv/", "at": "2026-10-08", "stack": ["lottie", "next.js"], "scripts": 6}
+{"url": "https://pilot.auto/", "at": "2026-10-08", "stack": ["gsap", "three.js"], "scripts": 2}
+{"url": "https://pearlspeepshow.com", "at": "2026-10-08", "stack": ["lottie", "shopify"], "scripts": 1}
+{"url": "https://norman.perozzi.studio/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://leap-for-mankind.com/", "at": "2026-10-08", "stack": ["gsap", "react-three-fiber", "scrolltrigger", "three.js", "vue"], "scripts": 2}
+{"url": "http://www.mazellier.design", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.philosophicalfoxes.com/", "at": "2026-10-08", "stack": ["lenis", "lottie", "webflow"], "scripts": 2}
+{"url": "https://philippeneveu.com/", "at": "2026-10-08", "stack": ["lottie"], "scripts": 1}
+{"url": "https://www.statskog.no/statskogmillionen", "at": "2026-10-08", "stack": ["three.js"], "scripts": 3}
+{"url": "https://blumenkopf.spatzek.studio/limited", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://eringwesley.com", "at": "2026-10-08", "stack": ["gsap", "next.js", "pixi.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://laurabize.fr/en", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.gabrielbeaugonin.com/", "at": "2026-10-08", "stack": ["lenis", "prismic"], "scripts": 1}
+{"url": "https://maelanlemeur.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "wordpress"], "scripts": 5}
+{"url": "https://nultime.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://nabazabih.com/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js", "vue", "wordpress"], "scripts": 6}
+{"url": "https://ispy.heihei.resn.co/", "at": "2026-10-08", "stack": ["pixi.js", "vue"], "scripts": 2}
+{"url": "https://palominoprod.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "sanity", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.produx.design/", "at": "2026-10-08", "stack": ["gsap", "next.js"], "scripts": 6}
+{"url": "https://www.esteelauderanrcade.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://oculart.com/?art=the-last-dream", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.fates.world/", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 2}
+{"url": "https://nationalstudentshow.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://ordernchaos.aiziza.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://guiacirugiacardiaca.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "swup", "wordpress"], "scripts": 6}
+{"url": "https://layrmedia.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://lenis.dev/", "at": "2026-10-08", "stack": ["lenis", "locomotive-scroll", "next.js"], "scripts": 6}
+{"url": "http://www.radiantstudios.com", "at": "2026-10-08", "stack": ["gsap", "lottie", "nuxt", "three.js", "vue"], "scripts": 6}
+{"url": "https://format.obys.agency/", "at": "2026-10-08", "stack": ["gsap", "lenis", "matter.js", "scrolltrigger"], "scripts": 1}
+{"url": "https://ai-gallery.ultranoir.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "react-three-fiber", "scrolltrigger", "three.js", "vue"], "scripts": 4}
+{"url": "https://dala.craftedbygc.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 3}
+{"url": "https://www.rabenrifaie.com/", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "https://poklonnaya9.site/", "at": "2026-10-08", "stack": ["barba.js", "lottie"], "scripts": 2}
+{"url": "https://www.andtradition.com", "at": "2026-10-08", "stack": ["gsap", "lottie", "nuxt", "three.js", "vue", "wordpress"], "scripts": 6}
+{"url": "https://fanfan.fan/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://lifeinvogue.vogue.it/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://media.karmanproject.org/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://huluween.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 0}
+{"url": "https://www.collabcapitolium.fr/", "at": "2026-10-08", "stack": ["lenis", "nuxt", "vue"], "scripts": 2}
+{"url": "https://the-alienist-s2.us.dev.monkapps.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.btay.ca/", "at": "2026-10-08", "stack": ["framer", "lenis"], "scripts": 0}
+{"url": "https://www.family.ikea.es/demos/activa-el-modo-hogar/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://hiartem.com/", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "https://onekey.so/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 0}
+{"url": "https://rino-pelle.exoape.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://fipadoc.com/en", "at": "2026-10-08", "stack": ["vue"], "scripts": 2}
+{"url": "https://www.lvmhprize.com/", "at": "2026-10-08", "stack": ["next.js", "prismic", "tailwind"], "scripts": 6}
+{"url": "https://www.rre.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://moooi.com/beauty-blooms", "at": "2026-10-08", "stack": ["pixi.js"], "scripts": 0}
+{"url": "https://www.postaway.space/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://e-money.madebyburo.com/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "nuxt", "sanity", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://dabbit.app/", "at": "2026-10-08", "stack": ["astro", "gsap", "scrolltrigger"], "scripts": 6}
+{"url": "https://screen.movie/", "at": "2026-10-08", "stack": ["framer"], "scripts": 1}
+{"url": "https://aengel.io/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "scrolltrigger", "webgpu"], "scripts": 6}
+{"url": "https://preparetopioneer.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 1}
+{"url": "http://www.vcswipe.com", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://smallbits.design/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.clouarchitects.com/", "at": "2026-10-08", "stack": ["gsap", "matter.js", "scrolltrigger", "three.js", "wordpress"], "scripts": 2}
+{"url": "https://nofootballcolors.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://obeydelay.com/en", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://www.jeansforrefugees.com/", "at": "2026-10-08", "stack": ["vue"], "scripts": 0}
+{"url": "https://moonslider.monochrome.paris/", "at": "2026-10-08", "stack": [], "scripts": 4}
+{"url": "https://avara.xyz/", "at": "2026-10-08", "stack": ["lottie", "next.js"], "scripts": 6}
+{"url": "https://www.seksyplanety.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://www.editorx.com/shaping-design/digital-design-trends-2022", "at": "2026-10-08", "stack": ["lottie"], "scripts": 0}
+{"url": "https://increase.com/", "at": "2026-10-08", "stack": ["astro"], "scripts": 5}
+{"url": "https://g.co/meroe", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://www.mystaelectric.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.thefemalegaze.art", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.ivantoma.com", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 3}
+{"url": "https://jesperlandberg.dev", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.thelobbynews.com/overwatch", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://lpalo.com/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "nuxt", "scrolltrigger", "vue"], "scripts": 5}
+{"url": "https://davincis.digital/rbyba", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "http://swissdent.creative-nights.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "http://youtube.com/watch?v=c3xiA_VYkPA&feature=youtu.be", "at": "2026-10-08", "stack": ["lottie", "react-three-fiber", "three.js"], "scripts": 6}
+{"url": "https://showcase.withgoogle.com/healthcare-security/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 1}
+{"url": "https://www.apeel.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "nuxt", "scrolltrigger", "storyblok", "vue"], "scripts": 2}
+{"url": "https://sarahfatmi.com", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 1}
+{"url": "http://monopo.london/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "nuxt", "pixi.js", "prismic", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://nathan.tokyo", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://circus-inc.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "three.js", "wordpress"], "scripts": 4}
+{"url": "https://www.spaceforce.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.goliath-entertainment.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://qu.ai/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://www.studiogusto.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://www.getblue.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "spline", "webflow"], "scripts": 6}
+{"url": "https://redlight.dev/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://bonne-sobriyearte.havasfactory.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.hiskin.care/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://www.letgirlsdream.org/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://melriver.com", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger"], "scripts": 1}
+{"url": "https://www.takearidewith.me/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://vurrle.tftl.agency/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://readymag.website/u2492934797/isthatpigeonafed/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://railroadladies.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://flecto.io/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 3}
+{"url": "https://blockrage.pgs-soft.com", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://raphaelbourdin.com", "at": "2026-10-08", "stack": ["locomotive-scroll", "nuxt", "prismic", "tailwind", "vue"], "scripts": 6}
+{"url": "https://niacreative.co/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "http://eessoo.co", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.lamborghini.com/en-en/3d", "at": "2026-10-08", "stack": ["next.js", "nuxt", "vue"], "scripts": 6}
+{"url": "https://www.nikeplaylab.com", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 3}
+{"url": "https://www.dfy.co.kr/", "at": "2026-10-08", "stack": ["gsap", "matter.js", "react-three-fiber", "scrolltrigger", "three.js", "vue"], "scripts": 6}
+{"url": "https://witnessestohistory.museeholocauste.ca/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "wordpress"], "scripts": 4}
+{"url": "http://www.debuut.studio", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 6}
+{"url": "https://www.henrynorthington.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 4}
+{"url": "http://marvinschwaibold.com", "at": "2026-10-08", "stack": ["framer", "sanity"], "scripts": 1}
+{"url": "https://onyxproject.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://stelvio.k95.it", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://tenzr-preprod.rejouice.io/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "wordpress"], "scripts": 1}
+{"url": "https://www.sweetpunk.com/en/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 1}
+{"url": "https://virtualexpodubai.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://beigeforce.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://florentbiffi.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://next.junni.co.jp/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 1}
+{"url": "https://chirpley.ai/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "http://2019.readymag.com/?utm_source=awwwards.com&amp;utm_medium=paid&amp;utm_campaign=prof2019_awwwards", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://safaririot.com", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://pasteapp.io/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://victorfuruya.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger"], "scripts": 1}
+{"url": "https://at-home.club/", "at": "2026-10-08", "stack": ["nuxt"], "scripts": 0}
+{"url": "https://www.planetono.space/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "nuxt", "rive", "scrolltrigger", "storyblok", "three.js", "vue"], "scripts": 1}
+{"url": "http://karststonepaper.com", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://danielebuffa.me/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://genocide.greatarmenia.org/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://gucciosteria.com/en/florence", "at": "2026-10-08", "stack": ["nuxt", "vue", "wordpress"], "scripts": 6}
+{"url": "https://slowness.com/encyclopedia-of-the-farm/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://www.wildsouls.gr/en", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://ochi.design/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "locomotive-scroll", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://www.zrk.technology/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://haoqi.design/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://2020.milkshake.studio", "at": "2026-10-08", "stack": ["gsap", "matter.js", "pixi.js", "scrolltrigger", "three.js"], "scripts": 3}
+{"url": "https://guccidive.gucci.com/", "at": "2026-10-08", "error": "TimeoutError", "stack": []}
+{"url": "https://cloud.withgoogle.com/intel/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.pedrobelleza.com/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 5}
+{"url": "https://shopify.design/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 0}
+{"url": "https://www.thequeenandthecrown.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.skylinefilms.tv", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://pvp.qq.com/act/6749/a20210927pf/index.html", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js", "vue"], "scripts": 4}
+{"url": "http://peststopboys.beta.herdl.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.auremin.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "three.js", "webflow"], "scripts": 6}
+{"url": "https://www.sofiapapadopoulou.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://midwam.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "three.js", "vue", "wordpress"], "scripts": 6}
+{"url": "https://egghunt.merci-michel.com", "at": "2026-10-08", "stack": ["vue"], "scripts": 2}
+{"url": "https://www.eva-habermann.com", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "http://www.frantoiocavalli.com", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 4}
+{"url": "https://www.robin-thomas.me/", "at": "2026-10-08", "stack": ["gsap", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://supaste.com/", "at": "2026-10-08", "stack": ["framer"], "scripts": 2}
+{"url": "https://aprilleihuanani.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://catskills-showcase.pages.dev/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 1}
+{"url": "https://atomic.black/", "at": "2026-10-08", "stack": ["lenis", "next.js"], "scripts": 6}
+{"url": "http://fuentereal.es/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger", "wordpress"], "scripts": 4}
+{"url": "https://www.themagicalpantry.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://nippori.lamm.tokyo/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "wordpress"], "scripts": 3}
+{"url": "https://tux.co/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "storyblok", "vue", "wordpress"], "scripts": 6}
+{"url": "https://thibautfoussard.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://4wide.jp/", "at": "2026-10-08", "stack": ["astro", "gsap", "lenis", "scrolltrigger", "swup", "wordpress"], "scripts": 1}
+{"url": "https://diablaoutdoor.com", "at": "2026-10-08", "stack": ["gsap", "wordpress"], "scripts": 6}
+{"url": "https://admitastore.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://mstq.io/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.grilledpixels.com/ecommerce", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js"], "scripts": 6}
+{"url": "https://skal-agence.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://mandelbrot.mx/madies/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://florafantasy.gucci.com/", "at": "2026-10-08", "error": "TimeoutError", "stack": []}
+{"url": "https://experiments.p5aholic.me/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "three.js", "vue"], "scripts": 5}
+{"url": "https://gabriel-cuallado.com", "at": "2026-10-08", "stack": ["barba.js"], "scripts": 0}
+{"url": "https://showcase.noomoagency.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "three.js", "vue", "webgpu"], "scripts": 1}
+{"url": "https://mrblack-case.dolganev.com/", "at": "2026-10-08", "stack": ["astro", "gsap", "lenis", "scrolltrigger"], "scripts": 1}
+{"url": "https://ash.com/", "at": "2026-10-08", "stack": ["next.js", "sanity"], "scripts": 6}
+{"url": "http://www.hulupride.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://sussextaps.com.au/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "swup", "three.js", "vue", "wordpress"], "scripts": 4}
+{"url": "https://www.igaming.studio", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://resident.co.nz/en/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 2}
+{"url": "https://magic.estudionk.com/", "at": "2026-10-08", "stack": ["nuxt", "scrolltrigger", "tailwind", "vue"], "scripts": 6}
+{"url": "https://www.operanorth.co.uk/turn-of-the-screw-immersive-trailer/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://bpr.baunfire.com/2022/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "locomotive-scroll", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.helloelva.com", "at": "2026-10-08", "stack": ["gsap", "ogl", "sanity", "scrolltrigger"], "scripts": 1}
+{"url": "https://www.mamalbury.com.au/", "at": "2026-10-08", "stack": ["gsap", "next.js", "sanity", "scrolltrigger"], "scripts": 6}
+{"url": "https://voiceofracism.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://thecamelfabricgame.maxmara.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "https://trionn.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.niccolomiranda.com/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "lottie", "scrolltrigger", "webflow"], "scripts": 3}
+{"url": "https://www.jimmynelson.com/", "at": "2026-10-08", "stack": ["swup", "wordpress"], "scripts": 6}
+{"url": "https://bbdo.de/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "three.js", "wordpress"], "scripts": 6}
+{"url": "https://www.mammut.com/uk/en", "at": "2026-10-08", "stack": ["next.js", "react-three-fiber", "three.js"], "scripts": 6}
+{"url": "https://vividand.co/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://www.yolele.com/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "http://aalimentaria.com", "at": "2026-10-08", "stack": ["gsap", "three.js", "wordpress"], "scripts": 2}
+{"url": "https://www.become-a-yogi.com/", "at": "2026-10-08", "stack": ["astro", "barba.js", "gsap", "lenis", "scrolltrigger"], "scripts": 0}
+{"url": "https://sumi.fillinglife.co/en/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://thelabberkeley.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://days.epic.net/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 1}
+{"url": "https://www.brand-breeder.com", "at": "2026-10-08", "stack": ["nuxt", "sanity", "tailwind"], "scripts": 6}
+{"url": "https://ventriloc.ca", "at": "2026-10-08", "stack": ["rive", "wordpress"], "scripts": 2}
+{"url": "https://zorba-group.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "vue"], "scripts": 6}
+{"url": "https://lemansclassic.richardmille.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "tailwind", "vue"], "scripts": 1}
+{"url": "https://www.cinnamon.co.uk/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://sigmasoftwarelabs.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 4}
+{"url": "https://myshaky.com/gotcha", "at": "2026-10-08", "stack": ["gsap", "three.js"], "scripts": 6}
+{"url": "https://soniapresne.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 1}
+{"url": "https://customvr.wsjbarrons.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://aluminium.index.studio/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://propel.me", "at": "2026-10-08", "stack": [], "scripts": 3}
+{"url": "https://serieseight.com", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 4}
+{"url": "https://www.martin-laxenaire.fr/", "at": "2026-10-08", "stack": ["lenis", "nuxt", "sanity"], "scripts": 2}
+{"url": "https://konturpasha.vercel.app/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger"], "scripts": 5}
+{"url": "https://www.mikelmurphy.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://thecarbonation.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://findmy.vitra.com/en-en/questionnaire/chairs", "at": "2026-10-08", "stack": ["next.js", "storyblok"], "scripts": 6}
+{"url": "https://www.ballsystem.it/en/", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 6}
+{"url": "https://miti-navi.com", "at": "2026-10-08", "stack": ["barba.js", "gsap", "locomotive-scroll", "scrolltrigger"], "scripts": 6}
+{"url": "https://benjamincreative.me/", "at": "2026-10-08", "stack": ["framer", "lenis", "unicorn-studio"], "scripts": 0}
+{"url": "https://spatial-festival.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "scrolltrigger", "three.js", "wordpress"], "scripts": 6}
+{"url": "https://www.vertex3d.asia/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "playcanvas", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://www.maserati.com/international/en/models/mc20", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://kdcap.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "vue"], "scripts": 6}
+{"url": "https://www.empathyexperiment.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "three.js", "vue"], "scripts": 2}
+{"url": "https://awards.racing/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "three.js", "vue"], "scripts": 3}
+{"url": "https://press.stripe.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 2}
+{"url": "https://glcpatti.com/", "at": "2026-10-08", "stack": ["sanity", "sveltekit"], "scripts": 1}
+{"url": "https://www.studiosentempo.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://www.canairi.io/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://brainboxai.com", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 6}
+{"url": "https://vestris.ai/", "at": "2026-10-08", "stack": ["framer", "lenis"], "scripts": 0}
+{"url": "https://nolook.co.jp/", "at": "2026-10-08", "stack": ["nuxt"], "scripts": 2}
+{"url": "https://photovoguefestival.vogue.it", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://prespa.s.nomatter.dev/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger"], "scripts": 1}
+{"url": "https://webflow.redis.agency/", "at": "2026-10-08", "stack": ["lenis", "lottie", "next.js", "webflow"], "scripts": 6}
+{"url": "http://www.neverland.agency", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "tailwind"], "scripts": 1}
+{"url": "https://fwa100.jam3.com/", "at": "2026-10-08", "stack": ["gsap", "three.js"], "scripts": 2}
+{"url": "https://exp-gemini.lusion.co/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://www.fariasviolins.com/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 3}
+{"url": "https://aebeleinteriors.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "wordpress"], "scripts": 1}
+{"url": "https://unstoried.ink/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 1}
+{"url": "https://www.newtab-studio.com/", "at": "2026-10-08", "stack": ["three.js", "wordpress"], "scripts": 6}
+{"url": "https://tiagofragoso.com/", "at": "2026-10-08", "stack": [], "scripts": 3}
+{"url": "http://www.icelandicexplorer.com", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://atglaciersend.com/", "at": "2026-10-08", "stack": ["vue"], "scripts": 2}
+{"url": "https://nothing-to-watch.port80.ch/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.veloretti.com/", "at": "2026-10-08", "stack": ["lenis", "next.js", "shopify"], "scripts": 6}
+{"url": "https://komeinc.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "three.js", "wordpress"], "scripts": 6}
+{"url": "http://Stryds.com", "at": "2026-10-08", "stack": ["lenis", "lottie", "webflow"], "scripts": 6}
+{"url": "https://www.darc-room.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "sanity", "scrolltrigger"], "scripts": 6}
+{"url": "https://byhook.com/work/making-pegman-even-more-iconic", "at": "2026-10-08", "stack": ["gsap", "next.js", "sanity", "scrolltrigger"], "scripts": 6}
+{"url": "https://mubasic.webflow.io/", "at": "2026-10-08", "stack": ["gsap", "lottie", "matter.js", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://gigarama.ru/russianpanteon/en/", "at": "2026-10-08", "stack": ["lottie", "webflow", "wordpress"], "scripts": 6}
+{"url": "https://superfanstudio.greenparksports.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://moshi-moshi.alexandrajugovic.com/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 1}
+{"url": "https://unionconstruction.ca/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 5}
+{"url": "https://www.bannisterandassociates.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.lazarev.agency/", "at": "2026-10-08", "stack": ["webflow"], "scripts": 1}
+{"url": "https://www.wearemotto.com", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://vimeo.com/1192374692/81e5b2edba", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://gentilhomme.com/en/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "nuxt", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://dialed.gg/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://jeanda.agency/", "at": "2026-10-08", "stack": ["framer"], "scripts": 1}
+{"url": "https://www.rouserlab.com/about/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 3}
+{"url": "https://www.jp.works/", "at": "2026-10-08", "stack": ["lottie", "react-three-fiber", "three.js", "webflow"], "scripts": 3}
+{"url": "https://hanzo.es/", "at": "2026-10-08", "stack": ["gsap", "lottie", "nuxt", "vue"], "scripts": 6}
+{"url": "https://www.singaporetech.edu.sg/openhouse/virtual-campus-tour/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://beautytools.dolcegabbana.com/gift-finder", "at": "2026-10-08", "stack": ["vue"], "scripts": 3}
+{"url": "https://www.fayemi.design/", "at": "2026-10-08", "stack": ["astro", "sanity", "three.js"], "scripts": 1}
+{"url": "https://unlirice.ooo/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 1}
+{"url": "https://eminente.art/", "at": "2026-10-08", "stack": ["gsap", "wordpress"], "scripts": 0}
+{"url": "https://wearefleshandbones.com/", "at": "2026-10-08", "stack": ["nuxt", "sanity", "vue"], "scripts": 2}
+{"url": "https://entree-de-ville.icade.fr/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "http://2021.fanzone36.com", "at": "2026-10-08", "stack": ["gsap", "pixi.js", "prismic", "three.js", "vue"], "scripts": 2}
+{"url": "https://vivatech2022.cher-ami.tv", "at": "2026-10-08", "stack": [], "scripts": 3}
+{"url": "https://www.skinn.be/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger"], "scripts": 4}
+{"url": "https://letter.craftedbygc.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://ikilledacactus.com", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 6}
+{"url": "https://seekanddeploy.com/", "at": "2026-10-08", "stack": ["nuxt", "vue"], "scripts": 3}
+{"url": "https://trollideliciouslydarkescape.com/awards", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://ezekielaquino.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://david-hckh.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "three.js", "vue"], "scripts": 1}
+{"url": "https://www.pienso.com/", "at": "2026-10-08", "stack": ["next.js", "sanity", "spline"], "scripts": 6}
+{"url": "https://www.clockstrikestwelve.com", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://turbulent.ca/", "at": "2026-10-08", "stack": ["gsap", "lottie", "three.js", "wordpress"], "scripts": 2}
+{"url": "https://olhauzhykova.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lottie", "matter.js", "scrolltrigger"], "scripts": 1}
+{"url": "http://svinogradov.art/", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://neuro-symbolic-lab.com/experience/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://www.thisisstudiox.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "http://hagisbarbershop.de/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 0}
+{"url": "https://gleec.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://www.charlie-montagut.com/", "at": "2026-10-08", "stack": ["lottie"], "scripts": 1}
+{"url": "https://heleonic.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 2}
+{"url": "https://www.discoveroutpost.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "react-three-fiber", "scrolltrigger", "tailwind", "three.js", "vue"], "scripts": 6}
+{"url": "https://www.museothyssen.org/webdocs/conectathyssen/artistas-migrantes/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://chartogne-taillet.com/en", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://voltlites.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "scrolltrigger", "three.js", "vue", "wordpress"], "scripts": 6}
+{"url": "https://theadccawards.ca/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.giuligartner.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://eidosshanghai.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://guillaumecolombel.fr/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "https://atelier.net/social-mobility/economic-opportunities-for-our-avatars/", "at": "2026-10-08", "stack": ["three.js"], "scripts": 6}
+{"url": "https://mercurestudio.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://duality.website/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.m-trust.co.jp/", "at": "2026-10-08", "stack": ["sveltekit"], "scripts": 0}
+{"url": "https://arunnm.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 6}
+{"url": "https://physicsofbeauty.art", "at": "2026-10-08", "stack": [], "scripts": 4}
+{"url": "https://zorka.agency", "at": "2026-10-08", "stack": ["next.js", "tailwind"], "scripts": 6}
+{"url": "https://365ayearof.cartier.com/2021", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://forgeautomotive.co.uk/", "at": "2026-10-08", "stack": ["next.js", "sanity"], "scripts": 6}
+{"url": "https://www.sbs.com.au/storyline", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "http://www.amandabraga.com/", "at": "2026-10-08", "stack": ["gsap"], "scripts": 2}
+{"url": "https://www.puma-campaigns.com/deviate-2-aw/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://office.graffico.it/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://victoiredouy.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://maps.google.com/localguides/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://aave.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://atelier.net/virtual-economy/", "at": "2026-10-08", "stack": ["gsap", "prismic", "three.js"], "scripts": 6}
+{"url": "https://theartistbreakfast.com/works/incoming", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://jacobmckee.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "sanity", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://www.filsdegraphiste.fr/", "at": "2026-10-08", "stack": [], "scripts": 3}
+{"url": "https://adrienlaurent.fr", "at": "2026-10-08", "stack": ["barba.js", "gsap", "locomotive-scroll", "lottie", "matter.js", "pixi.js", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://www.tplh.net/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://enigma.ferragamo.com/en/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "https://www.jonway.studio", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 1}
+{"url": "https://www.theperfumeshop.com/carolina-herrera-virtual-store", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://ascension.pegassi.be/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "vue"], "scripts": 1}
+{"url": "https://blackmeal.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://www.goaro.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "http://spaceforce.design/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://eumray.com", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.dragonfly.xyz/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "sanity", "scrolltrigger", "storyblok", "vue"], "scripts": 2}
+{"url": "https://mill3.studio", "at": "2026-10-08", "stack": ["lottie", "rive", "wordpress"], "scripts": 1}
+{"url": "https://cartier-waw-0223.dev.60fps.fr/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://repeat.studiofreight.dev/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://tiltoootilt.tote.co.jp/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://www.nightingale.world", "at": "2026-10-08", "error": "SSLError", "stack": []}
+{"url": "https://k72.ca/en", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger"], "scripts": 2}
+{"url": "https://springsummer.dk/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "vue"], "scripts": 1}
+{"url": "https://ci.funtech.inc/", "at": "2026-10-08", "stack": ["gsap", "next.js"], "scripts": 6}
+{"url": "https://rectangles.fm/", "at": "2026-10-08", "stack": ["framer", "lenis"], "scripts": 1}
+{"url": "https://whenwewerekids.fr/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "vue"], "scripts": 6}
+{"url": "https://omswami.com", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://argor.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.dotsandlines.io/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "sanity", "scrolltrigger"], "scripts": 6}
+{"url": "https://100ytlc.com/en-en/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://to-portfolio.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://moheim.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "three.js", "wordpress"], "scripts": 2}
+{"url": "https://kffein.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "vue"], "scripts": 1}
+{"url": "https://ashleyandco.co/", "at": "2026-10-08", "stack": ["gsap", "shopify", "swup"], "scripts": 6}
+{"url": "https://www.skoda-storyboard.com/en/skoda-world/skoda-duobell-a-bicycle-bell-that-outsmarts-even-smart-headphones/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "http://56k.studiovoila.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://rluijten.photography", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 4}
+{"url": "https://wemakefab.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.apple.com/airpods-max/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://schemasofuncertainty.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://lunchbox.studiofreight.dev/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://kodemedia.com/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://openscreenshot.app/", "at": "2026-10-08", "stack": ["astro"], "scripts": 1}
+{"url": "https://www.henge07.com/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://maisoncacao.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://forner.studio/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "react-three-fiber", "scrolltrigger", "three.js", "vue"], "scripts": 5}
+{"url": "https://bahaasamir.me/throwbacks-music", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "three.js"], "scripts": 1}
+{"url": "http://videinfra.com", "at": "2026-10-08", "stack": ["barba.js", "three.js"], "scripts": 3}
+{"url": "https://perturbator.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://listacross.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.engine.land/it/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "vue"], "scripts": 3}
+{"url": "http://dnacapital.com/", "at": "2026-10-08", "stack": ["nuxt", "vue"], "scripts": 2}
+{"url": "http://www.borderlessvr.com", "at": "2026-10-08", "stack": ["lottie", "scrolltrigger", "wordpress"], "scripts": 1}
+{"url": "https://www.cinecasero.uy/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 2}
+{"url": "https://stonestyle.co.th", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://ibex-masters.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "theatre.js", "three.js"], "scripts": 1}
+{"url": "https://www.museothyssen.org/webdocs/conectathyssen/volver-naturaleza/en/", "at": "2026-10-08", "stack": ["gsap", "wordpress"], "scripts": 2}
+{"url": "https://augen.pro/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "storyblok", "vue"], "scripts": 2}
+{"url": "https://illo.tv", "at": "2026-10-08", "stack": ["gsap", "lottie", "nuxt", "vue"], "scripts": 6}
+{"url": "https://www.straightfromyard.co.uk/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://creativeatishay.in/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "motion", "scrolltrigger"], "scripts": 2}
+{"url": "https://zorge9.estate/", "at": "2026-10-08", "stack": ["barba.js", "scrolltrigger"], "scripts": 3}
+{"url": "https://www.peppasauce.love/", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 2}
+{"url": "https://alef-estate.com/en/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 1}
+{"url": "https://kasama.limnia.com/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "nuxt", "scrolltrigger", "vue"], "scripts": 4}
+{"url": "https://weare.tm/", "at": "2026-10-08", "stack": ["tailwind"], "scripts": 2}
+{"url": "https://www.addculture.com", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://beans.agency/", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 6}
+{"url": "https://peaceput.com/en/", "at": "2026-10-08", "stack": ["astro", "lenis"], "scripts": 1}
+{"url": "https://lens.science.clinic/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "http://www.because-recollection.com/", "at": "2026-10-08", "stack": ["gsap", "pixi.js", "three.js", "wordpress"], "scripts": 1}
+{"url": "https://www.silosilosilo.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://www.adultswim.com/toonami/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://hello.cuberto.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://admireamaze.debijenkorf.nl/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.connect-homes.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://vovi.studio", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "three.js", "webflow"], "scripts": 3}
+{"url": "https://www.designme.agency/", "at": "2026-10-08", "stack": ["framer", "lenis", "lottie", "react-three-fiber", "three.js"], "scripts": 0}
+{"url": "https://www.traffic.productions/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger", "tailwind"], "scripts": 6}
+{"url": "https://kulbachny.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 2}
+{"url": "https://vredestein-experience.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.moonsafari.archi/", "at": "2026-10-08", "stack": ["gsap", "wordpress"], "scripts": 1}
+{"url": "https://bahaasamir.me/noss_new/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "three.js"], "scripts": 1}
+{"url": "https://leonidkostetskyi.com/", "at": "2026-10-08", "stack": ["nuxt"], "scripts": 2}
+{"url": "https://destroytoday.com/", "at": "2026-10-08", "stack": ["astro"], "scripts": 1}
+{"url": "http://en.weon.avadev.ru", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger", "wordpress"], "scripts": 5}
+{"url": "https://miro.com/ways-we-work/", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 6}
+{"url": "http://goodkidsagency.com", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "https://bowndsranches.com/", "at": "2026-10-08", "stack": ["next.js", "sanity"], "scripts": 6}
+{"url": "https://pxr-legal.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://ferrumpipe.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "http://terrazabalear.com", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://www.ville.varennes.qc.ca/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll"], "scripts": 4}
+{"url": "https://www.pluto.app/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "http://www.lecantiche.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "http://pornweek.nz", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://namesak3.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "shopify", "three.js"], "scripts": 6}
+{"url": "http://speedy.io/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "lottie", "nuxt", "sanity", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://duallstudio.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "http://www.olivierophotographie.fr", "at": "2026-10-08", "stack": ["gsap"], "scripts": 1}
+{"url": "https://mac-pam.netlify.app", "at": "2026-10-08", "stack": ["gsap", "lottie", "nuxt", "prismic", "react-three-fiber", "scrolltrigger", "three.js", "vue"], "scripts": 5}
+{"url": "https://patrappa.wtf/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://havenstudios.com", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "lottie", "scrolltrigger", "three.js"], "scripts": 3}
+{"url": "https://www.shopify.com/editions/spring2026", "at": "2026-10-08", "stack": ["lenis", "shopify"], "scripts": 0}
+{"url": "https://www.makemepulse.com/case-study/course-givree-mcdonalds-loyalty-game", "at": "2026-10-08", "stack": ["gsap", "lottie", "nuxt", "prismic", "scrolltrigger"], "scripts": 6}
+{"url": "https://mybetternormal.org", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://altamoda.dolcegabbana.com/en/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "vue"], "scripts": 3}
+{"url": "https://www.truestaging.co.uk/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js", "wordpress"], "scripts": 1}
+{"url": "https://www.natroceutics.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 5}
+{"url": "https://www.thetriadicballetai.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://www.vionaro-v8.com/", "at": "2026-10-08", "stack": ["lenis", "scrolltrigger"], "scripts": 3}
+{"url": "https://www.codebyjesse.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "lottie", "matter.js", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://www.rokumaruichi.tokyo/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "three.js"], "scripts": 0}
+{"url": "https://www.fitlab.nl", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://vessa.design/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "vue"], "scripts": 1}
+{"url": "https://empiempi.me/", "at": "2026-10-08", "stack": ["gsap", "matter.js", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://dillasdonuts.shop", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://amourliquide.com/", "at": "2026-10-08", "stack": ["locomotive-scroll", "lottie", "wordpress"], "scripts": 2}
+{"url": "https://zulu.longines.com/", "at": "2026-10-08", "error": "TimeoutError", "stack": []}
+{"url": "https://adrien.website/txt/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 0}
+{"url": "https://displace.agency/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js"], "scripts": 6}
+{"url": "https://www.criticaldanger.com/", "at": "2026-10-08", "stack": ["lenis", "lottie", "webflow"], "scripts": 5}
+{"url": "https://www.wearedigitalfreelancers.com", "at": "2026-10-08", "stack": ["barba.js", "gsap", "locomotive-scroll", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://designer.incube.agency", "at": "2026-10-08", "stack": ["gsap", "three.js"], "scripts": 6}
+{"url": "http://www.thierrychopain.com", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "wordpress"], "scripts": 2}
+{"url": "https://emcell.com/", "at": "2026-10-08", "stack": ["gsap"], "scripts": 6}
+{"url": "https://storytelling.noomoagency.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "react-three-fiber", "scrolltrigger", "three.js", "vue"], "scripts": 1}
+{"url": "http://new.savour.design/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://db-union-awards.webflow.io/", "at": "2026-10-08", "stack": ["webflow"], "scripts": 2}
+{"url": "http://www.parinazkassemi.com/", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://kimkneipp.com/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://sabato.studio", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://housesof.world", "at": "2026-10-08", "stack": ["sveltekit"], "scripts": 0}
+{"url": "https://hoang.moe/", "at": "2026-10-08", "stack": ["gsap", "lottie", "wordpress"], "scripts": 3}
+{"url": "https://maxmara-bearinggifts.betteringbrands.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.juliencalot.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "swup", "webflow"], "scripts": 6}
+{"url": "https://ugly.cash/", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "http://happyegg.com", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://sophie-dkf.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap"], "scripts": 6}
+{"url": "https://aanstekelijk.nl/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.bunqlabs.com/", "at": "2026-10-08", "stack": ["astro", "gsap", "lenis"], "scripts": 1}
+{"url": "https://brunoarizio.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "sanity", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://www.valdoca.com/", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 6}
+{"url": "https://unveil.fr/", "at": "2026-10-08", "stack": ["sveltekit"], "scripts": 0}
+{"url": "https://studiomaertens.com", "at": "2026-10-08", "stack": ["gsap", "prismic", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://uiwd.co/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://theatreshowcase.boston/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 5}
+{"url": "http://naoz.live", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 3}
+{"url": "https://mindjoin.netlify.app/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "tailwind", "vue"], "scripts": 2}
+{"url": "https://www.pitokmm.it/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://vaultartspace.gucci.com/", "at": "2026-10-08", "error": "TimeoutError", "stack": []}
+{"url": "https://angellotorres.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "pixi.js", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://www.friendsofthenew.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://digitalcurator.art/", "at": "2026-10-08", "stack": [], "scripts": 4}
+{"url": "https://ligthelm.work/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "locomotive-scroll", "scrolltrigger"], "scripts": 1}
+{"url": "http://tomasthan.com", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://webflow.com/nocodeconf", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "three.js", "webflow"], "scripts": 6}
+{"url": "https://www.junction.nl/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js", "wordpress"], "scripts": 3}
+{"url": "https://www.davidwilliambaum.com/", "at": "2026-10-08", "stack": ["sanity"], "scripts": 1}
+{"url": "https://adventuretimedistantlands.com/", "at": "2026-10-08", "stack": ["next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://mad.ac/", "at": "2026-10-08", "stack": ["webgpu"], "scripts": 2}
+{"url": "https://office-workers.nskre.co.jp/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger"], "scripts": 5}
+{"url": "https://pasticceriaverona.it/", "at": "2026-10-08", "stack": ["locomotive-scroll", "nuxt", "shopify", "vue"], "scripts": 6}
+{"url": "https://exp-my-little-storybook.lusion.co/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://hellofromhe.re/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://advanced.team/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://www.meetings.fr/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 2}
+{"url": "https://daveholloway.uk/", "at": "2026-10-08", "stack": ["astro", "gsap", "lenis", "lottie", "rive", "scrolltrigger"], "scripts": 6}
+{"url": "https://blood-donation.com/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js", "webgpu"], "scripts": 1}
+{"url": "https://www.bmsunited.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://iti.ca/en/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "lottie", "scrolltrigger", "wordpress"], "scripts": 4}
+{"url": "https://sstr.tech/", "at": "2026-10-08", "stack": ["astro", "barba.js", "gsap", "lenis", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.landofride.com/", "at": "2026-10-08", "stack": ["framer", "lenis"], "scripts": 0}
+{"url": "https://www.impact.compassion.com.au/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.romboats.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "http://zeroimpact.index.studio", "at": "2026-10-08", "stack": ["locomotive-scroll"], "scripts": 1}
+{"url": "https://annajona-teaser.aristidebenoist.com", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.belenjones.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.nocturnaldream.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "http://fossula.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://enid.fm/", "at": "2026-10-08", "stack": ["lottie", "three.js"], "scripts": 2}
+{"url": "http://christmas.rogue.studio/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.helloshivam.com/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 6}
+{"url": "https://wonderland.studio/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "three.js", "vue"], "scripts": 6}
+{"url": "http://penzgidromash.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "http://hiringchain.org/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "https://workwithpact.com/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "http://cylndr.co.kr/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "http://sennep.com", "at": "2026-10-08", "stack": ["gsap", "lottie", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://broadwicklive.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "wordpress"], "scripts": 2}
+{"url": "https://www.ceragres.ca/", "at": "2026-10-08", "stack": ["lenis", "nuxt", "shopify", "tailwind", "vue"], "scripts": 2}
+{"url": "https://opengarden.weleda.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.thecraftsmen.tech/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://rileyadkisson.com/", "at": "2026-10-08", "stack": ["astro"], "scripts": 0}
+{"url": "https://www.lironmoran-interiors.com", "at": "2026-10-08", "stack": ["gsap", "next.js", "prismic", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.sssolitaire.com", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "three.js", "vue"], "scripts": 6}
+{"url": "https://khanhnguyen.design/", "at": "2026-10-08", "stack": ["astro"], "scripts": 6}
+{"url": "https://www.brikken.co/", "at": "2026-10-08", "stack": ["lenis", "next.js"], "scripts": 6}
+{"url": "https://luccianos.net/en/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://wanda.net", "at": "2026-10-08", "stack": ["nuxt", "react-three-fiber", "three.js", "vue"], "scripts": 6}
+{"url": "https://numa.uprock.pro/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger"], "scripts": 5}
+{"url": "https://pavilion-thefutureinmind.akufen.ca/", "at": "2026-10-08", "error": "TimeoutError", "stack": []}
+{"url": "http://www.antinomy.studio", "at": "2026-10-08", "stack": ["next.js", "wordpress"], "scripts": 6}
+{"url": "https://prb-archive.netlify.app/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://myriad.video/", "at": "2026-10-08", "stack": ["prismic"], "scripts": 6}
+{"url": "https://www.axarb.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 5}
+{"url": "https://play2.studiogusto.com/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger", "three.js", "wordpress"], "scripts": 1}
+{"url": "https://offficestud.io/", "at": "2026-10-08", "stack": ["astro", "gsap", "lenis", "scrolltrigger"], "scripts": 1}
+{"url": "https://rosefamily.com.ua/en/", "at": "2026-10-08", "stack": ["barba.js"], "scripts": 6}
+{"url": "https://yuga.com", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "scrolltrigger", "three.js", "vue"], "scripts": 6}
+{"url": "https://rubenwyttenbach.ch", "at": "2026-10-08", "stack": ["barba.js", "gsap", "locomotive-scroll", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://www.leoparpeix.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "react-three-fiber", "scrolltrigger", "three.js", "vue"], "scripts": 1}
+{"url": "https://www.sendpotion.com/", "at": "2026-10-08", "stack": ["gsap", "matter.js", "scrolltrigger"], "scripts": 1}
+{"url": "https://www.simonrogers.info/", "at": "2026-10-08", "stack": ["nuxt", "three.js", "vue"], "scripts": 5}
+{"url": "https://www.pbsc.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 4}
+{"url": "http://thecosmicstage.com/", "at": "2026-10-08", "stack": [], "scripts": 3}
+{"url": "https://neondoorlit.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 1}
+{"url": "https://surya-aditya.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://gregorcollienne.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 1}
+{"url": "https://offthegrid.gucci.com/", "at": "2026-10-08", "error": "TimeoutError", "stack": []}
+{"url": "https://poetry.camera/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://eco.aristidebenoist.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://acmotorsport.eu/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "three.js", "wordpress"], "scripts": 6}
+{"url": "https://vermillion-jewelry.com/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "http://12vendome.chaumet.com/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://www.eye-sprint.com", "at": "2026-10-08", "stack": ["three.js", "wordpress"], "scripts": 5}
+{"url": "https://selectedbase.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "http://albumcolors.com", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://www.prompthealth.com/pps/2025", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://lamalama.nl/", "at": "2026-10-08", "stack": ["swup", "wordpress"], "scripts": 3}
+{"url": "https://vitaarchitecture.com/", "at": "2026-10-08", "stack": ["nuxt", "vue", "wordpress"], "scripts": 6}
+{"url": "https://spykercars.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "http://www.makemepulse.com", "at": "2026-10-08", "stack": ["gsap", "lottie", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://chainzoku.io", "at": "2026-10-08", "stack": ["nuxt", "vue"], "scripts": 6}
+{"url": "https://ozworld.adidas.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://beetogreen.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "https://www.netflixshadowandbone.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "http://gettala.com", "at": "2026-10-08", "stack": [], "scripts": 4}
+{"url": "https://www.bauwerk.de/en", "at": "2026-10-08", "stack": ["rive", "vue"], "scripts": 5}
+{"url": "http://rocketair.com", "at": "2026-10-08", "stack": ["locomotive-scroll", "lottie", "webflow"], "scripts": 5}
+{"url": "https://guglieri.com/", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "https://applied-imagination.gpc.consulting/", "at": "2026-10-08", "stack": ["next.js", "react-three-fiber", "three.js"], "scripts": 6}
+{"url": "https://www.andrewleguay.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "storyblok", "vue"], "scripts": 6}
+{"url": "https://amuse-bouche.pt/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lottie", "scrolltrigger", "three.js", "wordpress"], "scripts": 4}
+{"url": "https://www.mythbusterchallenge.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://xmas.mill3.studio/", "at": "2026-10-08", "stack": ["locomotive-scroll", "pixi.js", "three.js"], "scripts": 1}
+{"url": "http://www.mechstorm.io/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "three.js"], "scripts": 3}
+{"url": "https://app.forhims.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "http://petertarka.com", "at": "2026-10-08", "stack": ["next.js", "wordpress"], "scripts": 6}
+{"url": "http://dioriviera.imm-g-prod.com/dioriviera-2022/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://wrapped-party.activetheory.dev/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://aletagency.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 4}
+{"url": "https://www.woset.world/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "shopify"], "scripts": 6}
+{"url": "https://etiennebarbedette.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "next.js", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://helloplayful.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "vue"], "scripts": 4}
+{"url": "https://fitdrop.cc/", "at": "2026-10-08", "stack": ["matter.js"], "scripts": 3}
+{"url": "https://fortheloveofbread.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://rose-maggie.com/", "at": "2026-10-08", "stack": [], "scripts": 3}
+{"url": "https://mfisher-apollonas.com", "at": "2026-10-08", "stack": ["gsap", "next.js", "prismic", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://www.SeeWhatEyeSee.org/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "tailwind", "three.js", "vue"], "scripts": 2}
+{"url": "https://intothetrenches.1917.movie", "at": "2026-10-08", "stack": ["gsap", "react-three-fiber", "three.js"], "scripts": 1}
+{"url": "https://hobro.digital/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.lifeatspotify.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://findmy.vitra.com/en-en", "at": "2026-10-08", "stack": ["next.js", "storyblok"], "scripts": 6}
+{"url": "https://www.cartier.com/en-fr/lechoeurdespierres", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://www.vana.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://mav.farm/", "at": "2026-10-08", "stack": ["next.js", "sanity", "shopify"], "scripts": 6}
+{"url": "https://longshotfeatures.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://venus-story.com", "at": "2026-10-08", "stack": ["gsap"], "scripts": 6}
+{"url": "https://thec8.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://cloudstudio.es/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie"], "scripts": 6}
+{"url": "https://starguardian.riotgames.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.fornasettiprofumi.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://duyucare.dops.agency/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.priestess.ca/", "at": "2026-10-08", "stack": ["webflow"], "scripts": 2}
+{"url": "https://www.dariaizbash.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://lechefdorchestreducorps.fr", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 2}
+{"url": "https://www.awdagency.com", "at": "2026-10-08", "stack": ["barba.js", "gsap", "wordpress"], "scripts": 6}
+{"url": "https://flipaclip.com/", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "https://untruthsandconsequences.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://nahelmoussi.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "pixi.js", "prismic", "three.js", "vue"], "scripts": 6}
+{"url": "https://www.price-pierce.co.uk/", "at": "2026-10-08", "stack": ["lenis", "wordpress"], "scripts": 4}
+{"url": "https://pizzapizza.io/", "at": "2026-10-08", "stack": ["sanity"], "scripts": 5}
+{"url": "https://pp-fragment.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "http://fremtidensuddannelser.dk/en", "at": "2026-10-08", "stack": ["gsap", "three.js"], "scripts": 1}
+{"url": "https://uplinq.non-linear.studio", "at": "2026-10-08", "stack": ["gsap", "sanity", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://compassionappeal.znstudio.com.au", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://leonard.agency/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://microwaver59.com", "at": "2026-10-08", "stack": ["nuxt", "vue"], "scripts": 5}
+{"url": "https://ageofunion.com", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "vue", "wordpress"], "scripts": 6}
+{"url": "https://designscramble.jp/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://fitosauna.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "http://www.joshuas.world/", "at": "2026-10-08", "stack": ["sanity", "three.js"], "scripts": 3}
+{"url": "https://www.bertani.net/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "http://www.vibor.it", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 4}
+{"url": "https://www.juanmoraromero.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://yetimotion.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "three.js", "wordpress"], "scripts": 1}
+{"url": "https://thecanvasagency.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://dddhotel.jp/en", "at": "2026-10-08", "stack": ["gsap", "nuxt", "three.js", "vue"], "scripts": 5}
+{"url": "http://drawhistory.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "http://spacecraftforall.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://penelope-care.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://baosociety.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://contrabureau.com.pause", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://haerfest.com/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "http://cobloc.archi/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "scrolltrigger", "wordpress"], "scripts": 5}
+{"url": "https://www.alessandroromagnoliph.it/", "at": "2026-10-08", "stack": ["barba.js"], "scripts": 3}
+{"url": "https://www.thedesignsociety.fr/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://bermat.it/it", "at": "2026-10-08", "stack": ["three.js"], "scripts": 3}
+{"url": "https://kamimae.com/365days/", "at": "2026-10-08", "stack": ["lottie"], "scripts": 1}
+{"url": "https://www.oneupstudio.it/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "lottie", "nuxt", "three.js", "vue"], "scripts": 6}
+{"url": "https://www.wonderlandams.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "three.js", "vue"], "scripts": 6}
+{"url": "http://overpass.studiovoila.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://defundtigraygenocide.org", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger"], "scripts": 1}
+{"url": "https://www.providerstore.com.au", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://www.in56.es/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 1}
+{"url": "https://fade.run/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://chivichivi.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "wordpress"], "scripts": 2}
+{"url": "https://www.steelwavellc.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "http://bitetoothpastebits.com", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://jazzkeys.plan8.co/", "at": "2026-10-08", "stack": ["nuxt", "vue"], "scripts": 4}
+{"url": "https://www.thecheckout.klarna.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://kirifuda.co.jp", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://gnrm.se/", "at": "2026-10-08", "stack": ["astro"], "scripts": 6}
+{"url": "http://www.hyperframe.com", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://www.apple.com/macbook-air/", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://oryzo.ai/", "at": "2026-10-08", "stack": ["astro", "gsap", "rive", "three.js"], "scripts": 1}
+{"url": "https://www.nasdaq50.com", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://flutter.productions", "at": "2026-10-08", "stack": [], "scripts": 3}
+{"url": "https://www.cevitxef.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://studyhall.design/", "at": "2026-10-08", "stack": ["astro", "gsap", "lenis", "sanity", "scrolltrigger", "tailwind"], "scripts": 1}
+{"url": "https://www.ollopa.ca/en/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://alike.page/", "at": "2026-10-08", "stack": ["three.js"], "scripts": 2}
+{"url": "https://www.shimmer.cloud/manrope", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://angelamilosevic.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://ombiastudio.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "scrolltrigger", "shopify", "vue"], "scripts": 6}
+{"url": "https://mediainnovatiecampus.nl/", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 6}
+{"url": "https://covidartmuseum.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://unknown-untitled.com/en", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger"], "scripts": 1}
+{"url": "https://www.girlswhocodegirls.com", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "https://universalfavourite.com.au/", "at": "2026-10-08", "stack": ["gsap", "lenis", "matter.js", "scrolltrigger", "swup"], "scripts": 4}
+{"url": "https://wrapped-party.activetheory.dev/en", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://visuals.brybry.co", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger"], "scripts": 6}
+{"url": "https://lr.doesbook.kr/en/", "at": "2026-10-08", "stack": ["playcanvas", "react-three-fiber", "three.js"], "scripts": 6}
+{"url": "https://korolev.apokrif.media/en/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.tomsears.me/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://furrow.studio", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://kentatoshikura.com", "at": "2026-10-08", "stack": ["gsap", "nuxt", "three.js", "vue"], "scripts": 6}
+{"url": "https://takeboost.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://vooban.com/en", "at": "2026-10-08", "stack": ["gsap", "lenis", "locomotive-scroll", "scrolltrigger", "swup"], "scripts": 1}
+{"url": "https://nova-smarthome.ueno.co/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://moooi.com/defy-gravity", "at": "2026-10-08", "stack": ["pixi.js"], "scripts": 0}
+{"url": "https://harryjatkins.com/", "at": "2026-10-08", "stack": ["astro", "swup"], "scripts": 1}
+{"url": "https://www.lacoste.com/us/lacoste-heritage.html", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://cipherdigital.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "locomotive-scroll", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://karinasirqueira.com/", "at": "2026-10-08", "stack": ["gsap", "prismic", "scrolltrigger"], "scripts": 1}
+{"url": "https://mank.aristidebenoist.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "http://plastic.design", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://adversary.crowdstrike.com/en-US/", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 6}
+{"url": "https://www.curiotech.co.jp/recruit/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "wordpress"], "scripts": 3}
+{"url": "https://www.mixlegno.com", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 5}
+{"url": "https://thebearandhisscarf.com", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://abetterlou.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://2authenticators.co/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://www.197historiasilustradas.com/", "at": "2026-10-08", "stack": ["next.js", "prismic"], "scripts": 6}
+{"url": "https://rly.serious.business/", "at": "2026-10-08", "stack": ["barba.js", "wordpress"], "scripts": 6}
+{"url": "https://www.rvlt.net", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.charlesalexandertv.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://www.queengarnet.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://tigertells.fun/", "at": "2026-10-08", "stack": ["gsap"], "scripts": 6}
+{"url": "https://www.curious.co", "at": "2026-10-08", "stack": ["gsap", "sveltekit"], "scripts": 1}
+{"url": "https://shutdown.gallery", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "http://adamho.com", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 6}
+{"url": "https://hematogenix.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://brotherfilmco.com", "at": "2026-10-08", "stack": ["lottie", "three.js", "wordpress"], "scripts": 6}
+{"url": "https://bodybutters.regalepreviews.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://craiecraie.com", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js", "wordpress"], "scripts": 2}
+{"url": "https://www.petitmoulinstudio.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://virtual.plus-ex.com/", "at": "2026-10-08", "stack": ["gsap", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://robin-noguier.com/", "at": "2026-10-08", "stack": ["next.js", "prismic", "three.js"], "scripts": 6}
+{"url": "https://www.deso.com/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger", "theatre.js", "three.js"], "scripts": 6}
+{"url": "https://derolez.dev/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://wetransfer.com/ideas-report/2021", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.youssrirahman.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "locomotive-scroll", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://fandomalbum.io/", "at": "2026-10-08", "stack": ["sveltekit"], "scripts": 1}
+{"url": "https://www.portorocha.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "http://wearenoodz.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://vonheilig.de/", "at": "2026-10-08", "stack": ["swup", "wordpress"], "scripts": 6}
+{"url": "https://www.innotech.pt/", "at": "2026-10-08", "stack": ["lottie", "matter.js", "nuxt", "pixi.js", "three.js", "vue", "wordpress"], "scripts": 6}
+{"url": "https://underpromise.agency/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.risk.film/", "at": "2026-10-08", "stack": ["unicorn-studio", "webflow"], "scripts": 1}
+{"url": "https://hellotoday.jp/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://svgdoodles.com/", "at": "2026-10-08", "stack": ["astro"], "scripts": 0}
+{"url": "https://engineeredfloors-preprod.rejouice.io/", "at": "2026-10-08", "stack": ["prismic"], "scripts": 6}
+{"url": "https://www.russellnumo.nl/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.likely-story.co.uk", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "wordpress"], "scripts": 5}
+{"url": "http://www.dhnn.com", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 3}
+{"url": "https://clmt.paris", "at": "2026-10-08", "error": "TimeoutError", "stack": []}
+{"url": "https://www.chdartmaker.com/", "at": "2026-10-08", "stack": ["barba.js", "lenis"], "scripts": 0}
+{"url": "https://desktop.fm/", "at": "2026-10-08", "stack": ["nuxt", "vue"], "scripts": 1}
+{"url": "https://www.theroger.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "shopify", "vue"], "scripts": 1}
+{"url": "https://thesingularity.squarespace.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://kalso.vaangroup.com/", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 2}
+{"url": "https://www.noideas.website/", "at": "2026-10-08", "stack": ["lottie", "next.js", "sanity"], "scripts": 6}
+{"url": "https://stykka.com/", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "https://www.martinbriceno.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://levonaronian.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 1}
+{"url": "https://arozjewelry.com/en/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger"], "scripts": 1}
+{"url": "https://jlern.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "scrolltrigger", "tailwind", "vue"], "scripts": 2}
+{"url": "https://inherited.band/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger"], "scripts": 1}
+{"url": "https://vj-type.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "shopify"], "scripts": 6}
+{"url": "http://basicagency.com", "at": "2026-10-08", "stack": ["next.js", "react-three-fiber", "sanity", "three.js"], "scripts": 6}
+{"url": "https://dobre.agency/", "at": "2026-10-08", "stack": ["lenis", "next.js", "storyblok", "wordpress"], "scripts": 6}
+{"url": "https://www.northkingdom.com/case/racecondition", "at": "2026-10-08", "stack": ["lenis", "next.js"], "scripts": 6}
+{"url": "https://stillwater-artisanal.com", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://www.daniellelevitt.com", "at": "2026-10-08", "stack": ["astro", "swup"], "scripts": 0}
+{"url": "https://littletroop.com/", "at": "2026-10-08", "stack": ["nuxt", "react-three-fiber", "sanity", "three.js", "vue"], "scripts": 1}
+{"url": "https://www.fern.team/", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 6}
+{"url": "https://www.anti-waste.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://howtotalktowhitekidsaboutracism.com/", "at": "2026-10-08", "stack": ["gsap", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 0}
+{"url": "https://houseofgucci.aristidebenoist.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://podcast.humbleteam.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://basic.site/password", "at": "2026-10-08", "stack": ["shopify"], "scripts": 1}
+{"url": "https://custo.io/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "shopify"], "scripts": 6}
+{"url": "https://www.motleycrowd.live/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 3}
+{"url": "https://camillemormal.com", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://agencecartier.com/", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 6}
+{"url": "http://thecubemadrid.com", "at": "2026-10-08", "stack": ["spline", "tailwind"], "scripts": 3}
+{"url": "http://plasticbionic.com", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue", "wordpress"], "scripts": 5}
+{"url": "https://wayfinder.nfb.ca/", "at": "2026-10-08", "stack": ["three.js"], "scripts": 1}
+{"url": "https://hupr.ca/en/", "at": "2026-10-08", "stack": ["lenis", "lottie", "swup", "wordpress"], "scripts": 6}
+{"url": "https://jonasemmertsen.com/", "at": "2026-10-08", "stack": ["lottie", "sveltekit"], "scripts": 1}
+{"url": "https://arcr.ru", "at": "2026-10-08", "stack": ["lenis"], "scripts": 6}
+{"url": "https://flowty.co/", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "prismic", "react-three-fiber", "sanity", "scrolltrigger", "shopify", "storyblok", "tailwind", "three.js", "vue"], "scripts": 1}
+{"url": "https://www.nieuwbergen.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://theblackpepperstudio.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://www.miragefestival.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 6}
+{"url": "https://moooi.com/", "at": "2026-10-08", "stack": ["next.js", "storyblok", "wordpress"], "scripts": 6}
+{"url": "https://jesperlandberg.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "tailwind", "three.js", "vue"], "scripts": 2}
+{"url": "https://playgoals.com/", "at": "2026-10-08", "stack": ["next.js", "sanity"], "scripts": 6}
+{"url": "https://manifesto.endel.io/", "at": "2026-10-08", "stack": ["lottie", "next.js"], "scripts": 6}
+{"url": "https://www.monokai.nl/2019/japan", "at": "2026-10-08", "stack": ["sveltekit"], "scripts": 0}
+{"url": "http://chromepitcrew.withgoogle.com/?a", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger"], "scripts": 2}
+{"url": "https://miso.com/", "at": "2026-10-08", "stack": ["sveltekit"], "scripts": 1}
+{"url": "https://www.thoughtlab.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 1}
+{"url": "https://takeyourtime.poltronafrau.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://thinkingbox.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "sanity", "scrolltrigger", "vue"], "scripts": 1}
+{"url": "https://illuminating-radioactivity.com/", "at": "2026-10-08", "stack": ["gsap"], "scripts": 2}
+{"url": "https://unprintempssuspendu.lequipe.fr/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "three.js", "vue"], "scripts": 6}
+{"url": "https://www.studiorhe.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "tailwind", "vue"], "scripts": 6}
+{"url": "https://iconicmints.wsjbarrons.com/", "at": "2026-10-08", "stack": ["sanity"], "scripts": 0}
+{"url": "https://jonathanalpmyr.com", "at": "2026-10-08", "stack": ["sanity"], "scripts": 0}
+{"url": "https://orb-space.webflow.io/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger", "webflow"], "scripts": 5}
+{"url": "https://pone.listenanddonate.com/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 0}
+{"url": "http://fiomet.com", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://ripeplanet.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "sanity"], "scripts": 3}
+{"url": "https://www.unbelievablycrap.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 6}
+{"url": "https://goodmeat.co/", "at": "2026-10-08", "stack": ["gsap", "lottie", "matter.js", "nuxt", "scrolltrigger", "storyblok", "vue"], "scripts": 6}
+{"url": "https://studionamma.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "swup", "webflow"], "scripts": 6}
+{"url": "https://works.studio", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://alessandrazanghi.studio/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.utsubo.co", "at": "2026-10-08", "stack": ["astro", "gsap", "lenis", "webgpu"], "scripts": 2}
+{"url": "https://yutaabe.com/", "at": "2026-10-08", "stack": ["astro", "gsap", "lenis", "scrolltrigger"], "scripts": 3}
+{"url": "https://shift5.io/", "at": "2026-10-08", "stack": ["astro", "gsap", "sanity", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "http://www.stelladomo.com", "at": "2026-10-08", "stack": ["gsap", "lottie", "webflow"], "scripts": 3}
+{"url": "https://www.jyang.io/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.bequant.com", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://zero.tech/", "at": "2026-10-08", "stack": ["framer"], "scripts": 0}
+{"url": "https://decorsystems.com.au/", "at": "2026-10-08", "stack": ["gsap", "lottie", "sanity", "scrolltrigger"], "scripts": 5}
+{"url": "https://meadlight.com/en", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://schweppes.ca/en/?g=false", "at": "2026-10-08", "stack": ["barba.js", "wordpress"], "scripts": 0}
+{"url": "https://robinpayot.com/", "at": "2026-10-08", "stack": ["gsap", "pixi.js", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://www.constancesouville.com/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://mooosor.ru/eng", "at": "2026-10-08", "stack": [], "scripts": 6}
+{"url": "https://www.mcube.fr", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lottie", "wordpress"], "scripts": 6}
+{"url": "http://fever.acervo.studio/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://moooi.com/paper-play", "at": "2026-10-08", "stack": ["pixi.js"], "scripts": 0}
+{"url": "https://www.gsoft.com", "at": "2026-10-08", "stack": ["webflow"], "scripts": 4}
+{"url": "https://filippobello.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://jeen-yuhs.com/", "at": "2026-10-08", "stack": ["nuxt", "prismic", "vue"], "scripts": 6}
+{"url": "https://www.villagemontreal.ca/en/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://transmissions.cristobalbalenciagamuseoa.com", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger"], "scripts": 6}
+{"url": "https://www.sashamartynchuk.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger"], "scripts": 1}
+{"url": "https://www.thelasttango.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://earcouture.jp/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js", "wordpress"], "scripts": 2}
+{"url": "https://kieranbaybutt.com/", "at": "2026-10-08", "stack": ["lenis", "next.js", "storyblok"], "scripts": 6}
+{"url": "https://gucci-la-famiglia-2026-master.monogrid.io/", "at": "2026-10-08", "stack": ["vue"], "scripts": 3}
+{"url": "https://2025.superlocaldesign.com/", "at": "2026-10-08", "stack": ["framer", "lenis", "react-three-fiber", "three.js"], "scripts": 0}
+{"url": "https://nordarun.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "scrolltrigger", "shopify"], "scripts": 6}
+{"url": "https://belowthesurface.resn.co.nz/", "at": "2026-10-08", "stack": ["gsap"], "scripts": 1}
+{"url": "https://lmchabot.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "wordpress"], "scripts": 2}
+{"url": "https://marussiabeverages.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 3}
+{"url": "https://fashion-sustainability-report.vestiairecollective.com/fashion-sustainability-report-2022/", "at": "2026-10-08", "stack": ["barba.js"], "scripts": 0}
+{"url": "https://www.jasonbergh.com/", "at": "2026-10-08", "stack": ["barba.js", "gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://crosswire.unseen.co/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 1}
+{"url": "https://tula.redcollar.co/", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://gucciburst.gucci.com/", "at": "2026-10-08", "error": "TimeoutError", "stack": []}
+{"url": "https://www.icare-game.world/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.pola.co.jp/wecaremore/mothersday/", "at": "2026-10-08", "stack": ["three.js"], "scripts": 2}
+{"url": "https://www.brewsandgrooves.com/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://www.etq-amsterdam.com/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://www.puma-campaigns.com/velocity-2-aw/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.everpost.com", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://newworld-preview-0521.dev.60fps.fr/en-us/", "at": "2026-10-08", "stack": ["react-three-fiber", "three.js"], "scripts": 0}
+{"url": "https://airforcepuzzle.com/", "at": "2026-10-08", "stack": ["next.js", "vue"], "scripts": 6}
+{"url": "https://seacat.rossinavi.it/", "at": "2026-10-08", "stack": ["gsap", "lenis", "next.js", "scrolltrigger"], "scripts": 6}
+{"url": "https://segerman.dev/", "at": "2026-10-08", "stack": ["astro"], "scripts": 1}
+{"url": "https://piscinasdecemento.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 5}
+{"url": "http://emmitfenn.com", "at": "2026-10-08", "stack": ["three.js"], "scripts": 1}
+{"url": "https://anywellfacialbar.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://yukohiguchi.gucci.com/?lang=en", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://nikilauda.obys.agency/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://filayyyy.vercel.app/", "at": "2026-10-08", "stack": ["gsap", "next.js", "scrolltrigger", "shopify", "tailwind"], "scripts": 6}
+{"url": "https://www.danielspatzek.com", "at": "2026-10-08", "stack": ["gsap", "nuxt", "pixi.js", "scrolltrigger", "storyblok", "three.js", "vue"], "scripts": 4}
+{"url": "https://prm.ooo/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "sanity", "vue"], "scripts": 1}
+{"url": "https://elecctro.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "spline", "webflow"], "scripts": 6}
+{"url": "https://type1ventures.com", "at": "2026-10-08", "stack": ["gsap", "lenis", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 2}
+{"url": "https://youtu.be/qxRuT8kRDvg", "at": "2026-10-08", "stack": ["lottie"], "scripts": 6}
+{"url": "http://www.motiondeep.com/", "at": "2026-10-08", "stack": ["gsap", "lottie", "react-three-fiber", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://www.icam-inox.com/", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 3}
+{"url": "https://patrickheng.com/", "at": "2026-10-08", "stack": ["gsap", "matter.js", "nuxt", "pixi.js", "react-three-fiber", "three.js", "vue"], "scripts": 4}
+{"url": "https://grigoriak.doctor/", "at": "2026-10-08", "stack": ["barba.js", "three.js"], "scripts": 4}
+{"url": "https://www.sakharov.space/en", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://cowboy.com/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 0}
+{"url": "https://www.impermanence.us/", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "http://wldlght.com/", "at": "2026-10-08", "stack": ["gsap", "react-three-fiber", "three.js"], "scripts": 1}
+{"url": "https://everydayrobots.com/", "at": "2026-10-08", "stack": ["lottie"], "scripts": 2}
+{"url": "https://weedensenteret.no/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "http://monopo.vn/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "nuxt", "scrolltrigger", "three.js", "vue"], "scripts": 5}
+{"url": "https://www.topology.vc/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "theatre.js", "three.js"], "scripts": 1}
+{"url": "https://flyhyer.com", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://vimeo.com/1219285189", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.gatewaygalaxy.com/", "at": "2026-10-08", "stack": [], "scripts": 3}
+{"url": "https://cat.humbleteam.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://sizzer.nl", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://www.rose-island.co/", "at": "2026-10-08", "stack": ["lottie", "webflow"], "scripts": 3}
+{"url": "https://zesnullen.world/", "at": "2026-10-08", "stack": ["three.js"], "scripts": 2}
+{"url": "https://www.visagesdurhone.com/", "at": "2026-10-08", "stack": ["gsap", "pixi.js", "scrolltrigger", "wordpress"], "scripts": 4}
+{"url": "https://summer-afternoon.vlucendo.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://digital-cover.com/", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "wordpress"], "scripts": 3}
+{"url": "https://houseof.maserati.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://www.lamadone.studio/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.snig.digital/", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://www.zikd.space/en", "at": "2026-10-08", "stack": [], "scripts": 0}
+{"url": "https://netrixdigital.com", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "scrolltrigger", "three.js", "vue"], "scripts": 1}
+{"url": "https://www.insulaesrl.it/", "at": "2026-10-08", "stack": ["gsap", "lenis", "scrolltrigger", "wordpress"], "scripts": 6}
+{"url": "https://katchme.fr/", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 6}
+{"url": "https://halomedia.com", "at": "2026-10-08", "error": "HTTPError", "stack": []}
+{"url": "https://www.masardestination.com/en/experience", "at": "2026-10-08", "stack": ["gsap", "lottie", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://www.red-company.nl/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://baillatstudio.com", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger"], "scripts": 4}
+{"url": "https://fanstudy.byspotify.com/", "at": "2026-10-08", "stack": ["lottie", "next.js"], "scripts": 6}
+{"url": "https://sirup.online/owaridiary/", "at": "2026-10-08", "stack": ["gsap", "locomotive-scroll", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://blackdogstory.com", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "three.js"], "scripts": 2}
+{"url": "https://steerthedeer.com", "at": "2026-10-08", "stack": ["gsap", "three.js"], "scripts": 1}
+{"url": "https://www.samuelday.de/", "at": "2026-10-08", "stack": ["lottie", "matter.js", "webflow", "wordpress"], "scripts": 2}
+{"url": "https://www.capsule.dormeuil.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "http://www.everydayexperiments.com", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://useplink.com/en/", "at": "2026-10-08", "stack": ["framer", "wordpress"], "scripts": 0}
+{"url": "https://theweeknd.withspotify.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://exp-ion.lusion.co/", "at": "2026-10-08", "stack": ["three.js"], "scripts": 1}
+{"url": "http://eleos.la/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://bugatti-smartwatches.com/pages/ceramique-edition-one", "at": "2026-10-08", "stack": [], "scripts": 2}
+{"url": "https://www.designboom.com/technology/conways-arcade-google-vintage-gameplay-modular-aluminum-hardware-specialguestx/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 1}
+{"url": "https://shop.rogue.studio/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://i-move-u.alexandrajugovic.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://www.ideadesign.es/", "at": "2026-10-08", "stack": ["next.js", "wordpress"], "scripts": 6}
+{"url": "http://spinoza.co/", "at": "2026-10-08", "stack": ["lottie", "wordpress"], "scripts": 6}
+{"url": "https://wannabe-store.webflow.io/", "at": "2026-10-08", "stack": ["gsap", "lottie", "three.js", "webflow"], "scripts": 5}
+{"url": "https://estudiomaba.com/", "at": "2026-10-08", "stack": ["gsap", "wordpress"], "scripts": 6}
+{"url": "https://dieselwynwood.me/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://no.merci-michel.com/", "at": "2026-10-08", "stack": ["vue", "wordpress"], "scripts": 1}
+{"url": "https://lemma.studio", "at": "2026-10-08", "stack": ["lenis", "unicorn-studio", "webflow"], "scripts": 6}
+{"url": "https://playyourpower.narscosmetics.com", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://royjad.com/", "at": "2026-10-08", "stack": ["next.js"], "scripts": 6}
+{"url": "https://www.albacondos.com/", "at": "2026-10-08", "stack": ["wordpress"], "scripts": 1}
+{"url": "http://blokwatches.com", "at": "2026-10-08", "stack": ["motion", "shopify"], "scripts": 6}
+{"url": "https://evm.elektramontreal.ca/en", "at": "2026-10-08", "error": "TimeoutError", "stack": []}
+{"url": "https://anablagojevic.com/en", "at": "2026-10-08", "stack": ["gsap", "scrolltrigger", "vue"], "scripts": 6}
+{"url": "https://evolution.depositphotos.com/", "at": "2026-10-08", "stack": [], "scripts": 1}
+{"url": "https://lemkus.com/", "at": "2026-10-08", "stack": ["shopify"], "scripts": 6}
+{"url": "https://www.farmminerals.com/", "at": "2026-10-08", "stack": ["gsap", "lenis", "lottie", "scrolltrigger", "webflow"], "scripts": 6}
+{"url": "https://radioactivecrocsclub.com/", "at": "2026-10-08", "error": "URLError", "stack": []}
+{"url": "https://mrpops.ua/en/", "at": "2026-10-08", "stack": ["lottie", "next.js", "three.js"], "scripts": 6}
+{"url": "https://www.annatwelve.com/en", "at": "2026-10-08", "stack": ["gsap", "nuxt", "scrolltrigger", "vue"], "scripts": 5}
+{"url": "https://lovi.care/", "at": "2026-10-08", "stack": ["framer", "lenis", "lottie"], "scripts": 0}
+{"url": "https://visualcreatures.com/", "at": "2026-10-08", "stack": ["gsap", "nuxt", "prismic", "scrolltrigger", "vue"], "scripts": 4}
+{"url": "https://www.threejspunk.com/", "at": "2026-10-08", "stack": ["gsap", "react-three-fiber", "scrolltrigger", "three.js", "webgpu"], "scripts": 1}

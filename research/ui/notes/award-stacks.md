@@ -1,24 +1,31 @@
 # What award-winning sites actually ship (8 Oct 2026)
 
-Evidence, not opinion: `research/tools/stack_probe.py` read the homepage and up to six same-site scripts of 1,431
-award-winning sites (Awwwards Site of the Day, Month, Year nominees and Developer awards, plus the galleries) and
-matched library signatures left in shipped code. 1,333 answered; 98 failed or blocked. A miss can mean the code sat in
-a script the probe did not read, so shares are lower bounds. Re-run: `python3 research/tools/stack_probe.py --report`.
+Evidence, not opinion: `research/tools/stack_probe.py` read the homepage and up to six same-site scripts of 2,961
+award-winning sites (Awwwards Site of the Day, Month, Year nominees and Developer awards; FWA; CSS Design Awards; Godly;
+One Page Love) and matched library signatures left in shipped code. Sites that failed or blocked are left out. A miss can
+mean the code sat in a script the probe did not read, so shares are lower bounds. Re-run:
+`python3 research/tools/stack_probe.py --report`.
 
 ## Share of winners by award year
 
 | Year (sites) | GSAP | ScrollTrigger | Lenis | Three.js | R3F | Vue | Nuxt | Next.js | Webflow | Lottie | Barba |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 2026 (261) | 59% | 57% | 59% | 27% | 8% | 21% | 16% | 20% | 19% | 19% | 14% |
-| 2025 (338) | 67% | 67% | 57% | 23% | 8% | 21% | 18% | 16% | 21% | 26% | 11% |
-| 2024 (334) | 63% | 61% | 51% | 25% | — | 23% | 20% | 15% | 15% | 24% | 9% |
-| 2023 (201) | 53% | 51% | 38% | 28% | 8% | 18% | 17% | 21% | 13% | 20% | 9% |
+| 2026 (579) | 52% | 50% | 50% | 24% | 8% | 17% | 14% | 20% | 16% | 17% | 10% |
+| 2025 (339) | 67% | 67% | 57% | 23% | 8% | 22% | 18% | 16% | 21% | 25% | 11% |
+| 2024 (345) | 62% | 60% | 49% | 24% | — | 22% | 20% | 16% | 14% | 24% | 8% |
+| 2023 (313) | 53% | 51% | 31% | 24% | 7% | 17% | 15% | 23% | 14% | 23% | 8% |
+| 2022 (310) | 50% | 48% | 8% | 20% | — | 20% | 15% | 15% | 8% | 20% | 8% |
+| 2021 (313) | 39% | 33% | — | 21% | 6% | 17% | 13% | 9% | 7% | 15% | 5% |
+| 2020 (277) | 42% | 21% | 5% | 20% | — | 16% | 14% | 11% | 4% | 17% | — |
+
+2026 mixes in FWA, CSSDA and gallery picks, which ship slightly less GSAP than Awwwards winners alone (59% on the
+Awwwards-only sample of 261).
 
 ## What it means for SISO sites
 
-1. **The award stack is GSAP + ScrollTrigger + Lenis.** About 60% of winners ship GSAP, and Lenis rose from 38% to 59%
-   in three years. A SISO site kit without both starts behind.
-2. **3D is a quarter, not the default.** Three.js sits at about 25% every year; most winners earn the award with
+1. **The award stack is GSAP + ScrollTrigger + Lenis.** Half to two thirds of winners ship GSAP, and Lenis went from 5%
+   (2020) and 8% (2022) to about half of all winners since 2024. A SISO site kit without both starts behind.
+2. **3D is a quarter, not the default.** Three.js sits at 20 to 24% every year since 2020; most winners earn the award with
    scroll, type and transitions. Use 3D where it carries the story.
 3. **React Three Fiber is rare on award sites (8%).** Winners mostly write plain Three.js (or OGL) inside the site's
    framework. R3F remains right for React apps (UI-HUB components); for marketing sites, plain Three.js is the norm.

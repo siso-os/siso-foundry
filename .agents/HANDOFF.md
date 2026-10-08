@@ -148,7 +148,20 @@ left belongs to other owners or needs a new harvest:
 
 ## Next
 
-Done this pass: the 1,377 imported UI list repos judged (649 kept), every UI page re-probed (8,550 of 8,886 alive),
-the rivals compared, LMArena image and video boards, and the skill, plugin and MCP catalogues. Next: weekly refresh of
-the catalogues and leaderboards (`agent_catalogs.py`, `asr_leaderboard.py`, `lmarena.py`, `registry_directory.py`
-are all re-runnable), and a depth pass wherever UI-HUB or Agent Base asks.
+Status 19:55 UTC: the 5-hour window is at 91% (shared with AGENT-BASE and SISO-LANDING), so per the brief RESEARCH
+stops spending tokens until it resets at 21:00 UTC. The first `foundry refresh --due` (all 21 sources, scripts only,
+no model tokens) is running meanwhile.
+
+Third layer, from 21:00 until 07:00 +07, ordered by who uses it first:
+
+1. **SISO-LANDING:** the god question "what does an award-winning landing page have?", answered from evidence: the
+   section patterns, hero types and motion of the 2,900 winners plus landing galleries (Lapa Ninja, Land-book,
+   SaaS Landing Page; camofox where they block plain fetches). Output: a Question with an evidence table, and records.
+2. **UI-HUB:** 21st.dev sections never pulled (shaders, ASCII, gradients, apps); previews for the 79 registries and 83
+   asset libraries (camofox screenshots to the vault); a Question "which registries should UI-HUB ingest first".
+3. **AGENT-BASE:** Questions answered from the 142k catalogue: "which skills, plugins and MCP servers should Agent
+   Base ship by default" (installs, stars, official status), and "what does the best agent dashboard UI look like".
+4. **YouTube depth:** creators' own playlists (award-site technique channels, agent-workflow channels), harvested with
+   `yt_harvest.py --playlist`, so videos are complete series, not single search hits.
+5. **Previews:** LMArena models (108) and people/studios (40) from their own pages or avatars.
+

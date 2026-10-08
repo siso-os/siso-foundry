@@ -1,7 +1,7 @@
 # HANDOFF: RESEARCH (domain research in the Foundry)
 
 Owner: RESEARCH, Opus on the Mac mini. Branch `research/domains`. Brief: siso-agent-zero `jobs/research-domains/BRIEF.md`,
-decision ADR 0006. Updated 2026-10-08 17:35 UTC.
+decision ADR 0006. Updated 2026-10-08 18:00 UTC.
 
 ## The lookup (any agent, either machine)
 
@@ -34,17 +34,20 @@ foundry stats                       # records, sources, lookups
 
 | Domain | Records | With preview | Sources | Open leads | Rejected |
 |---|---|---|---|---|---|
-| ui | 10,986 | 10,447 | 3,447 | 0 | 616 |
-| agent-bases | 1,426 | 1,402 | 140 | 0 | 730 |
+| ui | 10,364 | 9,978 | 3,450 | 0 | 1,350 (734 curated out of the list imports) |
+| agent-bases | 1,522 | 1,507 | 141 | 0 | 730 |
 | voice | 551 | 514 | 80 | 0 | 28 |
 
-UI areas: components 5,539 (incl. 3,985 21st.dev items the component bank lacks) · awards 2,919 · 3d-motion 1,382 ·
-assets 386 · videos 288 · image-gen 189 · shells 187 · people 96.
+UI areas: components 5,263 (incl. 3,985 21st.dev items the component bank lacks) · awards 2,919 · 3d-motion 1,018 ·
+assets 364 · videos 288 · image-gen 252 (incl. 114 LMArena-ranked models) · shells 164 · people 96.
 `foundry find` also searches item sources beside the records: the UI Hub's items, the component bank index (vault) and
 registry.directory's 36,377 shadcn registry items (vault snapshot, area `registry-item`).
-Agent-bases areas: harnesses 395 · skill-hubs 366 · videos 355 · mcp 112 · memory 94 · frameworks 84 · people 20.
+Agent-bases areas: skill-hubs 462 · harnesses 395 · videos 355 · mcp 112 · memory 94 · frameworks 84 · people 20.
+`foundry find --domain agent-bases` also searches 142,177 catalogue entries on the vault (`agent_catalogs.py`):
+46,557 skills and 53,784 plugins from claude-plugins.dev, 40,776 servers from the official MCP Registry, and SkillsMP's
+top 1,060 skills (areas `catalog-skill`, `catalog-plugin`, `catalog-mcp`; ordered partly by installs).
 Voice areas: videos 139 · speech-models 115 · dictation-apps 79 · stt 79 · voice-agents 49 · tts 47 · people 22 · voice-ui 21.
-Lookups on the mini: 66, all RESEARCH's own; no other agent has run `foundry find` yet.
+Lookups on the mini: 74, all RESEARCH's own; no other agent has run `foundry find` yet.
 
 ## Findings worth his attention
 
@@ -68,6 +71,9 @@ Lookups on the mini: 66, all RESEARCH's own; no other agent has run `foundry fin
 - **What award winners ship (`research/ui/notes/award-stacks.md`, 2,961 sites 2020-2026):** GSAP on half to two thirds,
   Lenis on half since 2024, Three.js a steady quarter, React Three Fiber 8%. The 49 studios with six or more awards
   (Locomotive 50, Immersive Garden 40, Active Theory 32, Obys, Unseen …) are records with their stack: `foundry find studio`.
+- **Image and video models (`research/ui/notes/image-models.md`, LMArena human votes):** gpt-image-2.5 leads text to image
+  and image editing; the best open model, Qwen-Image 2.1, is #19, about 200 Elo behind. For video, Gemini Omni Flash
+  leads and MiniMax H3 (community licence) is the best open model at #8. FLUX.2 klein is non-commercial.
 - **Dictation open source:** besides Handy (MIT, the fork base), OpenWhispr (MIT, 9k, Parakeet built in) and FluidAudio
   (CoreML Parakeet for a native Swift app) are the parts; VoiceInk and FluidVoice are GPL-3.0, so study, don't fork.
 
@@ -94,9 +100,8 @@ left belongs to other owners or needs a new harvest:
 
 1. Copy the 3,985 21st.dev items into siso-component-bank (UI-HUB / bank owner; list on the vault).
 2. Tell agents the lookup exists: no other agent has run `foundry find` yet (Agent Zero).
-3. Curate the 1,449 UI awesome-list repos (imported from 21 lists, judged by stars and list only).
+3. Curate the 1,522 agent-bases records' newest catalogue entries if the hub wants ranks beyond install counts.
 4. Turn-detection: no neutral benchmark exists; measure Smart Turn v3 vs LiveKit on SISO's own audio.
-5. Re-probe older UI records for previews now that probe.py reads streamed pages (`probe.py web --domain ui --all`).
 
 ## How it works
 
@@ -130,6 +135,7 @@ left belongs to other owners or needs a new harvest:
 
 ## Next
 
-Frontiers are empty; next pass opens new leads rather than working old ones: curate the 1,449 UI awesome-list repos,
-re-probe UI previews with `--all`, then a depth pass on the top rivals (orca, paseo, agent-orchestrator) for the
-features Agent Base lacks.
+Done this pass: the 1,377 imported UI list repos judged (649 kept), every UI page re-probed (8,550 of 8,886 alive),
+the rivals compared, LMArena image and video boards, and the skill, plugin and MCP catalogues. Next: weekly refresh of
+the catalogues and leaderboards (`agent_catalogs.py`, `asr_leaderboard.py`, `lmarena.py`, `registry_directory.py`
+are all re-runnable), and a depth pass wherever UI-HUB or Agent Base asks.

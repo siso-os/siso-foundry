@@ -13,7 +13,7 @@ $FOUNDRY_DATA/usage/find.jsonl on the machine that ran them. Any other subcomman
 (repos, transcripts, people, ...) is passed to the corpus CLI from the foundry-corpus skill.
 Exit codes: 0 found, 2 usage, 3 nothing found.
 """
-import argparse, hashlib, html, json, os, re, socket, subprocess, sys, time
+import argparse, math, hashlib, html, json, os, re, socket, subprocess, sys, time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -257,7 +257,8 @@ def score(row, words, phrase=""):
         s += got
     if len(phrase) > 3 and (phrase in squash(row.get("title", "")) or phrase in squash(row.get("url", ""))):
         s += 8  # the query as written, e.g. "ag-ui" or "three.js", names this thing
-    return s + int(row.get("rank") or 3) / 2 + min(int(row.get("stars") or 0), 100000) / 100000
+    used = math.log10(int(row.get("installs") or 0) + 1) / 1.5  # catalogue installs: 10k installs adds 2.7
+    return s + int(row.get("rank") or 3) / 2 + min(int(row.get("stars") or 0), 100000) / 100000 + used
 
 
 def ui_hub_rows():

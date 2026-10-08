@@ -67,8 +67,8 @@ def mcp():
 
 def skillsmp():
     rows = []
-    for page in range(1, 13):
-        d = get(f"https://skillsmp.com/api/skills?limit=100&page={page}&sortBy=stars")
+    for page in range(1, 61):  # the API rejects pages larger than 20
+        d = get(f"https://skillsmp.com/api/skills?limit=20&page={page}&sortBy=stars")
         rows += (d or {}).get("skills") or []
         if not d or not d.get("pagination", {}).get("hasNext"):
             break
@@ -95,13 +95,13 @@ def item(name, r):
     if name == "cpd-plugins":
         return {"id": f"cpd-plugin:{r['id']}", "title": r.get("name"), "kind": "plugin", "area": "catalog-plugin",
                 "url": r.get("gitUrl") or "", "why": r.get("description") or "", "by": r.get("author") or "", "stars": r.get("stars"),
-                "installs": r.get("downloads") or 0, "tags": ["claude-plugins.dev", r.get("category") or ""] + (r.get("keywords") or [])[:4]}
+                "installs": r.get("downloads") or 0, "tags": ["claude-plugins.dev"], "category": r.get("category") or ""}
     if name == "mcp":
         srv = r.get("server") or {}
         url = (srv.get("repository") or {}).get("url") or srv.get("websiteUrl") or next((x.get("url") for x in srv.get("remotes") or []), "")
         return {"id": f"mcp:{srv.get('name')}", "title": srv.get("title") or srv.get("name"), "kind": "mcp-server", "area": "catalog-mcp",
                 "url": url or "https://registry.modelcontextprotocol.io", "why": srv.get("description") or "", "by": (srv.get("name") or "").split("/")[0],
-                "stars": None, "installs": 0, "tags": ["mcp-registry", srv.get("name") or ""]}
+                "stars": None, "installs": 0, "tags": ["mcp-registry"]}
     if name == "skillsmp":
         return {"id": f"skillsmp:{r['id']}", "title": r.get("name"), "kind": "skill", "area": "catalog-skill", "url": r.get("githubUrl") or "",
                 "why": r.get("description") or "", "by": r.get("author") or "", "stars": r.get("stars"), "installs": 0, "tags": ["skillsmp"]}

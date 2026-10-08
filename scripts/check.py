@@ -12,7 +12,7 @@ import tempfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
-IGNORED_PARTS = {".git", "node_modules", "__pycache__", "run", "results"}
+IGNORED_PARTS = {".git", "node_modules", "__pycache__", "run", "results", ".claude"}
 
 
 def source_files(suffix):

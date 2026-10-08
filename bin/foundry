@@ -19,6 +19,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 RESEARCH = ROOT / "research"
 UI_HUB_ITEMS = ROOT.parent / "banks" / "siso-ui-hub" / "sources" / "items.jsonl"
+# The 21st.dev component bank (8.5k components, previews, source): beside the Foundry on the laptop, a sparse clone on the mini.
+COMPONENT_BANK = [Path(os.environ["FOUNDRY_COMPONENT_BANK"])] if os.environ.get("FOUNDRY_COMPONENT_BANK") else [
+    ROOT.parent / "banks" / "siso-component-bank" / "index.jsonl",
+    Path("/Volumes/SISO-STORAGE-VAULT/foundry-data/clones/siso-component-bank/index.jsonl")]
 CORPUS_CLI = Path.home() / ".claude" / "skills" / "foundry-corpus" / "foundry"
 OWN = {"find", "frontier", "stats", "build", "page", "serve"}
 
@@ -146,6 +150,10 @@ def build_domain(domain):
         records.setdefault(k, prev)
     apply_facts(base, records.values())
     apply_curation(base, records.values())
+    for o in read_jsonl(base / "frontier-rank.jsonl"):  # RESEARCH's re-ranking beats a harvester's own rank
+        if o.get("lead", "").lower() in leads:
+            leads[o["lead"].lower()]["rank"] = int(o["rank"])
+            leads[o["lead"].lower()]["why"] = o.get("why") or leads[o["lead"].lower()]["why"]
     done = {d["lead"].lower(): d for d in read_jsonl(base / "frontier-done.jsonl")}
     for k, lead in leads.items():
         if k in done:
@@ -223,7 +231,7 @@ def apply_curation(base, records):
 # ---------------------------------------------------------------- find
 
 def tokens(text):
-    return [t for t in re.split(r"[^a-z0-9+#.]+", text.lower()) if t]
+    return [t for t in re.split(r"[^a-z0-9+#.]+", str(text or "").lower()) if t]
 
 
 def has(field_tokens, w):
@@ -254,7 +262,33 @@ def ui_hub_rows():
     for r in read_jsonl(UI_HUB_ITEMS):
         yield {"id": r.get("id"), "title": r.get("title") or r.get("name"), "kind": r.get("kind"), "area": "ui-hub-item",
                "domain": "ui", "url": r.get("url"), "why": r.get("desc", ""), "tags": [r.get("lib", ""), r.get("lib_cat", "")],
-               "lib": r.get("lib", ""), "licence": r.get("tier", "")}
+               "lib": r.get("lib", ""), "licence": r.get("tier", ""), "rank": 3}
+
+
+def component_bank_rows():
+    path = next((p for p in COMPONENT_BANK if p.exists()), None)
+    for r in read_jsonl(path) if path else []:
+        cls = r.get("classification") or ""
+        cat = re.search(r"'category': \[([^\]]*)\]", cls) if isinstance(cls, str) else None
+        prev = r.get("upstream_preview") or ""
+        yield {"id": "bank:" + r.get("id", ""), "title": r.get("name") or r.get("slug"), "kind": "component", "area": "component-bank",
+               "domain": "ui", "url": r.get("url"), "why": r.get("description", ""), "by": r.get("author", ""),
+               "tags": [t.strip(" '") for t in (cat.group(1).split(",") if cat else [])] + ["21st.dev"],
+               "preview": prev if prev.startswith("http") else "", "licence": "has source" if str(r.get("has_source")) == "True" else "", "rank": 2}
+
+
+def registry_directory_rows():
+    """Every public shadcn registry item, from the newest registry.directory snapshot on the data plane."""
+    snaps = sorted(Path("/Volumes/SISO-STORAGE-VAULT/foundry-data/research/ui").glob("registry-directory-items-*.json")) + \
+        sorted((data_root() / "research" / "ui").glob("registry-directory-items-*.json"))
+    if not snaps:
+        return
+    for it in json.loads(snaps[-1].read_text())["items"]:
+        reg = it.get("registry") or {}
+        yield {"id": f"rd:{reg.get('basePath', '')}/{it.get('name')}", "title": it.get("name"), "kind": (it.get("type") or "").replace("registry:", ""),
+               "area": "registry-item", "domain": "ui", "url": f"https://registry.directory{reg.get('basePath', '')}/{it.get('name')}",
+               "why": it.get("description") or "", "by": reg.get("name", ""), "tags": (it.get("categories") or []) + [reg.get("name", "")],
+               "licence": reg.get("name", ""), "rank": 2}
 
 
 def count_lookup(entry):
@@ -278,7 +312,7 @@ def cmd_find(a):
             continue
         rows += read_jsonl(RESEARCH / d / "records.jsonl")
     if (not a.domain or a.domain == "ui") and not a.no_items:
-        rows += list(ui_hub_rows())
+        rows += list(ui_hub_rows()) + list(component_bank_rows()) + list(registry_directory_rows())
     if a.area:
         rows = [r for r in rows if r.get("area") == a.area]
     if a.kind:
@@ -303,7 +337,7 @@ def cmd_find(a):
         if r.get("licence"):
             extra.append(str(r["licence"])[:20])
         meta = f"{r.get('domain','')}/{r.get('area','')}/{r.get('kind','')}" + (f" · {' · '.join(extra)}" if extra else "")
-        print(f"- {r.get('title','')[:60]}  [{meta}]\n  {r.get('url','')}\n  {str(r.get('why',''))[:140]}")
+        print(f"- {r.get('title','')[:60]}  [{meta}]\n  {r.get('url','')}\n  {str(r.get('why') or '')[:140]}")
     return 0
 
 
@@ -436,7 +470,7 @@ def main(argv):
     f.add_argument("--kind")
     f.add_argument("--limit", type=int, default=10)
     f.add_argument("--json", action="store_true")
-    f.add_argument("--no-items", action="store_true", help="skip the UI Hub's 1,182 component items")
+    f.add_argument("--no-items", action="store_true", help="skip the UI Hub items and the 21st.dev component bank")
     fr = sub.add_parser("frontier")
     fr.add_argument("--domain")
     fr.add_argument("--limit", type=int, default=10)

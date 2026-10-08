@@ -1,0 +1,12 @@
+{"lead": "ytsearch: awwwards. channel playlists 'Live Website Case Study' and 'Live Jury Website Reviews'", "rank": 5, "why": "First-hand award breakdowns from Awwwards' own channel; harvest every episode."}
+{"lead": "Bruno Simon 'Portfolio - Devlog' playlist (episodes 0-14+)", "rank": 5, "why": "Complete build log of an award-grade 3D portfolio."}
+{"lead": "Licence audit before copying: coss (AGPL monorepo), React Bits (Commons Clause), Animate UI (NOASSERTION), Vercel AI Chatbot ('Other')", "rank": 5, "why": "UI-HUB is building on these picks now; settle what may be copied."}
+{"lead": "https://www.awwwards.com/websites/sites_of_the_day/ -> each SOTD 'case study' / behind-the-scenes link", "rank": 4, "why": "Studios' own build write-ups for winners."}
+{"lead": "gh-search: three.js TSL WebGPU node material examples", "rank": 4, "why": "Where Three.js is heading; curated examples."}
+{"lead": "gh search repos 'shadcn admin dashboard' --sort stars (stars >1000)", "rank": 4, "why": "Shells for operator dashboards."}
+{"lead": "websearch:Gaussian splat scenes CC0 download", "rank": 4, "why": "Splats are the new 3D hero asset; openly licensed captures."}
+{"lead": "https://3d.si.edu/ Smithsonian Open Access 3D (403 to curl)", "rank": 4, "why": "CC0 museum scans; verify through camofox."}
+{"lead": "https://www.fab.com/ free monthly assets and Quixel Megascans (403 to curl; needs browser probe)", "rank": 3, "why": "Account-gated; reference only."}
+{"lead": "https://www.fab.com/ (free monthly + Megascans free listing)", "rank": 3, "why": "Duplicate of the Fab lead."}
+{"lead": "https://21st.dev catalogue structure, categories and community submission flow", "rank": 3, "why": "Sections and authors mapped; submission flow remains."}
+{"lead": "gh-search:awesome landing page templates", "rank": 3, "why": "Marketing shells are thin (134)."}

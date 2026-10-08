@@ -3,3 +3,24 @@
 {"lead": "https://tympanus.net/codrops/category/case-studies/", "result": "research/tools/codrops_harvest.py: 800 Codrops posts 2021-2026 incl. case studies, via camofox.", "at": "2026-10-08"}
 {"lead": "blog:Codrops advanced tutorials archive", "result": "Covered by codrops_harvest.py (800 posts).", "at": "2026-10-08"}
 {"lead": "Explore 21st.dev/community/authors for top component creators", "result": "research/tools/sitemap_21st.py: 1,435 authors in the sitemap, 250 with 5+ items recorded as people.", "at": "2026-10-08"}
+{"lead": "https://registry.directory/items.json", "result": "research/tools/registry_directory.py: 36,377 items from 89 registries snapshotted on the vault; foundry find searches them (area registry-item); 89 registry records.", "at": "2026-10-08"}
+{"lead": "https://thefwa.com/directory/", "result": "Covered: awards_more.py fwa harvests FWA of the Day/Month/Year from its timeline API (264 sites).", "at": "2026-10-08"}
+{"lead": "https://www.cssdesignawards.com/winners/", "result": "Covered: awards_more.py cssda (WOTD and WOTY).", "at": "2026-10-08"}
+{"lead": "https://ui.shadcn.com/docs/directory", "result": "Covered: the official registries.json (430 registries) plus registry.directory (36k items).", "at": "2026-10-08"}
+{"lead": "https://www.awwwards.com/websites/interaction-design/", "result": "Covered: 2,444 Awwwards winners carry category tags; foundry find <tag> --area awards.", "at": "2026-10-08"}
+{"lead": "https://www.awwwards.com/websites/portfolio/", "result": "Covered: Awwwards winners tagged portfolio; foundry find portfolio --area awards.", "at": "2026-10-08"}
+{"lead": "https://www.awwwards.com/websites/scrolling/", "result": "Covered: Awwwards winners tagged scrolling, plus stack tags uses:lenis/uses:scrolltrigger.", "at": "2026-10-08"}
+{"lead": "https://www.awwwards.com/websites/design-agencies/", "result": "Covered by Awwwards category tags.", "at": "2026-10-08"}
+{"lead": "https://www.awwwards.com/websites/fashion/", "result": "Covered by Awwwards category tags.", "at": "2026-10-08"}
+{"lead": "https://www.awwwards.com/websites/webflow/", "result": "Covered: uses:webflow stack tag on 2,961 probed winners.", "at": "2026-10-08"}
+{"lead": "web search: awwwards 2024 winners", "result": "Covered: Awwwards SOTD 2020-2026 harvested.", "at": "2026-10-08"}
+{"lead": "web search: design award winning websites 2025", "result": "Covered: Awwwards, FWA, CSSDA, Godly, One Page Love.", "at": "2026-10-08"}
+{"lead": "websearch:Awwwards 3D motion sites", "result": "Covered: foundry find uses:three.js --area awards.", "at": "2026-10-08"}
+{"lead": "Awwwards RSS/API", "result": "Not needed: awards_harvest.py reads the public archive cards.", "at": "2026-10-08"}
+{"lead": "https://github.com/search?q=topic:react-components stars:>1000", "result": "Covered by awesome-react-components, awesome-uikit and finduikit imports (1,064 repos).", "at": "2026-10-08"}
+{"lead": "gh-search:spa single page application", "result": "Dropped: generic; no SISO use beyond existing shells.", "at": "2026-10-08"}
+{"lead": "gh-search:pwa progressive web app template", "result": "Dropped: generic.", "at": "2026-10-08"}
+{"lead": "gh-search:css framework template", "result": "Dropped: legacy CSS frameworks are not on SISO's path.", "at": "2026-10-08"}
+{"lead": "Web Components and design system tooling (Web Components, Lit, FAST)", "result": "Dropped: SISO is React/shadcn.", "at": "2026-10-08"}
+{"lead": "ytsearch:neo brutalism web design", "result": "Dropped: a style search, not a source.", "at": "2026-10-08"}
+{"lead": "ytsearch:wasm webgl graphics", "result": "Dropped: off the SISO site path.", "at": "2026-10-08"}

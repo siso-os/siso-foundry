@@ -10,10 +10,12 @@
 {"area": "awards", "from": ["awards"], "lead": "https://www.awwwards.com/websites/portfolio/", "rank": 5, "status": "open", "why": "Awwwards portfolio category with award-winning designer portfolios"}
 {"area": "awards", "from": ["awards"], "lead": "https://www.awwwards.com/websites/scrolling/", "rank": 5, "status": "open", "why": "Awwwards scrolling effects category highlighting scroll-based interactions"}
 {"area": "awards", "from": ["awards"], "lead": "https://www.cssdesignawards.com/winners/", "rank": 5, "status": "open", "why": "CSS Design Awards complete winners list across all years"}
+{"area": "assets", "from": ["assets-2"], "lead": "https://www.fab.com/ (free monthly + Megascans free listing)", "rank": 5, "status": "open", "why": "Bot-blocked to curl; Megascans now on Fab, needs a browser probe to record which items stay free"}
 {"area": "assets", "from": ["gaps-3d-assets"], "lead": "https://www.fab.com/ free monthly assets and Quixel Megascans (403 to curl; needs browser probe)", "rank": 5, "status": "open", "why": "Megascans moved to Fab; huge free/paid photoscanned library, licence terms changed 2024-25"}
 {"area": "people", "from": ["videos-people"], "lead": "known-creator:Felix Turner", "rank": 5, "status": "open", "why": "Advanced 3D web development and WebGL"}
 {"area": "people", "from": ["videos-people"], "lead": "known-creator:Florian Bruggisser", "rank": 5, "status": "open", "why": "WebGL and creative coding expert"}
 {"area": "people", "from": ["videos-people"], "lead": "known-creator:Matt Deslauriers", "rank": 5, "status": "open", "why": "Creative developer and artist in generative design"}
+{"area": "assets", "from": ["assets-2"], "lead": "websearch:Gaussian splat scenes CC0 download", "rank": 5, "status": "open", "why": "Splat category is thin (9); need openly licensed splat captures, not just tools and benchmarks"}
 {"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:WebGPU 3D frameworks 2024", "rank": 5, "status": "open", "why": "Find emerging WebGPU rendering engines"}
 {"area": "videos", "from": ["gaps-videos-people"], "lead": "ytsearch: awwwards. channel playlists 'Live Website Case Study' and 'Live Jury Website Reviews'", "rank": 5, "status": "open", "why": "Dozens of first-hand award breakdowns on @AwwwardsTV; harvest each episode as a video record"}
 {"area": "videos", "from": ["videos-people"], "lead": "ytsearch:creative coding generative art", "rank": 5, "status": "open", "why": "Generative art and creative coding techniques"}
@@ -53,6 +55,7 @@
 {"area": "awards", "from": ["awards"], "lead": "https://www.awwwards.com/websites/fashion/", "rank": 4, "status": "open", "why": "Awwwards fashion category with luxury and brand design"}
 {"area": "videos", "from": ["gaps-videos-people"], "lead": "https://www.awwwards.com/websites/sites_of_the_day/ -> each SOTD 'case study' / behind-the-scenes link", "rank": 4, "status": "open", "why": "Studios often publish build write-ups for SOTD/SOTY winners; map winner -> write-up"}
 {"area": "awards", "from": ["awards"], "lead": "https://www.awwwards.com/websites/webflow/", "rank": 4, "status": "open", "why": "Awwwards Webflow category showcasing modern web framework designs"}
+{"area": "assets", "from": ["assets-2"], "lead": "https://www.figma.com/community/ui-kits", "rank": 4, "status": "open", "why": "Record the top free Figma community kits (shadcn, Material 3, iOS) individually with verified file URLs"}
 {"area": "people", "from": ["videos-people"], "lead": "known-creator:Joren Seven", "rank": 4, "status": "open", "why": "Experimental web design and interaction"}
 {"area": "people", "from": ["videos-people"], "lead": "known-creator:Linear Design", "rank": 4, "status": "open", "why": "Minimalist design and smooth interactions"}
 {"area": "people", "from": ["videos-people"], "lead": "known-creator:Stripe Design", "rank": 4, "status": "open", "why": "Industry-leading design and interaction patterns"}
@@ -63,6 +66,7 @@
 {"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:GLSL creative coding", "rank": 4, "status": "open", "why": "Find shader art and algorithmic art resources"}
 {"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:WebXR VR AR frameworks", "rank": 4, "status": "open", "why": "Discover VR/AR capabilities for immersive 3D web"}
 {"area": "image-gen", "from": ["assets"], "lead": "websearch:diffusion model leaderboard", "rank": 4, "status": "open", "why": "Ranking and comparison of diffusion models"}
+{"area": "assets", "from": ["assets-2"], "lead": "websearch:free LUT pack cube commercial use", "rank": 4, "status": "open", "why": "Shader LUT coverage is only FreshLUTs; RawTherapee HaldCLUT page 404'd and needs its new URL"}
 {"area": "image-gen", "from": ["assets"], "lead": "websearch:open source text to 3d", "rank": 4, "status": "open", "why": "Text-to-3D model and tool collection"}
 {"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:three.js examples gallery", "rank": 4, "status": "open", "why": "Discover more Three.js showcase projects and demos"}
 {"area": "videos", "from": ["videos-people"], "lead": "ytsearch:ai generative ui components", "rank": 4, "status": "open", "why": "AI-powered component generation and UI"}
@@ -92,6 +96,7 @@
 {"area": "videos", "from": ["videos-people"], "lead": "github-awesome:awesome-web-animation", "rank": 3, "status": "open", "why": "Web animation tools and tutorials collection"}
 {"area": "awards", "from": ["awards"], "lead": "https://aaronschwartz.com/", "rank": 3, "status": "open", "why": "Award-winning designer personal portfolio (exemplar)"}
 {"area": "awards", "from": ["awards"], "lead": "https://behance.net/galleries/design/web-design", "rank": 3, "status": "open", "why": "Behance web design galleries with professional work"}
+{"area": "assets", "from": ["assets-2"], "lead": "https://github.com/topics/cc0", "rank": 3, "status": "open", "why": "GitHub topic of CC0 asset repos; mine for texture, model and sound packs"}
 {"area": "image-gen", "from": ["gaps-3d-assets"], "lead": "https://ideogram.ai/ and Google Gemini image (Nano Banana) (ideogram 403 to curl)", "rank": 3, "status": "open", "why": "Top proprietary generators for text-in-image and edits; rank on the Artificial Analysis arena"}
 {"area": "awards", "from": ["awards"], "lead": "https://www.dribbble.com/search/shots?q=award-winning", "rank": 3, "status": "open", "why": "Dribbble design showcase with award-winning work"}
 {"area": "people", "from": ["videos-people"], "lead": "known-creator:Electron Community", "rank": 3, "status": "open", "why": "Desktop web apps and cross-platform development"}
@@ -102,6 +107,7 @@
 {"area": "assets", "from": ["assets"], "lead": "websearch:blender free addons assets", "rank": 3, "status": "open", "why": "3D modeling asset libraries for Blender"}
 {"area": "assets", "from": ["assets"], "lead": "websearch:bootstrap ui kits free", "rank": 3, "status": "open", "why": "Web framework component libraries"}
 {"area": "assets", "from": ["assets"], "lead": "websearch:figma plugins free community", "rank": 3, "status": "open", "why": "Extend Figma with free plugins"}
+{"area": "assets", "from": ["assets-2"], "lead": "websearch:matcap library free download", "rank": 3, "status": "open", "why": "Only nidorx/matcaps known (already recorded); pmndrs market 404'd so a matcap source with previews is missing"}
 {"area": "assets", "from": ["assets"], "lead": "websearch:material design components free", "rank": 3, "status": "open", "why": "Material Design libraries and templates"}
 {"area": "3d-motion", "from": ["3d-motion"], "lead": "websearch:motion capture web", "rank": 3, "status": "open", "why": "Find motion capture tools for web 3D"}
 {"area": "image-gen", "from": ["assets"], "lead": "websearch:nerf neural radiance fields", "rank": 3, "status": "open", "why": "3D reconstruction and novel view synthesis"}
@@ -119,6 +125,7 @@
 {"area": "shells", "from": ["shells"], "lead": "gh-search:error page template 404", "rank": 2, "status": "open", "why": "Error page shell templates and patterns"}
 {"area": "shells", "from": ["shells"], "lead": "gh-search:icon library system", "rank": 2, "status": "open", "why": "Icon libraries and systems for shell components"}
 {"area": "shells", "from": ["gaps-components-shells"], "lead": "https://github.com/jaywcjlove/awesome-uikit admin-template sections", "rank": 2, "status": "open", "why": "Admin templates across stacks, for completeness of the shells lane."}
+{"area": "assets", "from": ["assets-2"], "lead": "https://www.hdrlabs.com/sibl/", "rank": 2, "status": "open", "why": "sIBL archive page 404'd; check whether the archive moved before dropping it"}
 {"area": "awards", "from": ["awards"], "lead": "https://www.instagram.com/awwwards/", "rank": 2, "status": "open", "why": "Awwwards Instagram with recent winners and announcements"}
 {"area": "assets", "from": ["gaps-3d-assets"], "lead": "https://www.radix-ui.com/icons and https://heropatterns.com/", "rank": 2, "status": "open", "why": "Resolved 200 but cut for space: Radix 15x15 icons (MIT) and SVG repeating patterns (CC BY 4.0)"}
 {"area": "image-gen", "from": ["assets"], "lead": "websearch:gan generative adversarial networks", "rank": 2, "status": "open", "why": "Alternative generative model family"}
@@ -128,4 +135,5 @@
 {"area": "components", "from": ["components"], "lead": "Explore 21st.dev/community/authors for top component creators", "rank": 5, "result": "research/tools/sitemap_21st.py: 1,435 authors in the sitemap, 250 with 5+ items recorded as people.", "status": "done", "why": "Identify influential designers and developers in component ecosystem"}
 {"area": "videos", "from": ["gaps-videos-people"], "lead": "https://tympanus.net/codrops/category/case-studies/", "rank": 5, "result": "research/tools/codrops_harvest.py: 800 Codrops posts 2021-2026 incl. case studies, via camofox.", "status": "done", "why": "Codrops case-study series (studios explain award sites: stack, shaders, scroll); blocked by Cloudflare challenge to curl, needs a camofox fetch to harvest each case study"}
 {"area": "videos", "from": ["videos-people"], "lead": "blog:Codrops advanced tutorials archive", "rank": 4, "result": "Covered by codrops_harvest.py (800 posts).", "status": "done", "why": "Historical collection of innovative web techniques"}
+{"area": "assets", "from": ["assets-2"], "lead": "https://sketchfab.com/search?features=downloadable&licenses=7c23a1ba438d4306920229c12afcb5f9&type=models&q=scan", "rank": 4, "status": "covered", "why": "Harvest named CC0 museum scan accounts on Sketchfab (e.g. institutions releasing CC0) as individual records"}
 {"area": "components", "from": ["components"], "lead": "https://www.producthunt.com/?topic=UI%20Kits", "rank": 4, "status": "covered", "why": "Product Hunt UI Kit releases and component library launches"}

@@ -1,7 +1,7 @@
 # HANDOFF: RESEARCH (domain research in the Foundry)
 
 Owner: RESEARCH, Opus on the Mac mini. Branch `research/domains`. Brief: siso-agent-zero `jobs/research-domains/BRIEF.md`,
-decision ADR 0006. Updated 2026-10-08 16:35 UTC.
+decision ADR 0006. Updated 2026-10-08 17:05 UTC.
 
 ## The lookup (any agent, either machine)
 
@@ -22,8 +22,9 @@ foundry stats                       # records, sources, lookups
 
 ## Pages he can open (Tailscale)
 
-- Index: http://100.66.34.21:8766/
-- Award sites with previews: http://100.66.34.21:8766/ui-awards.html (1,441 sites, 1,414 with previews, tag chips)
+- Index of every domain and area: http://100.66.34.21:8766/
+- Award-winning sites with previews: http://100.66.34.21:8766/ui-awards.html (2,909 winners from Awwwards, FWA, CSSDA,
+  Godly, One Page Love and galleries, 2,887 with the award's own thumbnail; filter box and tag chips)
 - Served by `foundry serve --host 100.66.34.21` (mini, started by hand with nohup; it does not survive a reboot).
   Regenerate with `foundry page all`.
 
@@ -31,13 +32,25 @@ foundry stats                       # records, sources, lookups
 
 | Domain | Records | With preview | Sources | Open leads | Rejected |
 |---|---|---|---|---|---|
-| ui | 0 → 3,403 | 3,239 | 1,610 | 129 | 498 |
-| agent-bases | 0 → 1,262 | 1,252 | 95 | 20 | 141 |
-| voice | 0 → 116 | 116 | 1 | 0 | 0 |
+| ui | 0 → 6,213 | 5,702 | 3,328 | 132 | 531 |
+| agent-bases | 0 → 1,601 | 1,591 | 115 | 19 | 141 |
+| voice | 0 → 374 | 339 | 61 | 9 | 0 |
 
-UI areas: awards 1,441 · components 996 · 3d-motion 456 · image-gen 157 · shells 134 · videos 108 · people 56 · assets 55.
-Agent-bases areas: harnesses 517 · skill-hubs 449 · mcp 126 · memory 83 · frameworks 68 · people 19.
-Lookups: 0 → 8 on the mini (RESEARCH's own tests; agents have not been told yet).
+UI areas: awards 2,919 · components 1,264 · 3d-motion 1,260 · assets 314 · image-gen 157 · shells 134 · videos 109 ·
+people 56 (plus 250 21st.dev authors under components).
+Agent-bases areas: harnesses 537 · skill-hubs 462 · videos 304 · mcp 126 · memory 85 · frameworks 68 · people 19.
+Voice areas: speech-models 116 · dictation-apps 73 · tts 41 · voice-agents 41 · stt 38 · people 22 · videos 22 · voice-ui 21.
+Lookups: 0 → 18 on the mini (RESEARCH's own tests; agents have not been told yet).
+
+## Findings worth his attention
+
+- What award winners ship (`research/ui/notes/award-stacks.md`, 1,333 sites read): GSAP + ScrollTrigger on about 60%,
+  Lenis 59% in 2026 (38% in 2023), Three.js about 25%, React Three Fiber only 8%, Vue/Nuxt as common as Next.js.
+- 21st.dev has 4,028 author items newer than the component bank's 29 Aug pull (2,706 components, 815 themes, 279 library
+  pages, 228 templates) plus shaders, ASCII, gradients and apps sections never pulled. The list is on the vault:
+  `foundry-data/research/ui/21st-not-in-component-bank-2026-10-08.txt`. For UI-HUB / the component bank's owner.
+- SISO Voice: cjpais/Handy (33k stars, MIT, Tauri push-to-talk with local Whisper or Parakeet) is the best base to fork;
+  Parakeet TDT v3 for local STT on Apple Silicon, Pipecat + Smart Turn v3 for turn-taking, Kokoro-82M for local TTS.
 
 ## Top ten finds
 
@@ -65,11 +78,13 @@ GSAP is free but not open source; Vercel AI Chatbot is "Other".
 
 ## Frontier, top five
 
-1. Mine which libraries Awwwards winners actually ship (https://www.awwwards.com/websites/three-js/), to rank our 3D stack.
-2. Compare generative-UI specs (A2UI, json-render, OpenUI, AG-UI) for agents that emit UI.
-3. Ingest registry.directory's items.json: every public shadcn registry item.
-4. Sweep GitHub for harness GUIs and pane managers created since June 2026.
-5. Codrops case studies and the Awwwards channel's case-study playlists.
+1. Refresh the component bank from 21st.dev with the vault delta list (owner: UI-HUB / component bank).
+2. Ingest registry.directory's items.json: every public shadcn registry item.
+3. Open ASR Leaderboard top 20 as per-model records, to choose SISO Voice's local model.
+4. Superwhisper and Typeless pricing (JS-rendered; camofox).
+5. Compare the generative-UI protocols in prose (records exist: `foundry find generative ui`).
+
+Done tonight: award stack mining, Codrops (800 posts), 21st.dev authors, the since-June harness sweep.
 
 ## How it works
 
@@ -79,8 +94,11 @@ GSAP is free but not open source; Vercel AI Chatbot is "Other".
 - Facts from the source: `research/tools/probe.py` (liveness, og:image, GitHub's own stars and licence). A 404 or a
   repo GitHub does not know moves the record to `rejected.jsonl`.
 - Judgment: `research/<domain>/curation/*.jsonl` (keep or drop, rank 1 to 5, a sharper why), by RESEARCH's curators.
-- Harvesters: `yt_harvest.py` (real YouTube metadata), `awards_harvest.py` (Awwwards archives), `awesome_import.py`
-  (other people's lists from the Foundry awesome catalog, mapped in `research/<domain>/lists.json`).
+- Harvesters in `research/tools/`: `yt_harvest.py` (real YouTube metadata), `awards_harvest.py` (Awwwards archives),
+  `awards_more.py` (FWA, CSSDA, Godly, One Page Love), `codrops_harvest.py` (through camofox on the laptop),
+  `sitemap_21st.py`, `stack_probe.py` (libraries winners ship), `awesome_import.py` (other people's lists from the
+  Foundry awesome catalog, mapped in `research/<domain>/lists.json`).
+- Leads are closed in `research/<domain>/frontier-done.jsonl` with what answered them.
 - Data plane: the awesome catalog snapshot is on the vault (`foundry-data/domains/github/awesome/`); generated pages
   and lookup counts are in `~/.local/share/siso-foundry`.
 
@@ -95,5 +113,5 @@ GSAP is free but not open source; Vercel AI Chatbot is "Other".
 
 ## Next
 
-Assets depth (only 55 kept), voice domain beyond the speech-AI list, agent-bases videos and people, more award sources
-(CSSDA, FWA, Godly), then the frontier top five.
+Agent-bases curation of the catalog and videos (curator running), stack probe of the new award sites, then the
+frontier top five. Siteinspire and Lapa Ninja block plain fetches (camofox would pass).

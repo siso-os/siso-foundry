@@ -94,7 +94,7 @@ def cssda(a, seen, emit):
             return
         for chunk in found:
             site = re.search(r'href="(https?://[^"]+)"[^>]*class="sp__project-link"', chunk)
-            src = re.search(r'href="(/sites/[^"]+)"', chunk)
+            src = re.search(r'href="(/(?:sites|woty)/[^"]+)"', chunk)
             if not site or not src:
                 continue
             url = clean_url(site.group(1))

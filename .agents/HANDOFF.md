@@ -33,12 +33,13 @@ foundry stats                       # records, sources, lookups
 | Domain | Records | With preview | Sources | Open leads | Rejected |
 |---|---|---|---|---|---|
 | ui | 0 → 6,213 | 5,702 | 3,328 | 132 | 531 |
-| agent-bases | 0 → 1,601 | 1,591 | 115 | 19 | 141 |
+| agent-bases | 0 → 1,061 | 1,051 | 111 | 19 | 681 |
 | voice | 0 → 374 | 339 | 61 | 9 | 0 |
 
 UI areas: awards 2,919 · components 1,264 · 3d-motion 1,260 · assets 314 · image-gen 157 · shells 134 · videos 109 ·
 people 56 (plus 250 21st.dev authors under components).
-Agent-bases areas: harnesses 537 · skill-hubs 462 · videos 304 · mcp 126 · memory 85 · frameworks 68 · people 19.
+Agent-bases areas (every record judged; 540 general dev tools and hype videos curated out): harnesses 343 · skill-hubs 340 ·
+mcp 109 · videos 106 · memory 76 · frameworks 68 · people 19.
 Voice areas: speech-models 116 · dictation-apps 73 · tts 41 · voice-agents 41 · stt 38 · people 22 · videos 22 · voice-ui 21.
 Lookups: 0 → 18 on the mini (RESEARCH's own tests; agents have not been told yet).
 
@@ -49,6 +50,10 @@ Lookups: 0 → 18 on the mini (RESEARCH's own tests; agents have not been told y
 - 21st.dev has 4,028 author items newer than the component bank's 29 Aug pull (2,706 components, 815 themes, 279 library
   pages, 228 templates) plus shaders, ASCII, gradients and apps sections never pulled. The list is on the vault:
   `foundry-data/research/ui/21st-not-in-component-bank-2026-10-08.txt`. For UI-HUB / the component bank's owner.
+- Agent Base has open-source rivals already live: Superset, Emdash, Multica, AgentsMesh, dmux (tmux pane plus worktree
+  per task), omnigent, zeron and YC's multiplayer harness qm; Claude Code now ships its own agent dashboard and Mods.
+  A public 28-minute herdr guide (91k views): https://www.youtube.com/watch?v=Shqtk_2Jd3c.
+  `foundry find --domain agent-bases <words>`; rank-5 list via the curation files.
 - SISO Voice: cjpais/Handy (33k stars, MIT, Tauri push-to-talk with local Whisper or Parakeet) is the best base to fork;
   Parakeet TDT v3 for local STT on Apple Silicon, Pipecat + Smart Turn v3 for turn-taking, Kokoro-82M for local TTS.
 
@@ -113,5 +118,5 @@ Done tonight: award stack mining, Codrops (800 posts), 21st.dev authors, the sin
 
 ## Next
 
-Agent-bases curation of the catalog and videos (curator running), stack probe of the new award sites, then the
+Stack probe of the new award sites, then the
 frontier top five. Siteinspire and Lapa Ninja block plain fetches (camofox would pass).

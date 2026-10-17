@@ -12,5 +12,5 @@
   "owners": 39404,
   "enriched": 0,
   "elapsed_sec": 68.5,
-  "db": "/Users/shaansisodia/SISO_Workspace/SISO_Research/siso-foundry/pipelines/github/awesome/catalog_v2.sqlite"
+  "db": "pipelines/github/awesome/catalog_v2.sqlite"
 }

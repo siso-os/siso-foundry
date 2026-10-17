@@ -158,8 +158,12 @@ assert cap_map["counts"]["capabilities"] == 189
 assert len(cap_map["capabilities"]) == 189 == len({c["capability_id"] for c in cap_map["capabilities"]})
 assert all(c["canonical_pillars"] and set(c["canonical_pillars"]).issubset(set(cap_map["canonical_pillars"])) for c in cap_map["capabilities"])
 assert all(c["raw_slice"] and c["rationale"].endswith(".") for c in cap_map["capabilities"])
-atlas_path = ROOT.parents[2] / ".agents" / "runs" / "agency-os-god-source-expansion-20260802" / "lane-b-capability-atlas.jsonl"
-atlas_ids = {json.loads(line)["capability_id"] for line in atlas_path.read_text().splitlines() if line.strip()}
+# IDs extracted from the original 189-row evidence atlas; retain its source hash
+# without requiring the private workspace research run on every checkout.
+atlas_fixture = json.loads((ROOT / "tests/fixtures/capability-atlas-ids.json").read_text())
+atlas_ids = set(atlas_fixture["capability_ids"])
+assert len(atlas_fixture["capability_ids"]) == len(atlas_ids) == 189
+assert re.fullmatch(r"[0-9a-f]{64}", atlas_fixture["source_sha256"])
 assert {c["capability_id"] for c in cap_map["capabilities"]} == atlas_ids
 assert coverage["record_type"] == "agency_os_coverage_inventory"
 assert coverage["counts"]["candidate_application_rows"] == 497

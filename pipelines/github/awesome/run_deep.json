@@ -12,5 +12,5 @@
   "owners": 40308,
   "enriched": 1197,
   "elapsed_sec": 1043.5,
-  "db": "/Users/shaansisodia/SISO_Workspace/SISO_Research/siso-foundry/pipelines/github/awesome/deep.sqlite"
+  "db": "pipelines/github/awesome/deep.sqlite"
 }

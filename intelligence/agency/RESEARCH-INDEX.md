@@ -13,7 +13,7 @@ a record; a local copy does not become another canonical source.
 
 ## Public research records
 
-`industries/*.json` contains 17 industry records: process hypotheses, existing
+`agency/industries/*.json` contains 17 industry records: process hypotheses, existing
 software capabilities, repository candidates, source references and falsifiers.
 The source observations are dated 5 September 2026. Research status, jurisdiction,
 human authority, rights and missing-value fields must travel with each record.

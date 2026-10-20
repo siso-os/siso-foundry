@@ -220,7 +220,7 @@ def main():
         description="Attach crates.io artifact signal to github edges by repo URL."
     )
     ap.add_argument("--dump", required=True,
-                    help="extracted crates.io dump data/ directory")
+                    help="extracted crates.io dump ops/data/ directory")
     ap.add_argument("--graph", required=True)
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--apply", action="store_true")

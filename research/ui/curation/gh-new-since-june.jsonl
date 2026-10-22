@@ -1,0 +1,9 @@
+{"id": "f-d2a3f5d6eb", "verdict": "keep", "rank": 4, "why": "Agent skill for premium scroll-driven sites (Codex, Claude); a starting point for award-grade builds by agents.", "by": "RESEARCH"}
+{"id": "f-8e26c27c6f", "verdict": "keep", "rank": 3, "why": "Agent skills for polished Three.js browser games.", "by": "RESEARCH"}
+{"id": "f-150dbedf7c", "verdict": "keep", "rank": 4, "why": "Skill for 3D visuals with Blender, image generation and a sub-agent critic loop.", "by": "RESEARCH"}
+{"id": "f-f235578700", "verdict": "keep", "rank": 4, "why": "Agent skills for building great interfaces (7.5k stars); compare with SISO's UI skills.", "by": "RESEARCH"}
+{"id": "f-3faa65badf", "verdict": "keep", "rank": 4, "why": "Rules that stop agents producing generic AI-looking UI; feed into UI-HUB's taste checks.", "by": "RESEARCH"}
+{"id": "f-cdb38598f1", "verdict": "keep", "rank": 3, "why": "Runs Claude Design locally as a skill for polished UI mockups.", "by": "RESEARCH"}
+{"id": "f-9967fb2774", "verdict": "keep", "rank": 3, "why": "Generate production Lottie animations with Claude Code or Codex.", "by": "RESEARCH"}
+{"id": "f-599f627ef4", "verdict": "keep", "rank": 3, "why": "Remotion skill with 152 shot recipes for cinematic product videos.", "by": "RESEARCH"}
+{"id": "f-ab23469d6e", "verdict": "keep", "rank": 3, "why": "Continuous-motion films where each beat grows from the last; motion direction reference.", "by": "RESEARCH"}

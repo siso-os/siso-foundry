@@ -1,0 +1,300 @@
+{"id": "f-0c0e965480", "verdict": "drop", "rank": 1, "why": "", "note": "Vue creator; not 3D/motion; X handle returns 404"}
+{"id": "f-1149a16bc8", "verdict": "drop", "rank": 1, "why": "", "note": "generic web-dev tutorials, nothing on 3D/motion"}
+{"id": "f-11e913637b", "verdict": "keep", "rank": 2, "why": "Jen Simmons: WebKit/Safari CSS layout and new-feature announcements; she now posts mainly on Bluesky", "note": ""}
+{"id": "f-146fb5921d", "verdict": "keep", "rank": 4, "why": "Josh Comeau: interactive explainers on spring physics, CSS/React micro-motion and whimsy; the bar for UI-hub interaction polish", "note": ""}
+{"id": "f-1dde252f54", "verdict": "drop", "rank": 1, "why": "", "note": "generic blogging platform"}
+{"id": "f-1f3cc854a8", "verdict": "drop", "rank": 1, "why": "", "note": "wrong X account (resolves to 'Ben thomas', 4 followers); real studio handle @immersive_g added in gaps"}
+{"id": "f-1f48b979a0", "verdict": "drop", "rank": 1, "why": "", "note": "React/TS generalist, not motion or 3D"}
+{"id": "f-2130395ba4", "verdict": "keep", "rank": 3, "why": "Una Kravets: first word on native scroll-driven animations, View Transitions and anchor positioning, which cut JS from our motion stack", "note": ""}
+{"id": "f-2181dc12f4", "verdict": "keep", "rank": 4, "why": "Paco Coursey: cmdk/next-themes author; follow for small, perfect UI component craft that UI-HUB should match", "note": ""}
+{"id": "f-23f61b409e", "verdict": "keep", "rank": 2, "why": "Frontend Masters: paid courses incl. WebGL/creative coding (Matt DesLauriers); reference only, never robbable", "note": ""}
+{"id": "f-2a4aadf0fc", "verdict": "drop", "rank": 1, "why": "", "note": "general reference docs, not a who-to-watch source"}
+{"id": "f-305fa82504", "verdict": "drop", "rank": 1, "why": "", "note": "React core; X account gone (404); off-lane"}
+{"id": "f-3d8c11f01f", "verdict": "keep", "rank": 2, "why": "web.dev: Google guides on View Transitions, scroll-driven animation and Core Web Vitals for heavy 3D pages", "note": ""}
+{"id": "f-3d98977d94", "verdict": "drop", "rank": 1, "why": "", "note": "wrong X account (74 followers; real @bchiang7) and not award-grade 3D/motion"}
+{"id": "f-3ebd7bb6fd", "verdict": "drop", "rank": 1, "why": "", "note": "JS language educator, off-lane"}
+{"id": "f-3ee332b571", "verdict": "drop", "rank": 1, "why": "", "note": "wrong X account (resolves to 'Sean', 5 followers); studio site resn.co.nz added in gaps"}
+{"id": "f-4223c4e4c4", "verdict": "drop", "rank": 1, "why": "", "note": "generic web-dev channel"}
+{"id": "f-488b54c484", "verdict": "drop", "rank": 1, "why": "", "note": "general JS educator, off-lane"}
+{"id": "f-4c6c599d1f", "verdict": "drop", "rank": 1, "why": "", "note": "generic course platform"}
+{"id": "f-51fe78df74", "verdict": "drop", "rank": 1, "why": "", "note": "generic programming tutorials"}
+{"id": "f-542fe5429a", "verdict": "drop", "rank": 1, "why": "", "note": "testing/React educator, off-lane"}
+{"id": "f-60c2ded31a", "verdict": "keep", "rank": 2, "why": "Fireship: fast explainers that flag new WebGPU/three.js/tooling shifts early; trend radar, not technique", "note": ""}
+{"id": "f-61a679915c", "verdict": "drop", "rank": 1, "why": "", "note": "wrong X account (resolves to 'yuri choi'); Yuri Artiukh is @akella, kept separately"}
+{"id": "f-6da2af2e26", "verdict": "drop", "rank": 1, "why": "", "note": "generic beginner channel"}
+{"id": "f-6f4dccad14", "verdict": "drop", "rank": 1, "why": "", "note": "Solid.js/signals, not visual craft"}
+{"id": "f-6fbea0f9c0", "verdict": "drop", "rank": 1, "why": "", "note": "Buildspace shut down in 2024"}
+{"id": "f-7565bfff07", "verdict": "drop", "rank": 1, "why": "", "note": "generic course platform"}
+{"id": "f-75a4ee2b9b", "verdict": "drop", "rank": 1, "why": "", "note": "beginner React channel"}
+{"id": "f-7a21169904", "verdict": "drop", "rank": 1, "why": "", "note": "generic course platform"}
+{"id": "f-7e018b232a", "verdict": "drop", "rank": 1, "why": "", "note": "wrong X account (0 followers); real @wawasensei and YouTube @WawaSensei added in gaps"}
+{"id": "f-81b74bb40c", "verdict": "keep", "rank": 2, "why": "Design+Code (Meng To): courses mixing design and AI-assisted 3D/Three.js web builds; reference for workflow", "note": ""}
+{"id": "f-8d2af4ca8f", "verdict": "drop", "rank": 1, "why": "", "note": "wrong X account (162 followers; real @KevinJPowell); YouTube @KevinPowell added in gaps"}
+{"id": "f-9039921da1", "verdict": "drop", "rank": 1, "why": "", "note": "general dev advocate, off-lane"}
+{"id": "f-92273215b8", "verdict": "keep", "rank": 5, "why": "Rauno Freiberg (Vercel design): interaction-craft studies and devouringdetails.com; the reference for UI-HUB component feel", "note": ""}
+{"id": "f-93351c91e5", "verdict": "keep", "rank": 5, "why": "Bruno Simon: Three.js Journey author and award-winning 3D portfolio; WebGPU/TSL and devlog content we will copy techniques from", "note": ""}
+{"id": "f-9ad6dec4cb", "verdict": "drop", "rank": 1, "why": "", "note": "wrong X account (resolves to 'Emperrr Lu'); real @lusionltd added in gaps"}
+{"id": "f-9b011223b8", "verdict": "drop", "rank": 1, "why": "", "note": "generic blogging platform"}
+{"id": "f-9f0a0bf871", "verdict": "drop", "rank": 1, "why": "", "note": "X handle emilkowalski_ returns 404; real @emilkowalski added in gaps"}
+{"id": "f-a0611cdc67", "verdict": "keep", "rank": 2, "why": "Sarah Drasner: SVG animation and Vue-motion author; mostly engineering leadership now, older material still sound", "note": ""}
+{"id": "f-a415225e4a", "verdict": "drop", "rank": 1, "why": "", "note": "account does not exist (404); unknown person"}
+{"id": "f-a53a59c32f", "verdict": "keep", "rank": 5, "why": "Akella (Yuri Artiukh): weekly live-coded WebGL/GLSL effects that recreate award-site shaders; core shader learning feed", "note": ""}
+{"id": "f-acd5b98fb0", "verdict": "drop", "rank": 1, "why": "", "note": "X @ActiveTheory is a dormant 10-follower account, not the studio; activetheory.net already in records"}
+{"id": "f-b4ddf97b32", "verdict": "keep", "rank": 2, "why": "JavaScript Mastery: popular GSAP/Three.js project courses; beginner-level but good for onboarding agents to the stack", "note": ""}
+{"id": "f-bd7dbc39b2", "verdict": "keep", "rank": 2, "why": "Storybook: component workshop and docs pattern UI-HUB's component pages should interoperate with", "note": ""}
+{"id": "f-c6aec93594", "verdict": "keep", "rank": 5, "why": "Paul Henschel (0xca0a): pmndrs/React Three Fiber/drei creator; his feed is where the R3F ecosystem moves first", "note": ""}
+{"id": "f-cb3f1a7c20", "verdict": "drop", "rank": 1, "why": "", "note": "static site generator, not motion/3D"}
+{"id": "f-cc9e4a1b99", "verdict": "keep", "rank": 4, "why": "shadcn: the registry/copy-in model is the blueprint for UI-HUB distribution; follow for registry spec changes", "note": ""}
+{"id": "f-cd19483d50", "verdict": "keep", "rank": 3, "why": "Studio Freight (now darkroom.engineering): makers of Lenis smooth scroll and Satus starter used on award sites", "note": ""}
+{"id": "f-cd739f7605", "verdict": "keep", "rank": 4, "why": "Locomotive: 7x Awwwards Agency of the Year, Locomotive Scroll authors; case work shows scroll-motion direction", "note": ""}
+{"id": "f-ceff47f780", "verdict": "drop", "rank": 1, "why": "", "note": "generic beginner channel"}
+{"id": "f-cf89a54aa9", "verdict": "drop", "rank": 1, "why": "", "note": "hosting product, not UI craft"}
+{"id": "f-d82f05b8b2", "verdict": "drop", "rank": 1, "why": "", "note": "generic channel; its specific Three.js courses are kept individually"}
+{"id": "f-da1b2d29c0", "verdict": "drop", "rank": 1, "why": "", "note": "performance/now Claude Code; off this lane (agent-base lane)"}
+{"id": "f-de638bbea8", "verdict": "keep", "rank": 4, "why": "14islands: Awwwards studio and r3f-scroll-rig authors; shows how to mix DOM layout with WebGL at production quality", "note": ""}
+{"id": "f-dea2d46dcc", "verdict": "keep", "rank": 4, "why": "Hyperplexed: short, precise recreations of award-site hover/scroll effects in plain CSS/JS; great UI-HUB effect source", "note": ""}
+{"id": "f-e16a7d710f", "verdict": "keep", "rank": 5, "why": "Maxime Heckel: definitive R3F/shader blog deep-dives (caustics, raymarching, dithering); technique bible for our 3D", "note": ""}
+{"id": "f-e782e64c13", "verdict": "keep", "rank": 5, "why": "Codrops: the canonical stream of free WebGL/GSAP demos and award-site case studies; must-follow", "note": ""}
+{"id": "f-ee6b5e9794", "verdict": "drop", "rank": 1, "why": "", "note": "generic programming channel"}
+{"id": "f-f1f29a9e7c", "verdict": "drop", "rank": 1, "why": "", "note": "Vercel CEO; company news, not craft"}
+{"id": "f-ff8bd584b6", "verdict": "drop", "rank": 1, "why": "", "note": "dormant X account (1 follower); his real output is YouTube @olivierlarose and olivierlarose.com, added in gaps"}
+{"id": "f-ff8e3fd936", "verdict": "drop", "rank": 1, "why": "", "note": "generic course platform"}
+{"id": "f-0106e8ede4", "verdict": "drop", "rank": 1, "why": "", "note": "styling-library debate, not motion/3D"}
+{"id": "f-0349e37221", "verdict": "keep", "rank": 3, "why": "Builds a full component library on Base UI; directly maps to how UI-HUB primitives could be layered", "note": ""}
+{"id": "f-04d7a462a1", "verdict": "keep", "rank": 2, "why": "Framer official lesson on text animation; reference for motion presets in no-code client sites", "note": ""}
+{"id": "f-054609ae2d", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000 website' clickbait, no technique"}
+{"id": "f-0673bf4c78", "verdict": "keep", "rank": 2, "why": "Figma-to-React via Claude Code + Figma MCP into a shadcn design system; pipeline idea for UI-HUB ingest", "note": ""}
+{"id": "f-075c6dd193", "verdict": "drop", "rank": 1, "why": "", "note": "beginner Spline embed, low effort"}
+{"id": "f-07dc118924", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-08c9e981dc", "verdict": "drop", "rank": 1, "why": "", "note": "no-code portfolio clickbait"}
+{"id": "f-095b0ec147", "verdict": "drop", "rank": 1, "why": "", "note": "'award-winning in 15 minutes' AI clickbait"}
+{"id": "f-0bc202fd9f", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000' clickbait"}
+{"id": "f-0d725aecd1", "verdict": "drop", "rank": 1, "why": "", "note": "AI course upsell clickbait"}
+{"id": "f-0db4c033a0", "verdict": "drop", "rank": 1, "why": "", "note": "vibecoding clickbait"}
+{"id": "f-0dd305cedd", "verdict": "keep", "rank": 5, "why": "Yuri Artiukh live-codes ASCII rendering and optical-flow effects in three.js (2026); current advanced shader technique", "note": ""}
+{"id": "f-0f0a0c2482", "verdict": "drop", "rank": 1, "why": "", "note": "duplicate-grade beginner Framer content"}
+{"id": "f-108556336b", "verdict": "keep", "rank": 4, "why": "Dan Greenheck WebGPU water simulation in three.js; production-grade WebGPU rendering we can lift for hero scenes", "note": ""}
+{"id": "f-112f7c7db5", "verdict": "keep", "rank": 2, "why": "Short design-principles take on what Awwwards juries reward; useful as a checklist, light on technique", "note": ""}
+{"id": "f-1172def4cc", "verdict": "drop", "rank": 1, "why": "", "note": "motion-graphics industry talk, not web"}
+{"id": "f-119bac8779", "verdict": "drop", "rank": 1, "why": "", "note": "'$7000 portfolio no coding' clickbait"}
+{"id": "f-11cb921aa2", "verdict": "keep", "rank": 2, "why": "Framer University on making Framer sites look pro; layout/motion polish tips for quick client builds", "note": ""}
+{"id": "f-1516bd03d7", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-154996e78e", "verdict": "drop", "rank": 1, "why": "", "note": "low-view generic AI build"}
+{"id": "f-15b92b56b8", "verdict": "keep", "rank": 2, "why": "Figma Motion walkthrough; prototyping motion before code for client sign-off", "note": ""}
+{"id": "f-1614a1b65c", "verdict": "keep", "rank": 3, "why": "Shader-based animated website backgrounds in 5 min; quick wins for UI-HUB hero sections", "note": ""}
+{"id": "f-167d14a7c4", "verdict": "drop", "rank": 1, "why": "", "note": "AI 'award winning' clickbait"}
+{"id": "f-17cb706459", "verdict": "keep", "rank": 4, "why": "Codegrid Next.js scroll animation with source code; award-style project-grid motion we can adapt directly", "note": ""}
+{"id": "f-17ce90d1b4", "verdict": "keep", "rank": 3, "why": "Anderson Mancini: architecture visualisation with three.js WebGPU; lighting/material reference for 3D showcases", "note": ""}
+{"id": "f-185195ff3c", "verdict": "keep", "rank": 2, "why": "Robot Bobby three.js getting-started; beginner but current (2026) API usage", "note": ""}
+{"id": "f-19c88f551d", "verdict": "drop", "rank": 1, "why": "", "note": "video does not exist (oEmbed 404); fabricated record"}
+{"id": "f-19f89af2bb", "verdict": "keep", "rank": 3, "why": "Codegrid GSAP SVG path drawn on scroll; classic award-site storytelling device with code", "note": ""}
+{"id": "f-1b52bd9003", "verdict": "keep", "rank": 4, "why": "Codegrid choreographing four phases in one ScrollTrigger; advanced timeline orchestration pattern", "note": ""}
+{"id": "f-1b651f01fc", "verdict": "keep", "rank": 2, "why": "Spline official: 3D drag-and-drop interaction; quick interactive 3D for client sites", "note": ""}
+{"id": "f-1bb5e0aefb", "verdict": "keep", "rank": 2, "why": "Awwwards-style radial slider with GSAP; a ready UI-HUB slider pattern", "note": ""}
+{"id": "f-1bd0a1113d", "verdict": "keep", "rank": 4, "why": "freeCodeCamp x Andrew Woan full course: Blender room baked into Three.js portfolio; end-to-end baking pipeline", "note": ""}
+{"id": "f-1c222dc5a6", "verdict": "drop", "rank": 1, "why": "", "note": "Figma prototype only, low value"}
+{"id": "f-1de8e8e957", "verdict": "keep", "rank": 2, "why": "Representative of the 2026 'AI video + Blender into scroll site' workflow; skim to know the trend, not the craft", "note": ""}
+{"id": "f-20fc5824bb", "verdict": "drop", "rank": 1, "why": "", "note": "opinion piece, no technique"}
+{"id": "f-23eaa98767", "verdict": "drop", "rank": 1, "why": "", "note": "motion-graphics trends, not web"}
+{"id": "f-24204389c6", "verdict": "drop", "rank": 1, "why": "", "note": "AI clone clickbait"}
+{"id": "f-244152c047", "verdict": "drop", "rank": 1, "why": "", "note": "video does not exist (oEmbed 404); fabricated record"}
+{"id": "f-248e884ce9", "verdict": "drop", "rank": 1, "why": "", "note": "duplicate of the official Omma tutorial (kept)"}
+{"id": "f-2697ff80d6", "verdict": "keep", "rank": 3, "why": "Figma variables to React tokens; token pipeline pattern for UI-HUB theming", "note": ""}
+{"id": "f-2816323d0a", "verdict": "drop", "rank": 1, "why": "", "note": "AI 'award-winning in 19 minutes' clickbait"}
+{"id": "f-28739b61cb", "verdict": "keep", "rank": 2, "why": "Using shadcn blocks instead of generating UI; aligns with UI-HUB reuse-first thesis", "note": ""}
+{"id": "f-2b077e214a", "verdict": "keep", "rank": 3, "why": "Rebuilds the Dogstudio award site with R3F + GSAP; concrete recreation of a known award piece", "note": ""}
+{"id": "f-2c5ae20263", "verdict": "drop", "rank": 1, "why": "", "note": "AI clone clickbait"}
+{"id": "f-308666594b", "verdict": "drop", "rank": 1, "why": "", "note": "AI tool combo clickbait"}
+{"id": "f-310fe5ea3f", "verdict": "keep", "rank": 3, "why": "Responsive GSAP ScrollTrigger with matchMedia; fixes the mobile breakage most award clones have", "note": ""}
+{"id": "f-342512fe00", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$15K' clickbait"}
+{"id": "f-35d61ea28d", "verdict": "drop", "rank": 1, "why": "", "note": "designer portfolio tips, not web technique"}
+{"id": "f-35d97ea7ad", "verdict": "keep", "rank": 2, "why": "Figma official Learn Figma Motion; prototyping motion with design team", "note": ""}
+{"id": "f-36a725bd78", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-374faf6415", "verdict": "keep", "rank": 3, "why": "WebGL fluid cursor effect explained; common award-site interaction we want in UI-HUB", "note": ""}
+{"id": "f-39c742d4b5", "verdict": "drop", "rank": 1, "why": "", "note": "model-hype clickbait"}
+{"id": "f-39e558d9fd", "verdict": "keep", "rank": 3, "why": "WebGL reveal loader from scratch; preloader pattern used across award sites", "note": ""}
+{"id": "f-3ac0e0c0c5", "verdict": "keep", "rank": 5, "why": "Bruno Simon's new WebGPU & TSL course intro (2026-09); the current path for next-gen three.js shading", "note": ""}
+{"id": "f-3bfcd8a891", "verdict": "drop", "rank": 1, "why": "", "note": "generic Tailwind intro"}
+{"id": "f-3f0e922bca", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000' clickbait"}
+{"id": "f-3fc9f4721e", "verdict": "keep", "rank": 4, "why": "Spline MCP lets Claude/Cursor drive 3D scenes; direct fit for agent-built 3D in SISO OS", "note": ""}
+{"id": "f-420709e956", "verdict": "keep", "rank": 4, "why": "Andrew Woan award-winning illustrated notebook portfolio with Three.js + Blender; stylised 3D direction", "note": ""}
+{"id": "f-42a778ae7f", "verdict": "keep", "rank": 2, "why": "Framer University tour of all Framer effects; vocabulary of no-code motion presets", "note": ""}
+{"id": "f-42ac4414eb", "verdict": "keep", "rank": 2, "why": "Photos-to-3D models into Three.js; fast asset pipeline for product scenes", "note": ""}
+{"id": "f-4330ea8e5e", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-441fbdca02", "verdict": "drop", "rank": 1, "why": "", "note": "model-hype clickbait"}
+{"id": "f-4483117e87", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000' clickbait"}
+{"id": "f-45762a43cb", "verdict": "keep", "rank": 3, "why": "Recreates an Awwwards effect in Next.js with GSAP; practical clone-and-learn", "note": ""}
+{"id": "f-4846415fa6", "verdict": "keep", "rank": 2, "why": "Meng To's Claude + Three.js build workflow; how a design educator drives agents for 3D sites", "note": ""}
+{"id": "f-4974b762f4", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-499d8eeda2", "verdict": "drop", "rank": 1, "why": "", "note": "history/opinion, no technique"}
+{"id": "f-49ab330459", "verdict": "drop", "rank": 1, "why": "", "note": "generic portfolio tutorial, unclear quality"}
+{"id": "f-4a060b588c", "verdict": "keep", "rank": 2, "why": "Method for deconstructing Awwwards sites with Gemini; idea for our own curation/analysis agents", "note": ""}
+{"id": "f-4ab91bb7c0", "verdict": "keep", "rank": 3, "why": "AI-managed design system with Claude Code skills; directly relevant to agent-maintained UI-HUB", "note": ""}
+{"id": "f-4af2fd7c81", "verdict": "keep", "rank": 3, "why": "Speedrun converting a Blender tutorial into a three.js site; shows the Blender-to-web handoff", "note": ""}
+{"id": "f-4b0f9bc199", "verdict": "drop", "rank": 1, "why": "", "note": "WordPress Elementor, off-stack"}
+{"id": "f-4b61114da3", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-4baa6c5c9f", "verdict": "keep", "rank": 3, "why": "Codegrid scroll animation splitting one image into flipping cards; reusable section effect", "note": ""}
+{"id": "f-4c7a904da9", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000' clickbait"}
+{"id": "f-4eb7918741", "verdict": "keep", "rank": 3, "why": "GSAP stacked-cards-on-scroll from zero; common section pattern for UI-HUB", "note": ""}
+{"id": "f-521a6bea85", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000' clickbait"}
+{"id": "f-53f615704b", "verdict": "drop", "rank": 1, "why": "", "note": "AI 'award-winning in 5 minutes' clickbait"}
+{"id": "f-56bd15ee82", "verdict": "drop", "rank": 1, "why": "", "note": "video does not exist (oEmbed 404); fabricated record"}
+{"id": "f-576de158eb", "verdict": "drop", "rank": 1, "why": "", "note": "motion-graphics software list, not web"}
+{"id": "f-58971a85c0", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-5a23908d59", "verdict": "drop", "rank": 1, "why": "", "note": "AI one-prompt clone clickbait"}
+{"id": "f-5b5f9783ea", "verdict": "drop", "rank": 1, "why": "", "note": "generic admin dashboard tutorial"}
+{"id": "f-5cb8bac392", "verdict": "keep", "rank": 2, "why": "Tommy Geoco on portfolios without case studies; positioning thinking for SISO's own site", "note": ""}
+{"id": "f-5edcd01ccc", "verdict": "keep", "rank": 3, "why": "10-hour GSAP + Three.js + React creative frontend course; broad onboarding to our stack", "note": ""}
+{"id": "f-618dee936d", "verdict": "drop", "rank": 1, "why": "", "note": "AI demo, no depth"}
+{"id": "f-61dee49971", "verdict": "keep", "rank": 3, "why": "Sheryians first-hand account of building an Awwwards-winning site; process from a winner", "note": ""}
+{"id": "f-62221537a6", "verdict": "drop", "rank": 1, "why": "", "note": "AI clone clickbait"}
+{"id": "f-62dd4821c1", "verdict": "drop", "rank": 1, "why": "", "note": "low-view generic three.js course; better courses kept"}
+{"id": "f-6372e32368", "verdict": "drop", "rank": 1, "why": "", "note": "motion-design freelancing career, off-lane"}
+{"id": "f-64fee256bd", "verdict": "drop", "rank": 1, "why": "", "note": "microfrontends, off-lane"}
+{"id": "f-650806a87b", "verdict": "keep", "rank": 2, "why": "Spline case: 3D for a complex B2B platform; how 3D can sell non-consumer products", "note": ""}
+{"id": "f-651041336b", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000' clickbait"}
+{"id": "f-65e9de9910", "verdict": "keep", "rank": 2, "why": "Framer image-sequence scroll animation; Apple-style scrub pattern in no-code", "note": ""}
+{"id": "f-66a9c980e8", "verdict": "keep", "rank": 3, "why": "Codegrid object-follows-path scroll animation; playful storytelling device", "note": ""}
+{"id": "f-6a84299a80", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-6ae9db1c06", "verdict": "keep", "rank": 5, "why": "Ilja van Eck breaks down his own Awwwards-winning project (2026-09); recent first-hand award breakdown", "note": ""}
+{"id": "f-6bba5f70b4", "verdict": "drop", "rank": 1, "why": "", "note": "video does not exist (oEmbed 404); fabricated record"}
+{"id": "f-6cbb386824", "verdict": "drop", "rank": 1, "why": "", "note": "AI demo clickbait"}
+{"id": "f-6f08c6f17a", "verdict": "drop", "rank": 1, "why": "", "note": "product promo, low effort"}
+{"id": "f-6fceff4953", "verdict": "drop", "rank": 1, "why": "", "note": "general AI engineering, off-lane"}
+{"id": "f-700c147c44", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000' clickbait"}
+{"id": "f-70e6bd7ca6", "verdict": "keep", "rank": 3, "why": "Omma by Spline official tutorial: AI-generated interactive 3D; tool to evaluate for client sites", "note": ""}
+{"id": "f-72dd5d3c16", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10K' clickbait"}
+{"id": "f-741bf8ff7c", "verdict": "keep", "rank": 2, "why": "Five Framer scroll techniques; quick reference for no-code builds", "note": ""}
+{"id": "f-7471237472", "verdict": "drop", "rank": 1, "why": "", "note": "near-duplicate of the OrcDev landing+dashboard video (kept)"}
+{"id": "f-749fcad6c1", "verdict": "drop", "rank": 1, "why": "", "note": "low-effort Framer listicle"}
+{"id": "f-768038445c", "verdict": "keep", "rank": 2, "why": "Framer official lesson on animating vector paths", "note": ""}
+{"id": "f-76fd144c73", "verdict": "drop", "rank": 1, "why": "", "note": "monorepo system design, off-lane"}
+{"id": "f-796b0274ec", "verdict": "keep", "rank": 3, "why": "Builder.io intro to WebGL shaders; clean mental model before Book of Shaders", "note": ""}
+{"id": "f-797f31f220", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-7ce949bb64", "verdict": "drop", "rank": 1, "why": "", "note": "motion-design career, off-lane"}
+{"id": "f-7e115f770d", "verdict": "drop", "rank": 1, "why": "", "note": "model-hype clickbait"}
+{"id": "f-80137d6e02", "verdict": "drop", "rank": 1, "why": "", "note": "backend system design, off-lane"}
+{"id": "f-8190d2c124", "verdict": "keep", "rank": 2, "why": "Design-systems course with Figma variables and AI; design-side vocabulary for UI-HUB", "note": ""}
+{"id": "f-856e22861d", "verdict": "drop", "rank": 1, "why": "", "note": "AI '10 minutes' clickbait"}
+{"id": "f-8598fe6ff6", "verdict": "drop", "rank": 1, "why": "", "note": "AI hype clickbait"}
+{"id": "f-863392fd7e", "verdict": "drop", "rank": 1, "why": "", "note": "video does not exist (oEmbed 404); fabricated record"}
+{"id": "f-86708cee08", "verdict": "keep", "rank": 3, "why": "Using shaders in React with WebGPU/WebGL (2026); current React shader integration", "note": ""}
+{"id": "f-8731178918", "verdict": "keep", "rank": 3, "why": "Designer-developer vlog designing an Awwwards-worthy portfolio; real iteration process", "note": ""}
+{"id": "f-8783ffc843", "verdict": "drop", "rank": 1, "why": "", "note": "duplicate of the same Seedance workflow (one representative kept)"}
+{"id": "f-886330b162", "verdict": "drop", "rank": 1, "why": "", "note": "model-hype clickbait"}
+{"id": "f-8a221d61b5", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-8a99e542c3", "verdict": "keep", "rank": 2, "why": "Full design system built in 4 hours with Claude + Cursor; speed benchmark for UI-HUB builds", "note": ""}
+{"id": "f-8b193402f0", "verdict": "keep", "rank": 2, "why": "Framer section unmask on scroll; reveal pattern", "note": ""}
+{"id": "f-8bbfe460b8", "verdict": "drop", "rank": 1, "why": "", "note": "beginner WordPress-creator 3D video, low depth"}
+{"id": "f-8c996bc7c4", "verdict": "keep", "rank": 4, "why": "Andrew Woan hand-drawn papercraft portfolio with Three.js + Blender; distinctive non-photoreal 3D style", "note": ""}
+{"id": "f-8ccd472d62", "verdict": "keep", "rank": 2, "why": "Roundup of shadcn-based component libraries; competitor scan for UI-HUB", "note": ""}
+{"id": "f-8e9c1ea843", "verdict": "drop", "rank": 1, "why": "", "note": "duplicate-grade Framer scroll content"}
+{"id": "f-8ec9de5765", "verdict": "keep", "rank": 3, "why": "GSAP + Lenis + SplitText scroll text animation; the standard award-site text stack", "note": ""}
+{"id": "f-8ed4690b7e", "verdict": "keep", "rank": 2, "why": "Claude Code + Figma design-system designer workflow test; agent-design handoff reality check", "note": ""}
+{"id": "f-921b1b429b", "verdict": "drop", "rank": 1, "why": "", "note": "AI clone clickbait"}
+{"id": "f-92bd4ad568", "verdict": "keep", "rank": 2, "why": "Webflow GSAP crash course; how GSAP is now native in Webflow for client sites", "note": ""}
+{"id": "f-942e893d95", "verdict": "keep", "rank": 2, "why": "Counterpoint on building your own design system; pressure-test UI-HUB's build decision", "note": ""}
+{"id": "f-953a7c8cef", "verdict": "drop", "rank": 1, "why": "", "note": "low-effort Spline+Framer demo"}
+{"id": "f-969ad6f989", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$5k' clickbait"}
+{"id": "f-97b1d37be0", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000' clickbait"}
+{"id": "f-99e8084e41", "verdict": "drop", "rank": 1, "why": "", "note": "AI motion clickbait"}
+{"id": "f-99fda5b953", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$5K' clickbait"}
+{"id": "f-9a88de09f4", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000' clickbait"}
+{"id": "f-9ab3b8807d", "verdict": "drop", "rank": 1, "why": "", "note": "Figma-only prototype, not shippable web"}
+{"id": "f-9d7c8f5a61", "verdict": "drop", "rank": 1, "why": "", "note": "AI portfolio clickbait"}
+{"id": "f-a02f34bfb5", "verdict": "drop", "rank": 1, "why": "", "note": "opinion clickbait; counterpoint covered by Into Design Systems video"}
+{"id": "f-a1b1a3b545", "verdict": "drop", "rank": 1, "why": "", "note": "low-effort short"}
+{"id": "f-a1fca14558", "verdict": "keep", "rank": 2, "why": "Claude design skills for less generic sites; compare against our own site-design skills", "note": ""}
+{"id": "f-a5055061e5", "verdict": "keep", "rank": 3, "why": "Codegrid single ScrollTrigger showcasing projects one by one; portfolio section pattern", "note": ""}
+{"id": "f-a521c77b00", "verdict": "drop", "rank": 1, "why": "", "note": "AI selling clickbait"}
+{"id": "f-a5ab494857", "verdict": "keep", "rank": 3, "why": "Ultimate guide to ScrollTrigger techniques; consolidated reference", "note": ""}
+{"id": "f-a7a7337ca4", "verdict": "keep", "rank": 4, "why": "Tom Delalande on three.js + WebGPU; stylish creative-dev perspective with real experiments", "note": ""}
+{"id": "f-a978e85676", "verdict": "keep", "rank": 3, "why": "Liquid-glass effect in WebGL for web; on-trend material we want in UI-HUB", "note": ""}
+{"id": "f-aa24926d93", "verdict": "drop", "rank": 1, "why": "", "note": "low-view generic React+GSAP build"}
+{"id": "f-abf81ca131", "verdict": "keep", "rank": 3, "why": "11-hour three.js course incl. shaders and R3F real project; deep onboarding", "note": ""}
+{"id": "f-ad13546106", "verdict": "keep", "rank": 4, "why": "Andrew Woan Blender sketch shader to three.js portfolio; tech-art shader port technique", "note": ""}
+{"id": "f-ad27db915d", "verdict": "drop", "rank": 1, "why": "", "note": "Figma/Spline product rotation, low depth"}
+{"id": "f-ad5ac32888", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-ae34c5d16e", "verdict": "keep", "rank": 2, "why": "Tour of three.js official examples; map of what the engine can do", "note": ""}
+{"id": "f-b0a371961a", "verdict": "keep", "rank": 4, "why": "60,000 particles with TSL + WebGPU; GPU particle technique for hero scenes", "note": ""}
+{"id": "f-b0b8cd2565", "verdict": "drop", "rank": 1, "why": "", "note": "video does not exist (oEmbed 404); fabricated record"}
+{"id": "f-b12d158a84", "verdict": "keep", "rank": 2, "why": "Spline x Onyx Coffee 3D e-commerce case; 3D product for commerce", "note": ""}
+{"id": "f-b40f68547b", "verdict": "drop", "rank": 1, "why": "", "note": "Figma Make DS, no code depth"}
+{"id": "f-b4987dd9e5", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000' clickbait"}
+{"id": "f-b4d77eb837", "verdict": "keep", "rank": 4, "why": "Codegrid Next.js 'tactical' spatial-interface scroll animation; HUD-style motion for SISO OS aesthetics", "note": ""}
+{"id": "f-b592ee7949", "verdict": "drop", "rank": 1, "why": "", "note": "generic 2-hour course, low views; Motion course kept"}
+{"id": "f-b5c341182b", "verdict": "keep", "rank": 2, "why": "Spline + Webflow 3D site course; no-code 3D path for client sites", "note": ""}
+{"id": "f-b63cfbd7c9", "verdict": "keep", "rank": 2, "why": "AI + design systems workflow in 2026; design-team practice", "note": ""}
+{"id": "f-b6deb90443", "verdict": "keep", "rank": 2, "why": "Advanced Claude Code + Figma DS workflow; reuse-first stance", "note": ""}
+{"id": "f-b6f441c5c6", "verdict": "keep", "rank": 2, "why": "Framer scroll animation trick", "note": ""}
+{"id": "f-b7329bcf71", "verdict": "keep", "rank": 3, "why": "Robot Bobby on WebGPU with three.js; motivation and API differences", "note": ""}
+{"id": "f-b7497610c6", "verdict": "keep", "rank": 2, "why": "Three.js game dev with Claude Code; agent-driven interactive 3D", "note": ""}
+{"id": "f-ba798d4bae", "verdict": "keep", "rank": 3, "why": "Figma official: Code Connect, MCP and Make for dev workflows; the bridge UI-HUB should support", "note": ""}
+{"id": "f-bb811aadc0", "verdict": "drop", "rank": 1, "why": "", "note": "video does not exist (oEmbed 404); fabricated record"}
+{"id": "f-bc4b67ca75", "verdict": "keep", "rank": 2, "why": "Full landing page + dashboard with TanStack Start + shadcn; shell reference", "note": ""}
+{"id": "f-bcb28017c3", "verdict": "keep", "rank": 2, "why": "Figma + AI animated website design (436k views); designer-side AI motion workflow", "note": ""}
+{"id": "f-bf82f5393d", "verdict": "keep", "rank": 3, "why": "freeCodeCamp cozy café portfolio with Blender + Three.js; second full baking course", "note": ""}
+{"id": "f-bfd404bd75", "verdict": "keep", "rank": 2, "why": "Awwwards-style GSAP scroll animations in vanilla JS", "note": ""}
+{"id": "f-c00d6eb60b", "verdict": "drop", "rank": 1, "why": "", "note": "AI motion-graphics, not web"}
+{"id": "f-c03cc0a89c", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-c11be3d2ce", "verdict": "keep", "rank": 2, "why": "Why GSAP + Lenis feels premium; explains smooth-scroll feel", "note": ""}
+{"id": "f-c1bac5c7f2", "verdict": "keep", "rank": 2, "why": "Framer icon animation masterclass; micro-motion for icons", "note": ""}
+{"id": "f-c214bd98d0", "verdict": "keep", "rank": 3, "why": "2-hour React + Three.js + GSAP creative frontend (365k views); quick onboarding", "note": ""}
+{"id": "f-c329a75221", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-c400d84da6", "verdict": "drop", "rank": 1, "why": "", "note": "AI 'award' clickbait"}
+{"id": "f-c4a4849c5d", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$50,000' clickbait"}
+{"id": "f-c53477c035", "verdict": "keep", "rank": 3, "why": "Flux Academy deep dive on a $50k award-winning site; what high-end clients pay for", "note": ""}
+{"id": "f-c537b144f9", "verdict": "drop", "rank": 1, "why": "", "note": "model-hype clickbait"}
+{"id": "f-c704ebca46", "verdict": "drop", "rank": 1, "why": "", "note": "low-view generic portfolio build"}
+{"id": "f-c8aeab92e6", "verdict": "drop", "rank": 1, "why": "", "note": "low-effort Framer intro"}
+{"id": "f-c99b91d6bb", "verdict": "keep", "rank": 2, "why": "2026 portfolio inspiration roundup; taste reference", "note": ""}
+{"id": "f-cbc46afee7", "verdict": "keep", "rank": 4, "why": "Scroll-based shader transition in three.js; core award-site technique between sections", "note": ""}
+{"id": "f-cd6f12184b", "verdict": "drop", "rank": 1, "why": "", "note": "AI 'award-winning' clickbait"}
+{"id": "f-cd7f754d01", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$5,000' clickbait"}
+{"id": "f-cea41e4005", "verdict": "drop", "rank": 1, "why": "", "note": "low-view clone"}
+{"id": "f-d1e81490ae", "verdict": "keep", "rank": 3, "why": "Codegrid glitch/'hacking' image reveal on scroll", "note": ""}
+{"id": "f-d22bb43553", "verdict": "drop", "rank": 1, "why": "", "note": "basic duplicate of kept Pixel Grid guides"}
+{"id": "f-d3a21f4e59", "verdict": "drop", "rank": 1, "why": "", "note": "duplicate of kept Design Project videos"}
+{"id": "f-d3abe22862", "verdict": "drop", "rank": 1, "why": "", "note": "model-hype clickbait"}
+{"id": "f-d435bfa829", "verdict": "keep", "rank": 3, "why": "Ben Marriott's best motion design of 2026; taste reel for motion direction", "note": ""}
+{"id": "f-d4f324ad25", "verdict": "keep", "rank": 3, "why": "Awwwards-winning 3D reveal with GSAP ScrollTrigger; recreation with code", "note": ""}
+{"id": "f-d641c93267", "verdict": "keep", "rank": 3, "why": "Codegrid hero-section scroll showdown; hero motion options compared", "note": ""}
+{"id": "f-d7c054df3b", "verdict": "keep", "rank": 3, "why": "Codegrid pinned scroll done right in Next.js; pin pitfalls", "note": ""}
+{"id": "f-d7e05bccd3", "verdict": "drop", "rank": 1, "why": "", "note": "AI 'award-winning in 9 minutes' clickbait"}
+{"id": "f-d8dbbec9be", "verdict": "drop", "rank": 1, "why": "", "note": "software listicle, off-lane"}
+{"id": "f-db83138ab5", "verdict": "drop", "rank": 1, "why": "", "note": "video does not exist (oEmbed 404); fabricated record"}
+{"id": "f-dbeba41334", "verdict": "drop", "rank": 1, "why": "", "note": "model-hype clickbait"}
+{"id": "f-dd12d6e37e", "verdict": "keep", "rank": 2, "why": "Case for Rive in UI motion; candidate runtime for interactive UI-HUB states", "note": ""}
+{"id": "f-dd20457624", "verdict": "drop", "rank": 1, "why": "", "note": "AI selling clickbait"}
+{"id": "f-ddf51f7f6a", "verdict": "drop", "rank": 1, "why": "", "note": "duplicate Framer effects explainer"}
+{"id": "f-de1925ec88", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000' clickbait"}
+{"id": "f-dffa2e4d17", "verdict": "drop", "rank": 1, "why": "", "note": "video does not exist (oEmbed 404); fabricated record"}
+{"id": "f-e0546cea80", "verdict": "keep", "rank": 2, "why": "A shared Claude website-design skill; compare against SISO site skills", "note": ""}
+{"id": "f-e49f2643b7", "verdict": "drop", "rank": 1, "why": "", "note": "video does not exist (oEmbed 404); fabricated record"}
+{"id": "f-e49fe6083d", "verdict": "keep", "rank": 2, "why": "GSAP MotionPath product website animation", "note": ""}
+{"id": "f-e5c9facd65", "verdict": "keep", "rank": 3, "why": "Component library in 2 days: Figma to Claude Code to Storybook; close to the UI-HUB pipeline", "note": ""}
+{"id": "f-e643e4dbc0", "verdict": "keep", "rank": 2, "why": "Claude + Figma generating design-system components", "note": ""}
+{"id": "f-e735aea3e0", "verdict": "drop", "rank": 1, "why": "", "note": "duplicate of kept AI design-system videos"}
+{"id": "f-e79f978c96", "verdict": "keep", "rank": 3, "why": "3D scroll animation in Next.js with free source; starter we can read", "note": ""}
+{"id": "f-e8e90a7f9b", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10K' clickbait"}
+{"id": "f-e98ab3c31c", "verdict": "keep", "rank": 3, "why": "freeCodeCamp x Andrew Woan creative web dev 3D portfolio for beginners", "note": ""}
+{"id": "f-e9ef870444", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-ea9ca447fc", "verdict": "drop", "rank": 1, "why": "", "note": "AI hype"}
+{"id": "f-ead784e29a", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-ecd527d42d", "verdict": "drop", "rank": 1, "why": "", "note": "career talk, off-lane"}
+{"id": "f-ed8bd697df", "verdict": "drop", "rank": 1, "why": "", "note": "duplicate of the kept Kyle Skelly Figma+AI video"}
+{"id": "f-eec3d2c427", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-f6e5d006a4", "verdict": "keep", "rank": 2, "why": "Motion (Framer Motion) 1-hour React course; baseline for UI-HUB React motion", "note": ""}
+{"id": "f-f825b904e6", "verdict": "drop", "rank": 1, "why": "", "note": "AI motion-graphics, not web"}
+{"id": "f-f8474e6bb6", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000' clickbait"}
+{"id": "f-f90806fa10", "verdict": "drop", "rank": 1, "why": "", "note": "AI clickbait"}
+{"id": "f-f917e06021", "verdict": "drop", "rank": 1, "why": "", "note": "motion-graphics opinion, not web"}
+{"id": "f-f968b39d3f", "verdict": "drop", "rank": 1, "why": "", "note": "AI '$10,000' clickbait"}
+{"id": "f-f9c82909aa", "verdict": "drop", "rank": 1, "why": "", "note": "low-effort tool comparison"}
+{"id": "f-fa06cd8e73", "verdict": "keep", "rank": 3, "why": "GSAP timeline nesting; how to structure complex sequences", "note": ""}
+{"id": "f-fbb2487995", "verdict": "keep", "rank": 3, "why": "Spline official masterclass on shipping scenes to the web; embed/perf specifics", "note": ""}
+{"id": "f-fc22be9c61", "verdict": "keep", "rank": 3, "why": "WolfDev rebuilds an 'impossible' Shopify WebGL animation; clone-and-learn", "note": ""}
+{"id": "f-fc2cb2712c", "verdict": "drop", "rank": 1, "why": "", "note": "AI 3D clickbait"}
+{"id": "f-fc98acf8a6", "verdict": "drop", "rank": 1, "why": "", "note": "generic low-view course"}
+{"id": "f-fd058f5770", "verdict": "keep", "rank": 2, "why": "Viral SaaS product animations with Figma + After Effects; product-UI motion style for SISO launch videos", "note": ""}
+{"id": "f-fe08bf098d", "verdict": "drop", "rank": 1, "why": "", "note": "AI Framer beginner clickbait"}

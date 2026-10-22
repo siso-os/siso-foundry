@@ -1,0 +1,8 @@
+{"lead": "https://www.fab.com/ (free monthly + Megascans free listing)", "why": "Bot-blocked to curl; Megascans now on Fab, needs a browser probe to record which items stay free", "rank": 5, "area": "assets"}
+{"lead": "websearch:Gaussian splat scenes CC0 download", "why": "Splat category is thin (9); need openly licensed splat captures, not just tools and benchmarks", "rank": 5, "area": "assets"}
+{"lead": "https://sketchfab.com/search?features=downloadable&licenses=7c23a1ba438d4306920229c12afcb5f9&type=models&q=scan", "why": "Harvest named CC0 museum scan accounts on Sketchfab (e.g. institutions releasing CC0) as individual records", "rank": 4, "area": "assets"}
+{"lead": "websearch:free LUT pack cube commercial use", "why": "Shader LUT coverage is only FreshLUTs; RawTherapee HaldCLUT page 404'd and needs its new URL", "rank": 4, "area": "assets"}
+{"lead": "https://www.figma.com/community/ui-kits", "why": "Record the top free Figma community kits (shadcn, Material 3, iOS) individually with verified file URLs", "rank": 4, "area": "assets"}
+{"lead": "https://github.com/topics/cc0", "why": "GitHub topic of CC0 asset repos; mine for texture, model and sound packs", "rank": 3, "area": "assets"}
+{"lead": "websearch:matcap library free download", "why": "Only nidorx/matcaps known (already recorded); pmndrs market 404'd so a matcap source with previews is missing", "rank": 3, "area": "assets"}
+{"lead": "https://www.hdrlabs.com/sibl/", "why": "sIBL archive page 404'd; check whether the archive moved before dropping it", "rank": 2, "area": "assets"}

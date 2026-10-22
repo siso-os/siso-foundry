@@ -1,0 +1,266 @@
+{"id": "f-03b59f5724", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-091cf1f2c6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: learning app built on Claude Code"}
+{"id": "f-092ebcfea4", "verdict": "keep", "rank": 2, "why": "Obsidian second-brain run purely through Claude Code skills (ingest, compress, sync); a pattern check for skill-driven memory upkeep", "tags": ["memory", "skills"]}
+{"id": "f-0a14af11f9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-0c07ea76a4", "verdict": "keep", "rank": 3, "why": "Builds a Karpathy-style markdown wiki from Claude Code session transcripts; Agent Base could distil herdr pane transcripts into .agents/memory the same way", "tags": ["memory"]}
+{"id": "f-0d07718072", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-0d304a5afd", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: Blender 3D asset plugin"}
+{"id": "f-0d46fe68d8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-0e531a60f3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-0f9dd6cfc1", "verdict": "keep", "rank": 4, "why": "Browser-use packaged as a single Claude Skill (6.6k stars); benchmark against camofox for how a skills hub ships a browser capability", "tags": ["skills"]}
+{"id": "f-1101ec52b1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-1551d0d5c6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "awesome badge image, not a resource"}
+{"id": "f-17484e8773", "verdict": "keep", "rank": 2, "why": "Local Whisper dictation into Claude Code with no cloud; reference for Shaan's voice-first input to panes (Linux-only)", "tags": ["voice"]}
+{"id": "f-174bc1c7d6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-17d1e6ce1d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-1901fd7c5a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: OSS contribution tracker"}
+{"id": "f-1a176cf8e9", "verdict": "keep", "rank": 3, "why": "Precomputes a codebase briefing packet so the model spends fewer tokens exploring; same goal as SISO's wiki/graph spine, compare outputs", "tags": ["memory"]}
+{"id": "f-1bd111c4f5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-1c8f9d740a", "verdict": "keep", "rank": 4, "why": "Skill that renders diff reviews, plan audits and tables as rich HTML pages (10k stars); matches SISO's HTML-artifact rule, borrow its templates", "tags": ["skills"]}
+{"id": "f-1d47ae5fab", "verdict": "keep", "rank": 2, "why": "Agent-native website access bridging CLI agents and web GUIs through an API layer; small, watch only", "tags": ["mcp"]}
+{"id": "f-1d752075d3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-1de75a4b79", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-1e37328972", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-1f3f70580d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-1fb3d19523", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-20b39a9f10", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-22d862e1c1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-236b6c9f0b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-23f93d017e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-25469a6b85", "verdict": "keep", "rank": 4, "why": "Dagger's per-agent container plus git branch so many agents work in parallel without clobbering; a direct alternative to worktree lanes", "tags": ["worktrees", "harness"]}
+{"id": "f-264e0e3da8", "verdict": "keep", "rank": 3, "why": "Cross-harness diagram skill (Claude Code, Codex and more); example of one skill shipped to several harnesses", "tags": ["skills"]}
+{"id": "f-278d9d4d54", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-29304c1a6c", "verdict": "keep", "rank": 2, "why": "Desktop-app control from a CLI without MCP servers; an alternative tool-surface pattern to MCP for agents", "tags": ["mcp"]}
+{"id": "f-298c1c6087", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-2bbcbbb775", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-2bcbd7c426", "verdict": "keep", "rank": 2, "why": "Devcontainer recipe for running Claude Code, Codex and OpenCode in bypass mode safely", "tags": ["harness"]}
+{"id": "f-2ccc53e0a6", "verdict": "keep", "rank": 2, "why": "Deterministic offline gate that flags AI edits removing guards or exposing secrets; idea for a PostToolUse diff check", "tags": ["hooks"]}
+{"id": "f-2cf65a49ce", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-2d9bbbc0f2", "verdict": "keep", "rank": 3, "why": "42-type editorial diagram skill packaged for Claude Code, Codex, Copilot, Droid and Pi; multi-harness skill packaging reference", "tags": ["skills"]}
+{"id": "f-2f7a50c772", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "vendor product page, nothing agent-base specific"}
+{"id": "f-336daec854", "verdict": "keep", "rank": 5, "why": "Open-source visual workspace that runs multiple Claude Code, Codex and OpenCode agents side by side (successor to Crystal); the closest open comparable to Agent Base's watch-and-steer UI", "tags": ["gui", "orchestrator", "worktrees"]}
+{"id": "f-3383913d46", "verdict": "keep", "rank": 3, "why": "Workflow that grills a problem into a grounded plan and then drives sub-agents to execute it; compare with SISO specker to worker flow", "tags": ["subagents"]}
+{"id": "f-34ca93186d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-34ec3e1314", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-35f70f56d6", "verdict": "keep", "rank": 3, "why": "Attaches an agent to the Chrome tab already open, keeping cookies; solves logged-in browsing without a fresh Playwright profile", "tags": ["mcp"]}
+{"id": "f-38fc687800", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-38fe02a454", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-3928905159", "verdict": "keep", "rank": 3, "why": "Skill that audits and rewrites AI writing patterns (4.9k stars); candidate for SISO's prose and report style enforcement", "tags": ["skills"]}
+{"id": "f-3ac4e55c84", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-3ade44e316", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-3afeaed8f4", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: tutoring app"}
+{"id": "f-3ba6a7748d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-3c584eae90", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-401102142f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-4083ee25b8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-41ea1314a5", "verdict": "keep", "rank": 2, "why": "Design-engineering skill for UI craft; overlap with ui-pick/ui-bank, read for its rubric", "tags": ["skills"]}
+{"id": "f-429064b89e", "verdict": "keep", "rank": 3, "why": "Native Rust/GTK4 GUI for Claude Code agents, no Electron; reference for a light native agent viewer", "tags": ["gui"]}
+{"id": "f-43186d960e", "verdict": "keep", "rank": 3, "why": "Human-to-agent visual channel: capture, annotate and render diagrams for agents; idea for how Shaan points at things in the Agent Base UI", "tags": ["gui"]}
+{"id": "f-437edd828c", "verdict": "keep", "rank": 4, "why": "24 plugins, 49 agents and 44 skills packaged for Claude Code, OpenCode and Codex at once; study its cross-harness packaging for the SISO skills hub", "tags": ["skills", "subagents"]}
+{"id": "f-44c7f309f2", "verdict": "keep", "rank": 5, "why": "HumanLayer/CodeLayer: multiplayer agent IDE joining sessions, plan artifacts and diffs, from the team behind 12-factor agents and research-plan-implement; study its plan-artifact flow", "tags": ["harness", "gui"]}
+{"id": "f-45fa5e2918", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: naming skill"}
+{"id": "f-486ef59375", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-494a23364d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-4b3989f723", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-4c83e2cb50", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-4c8b12b576", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-4c905e2340", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-4e2e9ffbe7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-4fae751a19", "verdict": "keep", "rank": 4, "why": "Turns Claude Code, Codex, OpenCode and other sessions into self-contained HTML replays; ready-made piece for Agent Base session history", "tags": ["observability"]}
+{"id": "f-51c9d501e2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-520aae1a54", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-53ca23d4b7", "verdict": "keep", "rank": 3, "why": "Daemonless cross-project long-term memory with an Obsidian vault as source of truth; compare with SISO's .agents/memory layout", "tags": ["memory"]}
+{"id": "f-544ef58d86", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-55bb48f060", "verdict": "keep", "rank": 3, "why": "Runs coding agents inside hardware-isolated microVMs; stronger isolation option for unattended workers", "tags": ["harness"]}
+{"id": "f-5787f1f4c9", "verdict": "keep", "rank": 3, "why": "300+ agentic coding patterns as a pattern language; vocabulary source for Agent Base docs and skills", "tags": []}
+{"id": "f-58450d8af8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-58ef87ff13", "verdict": "keep", "rank": 2, "why": "Runnable, CI-checked file per agentic workflow pattern; teaching reference", "tags": ["orchestrator"]}
+{"id": "f-595bb5b245", "verdict": "keep", "rank": 4, "why": "Anthropic's canonical agent patterns (workflows vs agents, orchestrator-workers); baseline vocabulary for owner/worker design", "tags": ["orchestrator"]}
+{"id": "f-5bb593dc82", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-5bbf5e3e9b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-5ff9113ba8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-60037630d1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-6126d3effd", "verdict": "keep", "rank": 4, "why": "PreToolUse hook that decides which bash commands are safe to auto-run, cutting permission fatigue; directly comparable to SISO's guards", "tags": ["hooks"]}
+{"id": "f-61746160e4", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-617713f35a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "heavy vector DB server; SISO memory is file-based"}
+{"id": "f-61b5d6bcc1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-6326955343", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-64fc9fdff2", "verdict": "keep", "rank": 1, "why": "Floating screen-aware Claude Code chat; Windows-only, idea only", "tags": ["gui"]}
+{"id": "f-650e6b1fc3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: OpenTelemetry collector config skill"}
+{"id": "f-65535e8fca", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-68830a87af", "verdict": "keep", "rank": 4, "why": "Thariq Shihipar works on Claude Code at Anthropic; follow for first-party harness features and patterns", "tags": ["people"]}
+{"id": "f-69702bc42f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-69ca9dc3d6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-6a010a02a1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "generic LLM app framework; Agent Base runs harnesses, not LangChain"}
+{"id": "f-6f6cd8ed74", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-71fda336bd", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-73106fabf8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-74dd2a339c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-75b0c24ca2", "verdict": "keep", "rank": 5, "why": "Plugin showing context usage, active tools, running agents and todo progress (28k stars); exactly the per-pane telemetry Agent Base's watch UI needs", "tags": ["observability", "hooks"]}
+{"id": "f-7623041bac", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-77699741fb", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-794ead4b24", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-7a84417454", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-7b0d516dea", "verdict": "keep", "rank": 2, "why": "Inline markdown review whose comments export as structured JSON for an LLM; pattern for Shaan reviewing plans", "tags": ["gui"]}
+{"id": "f-853871fb01", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-867018953c", "verdict": "keep", "rank": 3, "why": "Prompt-injection scanner hook for Claude Code and Codex using local transformer models; guard for untrusted web content", "tags": ["hooks"]}
+{"id": "f-88ea6f1065", "verdict": "keep", "rank": 2, "why": "23 design-judgement skills for Claude Code, Codex and Cursor; overlaps the UI bank", "tags": ["skills"]}
+{"id": "f-898f0b79b9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-89b9404268", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-8a2c90775c", "verdict": "keep", "rank": 3, "why": "Self-organising Obsidian second brain run by Claude Code (15k stars); memory pattern reference", "tags": ["memory"]}
+{"id": "f-8aaa828c2d", "verdict": "keep", "rank": 3, "why": "Access-control proxy across Claude Code, Codex, Gemini and MCP servers with audit logs; central policy instead of per-harness hooks", "tags": ["hooks", "mcp"]}
+{"id": "f-8aabae7800", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-8db2d27133", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "novelty status-line pet"}
+{"id": "f-8df0f87b79", "verdict": "keep", "rank": 2, "why": "Drop-in CLAUDE.md prose-style section; compare with SISO's adhd-agent-output skill", "tags": ["skills"]}
+{"id": "f-8e4ac80dea", "verdict": "keep", "rank": 2, "why": "Covers the Mac screen while agents keep running with the lid closed; useful for the laptop agent fleet", "tags": []}
+{"id": "f-8f92d23ef8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-9031a6386f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-9253c1e10a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-95563eab4f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-955cc101b0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-9beab44663", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-9c084d76f4", "verdict": "keep", "rank": 3, "why": "Credential gateway so headless agents stay authenticated without holding raw keys; compare with siso-credentials", "tags": ["mcp"]}
+{"id": "f-9dbbfe382c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-9dc8d8b0a0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-9e438077c9", "verdict": "keep", "rank": 3, "why": "One local UI with tabs and browsable history for Claude Code, Codex, OpenCode and Antigravity CLIs; tiny but the same shape as Agent Base", "tags": ["gui"]}
+{"id": "f-a0ede573d1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-a15f79481d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-a29b708230", "verdict": "keep", "rank": 2, "why": "One-command Docker sandbox for autonomous agents", "tags": ["harness"]}
+{"id": "f-a42f99cc90", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-a5bb3f2fed", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: PWA packaging"}
+{"id": "f-a625c41953", "verdict": "keep", "rank": 4, "why": "Linter and LSP for CLAUDE.md, AGENTS.md, SKILL.md, hooks and MCP config; drop-in validation gate for the SISO skills hub", "tags": ["skills", "hooks"]}
+{"id": "f-a831babd50", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-a9e6fe602c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-aa8660a51c", "verdict": "keep", "rank": 2, "why": "Vim-style powerline status line for Claude Code", "tags": ["observability"]}
+{"id": "f-aa9e833781", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-ac2eacc8d8", "verdict": "keep", "rank": 3, "why": "Multiplayer shared Claude Code session where everyone can type; idea for Shaan joining a worker pane", "tags": ["gui"]}
+{"id": "f-ae376c32c1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-ae50409ed8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-b0045e98a3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-b025505baa", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-b05706989f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-b6535782e3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-b6c1716422", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-b6ff76a265", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-b89b44028e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "author homepage; the article is kept separately"}
+{"id": "f-b9c664aa6f", "verdict": "keep", "rank": 3, "why": "Real-time secret-leak guard for Claude Code and Codex plus git hooks and CI", "tags": ["hooks"]}
+{"id": "f-b9fb33f4be", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-bb11fa1d3b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-bc6874dc33", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-bcadd8f545", "verdict": "keep", "rank": 3, "why": "Visual example-driven Claude Code guide with copy-paste templates (41k stars); onboarding source", "tags": []}
+{"id": "f-bd433e9820", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-bef20d15da", "verdict": "keep", "rank": 2, "why": "One Lima VM per project for sandboxed Claude Code/Codex on macOS", "tags": ["harness"]}
+{"id": "f-bf32b5e969", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "historical autonomous-agent demo, not usable"}
+{"id": "f-c0851121a4", "verdict": "keep", "rank": 3, "why": "Hook-driven audio cues for Claude Code and Codex; Agent Base can signal pane state by sound", "tags": ["hooks", "voice"]}
+{"id": "f-c21d9d8f1c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-c25095855d", "verdict": "keep", "rank": 5, "why": "Anthropic's account of its orchestrator plus parallel sub-agent research system: delegation prompts, effort scaling, failure modes; the template for owners dispatching workers", "tags": ["orchestrator", "subagents"]}
+{"id": "f-c43f9fb9ca", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-c838306243", "verdict": "keep", "rank": 2, "why": "LLM router across Claude Code, Codex, Gemini and Copilot", "tags": ["harness"]}
+{"id": "f-ca875b54da", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-cecae00d1f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "RAG document framework, off-topic"}
+{"id": "f-ced6b46218", "verdict": "keep", "rank": 2, "why": "Plugin that records annotated screenshots and flow GIFs; proof artifacts for verification", "tags": ["skills"]}
+{"id": "f-cf20474395", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-cf2df3a1f7", "verdict": "keep", "rank": 5, "why": "IndyDevDan (disler): agentic-engineering YouTube and repos on hooks mastery and multi-agent observability; the most Agent-Base-shaped creator", "tags": ["people", "hooks", "observability"]}
+{"id": "f-d1dd91759c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-d2d08f73b4", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "company homepage, nothing specific"}
+{"id": "f-d2f2757a37", "verdict": "keep", "rank": 4, "why": "IDE built for AI coding agents (1.4k stars); compare its layout with Agent Base's pane grid", "tags": ["gui"]}
+{"id": "f-d35700fcfa", "verdict": "keep", "rank": 2, "why": "Guardrails, hard budget cap and self-fixing PR loop for unattended agents", "tags": ["hooks"]}
+{"id": "f-d766fd6f17", "verdict": "keep", "rank": 2, "why": "Official MCP Python SDK; needed only if Agent Base ships its own MCP server", "tags": ["mcp"]}
+{"id": "f-d8ca782781", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: patent drafting"}
+{"id": "f-d8efdf67a8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-dc74efe0d1", "verdict": "keep", "rank": 3, "why": "Event-driven, zero-polling Claude Code session state in tmux tab bars; same problem as herdr pane status", "tags": ["observability", "hooks"]}
+{"id": "f-de4f1b5b95", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-deb7fed5bf", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "generic help centre; specific docs kept separately"}
+{"id": "f-e041ed7a65", "verdict": "keep", "rank": 3, "why": "Runs Claude Code tasks from email and Slack with workspace provisioning and containers; remote-dispatch pattern", "tags": ["harness"]}
+{"id": "f-e3d66b9c78", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-e96d93f5d9", "verdict": "keep", "rank": 4, "why": "Infinite zoomable canvas with editor, terminal and browser panels; a spatial alternative to a fixed pane grid", "tags": ["gui"]}
+{"id": "f-ea0d90cb26", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-ea7460f240", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-ec0f1d8eaf", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-ecd7684939", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: RAG course"}
+{"id": "f-ed6641d480", "verdict": "keep", "rank": 3, "why": "Highly customisable Claude Code status line (13k stars); data source for per-pane status", "tags": ["observability"]}
+{"id": "f-ee6dab7b13", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-f32bf90b70", "verdict": "keep", "rank": 2, "why": "Anthropic's GitHub org: home of claude-code, skills, plugins and SDKs; watch for releases", "tags": []}
+{"id": "f-f68e532eb8", "verdict": "keep", "rank": 5, "why": "Anthropic's context-engineering guide (compaction, note-taking, sub-agent context isolation); the playbook for SISO's context discipline", "tags": ["memory", "subagents"]}
+{"id": "f-f930f23980", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-fd45879b25", "verdict": "keep", "rank": 2, "why": "Org behind claude-code-system-prompts and tweakcc; watch for harness prompt changes", "tags": []}
+{"id": "f-fe4a129006", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-ffeeee7f84", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-0693d76118", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-07427398c1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "role-play multi-agent framework, not a coding harness Agent Base can use"}
+{"id": "f-0fd7285b7c", "verdict": "keep", "rank": 2, "why": "Three-level Claude Code course with checked exercises", "tags": []}
+{"id": "f-0fef776caa", "verdict": "keep", "rank": 2, "why": "Interactive IDE-style docs for Claude Code commands, MCP and skills", "tags": []}
+{"id": "f-11b932f56f", "verdict": "keep", "rank": 4, "why": "Pre-execution guard blocking destructive git and filesystem commands (1.6k stars); compare rules with SISO's PreToolUse guards", "tags": ["hooks"]}
+{"id": "f-133f1ecd58", "verdict": "keep", "rank": 2, "why": "Deep dive into .claude directory and CLAUDE.md as Boris writes it", "tags": []}
+{"id": "f-21ae4dd176", "verdict": "keep", "rank": 4, "why": "Builds a nano Claude-Code-like harness from zero in bash (78k stars); fastest way to understand harness internals", "tags": ["harness"]}
+{"id": "f-22335d2dd1", "verdict": "keep", "rank": 5, "why": "Web and mobile UI for Claude Code, OpenCode, Cursor CLI and Codex sessions (14k stars); nearest open-source analogue to Agent Base's web UI", "tags": ["gui", "harness"]}
+{"id": "f-284e163686", "verdict": "keep", "rank": 2, "why": "Claude Code best-practice handbook", "tags": []}
+{"id": "f-2ad705242c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "novelty kaomoji status line"}
+{"id": "f-355fc6d65f", "verdict": "keep", "rank": 3, "why": "Anthropic's field guide to agentic coding with Fable 5: finding unknowns before and during work", "tags": []}
+{"id": "f-35d059120d", "verdict": "keep", "rank": 2, "why": "Forkable Claude Code setup with multi-agent review and quality gates (academic)", "tags": ["subagents"]}
+{"id": "f-3968bf87ca", "verdict": "keep", "rank": 4, "why": "Systematic analysis of Claude Code's architecture for designing agent systems; read before redesigning SISO's harness", "tags": ["harness"]}
+{"id": "f-3bf5d9ab71", "verdict": "keep", "rank": 2, "why": "Keeps official Claude docs fetchable inside Claude Code", "tags": ["skills"]}
+{"id": "f-47abdd2295", "verdict": "keep", "rank": 2, "why": "Open Interpreter, now a coding agent for open models; minor harness", "tags": ["harness"]}
+{"id": "f-4a62790f58", "verdict": "keep", "rank": 1, "why": "Official Claude Code cheatsheet", "tags": []}
+{"id": "f-561a9becf6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Windows/WSL-specific setup"}
+{"id": "f-569e7d09e3", "verdict": "keep", "rank": 3, "why": "Aider: git-native terminal pair programmer with a repo map; source of the repo-map idea", "tags": ["harness"]}
+{"id": "f-595c2b1bf9", "verdict": "keep", "rank": 3, "why": "Status line showing 5h/7d rate-limit usage and reset countdowns; Agent Base quota display", "tags": ["observability"]}
+{"id": "f-5e535a1d10", "verdict": "keep", "rank": 5, "why": "Every Claude Code system-prompt part, tool description and sub-agent prompt tracked per version (12.8k stars); ground truth for SISO brain and worker prompts", "tags": ["harness", "subagents"]}
+{"id": "f-5ecdef189b", "verdict": "keep", "rank": 2, "why": "Rust Claude Code status line", "tags": ["observability"]}
+{"id": "f-5f8853e7b5", "verdict": "keep", "rank": 4, "why": "Official GitHub Action running Claude Code from issues and PRs; trigger surface for background workers", "tags": ["harness"]}
+{"id": "f-62fbfa7c67", "verdict": "keep", "rank": 3, "why": "Official explanation of Claude Code's agentic loop and tools", "tags": ["harness"]}
+{"id": "f-6697a13bd5", "verdict": "keep", "rank": 2, "why": "Skill turning a codebase into a single-page HTML course", "tags": ["skills"]}
+{"id": "f-7383a1796a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "author homepage; the hooks guide is kept separately"}
+{"id": "f-7515f20491", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general autonomous-agent platform, not a coding harness"}
+{"id": "f-88867a2615", "verdict": "keep", "rank": 4, "why": "disler's Fusion Harness for combining compute across several agents; an owner/worker fan-out reference", "tags": ["harness", "orchestrator"]}
+{"id": "f-8ec3ecd0d7", "verdict": "keep", "rank": 1, "why": "Small three-level override guard; Safety Net covers this better", "tags": ["hooks"]}
+{"id": "f-9243541142", "verdict": "keep", "rank": 3, "why": "Official Claude security-review GitHub Action", "tags": ["harness"]}
+{"id": "f-a1555a9396", "verdict": "keep", "rank": 2, "why": "Claude Code natively on Android via Termux/AVF", "tags": ["harness"]}
+{"id": "f-b41444f8a5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: CapCut CLI"}
+{"id": "f-c08c8f0a87", "verdict": "keep", "rank": 3, "why": "Desktop and phone notifications for Claude Code, Codex, Gemini CLI and Cursor; Agent Base attention routing", "tags": ["observability", "hooks"]}
+{"id": "f-c9fa252be6", "verdict": "keep", "rank": 4, "why": "Official best practices, including scaling across parallel sessions", "tags": ["harness"]}
+{"id": "f-cd41c426cc", "verdict": "keep", "rank": 2, "why": "Community Claude Code guide, beginner to power user", "tags": []}
+{"id": "f-cfee4a16d6", "verdict": "keep", "rank": 3, "why": "Remote Claude Code via Telegram with streaming and approvals; steer-from-phone pattern", "tags": ["harness"]}
+{"id": "f-d3703b3a86", "verdict": "keep", "rank": 3, "why": "Session monitor showing what an agent is doing, VS Code and terminal", "tags": ["observability"]}
+{"id": "f-daa1a6e135", "verdict": "keep", "rank": 3, "why": "Each agent gets its own Incus machine with root and Docker", "tags": ["harness"]}
+{"id": "f-ddfe92840b", "verdict": "keep", "rank": 5, "why": "Claude Code itself, Agent Base's primary harness; track its releases and changelog", "tags": ["harness"]}
+{"id": "f-e0744ba5c2", "verdict": "keep", "rank": 5, "why": "Open-source desktop plus iOS/Android control of Claude Code, Codex and Grok (24k stars); the mobile steering layer Agent Base needs", "tags": ["gui", "harness"]}
+{"id": "f-ebcc5d4f00", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "archived (2025), superseded by Lovable"}
+{"id": "f-f051500431", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "low-code workflow platform, off-topic"}
+{"id": "f-f548eb3180", "verdict": "keep", "rank": 4, "why": "Official Claude Code docs: hooks, skills, plugins, sub-agents", "tags": ["harness"]}
+{"id": "f-f84604bb29", "verdict": "keep", "rank": 1, "why": "Index of one author's Claude Code repos and starter templates", "tags": []}
+{"id": "f-ff33b7fa91", "verdict": "keep", "rank": 3, "why": "Battle-tested Claude Code and Codex configs, hooks and agents including alternate model routing", "tags": ["hooks", "skills"]}
+{"id": "f-293c3a1659", "verdict": "keep", "rank": 4, "why": "HumanLayer's guide to writing CLAUDE.md as a high-leverage config; check against SISO brain composition", "tags": ["memory"]}
+{"id": "f-cde6c6b42a", "verdict": "keep", "rank": 3, "why": "Anthropic's Claude blog: first-party feature launches and patterns", "tags": []}
+{"id": "f-07e79ddb1d", "verdict": "keep", "rank": 2, "why": "SKILL.md catalog for research workflows incl. project memory", "tags": ["skills"]}
+{"id": "f-092d2b7e95", "verdict": "keep", "rank": 2, "why": "50 motion-graphics skills; example of a domain skill pack", "tags": ["skills"]}
+{"id": "f-1977dfabd2", "verdict": "keep", "rank": 3, "why": "Curated marketplace on the agentskills.io open standard, portable across harnesses", "tags": ["skills"]}
+{"id": "f-2a6541b5e6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: video generation skill"}
+{"id": "f-2bd77d3306", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: scientific writing, 3 stars"}
+{"id": "f-2c1a3a3914", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GitHub profile with nothing specific; any useful repo is its own record"}
+{"id": "f-313edf3eb9", "verdict": "keep", "rank": 2, "why": "Runtime guardrails tiering auto-approve, gate and block", "tags": ["hooks"]}
+{"id": "f-3273409b7b", "verdict": "keep", "rank": 5, "why": "Anthropic's official plugin directory (37k stars); the marketplace format SISO's skills hub should publish into", "tags": ["skills"]}
+{"id": "f-355ca5f4d2", "verdict": "keep", "rank": 4, "why": "Implementation-level guide to every Claude Code hook event; reference for SISO hook authors", "tags": ["hooks"]}
+{"id": "f-40d2020d9e", "verdict": "keep", "rank": 2, "why": "NotebookLM over MCP with a local REST API", "tags": ["mcp"]}
+{"id": "f-4465d9b0f8", "verdict": "keep", "rank": 3, "why": "Trail of Bits security skills (7.4k stars); quality bar for a professional skill pack", "tags": ["skills"]}
+{"id": "f-45e236b909", "verdict": "keep", "rank": 4, "why": "Official MCP reference servers", "tags": ["mcp"]}
+{"id": "f-51636013a4", "verdict": "keep", "rank": 2, "why": "300+ AI agent resources list; lead source", "tags": []}
+{"id": "f-51ac2b6036", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: logo design skill"}
+{"id": "f-819f737072", "verdict": "keep", "rank": 4, "why": "Largest curated Claude Skills list (76k stars); harvest for the skills hub", "tags": ["skills"]}
+{"id": "f-83b51ae744", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: Terraform skill"}
+{"id": "f-8c95f97793", "verdict": "keep", "rank": 3, "why": "WhatsApp channel plugin with voice transcription and remote tool approval; voice steering from phone", "tags": ["voice", "harness"]}
+{"id": "f-94e3936916", "verdict": "keep", "rank": 3, "why": "Multi-agent collaboration skills: task splitter, output reconciler, adversarial debate", "tags": ["subagents", "skills"]}
+{"id": "f-9f12c76674", "verdict": "keep", "rank": 2, "why": "28 eval-informed critical-thinking skills", "tags": ["skills"]}
+{"id": "f-a8afeb93a7", "verdict": "keep", "rank": 4, "why": "100+ Claude Code sub-agents (25k stars); harvest worker definitions", "tags": ["subagents"]}
+{"id": "f-b9964fb24a", "verdict": "keep", "rank": 3, "why": "Curated Claude Code plugins list", "tags": ["skills"]}
+{"id": "f-c139ca3003", "verdict": "keep", "rank": 4, "why": "Claude skill that delegates prompts to Codex; mirrors SISO's codex-run split-brain", "tags": ["skills", "subagents"]}
+{"id": "f-c94b5c0899", "verdict": "keep", "rank": 4, "why": "NVIDIA's security scanner for agent skills; gate for anything imported into the skills hub", "tags": ["skills"]}
+{"id": "f-c9a9ad4973", "verdict": "keep", "rank": 1, "why": "DevOps skills for Claude Code and Codex", "tags": ["skills"]}
+{"id": "f-cad3aa1364", "verdict": "keep", "rank": 4, "why": "Anthropic on when to use CLAUDE.md, rules, skills, sub-agents and hooks", "tags": ["skills", "hooks"]}
+{"id": "f-d113754c18", "verdict": "keep", "rank": 3, "why": "Single CLAUDE.md of Karpathy's coding observations (217k stars); SISO already adopts this discipline", "tags": ["skills"]}
+{"id": "f-d5cf687837", "verdict": "keep", "rank": 3, "why": "Pins skill behaviour and blocks unapproved drift in CI; versioning idea for the skills hub", "tags": ["skills"]}
+{"id": "f-da1f124313", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: favicon generator"}
+{"id": "f-ed8f4a2fa3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "off-topic: book-writing skills"}
+{"id": "f-eea1d255ba", "verdict": "keep", "rank": 2, "why": "MCP librarian for an Obsidian vault on the LLM-wiki pattern", "tags": ["memory", "mcp"]}
+{"id": "f-fcd4de8b9d", "verdict": "keep", "rank": 5, "why": "Anthropic's public Agent Skills repo (180k stars); the reference SKILL.md format SISO skills follow", "tags": ["skills"]}
+{"id": "f-fdb9946f24", "verdict": "keep", "rank": 2, "why": "Large science skills library; packaging reference only", "tags": ["skills"]}

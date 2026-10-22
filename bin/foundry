@@ -1,0 +1,760 @@
+#!/usr/bin/env python3
+"""foundry: look up what SISO has already mapped, before you build or search.
+
+  foundry find <words> [--domain ui] [--area awards] [--kind site] [--limit 12] [--json]
+  foundry ask <words> [--domain D] [--json]       answered questions and research notes
+  foundry question new "<question>" --domain D  open a decision question
+  foundry curate emit|ingest --domain D         hand out batches and validate verdicts
+  foundry refresh [--due | --all | NAME ...] [--dry-run] [--domain D]
+  foundry frontier [--domain ui] [--limit 10]      the leads worth working next
+  foundry stats                                    records, sources and lookups per domain
+  foundry build                                    merge observations into records and frontier
+  foundry page <domain> [--area awards] [--out F]  an HTML index with previews
+  foundry serve --host <tailscale-ip> [--port 8766] serve the generated pages (never on 0.0.0.0)
+
+Records live in research/<domain>/records.jsonl (Git). Lookups are counted in
+$FOUNDRY_DATA/usage/find.jsonl on the machine that ran them. Any other subcommand
+(repos, transcripts, people, ...) is passed to the corpus CLI from the foundry-corpus skill.
+Exit codes: 0 found, 2 usage, 3 nothing found.
+"""
+import argparse, datetime, math, hashlib, html, json, os, re, socket, subprocess, sys, time
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+RESEARCH = ROOT / "research"
+UI_HUB_ITEMS = ROOT.parent / "banks" / "siso-ui-hub" / "sources" / "items.jsonl"
+# The 21st.dev component bank (8.5k components, previews, source): beside the Foundry on the laptop, a sparse clone on the mini.
+COMPONENT_BANK = [Path(os.environ["FOUNDRY_COMPONENT_BANK"])] if os.environ.get("FOUNDRY_COMPONENT_BANK") else [
+    ROOT.parent / "banks" / "siso-component-bank" / "index.jsonl",
+    Path("/Volumes/SISO-STORAGE-VAULT/foundry-data/clones/siso-component-bank/index.jsonl")]
+CORPUS_CLI = Path.home() / ".claude" / "skills" / "foundry-corpus" / "foundry"
+OWN = {"find", "frontier", "stats", "build", "page", "serve", "curate", "refresh", "question", "ask"}
+
+
+def data_root():
+    env = os.environ.get("FOUNDRY_DATA")
+    return Path(env).expanduser() if env else Path.home() / ".local" / "share" / "siso-foundry"
+
+
+def domains():
+    return sorted(p.name for p in RESEARCH.iterdir() if p.is_dir() and (p / "observations").is_dir())
+
+
+def read_jsonl(path):
+    if not path.exists():
+        return []
+    rows = []
+    for n, line in enumerate(path.read_text(encoding="utf-8").split("\n"), 1):  # not splitlines: U+2028 lives inside titles
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            rows.append(json.loads(line))
+        except json.JSONDecodeError:
+            print(f"skip {path.name}:{n}: not JSON", file=sys.stderr)
+    return rows
+
+
+def write_jsonl(path, rows):
+    path.write_text("".join(json.dumps(r, ensure_ascii=False, sort_keys=True) + "\n" for r in rows), encoding="utf-8")
+
+
+# ---------------------------------------------------------------- identity
+
+GH = re.compile(r"github\.com/([A-Za-z0-9_.-]+)/([A-Za-z0-9_.-]+)")
+
+
+def github_of(row):
+    gh = (row.get("github") or "").strip().strip("/")
+    if gh.count("/") == 1:
+        return gh.lower().removesuffix(".git")
+    m = GH.search(row.get("url") or "")
+    if m and m.group(1).lower() not in {"topics", "orgs", "sponsors", "features", "marketplace", "collections"}:
+        return f"{m.group(1)}/{m.group(2)}".lower().removesuffix(".git")
+    return ""
+
+
+def url_key(url):
+    u = (url or "").strip().lower()
+    u = re.sub(r"^https?://", "", u)
+    u = re.sub(r"^(www\.|m\.)", "", u)
+    u = u.split("#")[0]
+    if "youtube.com/watch" in u or "youtu.be/" in u:
+        m = re.search(r"(?:v=|youtu\.be/)([\w-]{11})", u)
+        return f"youtube:{m.group(1)}" if m else u
+    u = u.split("?")[0]
+    return u.rstrip("/")
+
+
+def key_of(row):
+    gh = github_of(row)
+    # A repo's own page and its GitHub URL are one thing; a site that merely links its repo stays a site.
+    if gh and ("github.com" in (row.get("url") or "") or row.get("kind") in {"repo", "library", "list", "registry", "block-library", "template", "tool", "framework"}):
+        return "gh:" + gh
+    return "url:" + url_key(row.get("url"))
+
+
+def new_id(key):
+    return "f-" + hashlib.sha1(key.encode()).hexdigest()[:10]
+
+
+# ---------------------------------------------------------------- build
+
+FIELDS = ("title", "kind", "area", "licence", "preview", "why", "by", "date", "stars", "free", "award")
+
+
+def build_domain(domain):
+    base = RESEARCH / domain
+    obs_dir = base / "observations"
+    old = {r["key"]: r for r in read_jsonl(base / "records.jsonl")}
+    aliases = {a: r["key"] for r in old.values() for a in r.get("aliases", [])}
+    records, leads, bad = {}, {}, 0
+    for path in sorted(obs_dir.glob("*.jsonl")):
+        frontier = path.name.endswith(".frontier.jsonl")
+        for row in read_jsonl(path):
+            if frontier:
+                lead = (row.get("lead") or "").strip()
+                if not lead:
+                    continue
+                k = lead.lower()
+                cur = leads.setdefault(k, {"lead": lead, "why": row.get("why", ""), "rank": 0, "area": row.get("area", ""), "from": [], "status": "open"})
+                cur["rank"] = max(cur["rank"], int(row.get("rank") or 0))
+                if path.stem not in cur["from"]:
+                    cur["from"].append(path.stem.replace(".frontier", ""))
+                continue
+            if not row.get("url") or not row.get("title"):
+                bad += 1
+                continue
+            k = key_of(row)
+            k = aliases.get(k, k)
+            prev = old.get(k, {})
+            cur = records.get(k)
+            if cur is None:
+                cur = records[k] = {
+                    "id": prev.get("id") or new_id(k), "key": k, "domain": domain, "url": row["url"],
+                    "github": github_of(row), "tags": [], "sources": [], "first_seen": prev.get("first_seen") or time.strftime("%Y-%m-%d"),
+                    "aliases": prev.get("aliases", []), "n_obs": 0,
+                }
+                for f in FIELDS:
+                    cur[f] = prev.get(f, "")
+            cur["n_obs"] += 1
+            for f in FIELDS:
+                v = row.get(f)
+                if v not in (None, "", []) and (not cur.get(f) or f in ("stars",)):
+                    cur[f] = v
+            for t in row.get("tags") or []:
+                t = str(t).lower().strip()
+                if t and t not in cur["tags"]:
+                    cur["tags"].append(t)
+            src = row.get("source") or path.stem
+            if src not in cur["sources"]:
+                cur["sources"].append(src)
+    # A record that vanished from every observation file is kept: history is append-only.
+    for k, prev in old.items():
+        records.setdefault(k, prev)
+    apply_facts(base, records.values())
+    apply_curation(base, records.values())
+    for o in read_jsonl(base / "frontier-rank.jsonl"):  # RESEARCH's re-ranking beats a harvester's own rank
+        if o.get("lead", "").lower() in leads:
+            leads[o["lead"].lower()]["rank"] = int(o["rank"])
+            leads[o["lead"].lower()]["why"] = o.get("why") or leads[o["lead"].lower()]["why"]
+    done = {d["lead"].lower(): d for d in read_jsonl(base / "frontier-done.jsonl")}
+    for k, lead in leads.items():
+        if k in done:
+            lead["status"], lead["result"] = "done", done[k].get("result", "")
+    known = {url_key(r["url"]) for r in records.values()} | {r["github"] for r in records.values() if r.get("github")}
+    for lead in leads.values():
+        if lead["status"] == "open" and url_key(lead["lead"]) in known or lead["lead"].lower().strip("/") in known:
+            lead["status"] = "covered"
+    rejected = sorted((r for r in records.values() if r.get("rejected")), key=lambda r: r["id"])
+    rec_rows = sorted((r for r in records.values() if not r.get("rejected")), key=lambda r: (r.get("area") or "", r["id"]))
+    write_jsonl(base / "rejected.jsonl", rejected)
+    lead_rows = sorted(leads.values(), key=lambda r: (r["status"] != "open", -r["rank"], r["lead"]))
+    write_jsonl(base / "records.jsonl", rec_rows)
+    write_jsonl(base / "frontier.jsonl", lead_rows)
+    return len(rec_rows), sum(1 for l in lead_rows if l["status"] == "open"), bad
+
+
+def apply_facts(base, records):
+    """Fold in what research/tools/probe.py observed at the source: liveness, og:image, GitHub's own numbers."""
+    probes = {p["url"]: p for p in read_jsonl(base / "probes.jsonl")}  # later lines win
+    repos = {g["github"]: g for g in read_jsonl(base / "github.jsonl")}
+    stacks = {x["url"]: x for x in read_jsonl(base / "stacks.jsonl") if not x.get("error")}
+    for r in records:
+        st = stacks.get(r["url"])
+        if st:
+            r["stack"] = st["stack"]
+            r["tags"] = [t for t in r["tags"] if not t.startswith("uses:")] + [f"uses:{x}" for x in st["stack"]]
+        p = probes.get(r["url"])
+        if p and "://github.com/" in r["url"]:
+            p = None  # GitHub rate-limits page fetches; github.jsonl from its API is the authority for repos
+        if p:
+            r["http"] = p.get("status", 0)
+            if not r.get("preview") and p.get("og_image"):
+                r["preview"] = p["og_image"]
+            if p.get("og_description"):
+                r["desc"] = p["og_description"]
+        g = repos.get(r.get("github"))
+        if p and p.get("status") in (404, 410):
+            r["rejected"] = f"url returned {p['status']}"
+        if g and not g.get("found"):
+            r["rejected"] = "GitHub has no such repository"
+        elif g:
+            r["stars"], r["archived"], r["pushed"] = g["stars"], g["archived"], g["pushed"]
+            if g.get("licence") and g["licence"] != "NOASSERTION":
+                r["licence"] = g["licence"]
+            if g.get("description"):
+                r["desc"] = g["description"]
+            if not r.get("preview"):
+                r["preview"] = f"https://opengraph.githubassets.com/1/{r['github']}"
+
+
+def apply_curation(base, records):
+    """Judgments by RESEARCH or its curators, lines keyed by record id in research/<domain>/curation/*.jsonl; later keys win."""
+    verdicts = {}
+    for path in sorted((base / "curation").glob("*.jsonl")):
+        for c in read_jsonl(path):
+            if c.get("id"):
+                verdicts.setdefault(c["id"], {}).update(c)
+    for r in records:
+        c = verdicts.get(r["id"])
+        if not c:
+            continue
+        if c.get("verdict") == "drop":
+            r["rejected"] = "curated out: " + (c.get("note") or c.get("why") or "off-topic")
+            continue
+        if c.get("rank"):
+            r["rank"] = int(c["rank"])
+        if c.get("why"):
+            r["why"] = c["why"]
+        if c.get("licence"):
+            r["licence"] = c["licence"]
+        for t in c.get("tags") or []:
+            if t not in r["tags"]:
+                r["tags"].append(t)
+
+
+# ---------------------------------------------------------------- find
+
+def tokens(text):
+    return [t for t in re.split(r"[^a-z0-9+#.]+", str(text or "").lower()) if t]
+
+
+def has(field_tokens, w):
+    # Short words ("ui", "3d", "ag") match whole tokens only; longer ones match prefixes ("anim" finds "animation").
+    return w in field_tokens if len(w) <= 2 else any(t.startswith(w) for t in field_tokens)
+
+
+def squash(text):
+    return re.sub(r"[^a-z0-9]", "", str(text).lower())
+
+
+def score(row, words, phrase=""):
+    title = tokens(row.get("title", ""))
+    tags = tokens(" ".join(row.get("tags") or []))
+    rest = tokens(" ".join(str(row.get(f) or "") for f in ("why", "kind", "area", "by", "url", "github", "desc", "lib")))
+    s = 0
+    for w in words:
+        got = 4 * has(title, w) + 2 * has(tags, w) + has(rest, w)
+        if not got:  # every word must appear somewhere
+            return 0
+        s += got
+    if len(phrase) > 3 and (phrase in squash(row.get("title", "")) or phrase in squash(row.get("url", ""))):
+        s += 8  # the query as written, e.g. "ag-ui" or "three.js", names this thing
+    used = math.log10(int(row.get("installs") or 0) + 1) / 1.5  # catalogue installs: 10k installs adds 2.7
+    return s + int(row.get("rank") or 3) / 2 + min(int(row.get("stars") or 0), 100000) / 100000 + used
+
+
+def ui_hub_rows():
+    for r in read_jsonl(UI_HUB_ITEMS):
+        yield {"id": r.get("id"), "title": r.get("title") or r.get("name"), "kind": r.get("kind"), "area": "ui-hub-item",
+               "domain": "ui", "url": r.get("url"), "why": r.get("desc", ""), "tags": [r.get("lib", ""), r.get("lib_cat", "")],
+               "lib": r.get("lib", ""), "licence": r.get("tier", ""), "rank": 3}
+
+
+def component_bank_rows():
+    path = next((p for p in COMPONENT_BANK if p.exists()), None)
+    for r in read_jsonl(path) if path else []:
+        cls = r.get("classification") or ""
+        cat = re.search(r"'category': \[([^\]]*)\]", cls) if isinstance(cls, str) else None
+        prev = r.get("upstream_preview") or ""
+        yield {"id": "bank:" + r.get("id", ""), "title": r.get("name") or r.get("slug"), "kind": "component", "area": "component-bank",
+               "domain": "ui", "url": r.get("url"), "why": r.get("description", ""), "by": r.get("author", ""),
+               "tags": [t.strip(" '") for t in (cat.group(1).split(",") if cat else [])] + ["21st.dev"],
+               "preview": prev if prev.startswith("http") else "", "licence": "has source" if str(r.get("has_source")) == "True" else "", "rank": 2}
+
+
+def registry_directory_rows():
+    """Every public shadcn registry item, from the newest registry.directory snapshot on the data plane."""
+    snaps = sorted(Path("/Volumes/SISO-STORAGE-VAULT/foundry-data/research/ui").glob("registry-directory-items-*.json")) + \
+        sorted((data_root() / "research" / "ui").glob("registry-directory-items-*.json"))
+    if not snaps:
+        return
+    for it in json.loads(snaps[-1].read_text())["items"]:
+        reg = it.get("registry") or {}
+        yield {"id": f"rd:{reg.get('basePath', '')}/{it.get('name')}", "title": it.get("name"), "kind": (it.get("type") or "").replace("registry:", ""),
+               "area": "registry-item", "domain": "ui", "url": f"https://registry.directory{reg.get('basePath', '')}/{it.get('name')}",
+               "why": it.get("description") or "", "by": reg.get("name", ""), "tags": (it.get("categories") or []) + [reg.get("name", "")],
+               "licence": reg.get("name", ""), "rank": 2}
+
+
+def agent_catalog_rows():
+    """Claude Code skills and plugins (claude-plugins.dev, SkillsMP) and official MCP Registry servers, from the newest
+    agent_catalogs.py index on the data plane."""
+    snaps = sorted(Path("/Volumes/SISO-STORAGE-VAULT/foundry-data/research/agent-bases").glob("agent-catalog-items-*.jsonl")) + \
+        sorted((data_root() / "research" / "agent-bases").glob("agent-catalog-items-*.jsonl"))
+    if not snaps:
+        return
+    for it in read_jsonl(snaps[-1]):
+        it.update(domain="agent-bases", rank=2, licence=it.get("licence") or "see source")
+        yield it
+
+
+def count_lookup(entry):
+    try:
+        d = data_root() / "usage"
+        d.mkdir(parents=True, exist_ok=True)
+        with open(d / "find.jsonl", "a", encoding="utf-8") as fh:
+            fh.write(json.dumps(entry) + "\n")
+    except OSError:
+        pass  # counting never breaks a lookup
+
+
+def cmd_find(a):
+    words = tokens(" ".join(a.words))
+    if not words:
+        print("usage: foundry find <words> [--domain ui]", file=sys.stderr)
+        return 2
+    rows = []
+    for d in domains():
+        if a.domain and d != a.domain:
+            continue
+        rows += read_jsonl(RESEARCH / d / "records.jsonl")
+    if (not a.domain or a.domain == "ui") and not a.no_items:
+        rows += list(ui_hub_rows()) + list(component_bank_rows()) + list(registry_directory_rows())
+    if (not a.domain or a.domain == "agent-bases") and not a.no_items:
+        rows += list(agent_catalog_rows())
+    if a.area:
+        rows = [r for r in rows if r.get("area") == a.area]
+    if a.kind:
+        rows = [r for r in rows if r.get("kind") == a.kind]
+    phrase = squash(" ".join(a.words))
+    ranked = sorted(((score(r, words, phrase), r) for r in rows), key=lambda x: -x[0])
+    hits = [r for s, r in ranked if s > 0]
+    count_lookup({"at": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "host": socket.gethostname().split(".")[0], "q": " ".join(a.words),
+                  "domain": a.domain or "", "hits": len(hits), "agent": os.environ.get("SISO_AGENT_NAME") or os.environ.get("HERDR_PANE_NAME") or ""})
+    shown = hits[: a.limit]
+    if a.json:
+        print(json.dumps({"query": " ".join(a.words), "total": len(hits), "results": shown}, ensure_ascii=False))
+        return 0 if hits else 3
+    if not hits:
+        print(f"NOT FOUND in {sum(1 for _ in rows)} records. Add it to the frontier if it matters.")
+        return 3
+    print(f"{len(hits)} hits for '{' '.join(a.words)}'" + (f" in {a.domain}" if a.domain else "") + f", top {len(shown)}:")
+    for r in shown:
+        extra = []
+        if r.get("stars"):
+            extra.append(f"★{r['stars']}")
+        if r.get("licence"):
+            extra.append(str(r["licence"])[:20])
+        meta = f"{r.get('domain','')}/{r.get('area','')}/{r.get('kind','')}" + (f" · {' · '.join(extra)}" if extra else "")
+        print(f"- {r.get('title','')[:60]}  [{meta}]\n  {r.get('url','')}\n  {str(r.get('why') or '')[:140]}")
+    return 0
+
+
+# ---------------------------------------------------------------- frontier, stats
+
+def cmd_frontier(a):
+    shown = 0
+    for d in domains():
+        if a.domain and d != a.domain:
+            continue
+        open_leads = [l for l in read_jsonl(RESEARCH / d / "frontier.jsonl") if l.get("status") == "open"]
+        print(f"{d}: {len(open_leads)} open leads")
+        for l in open_leads[: a.limit]:
+            print(f"  {l['rank']}  {l['lead'][:90]}  ({l.get('area','')}) {l.get('why','')[:90]}")
+            shown += 1
+    return 0 if shown else 3
+
+
+def cmd_stats(a):
+    out = {}
+    for d in domains():
+        recs = read_jsonl(RESEARCH / d / "records.jsonl")
+        leads = read_jsonl(RESEARCH / d / "frontier.jsonl")
+        areas = {}
+        for r in recs:
+            areas[r.get("area") or "?"] = areas.get(r.get("area") or "?", 0) + 1
+        sources = {s for r in recs for s in r.get("sources", [])}
+        out[d] = {"records": len(recs), "with_preview": sum(1 for r in recs if r.get("preview")), "sources": len(sources),
+                  "open_leads": sum(1 for l in leads if l.get("status") == "open"), "areas": areas}
+    lookups = read_jsonl(data_root() / "usage" / "find.jsonl")
+    out["_lookups_this_machine"] = {"total": len(lookups), "found": sum(1 for l in lookups if l.get("hits"))}
+    print(json.dumps(out, indent=1) if a.json else "\n".join(f"{k}: {v}" for k, v in out.items()))
+    return 0
+
+
+def cmd_build(a):
+    for d in domains():
+        n, leads, bad = build_domain(d)
+        print(f"{d}: {n} records, {leads} open leads" + (f", {bad} rows skipped (no url or title)" if bad else ""))
+    return 0
+
+
+# ---------------------------------------------------------------- curate, refresh, questions
+
+def cmd_curate(a):
+    base = RESEARCH / a.domain / "curation"
+    directory = Path(a.directory) if a.action == "ingest" else Path(a.out)
+    if a.action == "emit":
+        if a.batch < 1:
+            print("batch must be positive", file=sys.stderr)
+            return 2
+        curated = {r.get("id") for p in base.glob("*.jsonl") for r in read_jsonl(p)}
+        rows = [r for r in read_jsonl(RESEARCH / a.domain / "records.jsonl") if r["id"] not in curated
+                and (not a.area or r.get("area") == a.area) and (not a.only_github or github_of(r))]
+        directory.mkdir(parents=True, exist_ok=True)
+        manifest = {"domain": a.domain, "created": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "batches": {}}
+        fields = ("id", "title", "url", "github", "stars", "area", "kind", "licence", "why", "date")
+        for start in range(0, len(rows), a.batch):
+            batch = rows[start:start + a.batch]
+            name = f"batch-{start // a.batch + 1:03d}.jsonl"
+            write_jsonl(directory / name, [{f: r.get(f, "") for f in fields} for r in batch])
+            manifest["batches"][name] = [r["id"] for r in batch]
+            print(f"{name}: {len(batch)} records")
+        (directory / "manifest.json").write_text(json.dumps(manifest, indent=1) + "\n", encoding="utf-8")
+        return 0
+    if not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9_-]*", a.name):
+        print("name must contain only letters, numbers, underscores or hyphens", file=sys.stderr)
+        return 2
+    target = base / (a.name + ".jsonl")
+    problems, verdicts, all_ids = [], [], set()
+    if target.exists() and not a.force:
+        problems.append(f"refusing to overwrite {target.relative_to(ROOT)}; use --force")
+    try:
+        manifest = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))
+        if manifest["domain"] != a.domain:
+            problems.append("manifest domain does not match --domain")
+        batches = manifest["batches"]
+        if not isinstance(batches, dict):
+            raise ValueError("batches must be an object")
+        for name, ids in batches.items():
+            if not re.fullmatch(r"batch-[0-9]{3,}\.jsonl", name) or not isinstance(ids, list) or not all(isinstance(i, str) for i in ids):
+                problems.append(f"{name}: invalid batch name or ids")
+                continue
+            if len(ids) != len(set(ids)) or all_ids.intersection(ids):
+                problems.append(f"{name}: duplicate input ids")
+            all_ids.update(ids)
+            path = directory / name.replace(".jsonl", ".verdicts.jsonl")
+            seen = set()
+            try:
+                lines = path.read_text(encoding="utf-8").split("\n")
+            except OSError as e:
+                problems.append(f"{path.name}: {e.strerror}")
+                lines = []
+            for n, line in enumerate(lines, 1):
+                if not line.strip():
+                    continue
+                try:
+                    row = json.loads(line)
+                except json.JSONDecodeError:
+                    problems.append(f"{path.name}:{n}: not JSON")
+                    continue
+                if not isinstance(row, dict) or not isinstance(row.get("id"), str):
+                    problems.append(f"{path.name}:{n}: missing string id")
+                    continue
+                rid = row["id"]
+                if rid in seen:
+                    problems.append(f"{name}: duplicate id {rid}")
+                seen.add(rid)
+                if row.get("verdict") not in ("keep", "drop"):
+                    problems.append(f"{rid}: verdict must be keep or drop")
+                elif row["verdict"] == "keep" and (type(row.get("rank")) is not int or not 1 <= row["rank"] <= 5):
+                    problems.append(f"{rid}: keep needs integer rank 1-5")
+                elif row["verdict"] == "drop" and (not isinstance(row.get("note"), str) or not row["note"].strip()):
+                    problems.append(f"{rid}: drop needs a note")
+                verdicts.append({f: row[f] for f in ("id", "verdict", "rank", "why", "tags", "note") if f in row})
+            for rid in sorted(set(ids) - seen):
+                problems.append(f"{name}: missing id {rid}")
+            for rid in sorted(seen - set(ids)):
+                problems.append(f"{name}: extra id {rid}")
+    except (OSError, ValueError, KeyError, TypeError) as e:
+        problems.append(f"invalid manifest: {e}")
+    if problems:
+        print("\n".join(problems), file=sys.stderr)
+        return 1
+    base.mkdir(parents=True, exist_ok=True)
+    with target.open("w" if a.force else "x", encoding="utf-8") as fh:
+        fh.write("".join(json.dumps(r, ensure_ascii=False, sort_keys=True) + "\n" for r in verdicts))
+    kept = [r for r in verdicts if r["verdict"] == "keep"]
+    print(f"keep: {len(kept)}, drop: {len(verdicts) - len(kept)}")
+    print("ranks: " + ", ".join(f"{rank}: {sum(r['rank'] == rank for r in kept)}" for rank in range(1, 6)))
+    return 0
+
+
+def observation_lines():
+    return sum(sum(1 for line in p.read_text(encoding="utf-8").split("\n") if line.strip())
+               for p in RESEARCH.glob("*/observations/*.jsonl"))
+
+
+def cmd_refresh(a):
+    sources = json.loads((RESEARCH / "sources.json").read_text(encoding="utf-8"))["sources"]
+    if a.names and (a.due or a.all):
+        print("choose --due, --all, or source names", file=sys.stderr)
+        return 2
+    unknown = set(a.names) - {s["name"] for s in sources}
+    if unknown:
+        print("unknown sources: " + ", ".join(sorted(unknown)), file=sys.stderr)
+        return 2
+    path = data_root() / "research" / "refresh-state.json"
+    state = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    now, failed = time.time(), False
+    for source in sources:
+        name = source["name"]
+        if a.domain and source["domain"] not in (a.domain, "all") or a.names and name not in a.names:
+            continue
+        last = state.get(name, {}).get("last_run")
+        days = (now - last) / 86400 if last is not None else None
+        if not a.all and not a.names and days is not None and days < source["cadence_days"]:
+            continue
+        ds = ([a.domain] if a.domain else ["ui", "agent-bases", "voice"]) if source["domain"] == "all" else [source["domain"]]
+        commands = [["python3", *[arg.replace("{domain}", d) for arg in source["cmd"]]] for d in ds]
+        if a.dry_run:
+            reason = "never run before" if days is None else f"{days:.1f} days since last run"
+            print(f"{name}: {reason}; " + " ; ".join(" ".join(cmd) for cmd in commands))
+            continue
+        before, started, status = observation_lines(), time.monotonic(), 0
+        for cmd in commands:
+            try:
+                result = subprocess.run(cmd, cwd=ROOT).returncode
+            except OSError as e:
+                print(f"{name}: {e}", file=sys.stderr)
+                result = 1
+            status = status or result
+        secs, added = time.monotonic() - started, observation_lines() - before
+        state[name] = {"last_run": time.time(), "exit": status, "secs": round(secs, 3), "added": added}
+        path.parent.mkdir(parents=True, exist_ok=True)
+        pending = path.with_suffix(".tmp")
+        pending.write_text(json.dumps(state, indent=1) + "\n", encoding="utf-8")
+        pending.replace(path)
+        print(f"{name}: exit={status}, secs={secs:.1f}, lines added={added}")
+        failed |= status != 0
+    if not a.dry_run:
+        failed |= cmd_build(a) != 0
+    return 1 if failed else 0
+
+
+def cmd_question(a):
+    slug = re.sub(r"[^a-z0-9]+", "-", a.question.lower()).strip("-")[:60].rstrip("-")
+    if not slug or "\n" in a.question or "\n" in a.asked_by:
+        print("question and asked-by must be single lines; question needs letters or numbers", file=sys.stderr)
+        return 2
+    path = RESEARCH / "questions" / (slug + ".md")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        with path.open("x", encoding="utf-8") as fh:
+            fh.write(f"---\nquestion: {a.question}\ndomain: {a.domain}\nasked_by: {a.asked_by}\nstatus: open\n"
+                     "answered: \nrecheck: \nsources: \n---\n\n## Answer\n\n## Evidence\n\n## Unknown\n")
+    except FileExistsError:
+        print(f"refusing to overwrite {path.relative_to(ROOT)}", file=sys.stderr)
+        return 1
+    print(path.relative_to(ROOT))
+    return 0
+
+
+def cmd_ask(a):
+    words, phrase = tokens(" ".join(a.words)), squash(" ".join(a.words))
+    if not words:
+        return 2
+    hits = []
+    today = datetime.date.today().isoformat()
+    paths = sorted((RESEARCH / "questions").glob("*.md")) + sorted(RESEARCH.glob("*/notes/*.md"))
+    for path in paths:
+        if path.name == "README.md" or path.name.startswith("_"):
+            continue
+        text = path.read_text(encoding="utf-8")
+        lines, meta = text.split("\n"), {}
+        if lines and lines[0] == "---" and "---" in lines[1:]:
+            end = lines.index("---", 1)
+            meta = {k.strip(): v.strip() for line in lines[1:end] if ":" in line for k, v in [line.split(":", 1)]}
+            lines = lines[end + 1:]
+        is_question = path.parent.name == "questions"
+        domain = meta.get("domain", "") if is_question else path.parent.parent.name
+        if a.domain and domain != a.domain:
+            continue
+        title = meta.get("question") or next((l.lstrip("# ") for l in lines if l.startswith("# ")), path.stem)
+        title_tokens, body_tokens = tokens(title + " " + path.stem), tokens("\n".join(lines))
+        weights = [4 * has(title_tokens, w) + has(body_tokens, w) for w in words]
+        if not all(weights):
+            continue
+        weight = sum(weights) + (8 if len(phrase) > 3 and phrase in squash(title + path.stem) else 0)
+        if is_question:
+            answer = []
+            in_answer = False
+            for line in lines:
+                if line.startswith("## "):
+                    in_answer = line.strip() == "## Answer"
+                elif in_answer and line.strip():
+                    answer.append(line)
+        else:
+            answer = [line for line in lines if line.strip() and not line.startswith("#")]
+        hits.append((weight, {"path": str(path.relative_to(ROOT)), "title": title, "domain": domain,
+                             "status": meta.get("status", "note"), "answered": meta.get("answered", ""),
+                             "recheck": meta.get("recheck", ""), "recheck_due": bool(meta.get("recheck") and meta["recheck"] < today),
+                             "answer": answer[:3]}))
+    hits.sort(key=lambda item: -item[0])
+    count_lookup({"at": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "host": socket.gethostname().split(".")[0],
+                  "cmd": "ask", "q": " ".join(a.words), "domain": a.domain or "", "hits": len(hits)})
+    shown = [row for _, row in hits[:10]]
+    if a.json:
+        print(json.dumps({"query": " ".join(a.words), "total": len(hits), "results": shown}, ensure_ascii=False))
+    elif not shown:
+        print("NOT FOUND in questions or notes.")
+    else:
+        for row in shown:
+            print(f"{row['path']} [{row['status']}] answered={row['answered']} recheck={row['recheck']}"
+                  + (" RECHECK DUE" if row["recheck_due"] else ""))
+            for line in row["answer"]:
+                print("  " + line)
+    return 0 if hits else 3
+
+
+# ---------------------------------------------------------------- page
+
+PAGE = """<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{title}</title><style>
+body{{margin:0;font:14px/1.4 -apple-system,system-ui,sans-serif;background:#0b0b0c;color:#e8e8ea}}
+header{{padding:20px 24px;position:sticky;top:0;background:#0b0b0cee;backdrop-filter:blur(8px);z-index:2}}
+h1{{margin:0 0 4px;font-size:20px}} .sub{{color:#9a9aa2}} input{{margin-top:10px;width:min(480px,90%);padding:8px 10px;border-radius:8px;border:1px solid #333;background:#151517;color:#eee}}
+.grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;padding:8px 24px 40px}}
+a.card{{display:block;color:inherit;text-decoration:none;background:#151517;border:1px solid #232327;border-radius:12px;overflow:hidden}}
+a.card:hover{{border-color:#6b6bff}} .img{{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;background:#1c1c20}}
+.chips{{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px}} .chips button{{background:#1c1c20;color:#c9c9cf;border:1px solid #2c2c33;border-radius:99px;padding:3px 10px;font-size:12px;cursor:pointer}}
+.chips button:hover{{border-color:#6b6bff}} nav a{{color:#9aa0ff;margin-right:12px}}
+.b{{padding:10px 12px}} .t{{font-weight:600}} .m{{color:#9a9aa2;font-size:12px;margin:2px 0 6px}} .w{{font-size:13px;color:#c9c9cf}}
+</style><header><h1>{title}</h1><div class="sub">{sub}</div><input id="q" placeholder="filter…" oninput="f(this.value)"><div class="chips">{chips}</div></header>
+<div class="grid">{cards}</div><script>function c(v){{document.getElementById('q').value=v;f(v)}}function f(v){{v=v.toLowerCase();document.querySelectorAll('a.card').forEach(c=>c.style.display=c.dataset.s.includes(v)?'':'none')}}</script></html>"""
+
+
+def cmd_page(a):
+    if a.domain == "all":
+        rows = []
+        for d in domains():
+            areas = sorted({r.get("area") or "" for r in read_jsonl(RESEARCH / d / "records.jsonl")})
+            for area in areas:
+                n = cmd_page(argparse.Namespace(domain=d, area=area, out=None, quiet=True))
+                rows.append((d, area, n))
+        links = "".join(f'<li><a href="{d}-{ar}.html">{d} · {ar}</a> <span>{n}</span></li>' for d, ar, n in rows)
+        (data_root() / "artifacts" / "index.html").write_text(
+            '<!doctype html><meta charset="utf-8"><title>Foundry research</title><style>body{font:15px/1.6 -apple-system,system-ui;'
+            'background:#0b0b0c;color:#e8e8ea;padding:24px}a{color:#9aa0ff}span{color:#888}</style><h1>Foundry research domains</h1>'
+            f'<p>Built {time.strftime("%Y-%m-%d %H:%M")}. Look up from any agent: <code>foundry find &lt;words&gt; [--domain ui]</code></p><ul>{links}</ul>',
+            encoding="utf-8")
+        print(data_root() / "artifacts" / "index.html")
+        return 0
+    recs = read_jsonl(RESEARCH / a.domain / "records.jsonl")
+    if a.area:
+        recs = [r for r in recs if r.get("area") == a.area]
+    recs.sort(key=lambda r: str(r.get("date") or ""), reverse=True)  # stable sorts: previews first, then curated rank, then newest
+    recs.sort(key=lambda r: -int(r.get("rank") or 3))
+    recs.sort(key=lambda r: not r.get("preview"))
+    cards = []
+    for r in recs:
+        e = html.escape
+        meta = " · ".join(str(x) for x in (r.get("award") or r.get("kind"), r.get("by"), r.get("date"), (r.get("sources") or [""])[0].split("/")[2] if "://" in (r.get("sources") or [""])[0] else "") if x)
+        img = f'<img class="img" loading="lazy" referrerpolicy="no-referrer" alt="" src="{e(r["preview"])}">' if r.get("preview") else '<div class="img"></div>'
+        s = e(" ".join([r.get("title", ""), r.get("why", ""), " ".join(r.get("tags") or []), str(r.get("by") or "")]).lower())
+        cards.append(f'<a class="card" href="{e(r["url"])}" target="_blank" rel="noopener" data-s="{s}">{img}<div class="b"><div class="t">{e(r.get("title",""))}</div><div class="m">{e(meta)}</div><div class="w">{e(str(r.get("why",""))[:180])}</div></div></a>')
+    counts = {}
+    for r in recs:
+        for t in set(r.get("tags") or []):
+            counts[t] = counts.get(t, 0) + 1
+    top = sorted((t for t in counts if 2 < len(t) < 24), key=lambda t: -counts[t])[:24]
+    chips = "".join(f'<button onclick="c(\'{html.escape(t)}\')">{html.escape(t)} {counts[t]}</button>' for t in top)
+    title = f"Foundry · {a.domain}" + (f" · {a.area}" if a.area else "")
+    sub = f"{len(recs)} records, {sum(1 for r in recs if r.get('preview'))} with previews · built {time.strftime('%Y-%m-%d %H:%M')} · source: research/{a.domain}/records.jsonl"
+    doc = PAGE.format(title=html.escape(title), sub=html.escape(sub), chips='<button onclick="c(\'\')">all</button>' + chips, cards="\n".join(cards))
+    out = Path(a.out) if a.out else data_root() / "artifacts" / f"{a.domain}-{a.area or 'all'}.html"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(doc, encoding="utf-8")
+    if not getattr(a, "quiet", False):
+        print(out)
+    return len(recs)
+
+
+def cmd_serve(a):
+    import functools, http.server
+    if a.host in ("0.0.0.0", "::", ""):
+        print("refusing to bind every interface; pass a loopback or Tailscale address", file=sys.stderr)
+        return 2
+    root = data_root() / "artifacts"
+    root.mkdir(parents=True, exist_ok=True)
+    handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(root))
+    print(f"serving {root} on http://{a.host}:{a.port}/", flush=True)
+    http.server.ThreadingHTTPServer((a.host, a.port), handler).serve_forever()
+
+
+def main(argv):
+    if argv and argv[0] not in OWN and not argv[0].startswith("-"):
+        if CORPUS_CLI.exists():
+            return subprocess.call([str(CORPUS_CLI), *argv])
+        print(f"unknown subcommand {argv[0]}; see foundry --help", file=sys.stderr)
+        return 2
+    p = argparse.ArgumentParser(prog="foundry", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    sub = p.add_subparsers(dest="cmd", required=True)
+    f = sub.add_parser("find")
+    f.add_argument("words", nargs="+")
+    f.add_argument("--domain")
+    f.add_argument("--area")
+    f.add_argument("--kind")
+    f.add_argument("--limit", type=int, default=10)
+    f.add_argument("--json", action="store_true")
+    f.add_argument("--no-items", action="store_true", help="skip the UI Hub items and the 21st.dev component bank")
+    fr = sub.add_parser("frontier")
+    fr.add_argument("--domain")
+    fr.add_argument("--limit", type=int, default=10)
+    st = sub.add_parser("stats")
+    st.add_argument("--json", action="store_true")
+    sub.add_parser("build")
+    pg = sub.add_parser("page")
+    pg.add_argument("domain")
+    pg.add_argument("--area")
+    pg.add_argument("--out")
+    sv = sub.add_parser("serve")
+    sv.add_argument("--host", default="127.0.0.1")
+    sv.add_argument("--port", type=int, default=8766)
+    cu = sub.add_parser("curate")
+    actions = cu.add_subparsers(dest="action", required=True)
+    emit = actions.add_parser("emit")
+    emit.add_argument("--domain", required=True, choices=domains())
+    emit.add_argument("--out", required=True)
+    emit.add_argument("--batch", type=int, default=350)
+    emit.add_argument("--area")
+    emit.add_argument("--only-github", action="store_true")
+    ingest = actions.add_parser("ingest")
+    ingest.add_argument("--domain", required=True, choices=domains())
+    ingest.add_argument("--name", required=True)
+    ingest.add_argument("directory")
+    ingest.add_argument("--force", action="store_true")
+    refresh = sub.add_parser("refresh")
+    selection = refresh.add_mutually_exclusive_group()
+    selection.add_argument("--due", action="store_true")
+    selection.add_argument("--all", action="store_true")
+    refresh.add_argument("names", nargs="*")
+    refresh.add_argument("--dry-run", action="store_true")
+    refresh.add_argument("--domain", choices=domains())
+    question = sub.add_parser("question")
+    new = question.add_subparsers(dest="action", required=True).add_parser("new")
+    new.add_argument("question")
+    new.add_argument("--domain", required=True, choices=domains())
+    new.add_argument("--asked-by", default="")
+    ask = sub.add_parser("ask")
+    ask.add_argument("words", nargs="+")
+    ask.add_argument("--domain")
+    ask.add_argument("--json", action="store_true")
+    a = p.parse_args(argv)
+    return {"serve": cmd_serve, "find": cmd_find, "frontier": cmd_frontier, "stats": cmd_stats, "build": cmd_build, "page": cmd_page, "curate": cmd_curate, "refresh": cmd_refresh, "question": cmd_question, "ask": cmd_ask}[a.cmd](a)
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

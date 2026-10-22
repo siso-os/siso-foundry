@@ -1,0 +1,1142 @@
+{"id": "f-0cd86af1e1", "verdict": "keep", "rank": 4, "why": "Markdown-file knowledge graph served over MCP; file-first like .agents/memory, worth copying its link/observation syntax and MCP read path", "tags": ["memory", "mcp"]}
+{"id": "f-4064c757a4", "verdict": "keep", "rank": 5, "why": "Standard protocol for a client to drive Claude Code/Codex/Gemini sessions; the clean way for the Agent Base web UI to steer agents instead of scraping panes", "tags": ["harness", "gui"]}
+{"id": "f-6ce96eb154", "verdict": "keep", "rank": 4, "why": "TypeScript Claude Agent SDK for a Node-side Agent Base controller that spawns and streams owner/worker sessions", "tags": ["harness"]}
+{"id": "f-79b97e4e44", "verdict": "keep", "rank": 4, "why": "Principles to audit Agent Base against: own the context window, own control flow, small focused agents; a checklist for worker briefs", "tags": ["harness"]}
+{"id": "f-cd0cfe918e", "verdict": "keep", "rank": 5, "why": "Closest analogue to Agent Base: mayor/owner plus workers over a shared Beads task graph; study its role model, handoff and convoy mechanics", "tags": ["orchestrator", "subagents", "memory"]}
+{"id": "f-00cb3f5d93", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "math model research, last push 2024-04"}
+{"id": "f-01ac52c4c5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Codex desktop installer for Linux; off-topic (Mac estate)"}
+{"id": "f-023b49330a", "verdict": "keep", "rank": 2, "why": "Wraps CLI subscriptions as OpenAI-compatible endpoints; ToS-risky, reference only", "tags": ["cost"]}
+{"id": "f-02562cc2b7", "verdict": "keep", "rank": 2, "why": "Routes tasks between Codex, Claude and Gemini in VS Code; IDE-bound", "tags": ["orchestrator"]}
+{"id": "f-02f5ec5b70", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (nextest: A next-generation test runner for Rust); not an Agent Base component"}
+{"id": "f-038c445232", "verdict": "keep", "rank": 4, "why": "Fleet command center running many coding agents across your own machines with scheduling and isolation; matches Agent Base's laptop+Mac mini+VPS fleet", "tags": ["orchestrator", "gui"]}
+{"id": "f-03bf2951f7", "verdict": "keep", "rank": 1, "why": "Broad skills repository (Chinese content focus); completeness", "tags": ["skills"]}
+{"id": "f-03c47713a9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (cargo-binstall: Binary installation for rust projects); not an Agent Base component"}
+{"id": "f-042f669392", "verdict": "keep", "rank": 4, "why": "Official Codex-from-Claude plugin for review and delegation; compare with codex-run and maybe replace the bespoke bridge", "tags": ["subagents"]}
+{"id": "f-051f5c6c60", "verdict": "keep", "rank": 2, "why": "IM bridge skill for Claude/Codex; overlaps cc-connect", "tags": ["gui"]}
+{"id": "f-053673300b", "verdict": "keep", "rank": 3, "why": "Rust CLI proxy compressing dev-command output for agents; already measured here (rtk #582: compression can raise output cost), keep as reference", "tags": ["cost"]}
+{"id": "f-0583e04e30", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (mise: dev tools, env vars, task runner); not an Agent Base component"}
+{"id": "f-059ce1f2cf", "verdict": "keep", "rank": 1, "why": "MCP transport bridge; niche", "tags": ["mcp"]}
+{"id": "f-0747ed8539", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (xh: Friendly and fast tool for sending HTTP requests); not an Agent Base component"}
+{"id": "f-0913fe0286", "verdict": "keep", "rank": 1, "why": "IDE coding assistant; off-pattern for terminal agents", "tags": ["harness"]}
+{"id": "f-09862ea625", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (uv: An extremely fast Python package and project manager, written in Rust); not an Agent Base component"}
+{"id": "f-0a19b12b12", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "AgentStack scaffolder, last push 2025-07; stale"}
+{"id": "f-0add3a77db", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "app-interaction benchmark; off-topic"}
+{"id": "f-0bbb832d47", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (pre-commit: A framework for managing and maintaining multi-language pre-commit hoo); not an Agent Base component"}
+{"id": "f-0d659f1c46", "verdict": "keep", "rank": 1, "why": "Agent training/RL; off-topic for now", "tags": []}
+{"id": "f-0db122c1e2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (ouch: Painless compression and decompression in the terminal); not an Agent Base component"}
+{"id": "f-0e4afa6619", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (procs: A modern replacement for ps written in Rust); not an Agent Base component"}
+{"id": "f-0e4e7f5b01", "verdict": "keep", "rank": 4, "why": "Git-backed issue graph as agent memory; underlies Gas Town, a candidate replacement for ad-hoc .tasks", "tags": ["memory", "orchestrator"]}
+{"id": "f-0eaaf420bf", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "React Native domain skills; off-topic"}
+{"id": "f-0ef524df39", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (pulumi: Pulumi - Infrastructure as Code in any programming language 🚀); not an Agent Base component"}
+{"id": "f-102a134377", "verdict": "keep", "rank": 2, "why": "Multi-agent coding workspace aggregating sessions; UI reference", "tags": ["gui"]}
+{"id": "f-10853028fe", "verdict": "keep", "rank": 3, "why": "Ghostty macOS terminal with vertical tabs and agent notifications; SISO moved to herdr (cmux binary flagged stale), keep for notification ideas", "tags": ["gui"]}
+{"id": "f-108f46dbf2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (glow: Render markdown on the CLI, with pizzazz! 💅🏻); not an Agent Base component"}
+{"id": "f-11bf17995d", "verdict": "keep", "rank": 1, "why": "Screen-tracking multi-agent assistant memory; completeness", "tags": ["memory"]}
+{"id": "f-121dce0abc", "verdict": "keep", "rank": 2, "why": "Git Ship Done workflow core; compare with GSD-style planning", "tags": ["skills"]}
+{"id": "f-135e1d4506", "verdict": "keep", "rank": 3, "why": "Official Agent SDK demos; working examples for an Agent Base controller", "tags": ["harness"]}
+{"id": "f-13fb4c5f0e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Codex multi-account switching; ToS risk"}
+{"id": "f-15e561c364", "verdict": "keep", "rank": 4, "why": "ByteDance long-horizon harness: on-demand skill loading, sub-agents, sandbox, memory; compare its lazy skill loader with the hub", "tags": ["harness", "skills", "subagents"]}
+{"id": "f-16358a4ccf", "verdict": "keep", "rank": 2, "why": "Zero-config workflow for Claude Code and Codex; completeness", "tags": ["skills"]}
+{"id": "f-1671f1a1c5", "verdict": "keep", "rank": 4, "why": "Kanban for coding agents with a worktree per card and review flow; strong UI reference for Agent Base task-to-agent assignment", "tags": ["gui", "worktrees", "orchestrator"]}
+{"id": "f-169a02d83f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "product-management domain skills; off-topic"}
+{"id": "f-16fbe74331", "verdict": "keep", "rank": 1, "why": "Microsoft agent framework; off-stack", "tags": ["orchestrator"]}
+{"id": "f-1753161cd0", "verdict": "keep", "rank": 3, "why": "Code-intelligence MCP indexing codebases into persistent memory; compare with Serena + graphify", "tags": ["memory", "mcp"]}
+{"id": "f-18257239a3", "verdict": "keep", "rank": 1, "why": "Python agent framework; off-stack", "tags": ["orchestrator"]}
+{"id": "f-187115c1da", "verdict": "keep", "rank": 1, "why": "Self-hosted agent cluster; completeness", "tags": ["orchestrator"]}
+{"id": "f-1a3abc58c5", "verdict": "keep", "rank": 2, "why": "Agent runtime and control plane; reference", "tags": ["orchestrator"]}
+{"id": "f-1a650a6556", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "2022 ReAct paper code, last push 2024-02; history"}
+{"id": "f-1c3cf8ee00", "verdict": "keep", "rank": 2, "why": "Cloud sandboxes for agent code execution; option if workers leave the laptop", "tags": ["worktrees"]}
+{"id": "f-1d73b57de0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (pip-audit: Audits Python environments, requirements files and dependency trees fo); not an Agent Base component"}
+{"id": "f-1dabe07f20", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "2023 research, last push 2023-05"}
+{"id": "f-1e8e1e9769", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "RL system, last push 2025-05; off-topic"}
+{"id": "f-1edcbc0ad2", "verdict": "keep", "rank": 2, "why": "Playwright; the browser-verification layer under shot and probes", "tags": ["observability"]}
+{"id": "f-1ee978b229", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (typos: Source code spell checker); not an Agent Base component"}
+{"id": "f-1f55f76f99", "verdict": "keep", "rank": 2, "why": "Docker MCP gateway running servers as signed containers; isolation reference", "tags": ["mcp"]}
+{"id": "f-1f85a7238e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "tool-use training research, last push 2025-05; off-topic"}
+{"id": "f-1f91ab7144", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (task: A fast, cross-platform build tool inspired by Make, designed for moder); not an Agent Base component"}
+{"id": "f-1fce80f362", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (mypy: Optional static typing for Python); not an Agent Base component"}
+{"id": "f-1fe0d93504", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "SwiftUI domain skill; off-topic"}
+{"id": "f-1ffacd0a67", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (yazi: 💥 Blazing fast terminal file manager written in Rust, based on async I); not an Agent Base component"}
+{"id": "f-215e89c508", "verdict": "keep", "rank": 3, "why": "Compound engineering plugin: plan, work, review, compound learnings; its 'compound' step mirrors the lesson loop", "tags": ["skills", "subagents"]}
+{"id": "f-2175f5fc68", "verdict": "keep", "rank": 1, "why": "Agent framework; completeness", "tags": ["orchestrator"]}
+{"id": "f-22000e3161", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (stern: ⎈ Multi pod and container log tailing for Kubernetes); not an Agent Base component"}
+{"id": "f-225521cfbf", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "research multi-agent generator, last push 2025-09; superseded"}
+{"id": "f-22b12676a4", "verdict": "keep", "rank": 2, "why": "CLI+skills for building agents; reference", "tags": ["skills"]}
+{"id": "f-230a65a0b2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (shellcheck: ShellCheck, a static analysis tool for shell scripts); not an Agent Base component"}
+{"id": "f-23bad20259", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (cargo: The Rust package manager); not an Agent Base component"}
+{"id": "f-23c98e9c77", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "web agent research, last push 2024-03"}
+{"id": "f-2417d366f6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (just: 🤖 Just a command runner); not an Agent Base component"}
+{"id": "f-24bc081fa7", "verdict": "keep", "rank": 3, "why": "Open LLM observability: traces, evals, cost; candidate backend for agent traces if Agent Base needs one", "tags": ["observability"]}
+{"id": "f-265a753dfb", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "web-agent benchmark; off-topic"}
+{"id": "f-278c49a444", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (age: A simple, modern and secure encryption tool (and Go library) with smal); not an Agent Base component"}
+{"id": "f-29eab8b556", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (turborepo: Build system optimized for JavaScript and TypeScript, written in Rust); not an Agent Base component"}
+{"id": "f-2aa628d8a7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (vercel: Develop); not an Agent Base component"}
+{"id": "f-2ae1878a21", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (sd: Intuitive find & replace CLI (sed alternative)); not an Agent Base component"}
+{"id": "f-2b4db5100a", "verdict": "keep", "rank": 2, "why": "Queen agent generating agent graphs; compare with owner pattern", "tags": ["orchestrator"]}
+{"id": "f-2b7112d6f0", "verdict": "keep", "rank": 2, "why": "Deterministic policy enforcement for agents; reference for PreToolUse guards", "tags": ["hooks"]}
+{"id": "f-2ba733fa75", "verdict": "keep", "rank": 2, "why": "Daily AI ecosystem digest from 10 sources; feed idea for RESEARCH", "tags": []}
+{"id": "f-2c565e6cc8", "verdict": "keep", "rank": 3, "why": "Official runnable projects incl. two-agent autonomous coding (initializer + coder); canonical long-running harness pattern", "tags": ["harness"]}
+{"id": "f-2e91b4fdb6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (watchexec: Executes commands in response to file modifications); not an Agent Base component"}
+{"id": "f-2f2e65d2d1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (grpcurl: Like cURL, but for gRPC: Command-line tool for interacting with gRPC s); not an Agent Base component"}
+{"id": "f-2f807fea75", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (bat: A cat(1) clone with wings); not an Agent Base component"}
+{"id": "f-30a588f50d", "verdict": "keep", "rank": 2, "why": "GitHub's spec-driven development toolkit; compare with siso:specker flow", "tags": ["skills"]}
+{"id": "f-30f32b0e90", "verdict": "keep", "rank": 1, "why": "JSON processor workers lean on for structured output checks; standard tool, completeness", "tags": []}
+{"id": "f-32b8f6c4ec", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "web agent dataset; off-topic"}
+{"id": "f-332aac8aa6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (hadolint: Dockerfile linter, validate inline bash, written in Haskell); not an Agent Base component"}
+{"id": "f-3429842aa4", "verdict": "keep", "rank": 3, "why": "Self-hosted personal agent with multi-platform messaging and a skill registry; study its gateway/channel model for steering agents from a phone", "tags": ["harness", "skills"]}
+{"id": "f-345d36c804", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "2023 embodied agent research, last push 2024-04"}
+{"id": "f-3636c18127", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (ninja: a small build system with a focus on speed); not an Agent Base component"}
+{"id": "f-3789951446", "verdict": "keep", "rank": 3, "why": "Batteries-included harness with planning, filesystem, subagents and progressive disclosure; clean reference design", "tags": ["harness", "subagents"]}
+{"id": "f-39af2122aa", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (tokei: Count your code, quickly); not an Agent Base component"}
+{"id": "f-3a21fd4322", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "duplicate: openinterpreter already curated in an earlier slice"}
+{"id": "f-3b947ece02", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (maven: Apache Maven core); not an Agent Base component"}
+{"id": "f-3bc95a5cd7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (aws-cli: Universal Command Line Interface for Amazon Web Services); not an Agent Base component"}
+{"id": "f-3c16e6201b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "files-to-prompt, last push 2025-02; repomix supersedes"}
+{"id": "f-3cbaf3cd90", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (syft: CLI tool and library for generating a Software Bill of Materials from ); not an Agent Base component"}
+{"id": "f-3dcbdc6feb", "verdict": "keep", "rank": 1, "why": "Computer-use agent framework; off-topic for terminal agents", "tags": []}
+{"id": "f-3e3dd848b9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (oha: Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui ani); not an Agent Base component"}
+{"id": "f-3e561779b2", "verdict": "keep", "rank": 4, "why": "Hooks, agent teams and HUD for Codex CLI; brings Codex closer to Claude parity inside Agent Base", "tags": ["harness", "hooks", "subagents"]}
+{"id": "f-3fe3a34caa", "verdict": "keep", "rank": 1, "why": "AutoGen (superseded by AG2 and Microsoft Agent Framework); history only", "tags": ["orchestrator"]}
+{"id": "f-4225b26378", "verdict": "keep", "rank": 3, "why": "Agentic Context Engineering: evolving playbooks from execution feedback; a formal version of the lesson ledger", "tags": ["memory", "skills"]}
+{"id": "f-42e9c70c4e", "verdict": "keep", "rank": 1, "why": "stdio MCP over HTTP gateway; niche", "tags": ["mcp"]}
+{"id": "f-4306f50e57", "verdict": "keep", "rank": 4, "why": "Self-improving agent platform with memory, skill creation and delegation; the reference for agents that write their own skills", "tags": ["harness", "memory", "skills", "subagents"]}
+{"id": "f-434ecc6d5f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (TypeScript: TypeScript is a superset of JavaScript that compiles to clean JavaScri); not an Agent Base component"}
+{"id": "f-4370245d14", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (broot: A new way to see and navigate directory trees); not an Agent Base component"}
+{"id": "f-43ea98b40d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (yq: yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and pro); not an Agent Base component"}
+{"id": "f-444ce0395f", "verdict": "keep", "rank": 1, "why": "Google ADK sample agents; off-stack", "tags": []}
+{"id": "f-4591685f91", "verdict": "keep", "rank": 2, "why": "Official GitHub MCP; gh CLI already covers it", "tags": ["mcp"]}
+{"id": "f-45fff72e81", "verdict": "keep", "rank": 4, "why": "HTTP credential proxy so agents use keys without seeing them; fits siso-credentials and the never-print-secrets rule", "tags": ["hooks"]}
+{"id": "f-4659e47458", "verdict": "keep", "rank": 2, "why": "Spec-to-autonomous-implementation workflow; compare with specker", "tags": ["skills"]}
+{"id": "f-468fe38e85", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general autonomous agent, last push 2025-08; superseded"}
+{"id": "f-483b21dc65", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (sdk: Core functionality needed to create ); not an Agent Base component"}
+{"id": "f-4894ca7ff6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (ClickHouse: ClickHouse® is a real-time analytics database management system); not an Agent Base component"}
+{"id": "f-48bc51b2ea", "verdict": "keep", "rank": 2, "why": "Codex fork with browser and multi-agent automation; reference", "tags": ["harness"]}
+{"id": "f-4995b6498e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "model training research, last push 2024-08; off-topic"}
+{"id": "f-4aaa9e1a56", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Xiaohongshu publishing skill; off-topic"}
+{"id": "f-4b11a13105", "verdict": "keep", "rank": 1, "why": "Visual agent/flow builder; off-topic", "tags": []}
+{"id": "f-4b6b062fba", "verdict": "keep", "rank": 3, "why": "Token-efficient MCP adapter for pi; relevant to omp-worker context cost", "tags": ["mcp", "cost"]}
+{"id": "f-4b89638774", "verdict": "keep", "rank": 3, "why": "OpenHands agent platform with sandboxed runtime and web UI; reference for a session web UI and event stream", "tags": ["harness"]}
+{"id": "f-4ba762241b", "verdict": "keep", "rank": 2, "why": "Agents on Cloudflare Durable Objects; option for hosted always-on owners", "tags": ["harness"]}
+{"id": "f-4cc15297d7", "verdict": "keep", "rank": 1, "why": "Emacs ACP client; ACP usage example", "tags": ["gui"]}
+{"id": "f-4cd6715192", "verdict": "keep", "rank": 2, "why": "Repo to prompt-friendly digest; quick context for research workers", "tags": ["cost"]}
+{"id": "f-4d2817455e", "verdict": "keep", "rank": 2, "why": "Desktop workspace for Claude Code multi-agent; UI reference", "tags": ["gui"]}
+{"id": "f-4e630dd62a", "verdict": "keep", "rank": 3, "why": "Official Chrome DevTools MCP; the estate already runs chrome-devtools-axi, keep for browser verification workers", "tags": ["mcp", "observability"]}
+{"id": "f-4f606bd0ca", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "function-calling model research; off-topic"}
+{"id": "f-4f736f954c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (Scoop: A command-line installer for Windows); not an Agent Base component"}
+{"id": "f-515392107d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (pytest: The pytest framework makes it easy to write small tests, yet scales to); not an Agent Base component"}
+{"id": "f-5163c4e7ea", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "chatbot builder platform; off-topic"}
+{"id": "f-51b37b2d30", "verdict": "keep", "rank": 3, "why": "First-party per-subagent model-tier routing; the pattern Agent Base wants for owner vs worker models", "tags": ["cost", "subagents"]}
+{"id": "f-51fa5ecf92", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (helm: The Kubernetes Package Manager); not an Agent Base component"}
+{"id": "f-51fea09323", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (minikube: Run Kubernetes locally); not an Agent Base component"}
+{"id": "f-526ab1a8ae", "verdict": "keep", "rank": 1, "why": "Vibe-coding platform on Cloudflare; off-topic", "tags": []}
+{"id": "f-52a0f34e05", "verdict": "keep", "rank": 5, "why": "Agentic IDE running 100+ agents in parallel worktrees on your own subscriptions; the direct competitor to study for Agent Base's UI and isolation", "tags": ["orchestrator", "worktrees", "gui"]}
+{"id": "f-538464ffe7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (actionlint: :octocat: Static checker for GitHub Actions workflow files); not an Agent Base component"}
+{"id": "f-53e0e97d5e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general LLM CLI chat tool; not an agent-base component"}
+{"id": "f-545028cfec", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (composer: Dependency Manager for PHP); not an Agent Base component"}
+{"id": "f-55d95ee37d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (CMake: Mirror of CMake upstream repository); not an Agent Base component"}
+{"id": "f-55f5d96544", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "archived NotebookLM MCP"}
+{"id": "f-56fabb874c", "verdict": "keep", "rank": 2, "why": "One source to AGENTS.md/CLAUDE.md/.cursorrules; compare with compose-brain", "tags": ["skills"]}
+{"id": "f-57facf0d9c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "shell command generator; not an agent-base component"}
+{"id": "f-58dd97a23c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "2023 Reflexion paper code, last push 2025-01; idea already absorbed"}
+{"id": "f-58df036007", "verdict": "keep", "rank": 3, "why": "Tool-output/log compression before the LLM; same caution as rtk, only adopt with cache-aware measurement", "tags": ["cost"]}
+{"id": "f-5a4c8ee4f4", "verdict": "keep", "rank": 3, "why": "AGENTS.md open spec; SISO repos already use AGENTS.md, track spec changes", "tags": ["skills"]}
+{"id": "f-5afe74ad06", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "dialogue research repo; off-topic"}
+{"id": "f-5b0f346928", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "agent benchmark; superseded by tau2"}
+{"id": "f-5b3f5dcd32", "verdict": "keep", "rank": 3, "why": "Large multi-harness plugin marketplace of subagents and skills; source of subagent prompts to compare", "tags": ["subagents", "skills"]}
+{"id": "f-5c8829fc94", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "RLHF training framework; off-topic"}
+{"id": "f-5d173843bf", "verdict": "keep", "rank": 4, "why": "Isolated tmux pane plus git worktree per task across 11+ agents; the herdr-lane pattern in open source, compare directly", "tags": ["worktrees", "gui"]}
+{"id": "f-5de2b98acb", "verdict": "keep", "rank": 4, "why": "Benchmark measuring whether skill packages actually help agents; a way to prove hub skills earn their tokens", "tags": ["skills", "observability"]}
+{"id": "f-5f731c2807", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (lychee: ⚡ Fast, async, stream-based link checker written in Rust); not an Agent Base component"}
+{"id": "f-6035dcebab", "verdict": "keep", "rank": 1, "why": "Google ADK; off-stack", "tags": ["orchestrator"]}
+{"id": "f-605beb7950", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (go: The Go programming language); not an Agent Base component"}
+{"id": "f-6083dbcea5", "verdict": "keep", "rank": 4, "why": "Harness optimisation system: skills, instincts, memory, security hooks; mine its hook set and instinct-learning loop", "tags": ["harness", "skills", "hooks", "memory"]}
+{"id": "f-60b2fb0938", "verdict": "keep", "rank": 3, "why": "iOS app + Mac bridge to remote-control Codex with encrypted sessions; mobile steering reference", "tags": ["gui"]}
+{"id": "f-60e8763f35", "verdict": "keep", "rank": 1, "why": "Enterprise SDK; off-pattern", "tags": ["orchestrator"]}
+{"id": "f-61e0bd2f5e", "verdict": "keep", "rank": 1, "why": "Cowork desktop app; completeness", "tags": ["gui"]}
+{"id": "f-63449e0bd4", "verdict": "keep", "rank": 1, "why": "Desktop bridge to chat apps; completeness", "tags": ["gui"]}
+{"id": "f-647698fa64", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (osv-scanner: Vulnerability scanner written in Go which uses the data provided by ht); not an Agent Base component"}
+{"id": "f-649a79c945", "verdict": "keep", "rank": 1, "why": "AlphaEvolve-style code evolution; niche", "tags": []}
+{"id": "f-6590482360", "verdict": "keep", "rank": 3, "why": "Desktop app orchestrating many Codex agents across workspaces; UI reference for the Codex side", "tags": ["gui", "orchestrator"]}
+{"id": "f-66681eb617", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (pyright: Static Type Checker for Python); not an Agent Base component"}
+{"id": "f-679ff6d1e6", "verdict": "keep", "rank": 3, "why": "Token tracking across 16+ coding agents with TUI and web dashboard; compare with ccusage for a fleet view", "tags": ["cost", "gui"]}
+{"id": "f-68fdd067ca", "verdict": "keep", "rank": 3, "why": "Self-hostable managed-agent platform with mobile control; reference for remote steering", "tags": ["gui"]}
+{"id": "f-690d8ed5dd", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (gradle: Adaptable, fast automation for all); not an Agent Base component"}
+{"id": "f-69f09ee6be", "verdict": "keep", "rank": 1, "why": "Autonomous idea-to-paper research; off-topic", "tags": []}
+{"id": "f-6be5f19931", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Supabase CLI; off-topic"}
+{"id": "f-6beb4fc155", "verdict": "keep", "rank": 2, "why": "Desktop workbench for pi sessions with Codex/Claude import; UI reference", "tags": ["gui"]}
+{"id": "f-6bf970e21c", "verdict": "keep", "rank": 5, "why": "Sandboxes tool output (claims ~98% reduction), persists session memory and enforces routing across platforms; test against Agent Base's context bill", "tags": ["cost", "hooks"]}
+{"id": "f-6c5307606f", "verdict": "keep", "rank": 2, "why": "Codebase-to-interactive-graph tool; graphify already fills this role", "tags": []}
+{"id": "f-6d4517e685", "verdict": "keep", "rank": 2, "why": "Official MCP TypeScript SDK; needed if Agent Base serves MCP from Node", "tags": ["mcp"]}
+{"id": "f-6e695938f3", "verdict": "keep", "rank": 5, "why": "Self-hosted board where humans and agents share assignable tasks and status; closest open model of the Agent Base web UI for watching and steering", "tags": ["orchestrator", "gui"]}
+{"id": "f-6e9998d2e9", "verdict": "keep", "rank": 3, "why": "Rust harness built for many concurrent sessions with low memory; relevant when laptop load is the bottleneck", "tags": ["harness"]}
+{"id": "f-6fa66b185a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "zero-code agent framework, last push 2025-10; superseded"}
+{"id": "f-6fcea859c0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (jest: Delightful JavaScript Testing); not an Agent Base component"}
+{"id": "f-6fecd14dd8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "RAPTOR RAG research, last push 2024-09"}
+{"id": "f-703b006886", "verdict": "keep", "rank": 2, "why": "Evolutionary self-improvement engine with audit trail; idea source for skill evolution", "tags": ["skills"]}
+{"id": "f-71c5b5e671", "verdict": "keep", "rank": 3, "why": "Compact inspectable harness from HKUDS; readable reference implementation", "tags": ["harness"]}
+{"id": "f-71ddc33021", "verdict": "keep", "rank": 1, "why": "Local Manus alternative; completeness", "tags": ["harness"]}
+{"id": "f-72dd6059e2", "verdict": "keep", "rank": 3, "why": "Self-hosted skill registry with versioning, RBAC and audit logs; reference for the hub's publish/version model", "tags": ["skills"]}
+{"id": "f-72ea4eb4c7", "verdict": "keep", "rank": 3, "why": "Full web client over Claude Code transcript files; reference for reading sessions in the Agent Base UI", "tags": ["gui", "observability"]}
+{"id": "f-72f6086b5e", "verdict": "keep", "rank": 2, "why": "Agent OS for deploying and managing agents; compare concepts", "tags": ["orchestrator"]}
+{"id": "f-732716098f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (detect-secrets: An enterprise friendly way of detecting and preventing secrets in code); not an Agent Base component"}
+{"id": "f-737932d31a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (terraform: Terraform enables you to safely and predictably create, change, and im); not an Agent Base component"}
+{"id": "f-74633c0bf0", "verdict": "keep", "rank": 2, "why": "Reproducible agent evals; tool if Agent Base builds regression evals for skills", "tags": ["observability"]}
+{"id": "f-746a2cda21", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (helix: A post-modern modal text editor); not an Agent Base component"}
+{"id": "f-74eca12042", "verdict": "keep", "rank": 1, "why": "Fast search that coding agents call under the hood; standard tool, completeness", "tags": []}
+{"id": "f-765e2290d0", "verdict": "keep", "rank": 2, "why": "Terminal coding agent; alternative worker harness", "tags": ["harness"]}
+{"id": "f-76a401420f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "2023 research simulation, last push 2024-08"}
+{"id": "f-7a03c9305d", "verdict": "keep", "rank": 2, "why": "Agent Zero framework (name clash with SISO's Agent Zero owner); self-evolving prompts reference", "tags": ["harness"]}
+{"id": "f-7a8f119b1a", "verdict": "keep", "rank": 2, "why": "Stateful graph workflows; reference for durable agent state machines", "tags": ["orchestrator"]}
+{"id": "f-7b15778885", "verdict": "keep", "rank": 2, "why": "Official MCP registry; discovery source", "tags": ["mcp"]}
+{"id": "f-7c7369cf75", "verdict": "keep", "rank": 1, "why": "Multi-agent software company; history", "tags": ["orchestrator"]}
+{"id": "f-7d55149b9c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (k9s: 🐶 Kubernetes CLI To Manage Your Clusters In Style!); not an Agent Base component"}
+{"id": "f-7db81ec0c8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "multi-account switcher for AI IDEs; ToS risk, off-topic"}
+{"id": "f-7e74659758", "verdict": "keep", "rank": 2, "why": "TS runtime with durable approvals and verification; approval-gate design reference", "tags": ["orchestrator"]}
+{"id": "f-80eb2c4a60", "verdict": "keep", "rank": 4, "why": "Most-adopted skills methodology (brainstorm, plan, TDD, subagent-driven dev); benchmark hub skills against its workflow skills", "tags": ["skills"]}
+{"id": "f-8150203000", "verdict": "keep", "rank": 1, "why": "Multi-agent framework; completeness", "tags": ["orchestrator"]}
+{"id": "f-815d7e1714", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "HuggingGPT-era project, last push 2025-07; superseded"}
+{"id": "f-81b0d70a87", "verdict": "keep", "rank": 2, "why": "MCP inspector; debug tool for any SISO MCP server", "tags": ["mcp", "observability"]}
+{"id": "f-823953c554", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (volta: Volta: JS Toolchains as Code); not an Agent Base component"}
+{"id": "f-826dd611d4", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (zoxide: A smarter cd command); not an Agent Base component"}
+{"id": "f-828c7efd43", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "long-context model research; off-topic"}
+{"id": "f-8320bbed4b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (rust-clippy: A bunch of lints to catch common mistakes and improve your Rust code); not an Agent Base component"}
+{"id": "f-833cd6fff9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "RAG engine, last push 2025-11; off-topic"}
+{"id": "f-835c9c1092", "verdict": "keep", "rank": 2, "why": "OpenAI agents SDK with handoffs; reference for owner-to-worker handoff semantics", "tags": ["orchestrator"]}
+{"id": "f-84b29fc018", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "archived; its custom-modes idea is absorbed into others"}
+{"id": "f-84cd3cb312", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (eza: A modern alternative to ls); not an Agent Base component"}
+{"id": "f-855e20b750", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Google Research monorepo; off-topic"}
+{"id": "f-8562a7be5b", "verdict": "keep", "rank": 2, "why": "Stateful agents with memory blocks (MemGPT); reference for memory-block design", "tags": ["memory"]}
+{"id": "f-85ef89a6e2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "fly.io CLI; off-topic"}
+{"id": "f-87bc2157c4", "verdict": "keep", "rank": 1, "why": "Personal assistant harness; completeness", "tags": ["harness"]}
+{"id": "f-880b542bf6", "verdict": "keep", "rank": 1, "why": "Skill-augmented RL research; completeness", "tags": ["skills"]}
+{"id": "f-88b72ae758", "verdict": "keep", "rank": 3, "why": "Menu-bar usage stats for Codex/Claude/Cursor without logins; quick visibility on plan limits", "tags": ["cost", "gui"]}
+{"id": "f-88dc48fe11", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (ansible: Ansible is a radically simple IT automation platform that makes your a); not an Agent Base component"}
+{"id": "f-89c86adcc9", "verdict": "keep", "rank": 2, "why": "Browser agent library; camofox already covers headless browsing", "tags": []}
+{"id": "f-8a419c467c", "verdict": "keep", "rank": 3, "why": "Production engineering skills pack; compare against hub coding skills", "tags": ["skills"]}
+{"id": "f-8ae25f6a62", "verdict": "keep", "rank": 3, "why": "Open-source coding agent with client/server split; its server API is a model for driving sessions from a web UI", "tags": ["harness"]}
+{"id": "f-8b411c78c7", "verdict": "keep", "rank": 2, "why": "Agent Workflow Memory: induce reusable workflows from past runs; idea source for auto-skills", "tags": ["memory"]}
+{"id": "f-8bea72f991", "verdict": "keep", "rank": 1, "why": "Code-acting agent library; reference", "tags": ["harness"]}
+{"id": "f-8c243b544b", "verdict": "keep", "rank": 3, "why": "TUI session manager across Claude/Gemini/Codex with status; compare status detection with herdr", "tags": ["gui"]}
+{"id": "f-8c9c0ef442", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (delta: A syntax-highlighting pager for git, diff, grep, rg --json, and blame ); not an Agent Base component"}
+{"id": "f-8daf4bba24", "verdict": "keep", "rank": 1, "why": "Broad 220+ skills pack; completeness", "tags": ["skills"]}
+{"id": "f-8e769a7755", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (kustomize: Customization of kubernetes YAML configurations); not an Agent Base component"}
+{"id": "f-8fb8aefcfe", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (biome: A toolchain for web projects, aimed to provide functionalities to main); not an Agent Base component"}
+{"id": "f-9009295b55", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (hatch: Modern, extensible Python project management); not an Agent Base component"}
+{"id": "f-91457ed74c", "verdict": "keep", "rank": 2, "why": "Official GitHub Action for codex exec; CI path for Codex workers", "tags": ["harness"]}
+{"id": "f-9239250be5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (rustup: The Rust toolchain installer); not an Agent Base component"}
+{"id": "f-928a2e5d1b", "verdict": "keep", "rank": 2, "why": "Electron GUI for pi; UI reference", "tags": ["gui"]}
+{"id": "f-92d52df015", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (ripgrep-all: rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip,); not an Agent Base component"}
+{"id": "f-9516e30ad4", "verdict": "keep", "rank": 4, "why": "Minimal terminal harness and agent toolkit under omp-worker; read its agent loop and extension API before extending workers", "tags": ["harness"]}
+{"id": "f-954fdd0247", "verdict": "keep", "rank": 2, "why": "Hosted toolkit/auth platform for agents; reference", "tags": ["mcp"]}
+{"id": "f-95db41b7ae", "verdict": "keep", "rank": 1, "why": "Tencent agent framework; completeness", "tags": ["orchestrator"]}
+{"id": "f-96689870c1", "verdict": "keep", "rank": 5, "why": "OpenAI's orchestration spec: board items become isolated autonomous runs, teams manage work not agents; the spec to compare Agent Base's owner/worker model against", "tags": ["orchestrator", "worktrees"]}
+{"id": "f-96f0b0228e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "RL library; off-topic"}
+{"id": "f-973ae14396", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (kind: Kubernetes IN Docker - local clusters for testing Kubernetes); not an Agent Base component"}
+{"id": "f-97963114a6", "verdict": "keep", "rank": 2, "why": "Markdown-only autonomous research skills with cross-model review; idea for overnight research loops", "tags": ["skills"]}
+{"id": "f-97ad90c001", "verdict": "keep", "rank": 2, "why": "AWS model-driven harness SDK; reference", "tags": ["harness"]}
+{"id": "f-98a8c7149f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (deno: A modern runtime for JavaScript and TypeScript); not an Agent Base component"}
+{"id": "f-9945a9c228", "verdict": "keep", "rank": 1, "why": "Neovim sidekick; off-pattern", "tags": ["gui"]}
+{"id": "f-9a953083c3", "verdict": "keep", "rank": 5, "why": "Reads local Claude Code and Codex logs to report token and cost per session/day; the data source for an Agent Base cost panel", "tags": ["cost", "observability"]}
+{"id": "f-9a988d2e1c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (PowerShell: PowerShell for every system!); not an Agent Base component"}
+{"id": "f-9b06241c67", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (prettier: Prettier is an opinionated code formatter); not an Agent Base component"}
+{"id": "f-9b23921a76", "verdict": "keep", "rank": 1, "why": "OpenAI agents JS; completeness", "tags": ["orchestrator"]}
+{"id": "f-9b45cda7ff", "verdict": "keep", "rank": 2, "why": "VS Code coding agent; IDE-centric, not Agent Base's terminal model", "tags": ["harness"]}
+{"id": "f-9d2b0a788d", "verdict": "keep", "rank": 3, "why": "Manus-style file-based planning skill; persistent plan files for long-running workers", "tags": ["skills", "memory"]}
+{"id": "f-9d3580edb3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (yamllint: A linter for YAML files); not an Agent Base component"}
+{"id": "f-9eb0059ff4", "verdict": "keep", "rank": 1, "why": "API gateway rotating endpoints; conflicts with no-proxy policy", "tags": ["cost"]}
+{"id": "f-9f6c6e4f5c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (direnv: unclutter your ); not an Agent Base component"}
+{"id": "f-a0a5d63d52", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (fnm: 🚀 Fast and simple Node); not an Agent Base component"}
+{"id": "f-a1120c3f78", "verdict": "keep", "rank": 1, "why": "Multi-agent router; completeness", "tags": ["orchestrator"]}
+{"id": "f-a13b0ad28e", "verdict": "keep", "rank": 2, "why": "Personal Codex skills (Apple, GitHub workflows); format reference", "tags": ["skills"]}
+{"id": "f-a151f21daa", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (cargo-deny: ❌ Cargo plugin for linting your dependencies 🦀); not an Agent Base component"}
+{"id": "f-a1788f2f93", "verdict": "keep", "rank": 2, "why": "Packs repos into one context file; useful for cold-worker briefs on small repos", "tags": ["cost"]}
+{"id": "f-a17a54fe0d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (semgrep: Lightweight static analysis for many languages); not an Agent Base component"}
+{"id": "f-a2b742d85b", "verdict": "keep", "rank": 2, "why": "TypeScript agent framework with workflows and observability; option for a Node controller", "tags": ["orchestrator"]}
+{"id": "f-a4032617b7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (k6: A modern load testing tool, using Go and JavaScript); not an Agent Base component"}
+{"id": "f-a4260f1688", "verdict": "keep", "rank": 3, "why": "Official Codex skills catalog with system/curated/experimental tiers; mirror the tiering in the hub", "tags": ["skills"]}
+{"id": "f-a4c27e7679", "verdict": "keep", "rank": 1, "why": "macOS skill manager; chops is fuller", "tags": ["skills", "gui"]}
+{"id": "f-a523cccbb8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (tesseract: Tesseract Open Source OCR Engine (main repository)); not an Agent Base component"}
+{"id": "f-a6af697d69", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "paper-writing domain skills; off-topic"}
+{"id": "f-a7a9f41acc", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "archived visual LLM flow builder"}
+{"id": "f-a898dd233d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (opentofu: OpenTofu lets you declaratively manage your cloud infrastructure); not an Agent Base component"}
+{"id": "f-a8f1763c7d", "verdict": "keep", "rank": 2, "why": "AST code search MCP; Serena alternative", "tags": ["mcp"]}
+{"id": "f-a9b2b7092e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (terragrunt: Terragrunt is a flexible orchestration tool that allows Infrastructure); not an Agent Base component"}
+{"id": "f-a9f8aa8feb", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (buf: The best way of working with Protocol Buffers); not an Agent Base component"}
+{"id": "f-aa4e16b6a9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (bacon: background code checker); not an Agent Base component"}
+{"id": "f-adad26a9bc", "verdict": "keep", "rank": 2, "why": "Extensible open agent under AAIF governance; recipe/extension model worth a skim", "tags": ["harness"]}
+{"id": "f-ae4b6869e6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "ML engineering benchmark; off-topic"}
+{"id": "f-ae9026878d", "verdict": "keep", "rank": 2, "why": "Desktop GUI for Codex + Claude sessions; UI reference", "tags": ["gui"]}
+{"id": "f-af2d2e7aec", "verdict": "keep", "rank": 2, "why": "Ultra-light personal agent; minimal loop reference", "tags": ["harness"]}
+{"id": "f-b045d1ffab", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (eslint: Find and fix problems in your JavaScript code); not an Agent Base component"}
+{"id": "f-b08987f879", "verdict": "keep", "rank": 2, "why": "Issue-fixing agent with agent-computer interface research; ACI ideas for tool design", "tags": ["harness"]}
+{"id": "f-b196a90212", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "zsh Codex completion, last push 2025-03; abandoned"}
+{"id": "f-b20897d098", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (cli: 🥧 HTTPie CLI  — modern, user-friendly command-line HTTP client for the); not an Agent Base component"}
+{"id": "f-b21c9d2470", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (ruff: An extremely fast Python linter and code formatter, written in Rust); not an Agent Base component"}
+{"id": "f-b23ddd218b", "verdict": "keep", "rank": 1, "why": "Role-based multi-agent framework; Python-app oriented, not coding agents", "tags": ["orchestrator"]}
+{"id": "f-b2d53ba4b8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (poetry: Python packaging and dependency management made easy); not an Agent Base component"}
+{"id": "f-b4470bb35a", "verdict": "keep", "rank": 2, "why": "Agent builder with MCP/ACP/A2A support; ACP client reference", "tags": ["harness"]}
+{"id": "f-b49bdf8f2e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "archived (sandbox infra); use E2B or local worktrees instead"}
+{"id": "f-b570cd4dd5", "verdict": "keep", "rank": 2, "why": "Vercel AI SDK; streaming chat UI plumbing for the Agent Base web UI", "tags": ["gui"]}
+{"id": "f-b707f6a9ff", "verdict": "keep", "rank": 3, "why": "Terminal workspace with plugin system; compare plugin model with herdr panes", "tags": ["gui"]}
+{"id": "f-b78ab70ec9", "verdict": "keep", "rank": 1, "why": "MCP debugging CLI; niche", "tags": ["mcp"]}
+{"id": "f-b86440fdca", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (cli: GitHub’s official command line tool); not an Agent Base component"}
+{"id": "f-b9d312ef53", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (fzf: :cherry_blossom: A command-line fuzzy finder); not an Agent Base component"}
+{"id": "f-b9de031d31", "verdict": "keep", "rank": 1, "why": "Manus clone; completeness", "tags": ["harness"]}
+{"id": "f-ba77722b15", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "cybersecurity domain skill pack; off-topic"}
+{"id": "f-ba9930e0f2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (vite: Next generation frontend tooling); not an Agent Base component"}
+{"id": "f-baabb12a40", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (grype: A vulnerability scanner for container images and filesystems); not an Agent Base component"}
+{"id": "f-bb19439915", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (duckdb: DuckDB is an analytical in-process SQL database management system); not an Agent Base component"}
+{"id": "f-bb39b662c9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (cosign: Code signing and transparency for containers and binaries); not an Agent Base component"}
+{"id": "f-bb4389ff35", "verdict": "keep", "rank": 1, "why": "Visual workflow automation; off-topic for terminal agents", "tags": []}
+{"id": "f-bb5d5ba984", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Java agent framework; off-stack"}
+{"id": "f-bb705883ef", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (zizmor: Static analysis for GitHub Actions (and more)); not an Agent Base component"}
+{"id": "f-bca3795f8c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (hyperfine: A command-line benchmarking tool); not an Agent Base component"}
+{"id": "f-bd11339422", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (redis: For developers, who are building real-time data-driven applications, R); not an Agent Base component"}
+{"id": "f-bd14a4736d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "2023 memory research demo, last push 2023-05"}
+{"id": "f-bd5e5e505e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "KiCad domain skills; off-topic"}
+{"id": "f-bd6eba6b7b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "conversational ML framework; off-topic"}
+{"id": "f-bd75765810", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "cloud CLI; off-topic"}
+{"id": "f-be37557860", "verdict": "keep", "rank": 3, "why": "Official Playwright MCP; standard browser tool for verification workers alongside shot", "tags": ["mcp", "observability"]}
+{"id": "f-be8b83d506", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "2023 agent tuning research, last push 2023-10"}
+{"id": "f-bf88ec8730", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "tool-retrieval research, last push 2025-03"}
+{"id": "f-c1684ebb86", "verdict": "keep", "rank": 2, "why": "Qwen-optimised CLI; option for the Qwen pool workers", "tags": ["harness"]}
+{"id": "f-c28c747c72", "verdict": "keep", "rank": 4, "why": "Official Python SDK on the Claude Code runtime; the scripting surface for owners and workers", "tags": ["harness"]}
+{"id": "f-c2bb22a979", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (websocat: Command-line client for WebSockets, like netcat (or curl) for ws:// wi); not an Agent Base component"}
+{"id": "f-c3b7b707e1", "verdict": "keep", "rank": 2, "why": "Background command queue with supervision; same job as the heavy slot queue, reference", "tags": ["cost"]}
+{"id": "f-c46a751807", "verdict": "keep", "rank": 4, "why": "Engine behind omp-worker; track releases since DeepSeek workers depend on it", "tags": ["harness"]}
+{"id": "f-c5117889ba", "verdict": "keep", "rank": 2, "why": "LLM gateway with cost tracking; note the 2026-09 decision not to reintroduce a proxy, reference only", "tags": ["cost"]}
+{"id": "f-c51a0e73d7", "verdict": "keep", "rank": 1, "why": "Software-company role-play multi-agent; historical reference", "tags": ["orchestrator"]}
+{"id": "f-c670c2a939", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (rustsec: RustSec API & Tooling); not an Agent Base component"}
+{"id": "f-c7978ba028", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (lazygit: simple terminal UI for git commands); not an Agent Base component"}
+{"id": "f-c7c5127ba0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (sccache: Sccache is a ccache-like tool); not an Agent Base component"}
+{"id": "f-c874eee95c", "verdict": "keep", "rank": 2, "why": "Gemini CLI; a third harness option, not in current plan", "tags": ["harness"]}
+{"id": "f-c8b393e64d", "verdict": "keep", "rank": 1, "why": "IDE agent platform; completeness", "tags": ["harness"]}
+{"id": "f-c8ceaecc7d", "verdict": "keep", "rank": 1, "why": "Self-hostable second brain; completeness", "tags": ["memory"]}
+{"id": "f-c955daf920", "verdict": "keep", "rank": 2, "why": "Secret scanner; candidate pre-commit guard for worker commits", "tags": ["hooks"]}
+{"id": "f-c95adea60b", "verdict": "keep", "rank": 2, "why": "Open .af format to serialise stateful agents; idea for portable owner checkpoints", "tags": ["memory"]}
+{"id": "f-c9ddad9ac5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (tldr: Collaborative cheatsheets for console commands 📚); not an Agent Base component"}
+{"id": "f-ca15e99ce0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (atuin: ✨ Making your shell magical); not an Agent Base component"}
+{"id": "f-cc86723fe7", "verdict": "keep", "rank": 4, "why": "Stanford Meta-Harness: optimising the harness around a fixed model; evidence and method for tuning Agent Base prompts/tools", "tags": ["harness"]}
+{"id": "f-cd4fef9365", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "agent RL training; off-topic"}
+{"id": "f-ce7ca0e926", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (workers-sdk: ⛅️ Home to Wrangler, the CLI for Cloudflare Workers®); not an Agent Base component"}
+{"id": "f-cf6f91b72f", "verdict": "keep", "rank": 3, "why": "Web UI for pi sessions with session browsing and file preview; near-direct reference for watching omp/pi workers in a browser", "tags": ["gui"]}
+{"id": "f-cfeb6bf493", "verdict": "keep", "rank": 1, "why": "Agent OS for social agents; completeness", "tags": ["harness"]}
+{"id": "f-d02c91a9d6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "tool-agent benchmark; off-topic"}
+{"id": "f-d0310b5589", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (trunk: Build, bundle & ship your Rust WASM application to the web); not an Agent Base component"}
+{"id": "f-d0bf9f374c", "verdict": "keep", "rank": 2, "why": "Graph memory platform; reference", "tags": ["memory"]}
+{"id": "f-d13139739b", "verdict": "keep", "rank": 1, "why": "Research multi-agent framework; completeness", "tags": ["orchestrator"]}
+{"id": "f-d140a3d161", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (nushell: A new type of shell); not an Agent Base component"}
+{"id": "f-d1e81ef337", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (openssl: General purpose TLS and crypto library); not an Agent Base component"}
+{"id": "f-d20b2e4e57", "verdict": "keep", "rank": 2, "why": "Pi-powered persistent companions with simple web UI and durable execution; small reference for a web front on pi workers", "tags": ["gui"]}
+{"id": "f-d2e562be92", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GUI agent foundation model; off-topic"}
+{"id": "f-d3b7b09da3", "verdict": "keep", "rank": 4, "why": "Codex CLI, one of Agent Base's two harnesses; track exec mode, hooks and subagent features as they ship", "tags": ["harness"]}
+{"id": "f-d4c6d2a614", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "research web agent, last push 2025-12; off-topic"}
+{"id": "f-d66c96cf18", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "desktop computer-use benchmark; off-topic"}
+{"id": "f-d67dbf78e0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "agent RL training; off-topic"}
+{"id": "f-d6b64a7aad", "verdict": "keep", "rank": 1, "why": "Deep research model/agent; off-topic", "tags": []}
+{"id": "f-d6e25e684d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (sops: Simple and flexible tool for managing secrets); not an Agent Base component"}
+{"id": "f-d6e96a3d34", "verdict": "keep", "rank": 2, "why": "macOS app to browse and edit skills across harnesses; UI idea for the hub", "tags": ["skills", "gui"]}
+{"id": "f-d73ab5e87c", "verdict": "keep", "rank": 2, "why": "Official Codex sandbox base image; reference for containerised workers", "tags": ["worktrees"]}
+{"id": "f-d73ca4b890", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (firebase-tools: The Firebase Command Line Tools); not an Agent Base component"}
+{"id": "f-d78470c0b5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "OpenAI eval examples; not needed"}
+{"id": "f-d9e9a2ed99", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (winget-cli: WinGet is the Windows Package Manager); not an Agent Base component"}
+{"id": "f-db12b1dbab", "verdict": "keep", "rank": 2, "why": "Desktop manager for Claude Code/Codex/OpenCode configs and providers; UI ideas for a config panel", "tags": ["gui"]}
+{"id": "f-db4e1c48b1", "verdict": "keep", "rank": 4, "why": "One TUI for Claude, Gemini, OpenCode and Codex sessions with status detection; status heuristics to reuse in herdr/Agent Base", "tags": ["gui", "observability"]}
+{"id": "f-de1f8697a7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (act: Run your GitHub Actions locally 🚀); not an Agent Base component"}
+{"id": "f-de8661a345", "verdict": "keep", "rank": 3, "why": "Bridges Claude Code/Codex to Telegram, Slack etc.; a ready path to steer agents from a phone", "tags": ["gui"]}
+{"id": "f-deb221d4f1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "LLM-as-agent benchmark; off-topic"}
+{"id": "f-deb80bea1f", "verdict": "keep", "rank": 2, "why": "Plugin framework with dependency resolution and versions; reference for hub packaging", "tags": ["skills"]}
+{"id": "f-df1329e164", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (bottom: Yet another cross-platform graphical process/system monitor); not an Agent Base component"}
+{"id": "f-dfb3d2f310", "verdict": "keep", "rank": 1, "why": "AG2 (AutoGen successor); completeness", "tags": ["orchestrator"]}
+{"id": "f-e07f445a3c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (dust: A more intuitive version of du in rust); not an Agent Base component"}
+{"id": "f-e101b8690a", "verdict": "keep", "rank": 2, "why": "Iterative modify-verify research loop skill for Codex; loop design reference", "tags": ["skills"]}
+{"id": "f-e246b64a6a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "CTF domain skills; off-topic"}
+{"id": "f-e2b3c635a0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (mdBook: Create book from markdown files); not an Agent Base component"}
+{"id": "f-e41a5ef6b9", "verdict": "keep", "rank": 4, "why": "Claude Code plugin auto-capturing sessions into compressed searchable memory via hooks; direct comparison for .agents/memory upkeep", "tags": ["memory", "hooks"]}
+{"id": "f-e55dcbebe6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (trivy: Find vulnerabilities, misconfigurations, secrets, SBOM in containers, ); not an Agent Base component"}
+{"id": "f-e5cef17f5d", "verdict": "keep", "rank": 5, "why": "DeepSeek-native harness engineered around prefix-cache stability; directly cuts the cost of Agent Base's DeepSeek workers, study its cache-stable prompt layout", "tags": ["harness", "cost"]}
+{"id": "f-e5d834b576", "verdict": "keep", "rank": 2, "why": "Dev Containers CLI; option for isolating untrusted worker runs", "tags": ["worktrees"]}
+{"id": "f-e6152c9362", "verdict": "keep", "rank": 3, "why": "Garry Tan's role-based Claude Code setup (product, eng, QA roles); compare role prompts with SISO owner/worker briefs", "tags": ["skills", "subagents"]}
+{"id": "f-e68844255f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (lsd: The next gen ls command); not an Agent Base component"}
+{"id": "f-e6e4e5e8d0", "verdict": "keep", "rank": 2, "why": "1,000+ agent skills index; source when filling hub gaps", "tags": ["skills"]}
+{"id": "f-e6f00922e2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (pipx: Install and Run Python Applications in Isolated Environments); not an Agent Base component"}
+{"id": "f-e7537f8e60", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (trufflehog: Find, verify, and analyze leaked credentials); not an Agent Base component"}
+{"id": "f-e7a37d6488", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (ruby: The Ruby Programming Language); not an Agent Base component"}
+{"id": "f-e83883ccba", "verdict": "keep", "rank": 2, "why": "Canonical coding-agent benchmark; only if Agent Base benchmarks worker models", "tags": ["observability"]}
+{"id": "f-eaa0dd364d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (rustfmt: Format Rust code); not an Agent Base component"}
+{"id": "f-ed10a24218", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "OS agent research, last push 2024-09"}
+{"id": "f-ef7f105e0e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "ML lifecycle platform; off-topic"}
+{"id": "f-ef9fd89db8", "verdict": "keep", "rank": 1, "why": "LLM app framework; off-pattern", "tags": ["orchestrator"]}
+{"id": "f-f0ca4822c9", "verdict": "keep", "rank": 1, "why": "OpenAgents monorepo; vague description, completeness", "tags": []}
+{"id": "f-f1817705fb", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (tox: Command line driven CI frontend and development task automation tool); not an Agent Base component"}
+{"id": "f-f2290333e4", "verdict": "keep", "rank": 3, "why": "Most-used memory layer API; baseline to compare file-first memory against", "tags": ["memory"]}
+{"id": "f-f290657f48", "verdict": "keep", "rank": 2, "why": "130+ Codex subagent definitions; prompts to compare", "tags": ["subagents"]}
+{"id": "f-f2dbbdafa1", "verdict": "keep", "rank": 3, "why": "Voice notifications when Claude/Codex finish or need input; cheap attention signal for Shaan across many panes", "tags": ["hooks", "voice"]}
+{"id": "f-f330321c55", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (qpdf: qpdf: A content-preserving PDF document transformer); not an Agent Base component"}
+{"id": "f-f4f8086caf", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (starship: ☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for); not an Agent Base component"}
+{"id": "f-f594d92822", "verdict": "keep", "rank": 3, "why": "Session management and terminal tools for Claude Code and Codex; small utilities to borrow", "tags": ["gui"]}
+{"id": "f-f60994490d", "verdict": "keep", "rank": 3, "why": "tmux, the substrate many agent multiplexers (dmux, claude-squad, agent farm) build on; herdr's design should be compared to it", "tags": ["gui"]}
+{"id": "f-f7dd468212", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "multi-agent research platform, last push 2024-09"}
+{"id": "f-f89fdc3ab1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (nix: Nix, the purely functional package manager); not an Agent Base component"}
+{"id": "f-f8c3c162bf", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "iOS domain skills; off-topic"}
+{"id": "f-f8dd25dbf2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (fd: A simple, fast and user-friendly alternative to 'find'); not an Agent Base component"}
+{"id": "f-f9380fb2fa", "verdict": "keep", "rank": 1, "why": "E2B examples; completeness", "tags": ["worktrees"]}
+{"id": "f-f9dc135896", "verdict": "keep", "rank": 2, "why": "Skills for pi compatible with Claude/Codex; cross-harness skill format reference", "tags": ["skills"]}
+{"id": "f-fb28ee605a", "verdict": "keep", "rank": 3, "why": "Coder's desktop app for isolated parallel agent work; compare its workspace isolation with worktree lanes", "tags": ["worktrees", "gui"]}
+{"id": "f-fbdee52ca9", "verdict": "keep", "rank": 1, "why": "Natural-language workflow agents; completeness", "tags": ["orchestrator"]}
+{"id": "f-fbf6c05b29", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general developer tool (vitest: Next generation testing framework powered by Vite); not an Agent Base component"}
+{"id": "f-fca874c9e6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "attention-sink model research, last push 2024-07; off-topic"}
+{"id": "f-fe711b1dc4", "verdict": "keep", "rank": 3, "why": "Version-specific library docs on demand; cuts hallucinated APIs for workers", "tags": ["mcp"]}
+{"id": "f-fe80946041", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Stripe CLI; off-topic"}
+{"id": "f-ffff4b46f0", "verdict": "keep", "rank": 2, "why": "Autonomous deep research agent; compare with research workers", "tags": []}
+{"id": "f-073509b71c", "verdict": "keep", "rank": 1, "why": "Kubernetes MCP; niche", "tags": ["mcp"]}
+{"id": "f-0914249adb", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "universal file storage web client; off-topic"}
+{"id": "f-0984b84b30", "verdict": "keep", "rank": 1, "why": "Database MCP toolbox; niche", "tags": ["mcp"]}
+{"id": "f-0a851e13e1", "verdict": "keep", "rank": 2, "why": "TypeScript MCP server framework; option if Agent Base's controller is Node", "tags": ["mcp"]}
+{"id": "f-109873b56e", "verdict": "keep", "rank": 1, "why": "Hosted MCP integration platform; niche", "tags": ["mcp"]}
+{"id": "f-159adc1638", "verdict": "keep", "rank": 2, "why": "Files/Office to Markdown converter; useful ingest tool for research workers", "tags": ["mcp"]}
+{"id": "f-15d64f8567", "verdict": "keep", "rank": 1, "why": "iOS simulator MCP; niche", "tags": ["mcp"]}
+{"id": "f-1764af58d2", "verdict": "keep", "rank": 1, "why": "Windows desktop automation; niche (Mac estate)", "tags": ["mcp"]}
+{"id": "f-1dffc357fa", "verdict": "keep", "rank": 2, "why": "MCP aggregator/gateway with namespaces and GUI; reference if MCP sprawl across agents needs one config", "tags": ["mcp"]}
+{"id": "f-222e5f3748", "verdict": "keep", "rank": 1, "why": "Supabase MCP; niche", "tags": ["mcp"]}
+{"id": "f-241fbcab54", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "data-viz toolkit; off-topic"}
+{"id": "f-280ac6be37", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Playwright MCP fork; superseded by official playwright-mcp"}
+{"id": "f-32c5a35358", "verdict": "keep", "rank": 1, "why": "QGIS MCP; niche", "tags": ["mcp"]}
+{"id": "f-3fa94a0a48", "verdict": "keep", "rank": 1, "why": "arXiv MCP; niche", "tags": ["mcp"]}
+{"id": "f-3feb3ce8f8", "verdict": "keep", "rank": 3, "why": "Task-breakdown MCP for coding agents (PRD to tasks with dependencies); compare with Plane + task skill flow", "tags": ["subagents"]}
+{"id": "f-4064ad3f4a", "verdict": "keep", "rank": 1, "why": "Google Workspace MCP; niche", "tags": ["mcp"]}
+{"id": "f-409bbb944a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "task-manager MCP, last push 2025-08; superseded by claude-task-master and beads"}
+{"id": "f-40f0c7483b", "verdict": "keep", "rank": 1, "why": "IDA Pro reverse-engineering MCP; niche", "tags": ["mcp"]}
+{"id": "f-4155f9aabb", "verdict": "keep", "rank": 3, "why": "Pythonic framework to build MCP servers fast; default if Agent Base exposes its own MCP", "tags": ["mcp"]}
+{"id": "f-4537982a87", "verdict": "keep", "rank": 1, "why": "Godot MCP; niche", "tags": ["mcp"]}
+{"id": "f-458bc21cea", "verdict": "keep", "rank": 1, "why": "Kubernetes MCP; niche", "tags": ["mcp"]}
+{"id": "f-57e3746e81", "verdict": "keep", "rank": 1, "why": "Microsoft 365 MCP; niche", "tags": ["mcp"]}
+{"id": "f-5bc02d4bf1", "verdict": "keep", "rank": 1, "why": "Browser workflow automation; niche", "tags": []}
+{"id": "f-5d97f8603b", "verdict": "keep", "rank": 1, "why": "MySQL MCP; niche", "tags": ["mcp"]}
+{"id": "f-5dc5bd197a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "embedded robot toy; off-topic"}
+{"id": "f-5e60adda9f", "verdict": "keep", "rank": 1, "why": "AI email assistant; off-topic for Agent Base", "tags": []}
+{"id": "f-665ff891b3", "verdict": "keep", "rank": 2, "why": "Cloudflare MCP servers; SISO publishes on Cloudflare, useful for deploy/readback workers", "tags": ["mcp"]}
+{"id": "f-66c9222696", "verdict": "keep", "rank": 1, "why": "Open web search MCP; niche", "tags": ["mcp"]}
+{"id": "f-6faa01a3ea", "verdict": "keep", "rank": 1, "why": "Jupyter MCP; niche", "tags": ["mcp"]}
+{"id": "f-724d0bfb11", "verdict": "keep", "rank": 1, "why": "Telegram MCP; niche", "tags": ["mcp"]}
+{"id": "f-731a218e40", "verdict": "keep", "rank": 2, "why": "LSP-backed MCP (definitions, references, diagnostics); fallback when Serena is down", "tags": ["mcp"]}
+{"id": "f-7322a351ee", "verdict": "keep", "rank": 1, "why": "Postgres MCP with safe SQL; niche", "tags": ["mcp"]}
+{"id": "f-798abd724d", "verdict": "keep", "rank": 1, "why": "Meta Ads MCP; niche", "tags": ["mcp"]}
+{"id": "f-79db354a86", "verdict": "keep", "rank": 1, "why": "Image generation MCP; niche", "tags": ["mcp"]}
+{"id": "f-7e37033ba4", "verdict": "keep", "rank": 1, "why": "Malicious-package guard; marginal supply-chain check for workers that install deps", "tags": []}
+{"id": "f-7ef4c47eb1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "JADX Android decompiler plugin; off-topic"}
+{"id": "f-826a04a685", "verdict": "keep", "rank": 1, "why": "Anything-to-Markdown MCP; markitdown covers it", "tags": ["mcp"]}
+{"id": "f-83dec2effb", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "robot control MCP; off-topic"}
+{"id": "f-85e0035ee1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "WhatsApp MCP, last push 2025-07; abandoned"}
+{"id": "f-85e11f80c0", "verdict": "keep", "rank": 1, "why": "DaVinci Resolve MCP; niche", "tags": ["mcp"]}
+{"id": "f-86745ca633", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Chinese WeChat publishing MCP; off-topic"}
+{"id": "f-87d24b3a4f", "verdict": "keep", "rank": 1, "why": "Figma MCP for coding agents; niche", "tags": ["mcp"]}
+{"id": "f-8b8826fd93", "verdict": "keep", "rank": 2, "why": "Largest MCP server list; source when a capability needs an MCP", "tags": ["mcp"]}
+{"id": "f-8c9ba0dce3", "verdict": "keep", "rank": 1, "why": "Mobile automation MCP; niche", "tags": ["mcp"]}
+{"id": "f-8d11052814", "verdict": "keep", "rank": 1, "why": "GUI computer-use agent stack; off-topic for terminal agents", "tags": []}
+{"id": "f-8d82eac9d6", "verdict": "keep", "rank": 1, "why": "Blender MCP; niche", "tags": ["mcp"]}
+{"id": "f-8e6715077d", "verdict": "keep", "rank": 2, "why": "Multi-agent coordination through MCP (shared context, task claims); compare with herdr messaging", "tags": ["orchestrator", "mcp"]}
+{"id": "f-8e8cce29b5", "verdict": "keep", "rank": 1, "why": "shadcn/ui MCP; niche UI helper", "tags": ["mcp"]}
+{"id": "f-8ec10df846", "verdict": "keep", "rank": 1, "why": "Analytics query engine with agents; off-topic but active", "tags": []}
+{"id": "f-954dee4d5b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "multi-model database; off-topic"}
+{"id": "f-95eec10098", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "infrastructure monitoring; off-topic"}
+{"id": "f-9b06486dd5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "honeypot framework; off-topic"}
+{"id": "f-9b0f50001c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Kubernetes port forwarding; off-topic"}
+{"id": "f-9d5f8670ff", "verdict": "keep", "rank": 1, "why": "Unity MCP; niche", "tags": ["mcp"]}
+{"id": "f-9f0d7312dc", "verdict": "keep", "rank": 1, "why": "Google Sheets MCP; niche", "tags": ["mcp"]}
+{"id": "f-9fd5281c21", "verdict": "keep", "rank": 1, "why": "SQL over 40+ SaaS; niche", "tags": ["mcp"]}
+{"id": "f-a03c1f0681", "verdict": "keep", "rank": 1, "why": "AWS MCP servers; niche", "tags": ["mcp"]}
+{"id": "f-a75aa98e0f", "verdict": "keep", "rank": 1, "why": "Slack MCP; niche", "tags": ["mcp"]}
+{"id": "f-adbfea3368", "verdict": "keep", "rank": 1, "why": "Playwright fetch MCP; niche", "tags": ["mcp"]}
+{"id": "f-aecce03fc6", "verdict": "keep", "rank": 1, "why": "Obsidian MCP; niche", "tags": ["mcp"]}
+{"id": "f-b513c724d4", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "no-code database platform; off-topic"}
+{"id": "f-b882acb02b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "archived MCP CLI"}
+{"id": "f-bb3b20d5b0", "verdict": "keep", "rank": 1, "why": "Keyless DuckDuckGo search MCP; niche", "tags": ["mcp"]}
+{"id": "f-c225deb8a3", "verdict": "keep", "rank": 2, "why": "Exa web search MCP; candidate search backend for research workers", "tags": ["mcp"]}
+{"id": "f-c4265a0b29", "verdict": "keep", "rank": 2, "why": "Self-hosted MCP registry/proxy for agent fleets; reference for central MCP config", "tags": ["mcp"]}
+{"id": "f-c56c9e3fdd", "verdict": "keep", "rank": 1, "why": "Jira/Confluence MCP; niche (SISO uses Plane)", "tags": ["mcp"]}
+{"id": "f-c75623e664", "verdict": "keep", "rank": 1, "why": "MySQL MCP; niche duplicate class", "tags": ["mcp"]}
+{"id": "f-c82a811067", "verdict": "keep", "rank": 1, "why": "Qdrant MCP; niche", "tags": ["mcp"]}
+{"id": "f-c8373f47c2", "verdict": "keep", "rank": 1, "why": "Brave search MCP; niche", "tags": ["mcp"]}
+{"id": "f-c8fc79d97b", "verdict": "keep", "rank": 1, "why": "Apify scraping MCP; niche", "tags": ["mcp"]}
+{"id": "f-d1692a2541", "verdict": "keep", "rank": 2, "why": "Remote MCP that serves any GitHub repo's docs; cheap way to ground workers in a dependency", "tags": ["mcp"]}
+{"id": "f-dce4dc8703", "verdict": "keep", "rank": 1, "why": "Grafana MCP; niche", "tags": ["mcp"]}
+{"id": "f-e310d8956c", "verdict": "keep", "rank": 1, "why": "SearXNG MCP; niche", "tags": ["mcp"]}
+{"id": "f-e40f5d52cc", "verdict": "keep", "rank": 1, "why": "Bright Data scraping MCP; niche (camofox covers it)", "tags": ["mcp"]}
+{"id": "f-e6e0529695", "verdict": "keep", "rank": 1, "why": "Safe Obsidian vault MCP; niche", "tags": ["mcp"]}
+{"id": "f-e82e948eae", "verdict": "keep", "rank": 1, "why": "Excel MCP; niche", "tags": ["mcp"]}
+{"id": "f-e9811d1320", "verdict": "keep", "rank": 1, "why": "Terraform MCP; niche", "tags": ["mcp"]}
+{"id": "f-e9dcfc041d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Browser MCP, last push 2025-04; superseded by playwright-mcp and chrome-devtools-mcp"}
+{"id": "f-eb89dd6509", "verdict": "keep", "rank": 1, "why": "Code graph MCP; Serena already covers symbols", "tags": ["mcp"]}
+{"id": "f-ebaf35d624", "verdict": "keep", "rank": 1, "why": "Chart generation MCP; niche", "tags": ["mcp"]}
+{"id": "f-f18bfa7b7a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Ghidra MCP, last push 2025-06; abandoned and niche"}
+{"id": "f-f6e5aaedae", "verdict": "keep", "rank": 3, "why": "Voice conversations with Claude Code; Shaan works by voice, worth testing as a talk-to-owner channel", "tags": ["voice"]}
+{"id": "f-facbb5b1c0", "verdict": "keep", "rank": 1, "why": "GraphRAG with MCP; niche", "tags": ["mcp"]}
+{"id": "f-00dff57e17", "verdict": "keep", "rank": 3, "why": "Temporal knowledge graph (bi-temporal edges); model for facts that change over time in project memory", "tags": ["memory"]}
+{"id": "f-0d2c869ceb", "verdict": "keep", "rank": 3, "why": "Long-term memory layer that 'learns'; compare its reflection/consolidation step with the lesson ledger", "tags": ["memory"]}
+{"id": "f-0f092268d8", "verdict": "keep", "rank": 2, "why": "Local-first memory for any tool-capable agent; compare with .agents/memory", "tags": ["memory"]}
+{"id": "f-110f42dc98", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "DeepSeek model-architecture paper (conditional memory in LLM weights); not agent memory, off-topic"}
+{"id": "f-1457d028f4", "verdict": "keep", "rank": 1, "why": "Episodic plus profile memory layer; completeness", "tags": ["memory"]}
+{"id": "f-15de0ff951", "verdict": "keep", "rank": 3, "why": "Garry Tan's opinionated agent brain layer (synthesis, graph); a reference for a cross-project brain", "tags": ["memory"]}
+{"id": "f-1d06c91e6b", "verdict": "keep", "rank": 3, "why": "Hook-driven auto-capture memory for coding agents; compare with Agent Base's manual memory writes", "tags": ["memory", "hooks"]}
+{"id": "f-21f8dd8687", "verdict": "keep", "rank": 3, "why": "Top-benchmarked open memory system; run it against the .agents/memory file approach on recall before claiming ours is enough", "tags": ["memory"]}
+{"id": "f-283f0ebfed", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "conversational-memory benchmark dataset, last push 2024-08; not needed"}
+{"id": "f-2b930b2b85", "verdict": "keep", "rank": 1, "why": "OpenClaw LanceDB memory plugin; hybrid retrieval reference only", "tags": ["memory"]}
+{"id": "f-38e9f5cdb4", "verdict": "keep", "rank": 2, "why": "Continuous screen/audio capture as searchable memory; possible input for 'what was Shaan doing' context, privacy-heavy", "tags": ["memory"]}
+{"id": "f-43245620d0", "verdict": "keep", "rank": 3, "why": "Lossless context management (summarise-with-pointers) for OpenClaw; pattern for compaction without losing identifiers", "tags": ["memory", "cost"]}
+{"id": "f-4507ac13a7", "verdict": "keep", "rank": 1, "why": "Deep research agent (Tongyi); reference only, Agent Base uses Claude/Codex for research", "tags": []}
+{"id": "f-5235499a3a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "'train your AI self' platform; off-topic, last push 2025-09"}
+{"id": "f-53b5f656c5", "verdict": "keep", "rank": 1, "why": "30 notebooks on memory techniques; learning material", "tags": ["memory", "tutorial"]}
+{"id": "f-58fa56c624", "verdict": "keep", "rank": 3, "why": "Text-space optimiser that trains natural-language skills; a method to improve hub skills from failure traces", "tags": ["skills"]}
+{"id": "f-5960b7e98c", "verdict": "keep", "rank": 1, "why": "Another memory library; completeness", "tags": ["memory"]}
+{"id": "f-6d51e0cec5", "verdict": "keep", "rank": 1, "why": "ICLR memory-augmented generation research; completeness", "tags": ["memory"]}
+{"id": "f-77fe8d8df8", "verdict": "keep", "rank": 2, "why": "Memory OS with hybrid retrieval and dedup; heavier than Agent Base needs, mine dedup ideas", "tags": ["memory"]}
+{"id": "f-7a84592b81", "verdict": "keep", "rank": 3, "why": "Portable Markdown-native memory across Claude Code, Codex, Hermes; same goal as .agents/memory shared by both harnesses", "tags": ["memory"]}
+{"id": "f-80a2f7cb44", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "long-context benchmark, last push 2025-01; off-topic"}
+{"id": "f-82f60ac758", "verdict": "keep", "rank": 2, "why": "User-context/peer modelling library; idea source for modelling Shaan's preferences", "tags": ["memory"]}
+{"id": "f-91222b6349", "verdict": "keep", "rank": 2, "why": "Graph DB where agents branch/merge like git; interesting for multi-agent shared state", "tags": ["memory"]}
+{"id": "f-93cffd980e", "verdict": "keep", "rank": 2, "why": "Survey paper list on agent memory; reading list when redesigning memory", "tags": ["memory"]}
+{"id": "f-a17c03144c", "verdict": "keep", "rank": 1, "why": "Context drive for agents; completeness", "tags": ["memory"]}
+{"id": "f-a250f3c7c7", "verdict": "keep", "rank": 2, "why": "Peer-reviewed long-term memory benchmark; use if Agent Base ever measures memory recall", "tags": ["memory"]}
+{"id": "f-a59da7317c", "verdict": "keep", "rank": 1, "why": "Self-evolving agent research system; completeness", "tags": []}
+{"id": "f-aa24e2fc87", "verdict": "keep", "rank": 1, "why": "Cloud-synced memory for OpenClaw; completeness", "tags": ["memory"]}
+{"id": "f-ac0c9db126", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "trainable latent-memory attention (model research); off-topic"}
+{"id": "f-aff65a31db", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "RL training of agents by talking; research, off-topic"}
+{"id": "f-b5e96d90a2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "inference engine, not an agent-base component; off-topic"}
+{"id": "f-c30a4f8e86", "verdict": "keep", "rank": 4, "why": "Single Go binary, SQLite+FTS5 memory for coding agents, agent-agnostic; the right weight for a shared Claude+Codex memory index", "tags": ["memory"]}
+{"id": "f-c6cde03d8b", "verdict": "keep", "rank": 1, "why": "OpenClaw memory plugin; completeness", "tags": ["memory"]}
+{"id": "f-cf4435781a", "verdict": "keep", "rank": 2, "why": "LangChain memory toolkit; reference for memory consolidation APIs", "tags": ["memory"]}
+{"id": "f-d296e65fe7", "verdict": "keep", "rank": 1, "why": "HippoRAG research RAG; reference only", "tags": ["memory"]}
+{"id": "f-d69a5356d9", "verdict": "keep", "rank": 2, "why": "Memory management kit with benchmarks; reference", "tags": ["memory"]}
+{"id": "f-dc4761905c", "verdict": "keep", "rank": 2, "why": "Lifelong memory with semantic compression as MCP server; compare compression claims", "tags": ["memory"]}
+{"id": "f-e4c010177a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "video understanding agent; off-topic"}
+{"id": "f-f3b7b622d4", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "LLM knowledge editing (weights); off-topic"}
+{"id": "f-03042c73b6", "verdict": "keep", "rank": 1, "why": "Designer skills; niche", "tags": ["skills"]}
+{"id": "f-038733dc51", "verdict": "keep", "rank": 3, "why": "Security scanner for agents, MCP servers and skills; run on hub skills and MCP configs", "tags": ["hooks"]}
+{"id": "f-07a589e190", "verdict": "keep", "rank": 1, "why": "Big toolkit of agents/hooks; completeness", "tags": ["skills"]}
+{"id": "f-095e152db8", "verdict": "keep", "rank": 2, "why": "Telegram bot for remote Claude Code; mobile steering option", "tags": ["gui"]}
+{"id": "f-0a7b7d6d91", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "academic writing skill; off-topic"}
+{"id": "f-0f0068a265", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "ccundo, now native in Claude Code, last push 2025-07"}
+{"id": "f-0f5a032867", "verdict": "keep", "rank": 3, "why": "Open skills directory with npx installer across harnesses; the public distribution channel to compare hub projections with", "tags": ["skills"]}
+{"id": "f-108bb73971", "verdict": "keep", "rank": 1, "why": "Bash loop for many agents; ralph-orchestrator is fuller", "tags": ["harness"]}
+{"id": "f-10e23ec756", "verdict": "keep", "rank": 1, "why": "Deep research skill; completeness", "tags": ["skills"]}
+{"id": "f-1105c23c28", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hacking skills; off-topic"}
+{"id": "f-121b726c7a", "verdict": "keep", "rank": 1, "why": "Secure-code skill; marginal", "tags": ["skills"]}
+{"id": "f-1271a7a22d", "verdict": "keep", "rank": 1, "why": "Design engineering skills; niche", "tags": ["skills"]}
+{"id": "f-12fa16fdbc", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "prompt collection; low signal"}
+{"id": "f-1360eabbf1", "verdict": "keep", "rank": 2, "why": "Comprehensive Claude Code guide with templates; reference reading", "tags": ["tutorial"]}
+{"id": "f-13f974f1f6", "verdict": "keep", "rank": 3, "why": "Security scanner for agent skills; gate for anything imported into the hub", "tags": ["skills", "hooks"]}
+{"id": "f-14344a1b73", "verdict": "keep", "rank": 2, "why": "Customises Claude Code system prompts and toolsets; reference for harness tuning", "tags": ["harness"]}
+{"id": "f-1487f5386a", "verdict": "keep", "rank": 2, "why": "Agent Package Manager; reference for dependency-managed skills", "tags": ["skills"]}
+{"id": "f-15a68827e4", "verdict": "keep", "rank": 3, "why": "Visual annotation and review of agent plans and diffs, shareable; reference for Shaan reviewing plans by looking", "tags": ["gui"]}
+{"id": "f-180d68894c", "verdict": "keep", "rank": 2, "why": "Context-engineering skills for output quality; reference", "tags": ["skills"]}
+{"id": "f-18ce961d56", "verdict": "keep", "rank": 2, "why": "Lets Claude Code phone you; attention channel idea for blocked owners", "tags": ["voice"]}
+{"id": "f-1a86fd97b7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "run Claude Code on OpenAI models; conflicts with native-provider policy"}
+{"id": "f-1cb4e82e58", "verdict": "keep", "rank": 1, "why": "Development skills pack; completeness", "tags": ["skills"]}
+{"id": "f-1d459600b4", "verdict": "keep", "rank": 2, "why": "Opinionated hooks/subagent extension set with task sessions; compare structure", "tags": ["hooks", "skills"]}
+{"id": "f-1d877b8b40", "verdict": "keep", "rank": 2, "why": "UserPromptSubmit hook that improves vague prompts; relevant to voice-dictated prompts, test cost", "tags": ["hooks"]}
+{"id": "f-1fa5be29ad", "verdict": "keep", "rank": 3, "why": "Skill registry with a security/quality gate; reference for hub validation", "tags": ["skills"]}
+{"id": "f-2001f4b321", "verdict": "keep", "rank": 1, "why": "Kiro-style spec workflow, last push 2025-09; completeness", "tags": ["skills"]}
+{"id": "f-206dab6aa1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "PM skills; off-topic"}
+{"id": "f-217a9e45ec", "verdict": "keep", "rank": 4, "why": "Skill auto-activation via hooks and dev-docs pattern from a real 6-month setup; directly comparable to SISO hooks and lazy skills", "tags": ["hooks", "skills"]}
+{"id": "f-22706c7448", "verdict": "keep", "rank": 3, "why": "Background agent that whispers context to Claude Code (Letta); pattern for a memory sidecar per owner", "tags": ["memory", "subagents"]}
+{"id": "f-259b2962f4", "verdict": "keep", "rank": 2, "why": "Hook-built evolving memory for Claude Code; compare with claude-mem", "tags": ["memory", "hooks"]}
+{"id": "f-25dfd2a542", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "bug-bounty skills; off-topic"}
+{"id": "f-267641b89d", "verdict": "keep", "rank": 1, "why": "Azure skills; niche", "tags": ["skills"]}
+{"id": "f-271145373d", "verdict": "keep", "rank": 3, "why": "Hooks that keep state via ledgers and handoffs across compaction; same problem as self-compact and HANDOFF.md", "tags": ["hooks", "memory"]}
+{"id": "f-2747eff449", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "duplicate of Build with Claude directory record"}
+{"id": "f-278954e6b6", "verdict": "keep", "rank": 1, "why": "Neovim IDE extension; off-pattern", "tags": ["gui"]}
+{"id": "f-27d23278e4", "verdict": "keep", "rank": 3, "why": "Pre-indexed code knowledge graph auto-syncing on change for Claude/Codex; compare with graphify freshness", "tags": ["mcp"]}
+{"id": "f-2a3a934815", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "100+ subagents collection, last push 2025-10; superseded"}
+{"id": "f-2a945a94e1", "verdict": "keep", "rank": 2, "why": "Frontend taste skills; UI content candidate", "tags": ["skills"]}
+{"id": "f-2ab38be78c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Claude Desktop coding MCP, last push 2025-12; superseded by Claude Code"}
+{"id": "f-2abe5f242b", "verdict": "keep", "rank": 1, "why": "Technical diagram skill; niche", "tags": ["skills"]}
+{"id": "f-2b3076bd7e", "verdict": "keep", "rank": 2, "why": "Skill routing and workflow orchestration; reference for skill selection", "tags": ["skills"]}
+{"id": "f-2b9b1b4c88", "verdict": "keep", "rank": 2, "why": "Anti-AI-slop design skill; UI content candidate", "tags": ["skills"]}
+{"id": "f-2be7c49039", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "book translation skill; off-topic"}
+{"id": "f-2f6a225819", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "agent prompt collection, last push 2025-07; superseded by larger collections"}
+{"id": "f-2feed685f0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Claude Code to OpenAI proxy; conflicts with native-provider policy"}
+{"id": "f-301187b4b0", "verdict": "keep", "rank": 2, "why": "CLI of ready agents/commands plus a session monitor; monitor UI reference", "tags": ["gui", "observability"]}
+{"id": "f-3154a5fc35", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "marketing skills; off-topic"}
+{"id": "f-3247361b7f", "verdict": "keep", "rank": 2, "why": "Drives an agent through a task list with a TUI to watch; reference", "tags": ["gui"]}
+{"id": "f-327835d16a", "verdict": "keep", "rank": 1, "why": "AI-slop field guide; niche", "tags": ["skills"]}
+{"id": "f-348ddc6a78", "verdict": "keep", "rank": 1, "why": "iOS simulator skill; niche", "tags": ["skills"]}
+{"id": "f-349eac1bfa", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "color science skill; off-topic"}
+{"id": "f-35563e26c3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "vector design tool; off-topic"}
+{"id": "f-35aa0fbcbd", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Neovim completion; off-topic"}
+{"id": "f-37148d4fae", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Kotlin/Android skills; off-topic"}
+{"id": "f-3858042190", "verdict": "keep", "rank": 2, "why": "Structured deep research skill; compare with research workers", "tags": ["skills"]}
+{"id": "f-3891a30599", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "usage dashboard, last push 2025-08; superseded by ccusage/codeburn"}
+{"id": "f-38c923ad89", "verdict": "keep", "rank": 1, "why": "Settings and commands pack; completeness", "tags": ["skills"]}
+{"id": "f-3948191afb", "verdict": "keep", "rank": 2, "why": "Universal skills loader for non-Claude agents; reference for projecting hub skills into other harnesses", "tags": ["skills"]}
+{"id": "f-39bed50787", "verdict": "keep", "rank": 1, "why": "Curated plugin marketplace; completeness", "tags": ["skills"]}
+{"id": "f-3a03ecaff3", "verdict": "keep", "rank": 2, "why": "Terminal and filesystem MCP for Claude Desktop; niche for Agent Base", "tags": ["mcp"]}
+{"id": "f-3a3dab4dca", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Manim animation skill; off-topic"}
+{"id": "f-3ad5dacf3f", "verdict": "keep", "rank": 5, "why": "DevTools for Claude Code: inspects session logs, tool calls, token use, subagents and context window visually; the watch-an-agent view Agent Base needs", "tags": ["observability", "gui"]}
+{"id": "f-3b00170efa", "verdict": "keep", "rank": 2, "why": "SDK to run coding agents in sandboxes; isolation reference", "tags": ["worktrees"]}
+{"id": "f-3b8824f319", "verdict": "keep", "rank": 1, "why": "Provider connector for harnesses; conflicts with no-proxy policy", "tags": ["cost"]}
+{"id": "f-3c5ce7e67c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "X recommendation algorithm; off-topic"}
+{"id": "f-3da67987a1", "verdict": "keep", "rank": 2, "why": "Vercel Labs security harness; pattern for a security-review worker", "tags": ["harness"]}
+{"id": "f-3e42b20848", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "WebGPU skill; off-topic"}
+{"id": "f-3e4a8810fb", "verdict": "keep", "rank": 4, "why": "TUI showing where coding-agent tokens go across tools; panel design for Agent Base cost view", "tags": ["cost", "observability"]}
+{"id": "f-404de531d2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "subscription proxy menu-bar app; ToS risk"}
+{"id": "f-4106a85ec3", "verdict": "keep", "rank": 3, "why": "24/7 cowork app managing Hermes, OpenClaw, Claude Code, Codex side by side; multi-harness UI reference", "tags": ["gui"]}
+{"id": "f-417cd35370", "verdict": "keep", "rank": 1, "why": "Gemini API skills; niche", "tags": ["skills"]}
+{"id": "f-4261c77ea2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "WordPress skills; off-topic"}
+{"id": "f-44bd9effd5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "advertising skills; off-topic"}
+{"id": "f-453e72b6de", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "slide-making skill; off-topic"}
+{"id": "f-45cffa8097", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "YouTube clipping skill; off-topic"}
+{"id": "f-45e449de47", "verdict": "keep", "rank": 3, "why": "Reference for every Claude Code hook event with working examples; checklist for SISO hooks", "tags": ["hooks"]}
+{"id": "f-46809cba15", "verdict": "keep", "rank": 1, "why": "Postgres skills MCP; niche", "tags": ["mcp"]}
+{"id": "f-46bf0e6240", "verdict": "keep", "rank": 2, "why": "Removes AI-writing tells; candidate for reports Shaan reads", "tags": ["skills"]}
+{"id": "f-476b30510f", "verdict": "keep", "rank": 3, "why": "GUI toolkit for Claude Code: custom agents, session history, usage; UI reference", "tags": ["gui"]}
+{"id": "f-47caabb5f6", "verdict": "keep", "rank": 1, "why": "Go MCP SDK; niche", "tags": ["mcp"]}
+{"id": "f-48896a522c", "verdict": "keep", "rank": 3, "why": "Self-building personal wiki (Karpathy LLM-wiki pattern); compare with Great Library knowledge spine", "tags": ["memory"]}
+{"id": "f-48fb7e4372", "verdict": "keep", "rank": 2, "why": "Design-intelligence skill for UI; candidate content next to ui-pick", "tags": ["skills"]}
+{"id": "f-49d6c70281", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "PHP/JS static security scanner; off-topic"}
+{"id": "f-49e3167c7d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Chinese OpenClaw skill library; duplicate class"}
+{"id": "f-4a3c40652c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "slide-deck skill; off-topic"}
+{"id": "f-4a695cfa8a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "requirements builder, last push 2025-06; abandoned"}
+{"id": "f-4ada68a8ba", "verdict": "keep", "rank": 3, "why": "Serena symbol navigation; already the estate's code-navigation fleet, track upstream", "tags": ["mcp"]}
+{"id": "f-4bc2b645cb", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Vue skills; off-topic"}
+{"id": "f-4c5eb5635b", "verdict": "keep", "rank": 1, "why": "Emacs integration; off-pattern", "tags": ["gui"]}
+{"id": "f-4c93bc4a5f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "subagent collection, last push 2025-08; superseded"}
+{"id": "f-4e154f81a7", "verdict": "keep", "rank": 2, "why": "TS agent framework with an observability console; console UI reference", "tags": ["observability"]}
+{"id": "f-4ed8efe443", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "AEO/GEO skill; off-topic"}
+{"id": "f-506b556e29", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "image prompt recommender; off-topic"}
+{"id": "f-5072d4ae46", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "sprite-sheet skill; off-topic"}
+{"id": "f-51ad8f0297", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Three.js skills; off-topic"}
+{"id": "f-5236c28f4d", "verdict": "keep", "rank": 3, "why": "Cross-platform command center orchestrating parallel coding agents; UI reference", "tags": ["orchestrator", "gui"]}
+{"id": "f-52ef8284c8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "medical skills; off-topic"}
+{"id": "f-533430e958", "verdict": "keep", "rank": 2, "why": "Removes AI tells from prose; overlaps humanizer", "tags": ["skills"]}
+{"id": "f-53abf2773e", "verdict": "keep", "rank": 1, "why": "AGENTS.md rules from books; marginal", "tags": ["skills"]}
+{"id": "f-53c5251710", "verdict": "keep", "rank": 1, "why": "SDK skill/MCP/AGENTS.md bundle; niche", "tags": ["skills"]}
+{"id": "f-54eb046f80", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "App Store optimisation skills; off-topic"}
+{"id": "f-592626a700", "verdict": "keep", "rank": 2, "why": "Self-organising Obsidian vault as agent memory; reference", "tags": ["memory"]}
+{"id": "f-59289a7f88", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "archived bioinformatics skills"}
+{"id": "f-5985c8ebbb", "verdict": "keep", "rank": 1, "why": "Code review grounded in classic books; marginal", "tags": ["skills"]}
+{"id": "f-599f627ef4", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "product video skill; off-topic"}
+{"id": "f-5a1197c4d2", "verdict": "keep", "rank": 2, "why": "Personal memory across agents; reference", "tags": ["memory"]}
+{"id": "f-5a37c6e8fe", "verdict": "keep", "rank": 2, "why": "Architecture-aware baseline-first skills; reference", "tags": ["skills"]}
+{"id": "f-5a575eec44", "verdict": "keep", "rank": 1, "why": "Node.js/Fastify skills; niche", "tags": ["skills"]}
+{"id": "f-5a7171c42f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "app onboarding skill; off-topic"}
+{"id": "f-5a90ba4e7a", "verdict": "keep", "rank": 1, "why": "Beginner Claude Code dev kit; completeness", "tags": ["tutorial"]}
+{"id": "f-5accb2dd5c", "verdict": "keep", "rank": 1, "why": "Google product skills; niche", "tags": ["skills"]}
+{"id": "f-5b081b0fec", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "finance skills; off-topic"}
+{"id": "f-5c9859ad91", "verdict": "keep", "rank": 4, "why": "Matt Pocock's own .agents skills ('Skills for Real Engineers'), most-starred skill set; compare its small sharp skills with the hub", "tags": ["skills"]}
+{"id": "f-5dace19eac", "verdict": "keep", "rank": 4, "why": "Real-time visualisation of Claude Code agent orchestration (branching, subagents); UI reference for the Agent Base live view", "tags": ["observability", "gui"]}
+{"id": "f-5efe667cd1", "verdict": "keep", "rank": 1, "why": "Supabase skills; niche", "tags": ["skills"]}
+{"id": "f-60416fe396", "verdict": "keep", "rank": 2, "why": "Generates individualised knowledge systems; reference", "tags": ["memory"]}
+{"id": "f-608d94e889", "verdict": "keep", "rank": 2, "why": "Curated Claude skills list; discovery source", "tags": ["skills"]}
+{"id": "f-6108873924", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Expo skills; off-topic"}
+{"id": "f-6191b34803", "verdict": "keep", "rank": 1, "why": "Infinite agentic loop experiment; completeness", "tags": ["subagents"]}
+{"id": "f-61f4063be7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "GSAP animation skills; off-topic"}
+{"id": "f-620c6da9f6", "verdict": "keep", "rank": 1, "why": "SaaS auth gateway for agents; niche", "tags": ["mcp"]}
+{"id": "f-627c0cc262", "verdict": "keep", "rank": 2, "why": "Hub listing skills, agents, commands, hooks and marketplaces; discovery source", "tags": ["skills"]}
+{"id": "f-638814206d", "verdict": "keep", "rank": 3, "why": "Claude Code's agent loop driven by DeepSeek V4 Pro; relevant to cheap workers, check it does not need a proxy", "tags": ["cost", "harness"]}
+{"id": "f-640a5a585f", "verdict": "keep", "rank": 3, "why": "Continuous background code review database for agent commits; idea for reviewing worker output without a review-of-review", "tags": ["observability"]}
+{"id": "f-64aa305006", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "solopreneur skills; off-topic"}
+{"id": "f-64f365d7c4", "verdict": "keep", "rank": 2, "why": "Evaluate-improve-test-keep-or-rollback loop for skills; method for hub skill evolution", "tags": ["skills"]}
+{"id": "f-654424ec8d", "verdict": "keep", "rank": 1, "why": "Spec-driven harness with project memory; completeness", "tags": ["memory"]}
+{"id": "f-65b8ff7cdb", "verdict": "keep", "rank": 1, "why": "Lighthouse web-quality skills; niche", "tags": ["skills"]}
+{"id": "f-6885440a88", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "legal skill; off-topic"}
+{"id": "f-6949cb5d3b", "verdict": "keep", "rank": 1, "why": "OpenClaw agent templates (SOUL.md); completeness", "tags": ["skills"]}
+{"id": "f-6a6a1329b4", "verdict": "keep", "rank": 2, "why": "One CLAUDE.md for terse output; measure before adopting", "tags": ["cost"]}
+{"id": "f-6a9e444e4e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Home Assistant skill; off-topic"}
+{"id": "f-6b1cc39281", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "story-to-video skill; off-topic"}
+{"id": "f-6ccfcbb394", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "finance research skills; off-topic"}
+{"id": "f-6d32820b2e", "verdict": "keep", "rank": 1, "why": "OpenClaw skills list; completeness", "tags": ["skills"]}
+{"id": "f-6d6ee8ed77", "verdict": "keep", "rank": 1, "why": "UI polish skills; niche", "tags": ["skills"]}
+{"id": "f-6d7bafd4e5", "verdict": "keep", "rank": 1, "why": "AI research skills with autoresearch layer; niche", "tags": ["skills"]}
+{"id": "f-6da4998307", "verdict": "keep", "rank": 1, "why": "Obsidian skills; niche", "tags": ["skills"]}
+{"id": "f-6e328316de", "verdict": "keep", "rank": 2, "why": "Portable skill installer/translator across agents; reference for projections", "tags": ["skills"]}
+{"id": "f-6e645b0f97", "verdict": "keep", "rank": 2, "why": "Quality-gate skills catching AI failure modes; reference", "tags": ["skills", "hooks"]}
+{"id": "f-6f2f0dc808", "verdict": "keep", "rank": 1, "why": "AI-first repo security scanner; marginal", "tags": ["hooks"]}
+{"id": "f-6fd40cb80c", "verdict": "keep", "rank": 2, "why": "Terse-output skill; brain warns compressing input raises output, test caveman's claim before adopting", "tags": ["cost", "skills"]}
+{"id": "f-7076253ada", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "automotive engineering skills; off-topic"}
+{"id": "f-719c96156a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "offensive security skills; off-topic"}
+{"id": "f-721720ac39", "verdict": "keep", "rank": 3, "why": "Skills teaching context engineering (compression, degradation, multi-agent patterns); content for worker discipline", "tags": ["skills", "cost"]}
+{"id": "f-73d2499a5f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "architecture diagram skill; off-topic"}
+{"id": "f-73ea025ede", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "job-search domain skills; off-topic"}
+{"id": "f-73fc175479", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "duplicate of the Agent Skills specification site record (same repo)"}
+{"id": "f-7460dfb6db", "verdict": "keep", "rank": 2, "why": "Autonomous Claude Code loop with exit detection and rate limits; loop guard reference", "tags": ["harness"]}
+{"id": "f-749ed4da50", "verdict": "keep", "rank": 2, "why": "Codebase search MCP; Serena alternative", "tags": ["mcp"]}
+{"id": "f-74bbf7ab92", "verdict": "keep", "rank": 3, "why": "Curated Claude Code resources list; source of harvest-1, recheck for new entries monthly", "tags": ["skills"]}
+{"id": "f-74c69941db", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "repo documentation agent, last push 2024-12"}
+{"id": "f-75cc552526", "verdict": "keep", "rank": 4, "why": "YC-backed agentic dev environment running parallel agents in worktrees; second competitor reference after Superset", "tags": ["orchestrator", "worktrees", "gui"]}
+{"id": "f-7652273bb3", "verdict": "keep", "rank": 1, "why": "Large plugin/skill marketplace; completeness", "tags": ["skills"]}
+{"id": "f-76babe2fbe", "verdict": "keep", "rank": 1, "why": "Slash command suite; completeness", "tags": ["skills"]}
+{"id": "f-77478742fe", "verdict": "keep", "rank": 3, "why": "Skills used as a memory layer (agents write learnings as skills); matches the lesson-to-skill loop", "tags": ["skills", "memory"]}
+{"id": "f-780c59cb3b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "image PPT skill; off-topic"}
+{"id": "f-78766e3ce6", "verdict": "keep", "rank": 1, "why": "PRD/tech-design prompt templates; marginal", "tags": ["skills"]}
+{"id": "f-7880e2513f", "verdict": "keep", "rank": 1, "why": "Prompt-writing skill; marginal", "tags": ["skills"]}
+{"id": "f-78f6dd7bf9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Go language skills; off-topic"}
+{"id": "f-79c85e28ae", "verdict": "keep", "rank": 1, "why": "Skill marketplace; completeness", "tags": ["skills"]}
+{"id": "f-7afcedad40", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "social media skills; off-topic"}
+{"id": "f-7e45da7113", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Chinese tutorial collection; no new substance"}
+{"id": "f-7e88031c68", "verdict": "keep", "rank": 2, "why": "Sentry team's real dev skills; example of a team's working skill set", "tags": ["skills"]}
+{"id": "f-8017d2e31c", "verdict": "keep", "rank": 2, "why": "Goal-directed autonomous iteration skill; loop pattern reference", "tags": ["skills"]}
+{"id": "f-8070e45e90", "verdict": "keep", "rank": 4, "why": "Local search over Claude Code/Codex session history ('git blame for agent sessions'); recall across Shaan's transcripts without re-deriving", "tags": ["memory", "observability"]}
+{"id": "f-81214643c9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "medical research skills; off-topic"}
+{"id": "f-81399fd43f", "verdict": "keep", "rank": 1, "why": "Deliberate-practice skill; marginal", "tags": ["skills"]}
+{"id": "f-82bd446f93", "verdict": "keep", "rank": 1, "why": "Curated coding skills; completeness", "tags": ["skills"]}
+{"id": "f-83b713efdc", "verdict": "keep", "rank": 1, "why": "Second-brain skill pack; completeness", "tags": ["memory"]}
+{"id": "f-8443be8ee1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Chinese superpowers port; duplicate"}
+{"id": "f-859b9e98e5", "verdict": "keep", "rank": 3, "why": "Visualises Claude Code LLM interaction traces; shows what the harness actually sends, useful for cost forensics", "tags": ["observability"]}
+{"id": "f-869fefeeec", "verdict": "keep", "rank": 3, "why": "Converts docs sites, repos and PDFs into skills; generator for hub content", "tags": ["skills"]}
+{"id": "f-86bacf4321", "verdict": "keep", "rank": 1, "why": "Neovim integration; off-pattern", "tags": ["gui"]}
+{"id": "f-88d1e78fe1", "verdict": "keep", "rank": 2, "why": "Anthropic knowledge-work plugins; packaging reference for non-code skills", "tags": ["skills"]}
+{"id": "f-88f1cce7eb", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "PPT skill; off-topic"}
+{"id": "f-89314d42a7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "sales skills; off-topic"}
+{"id": "f-893c484de5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "agent-commerce mandate skill; off-topic"}
+{"id": "f-8b4f3e681d", "verdict": "keep", "rank": 2, "why": "Engineering habits as skills; compare with hub coding discipline", "tags": ["skills"]}
+{"id": "f-8bce380861", "verdict": "keep", "rank": 1, "why": "Design skill directory; niche", "tags": ["skills"]}
+{"id": "f-8c8f125a4b", "verdict": "keep", "rank": 2, "why": "PM system using GitHub Issues and worktrees for parallel agents; compare with Plane flow", "tags": ["orchestrator"]}
+{"id": "f-8fd70ced29", "verdict": "keep", "rank": 2, "why": "Example Claude Code project config with hooks, skills, agents; compare layout", "tags": ["skills", "hooks"]}
+{"id": "f-90170500fb", "verdict": "keep", "rank": 1, "why": "Desktop LLM client; off-core", "tags": ["gui"]}
+{"id": "f-9038e9ebc5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "generative media skills; off-topic"}
+{"id": "f-903b1fc44a", "verdict": "keep", "rank": 2, "why": "Multi-agent workflow across Claude/Codex/Gemini/OpenCode; reference", "tags": ["orchestrator"]}
+{"id": "f-90e33c53f9", "verdict": "keep", "rank": 1, "why": "'Unlimited free' routing across subscriptions; ToS risk, conflicts with no-proxy policy", "tags": ["cost"]}
+{"id": "f-92477ab10e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "SEO content workspace; off-topic"}
+{"id": "f-9249e8b35c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "SEO domain skill; off-topic"}
+{"id": "f-9336de848c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "tutoring skill; off-topic"}
+{"id": "f-93509168c7", "verdict": "keep", "rank": 1, "why": "SPEC-first dev kit; completeness", "tags": ["harness"]}
+{"id": "f-93b209aea6", "verdict": "keep", "rank": 2, "why": "Menu-bar Claude usage limits tracker; small visibility tool", "tags": ["cost"]}
+{"id": "f-94d126797e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Claude API load-balancing proxy; conflicts with no-proxy policy"}
+{"id": "f-9503916141", "verdict": "keep", "rank": 3, "why": "Laziest-senior-dev simplicity skill; already adopted as $ponytail, track upstream changes", "tags": ["skills"]}
+{"id": "f-9919e5a0e2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "academic research domain skills; off-topic"}
+{"id": "f-9967fb2774", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Lottie animation skill; off-topic"}
+{"id": "f-99c42542c5", "verdict": "keep", "rank": 2, "why": "Researches a topic across Reddit/X/YouTube over the last 30 days; useful pattern for RESEARCH freshness sweeps", "tags": ["skills"]}
+{"id": "f-9a4871b7dd", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "SEO skill; off-topic"}
+{"id": "f-9c4231b396", "verdict": "keep", "rank": 1, "why": "Full-stack skills pack; completeness", "tags": ["skills"]}
+{"id": "f-9d43ccbdd3", "verdict": "keep", "rank": 2, "why": "Parallel Claude sessions in worktrees (now Nimbalyst); superseded but reference", "tags": ["worktrees"]}
+{"id": "f-9fca6d84b9", "verdict": "keep", "rank": 2, "why": "Docker dev environment for Claude Code; isolation option", "tags": ["worktrees"]}
+{"id": "f-a0d5e8fab0", "verdict": "keep", "rank": 1, "why": "Mermaid rendering skill; niche", "tags": ["skills"]}
+{"id": "f-a10ef4176b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "legal plugins; off-topic"}
+{"id": "f-a11f6dfe38", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "academic research assistant; off-topic"}
+{"id": "f-a146763e81", "verdict": "keep", "rank": 3, "why": "Converts Claude Code transcript JSONL to readable HTML/Markdown; cheap way to show Shaan a worker's session as a URL", "tags": ["observability"]}
+{"id": "f-a20fd1507f", "verdict": "keep", "rank": 2, "why": "Library of practical agent loops; loop pattern reference", "tags": ["skills"]}
+{"id": "f-a2bcae2e34", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "business/marketing skills; off-topic"}
+{"id": "f-a39f5a9889", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "trading MCP; off-topic"}
+{"id": "f-a3d8bf1c9f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "office-assistant domain skills; off-topic"}
+{"id": "f-a469bf3312", "verdict": "keep", "rank": 1, "why": "Desktop GUI for Claude Code; completeness", "tags": ["gui"]}
+{"id": "f-a491aee771", "verdict": "keep", "rank": 2, "why": "Provider-neutral agent best-practice skill; reference", "tags": ["skills"]}
+{"id": "f-a4bce2a09c", "verdict": "keep", "rank": 3, "why": "Harness builder with knowledge and task backbone; compare workflow-as-YAML idea with Agent Base workflows", "tags": ["harness", "orchestrator"]}
+{"id": "f-a67e5551cd", "verdict": "keep", "rank": 3, "why": "Minimal web GUI for coding agents; lightweight reference for the Agent Base browser front end", "tags": ["gui"]}
+{"id": "f-a74dde919a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "SEO/GEO marketing skills; off-topic"}
+{"id": "f-a7bd67f652", "verdict": "keep", "rank": 2, "why": "Turns repeatable workflows into tested skills with lifecycle; compare with skill-author", "tags": ["skills"]}
+{"id": "f-a7ce08129d", "verdict": "keep", "rank": 3, "why": "Hat-based orchestration keeping agents looping until done; compare with completion gates", "tags": ["orchestrator"]}
+{"id": "f-a8fea556e7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "HTML-to-video skill; off-topic"}
+{"id": "f-a9104c3070", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "NotebookLM content skill; off-topic"}
+{"id": "f-a933701f67", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "archived slash commands"}
+{"id": "f-a9b1d3be83", "verdict": "keep", "rank": 2, "why": "Turns a technical book PDF into a skill; pattern for generating hub skills from docs", "tags": ["skills"]}
+{"id": "f-a9fcc6b481", "verdict": "keep", "rank": 2, "why": "Desktop app to manage and sync skills across tools; hub UI idea", "tags": ["skills", "gui"]}
+{"id": "f-aaebfeb454", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "paid-ads domain skill; off-topic"}
+{"id": "f-ab488950ad", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "image prompt gallery; off-topic"}
+{"id": "f-ab7ef3ddd5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Nothing-style UI skill; off-topic"}
+{"id": "f-acecb06c5d", "verdict": "keep", "rank": 2, "why": "Routes decisions through an LLM council; cross-model judgement idea", "tags": ["skills"]}
+{"id": "f-ad35d02ea7", "verdict": "keep", "rank": 1, "why": "Hugging Face skills; niche", "tags": ["skills"]}
+{"id": "f-ae52002a81", "verdict": "keep", "rank": 1, "why": "Chrome web-guidance skills; niche", "tags": ["skills"]}
+{"id": "f-ae9c685332", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "game-studio agent pack; off-topic"}
+{"id": "f-aecf4faefd", "verdict": "keep", "rank": 1, "why": "Design workspace for coding agents; off-core", "tags": ["skills"]}
+{"id": "f-aeeee0e650", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "SwiftUI skill; off-topic"}
+{"id": "f-aef549d5a6", "verdict": "keep", "rank": 1, "why": "Terminal pair programmer; completeness", "tags": ["harness"]}
+{"id": "f-b0c4536e75", "verdict": "keep", "rank": 2, "why": "Routes Claude Code across model providers; reference only under the no-proxy policy", "tags": ["cost"]}
+{"id": "f-b14583a25f", "verdict": "keep", "rank": 2, "why": "Local code graph for MCP and CLI; overlaps Serena/graphify", "tags": ["mcp"]}
+{"id": "f-b1f309879a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "OSINT skills; off-topic"}
+{"id": "f-b2ecf09f16", "verdict": "keep", "rank": 2, "why": "Runs several model CLIs against the same task; cross-model review idea", "tags": ["orchestrator"]}
+{"id": "f-b3ce0ddfea", "verdict": "keep", "rank": 1, "why": "Apify scraping skills; niche", "tags": ["skills"]}
+{"id": "f-b4bed046a0", "verdict": "keep", "rank": 2, "why": "Fast memory API and app; reference", "tags": ["memory"]}
+{"id": "f-b57d6076bf", "verdict": "keep", "rank": 1, "why": "OpenClaw desktop GUI; completeness", "tags": ["gui"]}
+{"id": "f-b5ef03e42c", "verdict": "keep", "rank": 3, "why": "Batteries-included harness on OpenCode with orchestrator and specialist agents; mine its delegation categories", "tags": ["harness", "subagents"]}
+{"id": "f-b6b6e99240", "verdict": "keep", "rank": 2, "why": "Agents designing other agents' skills; reference", "tags": ["skills"]}
+{"id": "f-b9690d996a", "verdict": "keep", "rank": 3, "why": "Runs 20+ Claude Code agents in tmux with coordination and monitoring; same shape as Agent Base, read its lock/coordination files", "tags": ["orchestrator", "gui"]}
+{"id": "f-b99d21d4fa", "verdict": "keep", "rank": 1, "why": "Email/Discord remote control, last push 2025-12; cc-connect is fuller", "tags": ["gui"]}
+{"id": "f-ba23288f20", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "marketing plugin; off-topic"}
+{"id": "f-bb2716acef", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "academic paper skills; off-topic"}
+{"id": "f-bbd3cef71a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Swift concurrency skill; off-topic"}
+{"id": "f-bc58c7ddf6", "verdict": "keep", "rank": 3, "why": "Autonomous skill extraction from work sessions; compare with the lesson extractor", "tags": ["skills"]}
+{"id": "f-bd97cb5b75", "verdict": "keep", "rank": 1, "why": "X research skill; niche", "tags": ["skills"]}
+{"id": "f-bd97fffc1e", "verdict": "keep", "rank": 1, "why": "Figma read/write MCP; niche", "tags": ["mcp"]}
+{"id": "f-beacf4e80a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "blog writing skill suite; off-topic"}
+{"id": "f-bed5a7acde", "verdict": "keep", "rank": 2, "why": "Playwright automation skill; shot/camofox already cover", "tags": ["skills"]}
+{"id": "f-bf54e43b85", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "subagent team pack, last push 2025-10; superseded by larger marketplaces"}
+{"id": "f-bf8b2a983f", "verdict": "keep", "rank": 3, "why": "Visible workspace mixing Codex, Claude, Gemini, Qwen, Pi agents in one collaboration view; close to herdr's multi-harness panes", "tags": ["orchestrator", "gui"]}
+{"id": "f-c02d23c0ff", "verdict": "keep", "rank": 2, "why": "Phase-guarded idea-to-eval skill harness; reference", "tags": ["skills"]}
+{"id": "f-c0e5e352c7", "verdict": "keep", "rank": 2, "why": "45 Claude Code tips; quick reading", "tags": ["tutorial"]}
+{"id": "f-c1a7438a61", "verdict": "keep", "rank": 2, "why": "Tree-of-thought skill fanning out parallel divergent thoughts with pruning; name collides with adhd-agent-output, idea only", "tags": ["skills", "subagents"]}
+{"id": "f-c26ff00d71", "verdict": "keep", "rank": 1, "why": "AWS skills; niche", "tags": ["skills"]}
+{"id": "f-c310e0f3bb", "verdict": "keep", "rank": 1, "why": "Workflow plugin; completeness", "tags": ["skills"]}
+{"id": "f-c33b35f502", "verdict": "keep", "rank": 1, "why": "Interface polish skill; niche", "tags": ["skills"]}
+{"id": "f-c3af7802bc", "verdict": "keep", "rank": 1, "why": "Stitch MCP skills; niche", "tags": ["skills"]}
+{"id": "f-c40f436ebe", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "reverse-engineering/pentest skills; off-topic"}
+{"id": "f-c512344b85", "verdict": "keep", "rank": 1, "why": "Excalidraw MCP; niche", "tags": ["mcp"]}
+{"id": "f-c5a60ec2ad", "verdict": "keep", "rank": 1, "why": "Agent skills guide (Chinese/English); completeness", "tags": ["skills"]}
+{"id": "f-c69c88a4db", "verdict": "keep", "rank": 1, "why": "Visual skills builder; completeness", "tags": ["skills"]}
+{"id": "f-c6c7aa54c9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "X article publishing skill; off-topic"}
+{"id": "f-c851e9e38f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Airflow; off-topic"}
+{"id": "f-c8c357b049", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "science skills; off-topic"}
+{"id": "f-c943d2729e", "verdict": "keep", "rank": 1, "why": "Personal skills collection; completeness", "tags": ["skills"]}
+{"id": "f-c96c27ff30", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "trading skills; off-topic"}
+{"id": "f-c977d0a0b9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "App Store preflight skill; off-topic"}
+{"id": "f-c9b2aadfdb", "verdict": "keep", "rank": 3, "why": "Anthropic cookbooks incl. agent and context-management recipes; canonical patterns", "tags": ["tutorial"]}
+{"id": "f-ca71f5ecd9", "verdict": "keep", "rank": 2, "why": "Collective skill evolution; reference", "tags": ["skills"]}
+{"id": "f-cb44a3e7d7", "verdict": "keep", "rank": 2, "why": "Claude Code base GitHub Action; CI path for Claude workers", "tags": ["harness"]}
+{"id": "f-ccd0d5daf3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Copilot-to-API proxy, last push 2025-11; ToS risk"}
+{"id": "f-cdb38598f1", "verdict": "keep", "rank": 1, "why": "Claude Design as a skill; niche", "tags": ["skills"]}
+{"id": "f-cf5007521e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "n8n workflow skills; off-topic"}
+{"id": "f-cff00333f7", "verdict": "keep", "rank": 2, "why": "Hook enforcing TDD; example of a blocking quality hook", "tags": ["hooks"]}
+{"id": "f-d06cbbbe99", "verdict": "keep", "rank": 1, "why": "Assistant framework with skills; completeness", "tags": ["harness"]}
+{"id": "f-d1c1d8dc7f", "verdict": "keep", "rank": 1, "why": "Excalidraw diagram skill; niche", "tags": ["skills"]}
+{"id": "f-d2e6f8827c", "verdict": "keep", "rank": 2, "why": "Design-engineering skill with memory and enforcement; UI content candidate", "tags": ["skills", "memory"]}
+{"id": "f-d30a9781f7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "resume skills; off-topic"}
+{"id": "f-d3731d0867", "verdict": "keep", "rank": 1, "why": "AWS MCP/skills; niche", "tags": ["mcp"]}
+{"id": "f-d7a534668b", "verdict": "keep", "rank": 1, "why": "Code review skill; completeness", "tags": ["skills"]}
+{"id": "f-d7db0d15c3", "verdict": "keep", "rank": 2, "why": "Continuous loop opening PRs; reference", "tags": ["harness"]}
+{"id": "f-d8ee9385d7", "verdict": "keep", "rank": 2, "why": "Long Chinese book dissecting Claude Code's harness architecture; deep reference if translated", "tags": ["tutorial"]}
+{"id": "f-d8faf3e618", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Chinese humanizer port; duplicate of humanizer"}
+{"id": "f-da0458ea37", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "CAD harness; off-topic"}
+{"id": "f-dbf03caf39", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Xiaohongshu carousel skill; off-topic"}
+{"id": "f-dc4f87250b", "verdict": "keep", "rank": 2, "why": "Gives agents read access to X, Reddit, YouTube, GitHub; research-worker input", "tags": ["skills"]}
+{"id": "f-dcfbd5c3fa", "verdict": "keep", "rank": 2, "why": "Meta-skill that designs domain-specific agent teams; compare with siso-owner briefs", "tags": ["skills", "subagents"]}
+{"id": "f-dde5128041", "verdict": "keep", "rank": 2, "why": "Central rule registry distributed to all agents; compare with compose-brain projections", "tags": ["skills"]}
+{"id": "f-dec4ad7a51", "verdict": "keep", "rank": 1, "why": "VS Code chat UI for Claude Code; off-pattern", "tags": ["gui"]}
+{"id": "f-defc429723", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "marketing skills; off-topic"}
+{"id": "f-df0bd20664", "verdict": "keep", "rank": 1, "why": "Chinese web-access skill with CDP; camofox covers this", "tags": ["skills"]}
+{"id": "f-df6eea557c", "verdict": "keep", "rank": 2, "why": "Auto-updated Claude Code CLI guide; quick reference for new flags", "tags": ["tutorial"]}
+{"id": "f-e1219b1688", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": ".NET skills; off-topic"}
+{"id": "f-e1a765d0d9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "offensive security harness; off-topic"}
+{"id": "f-e23b3699a9", "verdict": "keep", "rank": 2, "why": "Claude Code best-practice collection; reference reading", "tags": ["tutorial"]}
+{"id": "f-e45d9bd288", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "PPT skill; off-topic"}
+{"id": "f-e7995afa67", "verdict": "keep", "rank": 1, "why": "Anthony Fu's curated skills; completeness", "tags": ["skills"]}
+{"id": "f-e837b375d3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Android reverse-engineering skill; off-topic"}
+{"id": "f-e84a0ab801", "verdict": "keep", "rank": 1, "why": "Personal engineering skills; completeness", "tags": ["skills"]}
+{"id": "f-e894610263", "verdict": "keep", "rank": 4, "why": "The open SKILL.md standard shared by Claude and Codex; the hub's format contract, track changes", "tags": ["skills"]}
+{"id": "f-e9cf7f6954", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "marketing domain skills; off-topic"}
+{"id": "f-eaf01febe3", "verdict": "keep", "rank": 3, "why": "Manages multiple terminal agents each in its own worktree and tmux session; minimal herdr-like reference", "tags": ["worktrees", "gui"]}
+{"id": "f-eb3044cd7a", "verdict": "keep", "rank": 4, "why": "Real-time monitoring of many Claude Code agents through hook events to a web dashboard; the simplest working base for an Agent Base live feed", "tags": ["observability", "hooks"]}
+{"id": "f-ec9728a917", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "LinkedIn marketing skills; off-topic"}
+{"id": "f-ee39586631", "verdict": "keep", "rank": 2, "why": "Vercel's skills collection; format/quality reference", "tags": ["skills"]}
+{"id": "f-eea4954309", "verdict": "keep", "rank": 2, "why": "Saves agent sessions to local history; compare with ctx", "tags": ["memory"]}
+{"id": "f-efed77dfa0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "financial-services reference agents; off-topic"}
+{"id": "f-f0211887ec", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "entrepreneurship book skills; off-topic"}
+{"id": "f-f235578700", "verdict": "keep", "rank": 1, "why": "Interface animation skills; niche", "tags": ["skills"]}
+{"id": "f-f2abf519ec", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "pentest tool plugin; off-topic"}
+{"id": "f-f2adfbca53", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "product-management skills marketplace; off-topic"}
+{"id": "f-f336623ae5", "verdict": "keep", "rank": 1, "why": "draw.io diagram skill; niche", "tags": ["skills"]}
+{"id": "f-f40cf5fd16", "verdict": "keep", "rank": 1, "why": "Design skills; niche", "tags": ["skills"]}
+{"id": "f-f5eb2d42d6", "verdict": "keep", "rank": 3, "why": "Teams-first multi-agent orchestration for Claude Code (autopilot, swarm modes); compare with owner/worker dispatch", "tags": ["orchestrator", "subagents"]}
+{"id": "f-f5ec820faa", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Godot game-dev skills; off-topic"}
+{"id": "f-f62de05379", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "archived HTTP API over coding agents; note ACP as successor"}
+{"id": "f-f84188201e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Kimi-to-Claude Code proxy, last push 2025-07; stale and off-policy"}
+{"id": "f-f9f69a2732", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "persona-distillation skills; off-topic"}
+{"id": "f-fa0caee4cf", "verdict": "keep", "rank": 1, "why": "Security skill suite for agent platforms; niche", "tags": ["hooks"]}
+{"id": "f-fa2532d666", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "Material 3 skill; off-topic"}
+{"id": "f-fb5bc5a674", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "PPT image skills; off-topic"}
+{"id": "f-fb95cca899", "verdict": "keep", "rank": 1, "why": "NVIDIA product skills; niche", "tags": ["skills"]}
+{"id": "f-fc8fc643b6", "verdict": "keep", "rank": 1, "why": "AI devtools list; discovery only", "tags": []}
+{"id": "f-fca2795eeb", "verdict": "keep", "rank": 2, "why": "Large multi-agent harness with heavy marketing; skim for swarm topology, discount claims", "tags": ["orchestrator"]}
+{"id": "f-012c3e920f", "verdict": "keep", "rank": 4, "why": "Harness engineering where humans steer and agents execute (OpenAI team practice); the operating model Agent Base is building", "tags": ["harness", "orchestrator"]}
+{"id": "f-0191bc24e0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-02679234ea", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-02816a9aed", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-035fa1a42f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic subagents tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-0383504c38", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "duplicate VS Code multi-agent short"}
+{"id": "f-041d324ae7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (basic harness explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-0424c64767", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-0567b6b435", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-05efc5e9a0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-0739ec6348", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-083a5abc8b", "verdict": "keep", "rank": 2, "why": "IBM deep dive on harnesses; conceptual", "tags": ["harness"]}
+{"id": "f-083a602492", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-08f1926d3c", "verdict": "keep", "rank": 2, "why": "Senior engineer's take on OpenCode; harness comparison", "tags": ["harness"]}
+{"id": "f-090fc07a1a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-09769446d6", "verdict": "keep", "rank": 3, "why": "Karpathy on agentic engineering; framing for owner versus worker responsibilities", "tags": ["tutorial"]}
+{"id": "f-09a253fc49", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (basic worktrees explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-09ee0304cc", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic subagents tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-0bb6398d03", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic subagents tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-0cc668348e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-0fa9d0259b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-0fb47f708e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (basic worktrees explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-1122a424b8", "verdict": "keep", "rank": 2, "why": "OpenCode founder interview; harness design choices", "tags": ["harness"]}
+{"id": "f-1134fa4a91", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic Codex usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-1325f7eaab", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-13c6c19070", "verdict": "keep", "rank": 3, "why": "Tessl on building a software factory harness; spec/registry ideas", "tags": ["harness"]}
+{"id": "f-15267c5397", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-168e8d1692", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-17b4216201", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic agent memory explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-17f3adfa88", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-1815bacd98", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "single-skill hype video"}
+{"id": "f-1a28eec030", "verdict": "keep", "rank": 2, "why": "InfoQ on context, harnessing and autonomy; conceptual overview", "tags": ["harness"]}
+{"id": "f-1a3b33a52c", "verdict": "keep", "rank": 3, "why": "Ray Amjad's 16-minute Mods deep dive; practical mod examples", "tags": ["hooks", "gui"]}
+{"id": "f-1abcdd8ca5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-1b9f18ac3a", "verdict": "keep", "rank": 2, "why": "VS Code Agent HQ (local, cloud, background agents); competitor reference", "tags": ["orchestrator"]}
+{"id": "f-1bba3b31f6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-1c7f2150da", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-1dca1b6011", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic agentic coding setup); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-1ea935225c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic subagents tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-1ffe6c87d4", "verdict": "keep", "rank": 2, "why": "Vercel CEO's agentic engineering workflow; practitioner reference", "tags": ["tutorial"]}
+{"id": "f-20eaca1b53", "verdict": "keep", "rank": 2, "why": "Anthropic's explore-plan-code-commit loop; baseline worker loop", "tags": ["tutorial"]}
+{"id": "f-217ef46d79", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic multi-agent explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-217f9038b8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (basic worktrees explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-218bc9f7fe", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-21a99995b1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-21fb0bbe84", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-21ffde5441", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-2210f7f3fb", "verdict": "keep", "rank": 2, "why": "1000+ hours of Claude Code lessons; practitioner habits", "tags": ["tutorial"]}
+{"id": "f-22f880e47d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic agent memory explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-243d7a575b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-24bf7ef835", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-268342f5a3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-27290054ae", "verdict": "keep", "rank": 3, "why": "Matt Pocock on native claude --worktree; check whether native worktrees replace bespoke lane scripts", "tags": ["worktrees"]}
+{"id": "f-286040e6f0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Codex usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-291940711d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic subagents tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-2945646c05", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-2a74aed6ad", "verdict": "keep", "rank": 2, "why": "Setup shipping 30+ PRs a day; throughput practices", "tags": ["orchestrator"]}
+{"id": "f-2aa0b2fde3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic hooks tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-2ac692ee3e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Claude Code tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-2af81642af", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic agentic coding setup); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-2cd7efb3b1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-2d25f998af", "verdict": "keep", "rank": 3, "why": "Claude Managed Agents intro; hosted owner option to compare against self-run herdr panes", "tags": ["harness"]}
+{"id": "f-2d48f5d6fd", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-2d94e859c6", "verdict": "keep", "rank": 4, "why": "Factory on the multi-agent architecture that actually ships; production lessons on delegation boundaries", "tags": ["orchestrator", "subagents"]}
+{"id": "f-2e5245af27", "verdict": "keep", "rank": 2, "why": "Agent teams walkthrough; native feature reference", "tags": ["subagents"]}
+{"id": "f-2fb353d0c0", "verdict": "keep", "rank": 3, "why": "Anthropic's short official hooks explainer; baseline for hook semantics", "tags": ["hooks"]}
+{"id": "f-30b61e471d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-34676a45cf", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-34d4c76328", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-35046352ba", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-36195e8914", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-363ba8581c", "verdict": "keep", "rank": 2, "why": "OpenAI on Codex developer updates; feature tracking", "tags": ["harness"]}
+{"id": "f-3673756286", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-36b4c35ae6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-3a1b3e19f3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic hooks tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-3a70682ec1", "verdict": "keep", "rank": 2, "why": "DHH compares Claude Code, Codex and OpenCode harnesses; practitioner opinion", "tags": ["harness"]}
+{"id": "f-3b1117c59c", "verdict": "keep", "rank": 4, "why": "Matt Pocock walks through his skills repo end to end; how a top practitioner structures small skills", "tags": ["skills"]}
+{"id": "f-3b2929a77a", "verdict": "keep", "rank": 2, "why": "Cole Medin on building harnesses; practitioner take", "tags": ["harness"]}
+{"id": "f-3bf036e391", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Codex usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-3c067441fd", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-3d9ed95095", "verdict": "keep", "rank": 2, "why": "Private plugin marketplace for a team; how to distribute the hub as a marketplace", "tags": ["skills"]}
+{"id": "f-3e4074dd23", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-3e72c701ae", "verdict": "keep", "rank": 3, "why": "Claude Code dynamic workflows explained; native workflow scripts versus bespoke chains", "tags": ["orchestrator"]}
+{"id": "f-4463572141", "verdict": "keep", "rank": 2, "why": "Google talk on production context engineering; long-form reference", "tags": ["cost"]}
+{"id": "f-446b3c642e", "verdict": "keep", "rank": 4, "why": "Claude Code's new agent dashboard; the first-party view Agent Base's web UI must beat or reuse", "tags": ["gui", "observability"]}
+{"id": "f-45c57f3048", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Claude Code tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-45f511219d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-464e670b54", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-46f4de878f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-47379ff691", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (basic worktrees explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-47a95f5796", "verdict": "keep", "rank": 2, "why": "Claude Code creator's setup (relayed); first-party habits second-hand", "tags": ["tutorial"]}
+{"id": "f-48118f4cc7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-481cac9af8", "verdict": "keep", "rank": 3, "why": "Hooks that stop Claude Code deleting production; safety-gate examples", "tags": ["hooks"]}
+{"id": "f-4824460dc3", "verdict": "keep", "rank": 2, "why": "Automating tasks with the Codex app; scheduled-task feature reference", "tags": ["harness"]}
+{"id": "f-48fd6f8a78", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "video-editing automation; off-topic"}
+{"id": "f-4a87b0c4bd", "verdict": "keep", "rank": 3, "why": "Sam Witteveen on using Jev inside an agent harness; ideas for wider Jev use", "tags": ["harness"]}
+{"id": "f-4b3693d4f8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-4c993e5104", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (basic harness explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-4cdffdd193", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Claude Code tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-4d1910f910", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-4d73cc8772", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-4d77cb3af6", "verdict": "keep", "rank": 3, "why": "Paperclip running a small Claude Code + Codex team; another owner/worker product to compare", "tags": ["orchestrator"]}
+{"id": "f-50170d890f", "verdict": "keep", "rank": 2, "why": "Hacking subagents into Codex CLI (Betterup); Codex parity ideas", "tags": ["subagents"]}
+{"id": "f-50ed8226d1", "verdict": "keep", "rank": 2, "why": "Subagents versus agent teams explained; when to use which", "tags": ["subagents"]}
+{"id": "f-51554ec67b", "verdict": "keep", "rank": 3, "why": "Senior engineer's guide: context loading, custom hooks, slash commands; concrete setup", "tags": ["hooks", "cost"]}
+{"id": "f-54e190ab93", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-58079caefc", "verdict": "keep", "rank": 2, "why": "Codex subagents in eight minutes; native Codex feature reference", "tags": ["subagents"]}
+{"id": "f-5817a9d55f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic hooks tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-587872d1d8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "derivative recap of Matt Pocock's workflow; watch the original instead"}
+{"id": "f-5895f3fb41", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-5aa28d9445", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-5af62e379e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-5eaf6cf49a", "verdict": "keep", "rank": 3, "why": "AWS: four context techniques to stop tokenmaxxing; cost discipline checklist", "tags": ["cost"]}
+{"id": "f-5ec7d37261", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-5f1f61e704", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic agent memory explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-5f7e89cd73", "verdict": "keep", "rank": 3, "why": "Harrison Chase on when to build your own harness; decision frame for Agent Base build-vs-adopt", "tags": ["harness"]}
+{"id": "f-5fbd7b5811", "verdict": "keep", "rank": 2, "why": "Matt Pocock's five daily skills; quick skill-design examples", "tags": ["skills"]}
+{"id": "f-617ed1b1c3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Claude Code tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-6184d82a68", "verdict": "keep", "rank": 3, "why": "100 hours comparing a DeepSeek harness with Claude Code; evidence for routing work to cheap DeepSeek workers", "tags": ["cost", "harness"]}
+{"id": "f-624bfc80c1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-634ccf70e7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-6357e23de1", "verdict": "keep", "rank": 4, "why": "LangChain + Manus on context engineering (KV-cache-friendly prompts, filesystem as memory, offload/compact); directly about owner context cost", "tags": ["cost", "memory"]}
+{"id": "f-6375070216", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-643160dad8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype compilation, nothing concrete"}
+{"id": "f-650b091a44", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic hooks tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-6564fda2b1", "verdict": "keep", "rank": 4, "why": "Dex Horthy (12-factor agents) on context engineering, research-plan-implement and frequent intentional compaction; maps onto self-compact", "tags": ["cost", "memory"]}
+{"id": "f-6646c9ea60", "verdict": "keep", "rank": 2, "why": "AGENTS.md three levels of project memory for Codex; check layering matches SISO", "tags": ["memory"]}
+{"id": "f-69e3873c60", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic agent memory explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-6b69e03e16", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-6b85bf3489", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-6ea026c030", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "clickbait, nothing concrete"}
+{"id": "f-6eed35e146", "verdict": "keep", "rank": 3, "why": "IndyDevDan on the under-used hooks feature; hook ideas", "tags": ["hooks"]}
+{"id": "f-6f11df9df5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "'better than 99%' hype video on agent teams"}
+{"id": "f-6fa0fc2ca5", "verdict": "keep", "rank": 4, "why": "IndyDevDan: multi-agent orchestration with tmux and agent sandboxes; same building blocks as herdr lanes", "tags": ["orchestrator", "worktrees"]}
+{"id": "f-70e64a3351", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic multi-agent explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-713633b67f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-71eedf4c35", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-738b0434a4", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-74098b02fc", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-752296718b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Codex usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-75dd1d2ae2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-79037c596c", "verdict": "keep", "rank": 2, "why": "Cole Medin on harness engineering; practitioner take", "tags": ["harness"]}
+{"id": "f-79e135e8c9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic Claude Code tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-79eb1bafb3", "verdict": "keep", "rank": 3, "why": "LangChain on LLM wikis as agent memory; matches the knowledge-spine approach", "tags": ["memory"]}
+{"id": "f-7a52463dad", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-7a7bf4f6b2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "'better than 99%' hype video on subagents"}
+{"id": "f-7aa312b51e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic subagents tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-7ab61bd907", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic subagents tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-7b29819b30", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-7c0b1b3f59", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-7c65f425a8", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-7df3872f39", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-7e323f9000", "verdict": "keep", "rank": 3, "why": "Harrison Chase on context engineering for long-horizon agents; offload, reduce, isolate patterns", "tags": ["memory", "cost"]}
+{"id": "f-7ec339714c", "verdict": "keep", "rank": 3, "why": "Cutting OpenCode token use by 96%; specific cost tactics to test on workers", "tags": ["cost"]}
+{"id": "f-7fa16173d7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-808405b605", "verdict": "keep", "rank": 4, "why": "YC paper club on why the harness matters more than the model; evidence for investing in Agent Base's harness over model shopping", "tags": ["harness"]}
+{"id": "f-80e1e9484b", "verdict": "keep", "rank": 3, "why": "Agentic software factory combining Codex and Claude Code; same two-harness mix as Agent Base", "tags": ["orchestrator"]}
+{"id": "f-8113ecd1b2", "verdict": "keep", "rank": 4, "why": "How the Claude Code team uses Claude Code; first-party workflows to compare with SISO habits", "tags": ["tutorial"]}
+{"id": "f-818019fcdb", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (basic worktrees explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-824999022e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-82ac40db2c", "verdict": "keep", "rank": 4, "why": "Anthropic on memory and 'dreaming' for self-learning agents; design input for offline memory consolidation", "tags": ["memory"]}
+{"id": "f-835feccbdc", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-845116d3b2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-84ab37c7c2", "verdict": "keep", "rank": 2, "why": "Notification hooks when tasks finish; cheap attention signal for Shaan across many panes", "tags": ["hooks"]}
+{"id": "f-84ad4b15bc", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-85f293ddbe", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Claude Code tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-86b74abcfa", "verdict": "keep", "rank": 2, "why": "Cole Medin's five techniques of top agentic engineers; practitioner habits", "tags": ["tutorial"]}
+{"id": "f-872195806d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype recap of Mods; covered by Anthropic's own video"}
+{"id": "f-8768988c1b", "verdict": "keep", "rank": 3, "why": "Self-evolving Claude Code memory with Karpathy-style knowledge bases; compare with Great Library spine", "tags": ["memory"]}
+{"id": "f-878b8328e2", "verdict": "keep", "rank": 2, "why": "Five OpenCode agent patterns compared; pattern comparison", "tags": ["harness"]}
+{"id": "f-881ed612c1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Claude Code tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-887907b72b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-88b3c4c950", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic agent memory explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-892813d776", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Codex usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-89595d52db", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "clickbait, nothing concrete"}
+{"id": "f-8a092eb7f0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-8a7dd75d60", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (basic worktrees explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-8cbe885f44", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-8cc9a80ece", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-8ec470ee59", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-8f7cc38c22", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype recap of Mods; covered by Anthropic's own video"}
+{"id": "f-8ff83b46c6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "recap of Mods; covered by Anthropic's own video"}
+{"id": "f-90d23a2626", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-9103b9ea7c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-91537e5fe3", "verdict": "keep", "rank": 3, "why": "Cole Medin on Claude Code agent teams; native teams versus herdr workers", "tags": ["subagents"]}
+{"id": "f-92e212e8da", "verdict": "keep", "rank": 2, "why": "Practitioner multi-agent team on OpenClaw with named roles; role-design comparison", "tags": ["orchestrator"]}
+{"id": "f-938c310de4", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "basic model-vs-harness explainer; covered by deeper talks"}
+{"id": "f-93cce91ac1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-96f19001e0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-9722229887", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-981ec7796a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-98b4aaee38", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner memory taxonomy explainer"}
+{"id": "f-997e0dfada", "verdict": "keep", "rank": 2, "why": "Eight-minute harness explainer; quick primer", "tags": ["harness"]}
+{"id": "f-9b868c58ee", "verdict": "keep", "rank": 2, "why": "Argues skills practice has moved on; check for new loading patterns", "tags": ["skills"]}
+{"id": "f-9da2ca4594", "verdict": "keep", "rank": 2, "why": "sentdex on harnesses for local frontier models; reference for the Qwen pool", "tags": ["harness"]}
+{"id": "f-9eecaf6deb", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-a2c20e317b", "verdict": "keep", "rank": 4, "why": "Conductor CEO's parallel-agents setup; Conductor is a direct UI competitor for watching many agents", "tags": ["orchestrator", "worktrees", "gui"]}
+{"id": "f-a308f95bc0", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "five-hour general interview; the harness clip is kept separately"}
+{"id": "f-a36fdbefb2", "verdict": "keep", "rank": 2, "why": "VS Code multi-agent workflows; IDE competitor reference", "tags": ["orchestrator"]}
+{"id": "f-a3ce4cd872", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (basic worktrees explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-a3d874adb4", "verdict": "keep", "rank": 3, "why": "OpenAI build hour on agent memory patterns; first-party patterns", "tags": ["memory"]}
+{"id": "f-a41a76f3ad", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Codex usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-a43d9a6f9b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-a47ca36f29", "verdict": "keep", "rank": 2, "why": "Argues the harness, not the model, owns your AI; framing for owning Agent Base", "tags": ["harness"]}
+{"id": "f-a494752786", "verdict": "keep", "rank": 5, "why": "Anthropic's intro to Mods (live panes, bands, status lines, hooks inside Claude Code); the native surface for Agent Base status and steering UI inside each pane", "tags": ["hooks", "gui"]}
+{"id": "f-a518717832", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-a62f518a9b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Codex usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-a86df10414", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-a8e45feae8", "verdict": "keep", "rank": 3, "why": "Anthropic: building a proactive agent workflow with Claude Code; owner-initiative patterns", "tags": ["harness"]}
+{"id": "f-aba652521c", "verdict": "keep", "rank": 5, "why": "Anthropic workshop on agents that run for hours (initializer/progress files, verification, context resets); the long-running owner pattern from the source", "tags": ["harness", "subagents"]}
+{"id": "f-ac4eae8131", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-ad58fed2ae", "verdict": "keep", "rank": 2, "why": "Senior engineer's OpenCode workflow; harness comparison", "tags": ["harness"]}
+{"id": "f-ad93e4b9e4", "verdict": "keep", "rank": 4, "why": "Hermes architecture: memory, context and gateways explained; the most-starred self-improving agent's internals", "tags": ["memory", "harness"]}
+{"id": "f-adef0deb6f", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic subagents tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-ae4ec3b693", "verdict": "keep", "rank": 2, "why": "Spec-driven development with coding agents course; compare with specker", "tags": ["skills"]}
+{"id": "f-af926cef9d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-b018004ec3", "verdict": "keep", "rank": 3, "why": "Deleting all skills made Claude smarter; evidence on skill bloat, supports lazy skills and pruning the hub", "tags": ["skills", "cost"]}
+{"id": "f-b185a17c25", "verdict": "keep", "rank": 3, "why": "Compares every Claude Code memory system; shortcut for choosing a memory add-on", "tags": ["memory"]}
+{"id": "f-b19d591f38", "verdict": "keep", "rank": 2, "why": "Burke Holland on agent orchestration; clear conceptual explainer", "tags": ["orchestrator"]}
+{"id": "f-b24f50cf54", "verdict": "keep", "rank": 5, "why": "Dave Ebbelaar's full guide to herdr for multi-agent coding; herdr is Agent Base's own substrate, so watch how outsiders set up lanes and what they find missing", "tags": ["orchestrator", "tutorial"]}
+{"id": "f-b5f1c88605", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic subagents tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-b6137fe18a", "verdict": "keep", "rank": 3, "why": "Google on the stack behind Antigravity and Claude Code harnesses; comparative architecture", "tags": ["harness"]}
+{"id": "f-b66a5e49d6", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic agentic coding setup); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-b6dd9e29e1", "verdict": "keep", "rank": 2, "why": "Coding-agent harness from scratch, no framework; readable mechanics", "tags": ["harness", "tutorial"]}
+{"id": "f-b6dfe57812", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-b74f8b0030", "verdict": "keep", "rank": 3, "why": "How Arize solved context management in agents; practical compaction lessons", "tags": ["cost"]}
+{"id": "f-b8d6cd6c30", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (basic worktrees explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-b9bf2acf03", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic agentic coding setup); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-ba74556c94", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Claude Code tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-ba9fb2967a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Claude skills overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-bc2204855f", "verdict": "keep", "rank": 2, "why": "VS Code team on orchestrating multiple agents; design rationale", "tags": ["orchestrator"]}
+{"id": "f-bcc2c3b9b3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-bd55edc8c0", "verdict": "keep", "rank": 3, "why": "Matt Pocock's full AI coding workflow walkthrough; concrete skill-driven loop", "tags": ["skills", "tutorial"]}
+{"id": "f-bd8fc99e91", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic agent memory explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-be13ed96c1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic subagents tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-be5ed8c601", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-be83459e8a", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "low-signal comparison of Mods/hooks/skills/MCP"}
+{"id": "f-bfd1a87639", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (basic harness explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-bfe9a5f620", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Claude Code tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-c00110dc9e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Codex usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-c253c5fa75", "verdict": "keep", "rank": 2, "why": "Dave Ebbelaar on why agents fail from context; practical failure list", "tags": ["cost"]}
+{"id": "f-c3191e866a", "verdict": "keep", "rank": 2, "why": "100 agents at once experiment; scale failure modes", "tags": ["orchestrator"]}
+{"id": "f-c3f76f1ef7", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-c480c74779", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-c4daf5f8e9", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-c5bc66160e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-c69bfb61d1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic agentic coding setup); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-c6cbba0670", "verdict": "keep", "rank": 3, "why": "Forcing the right CLI with hooks instead of CLAUDE.md prose; supports SISO's hook-over-prose approach", "tags": ["hooks"]}
+{"id": "f-c83df7c7c2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Claude Code tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-c8d4b5c03e", "verdict": "keep", "rank": 2, "why": "Codex multi-agent workflow with worktrees; Codex-side lanes", "tags": ["worktrees"]}
+{"id": "f-c8ea06bc26", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-ca1af738b4", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Codex usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-cbbb545b47", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-cfa441e9ae", "verdict": "keep", "rank": 2, "why": "Context windows explained concisely; good primer for worker briefs", "tags": ["cost"]}
+{"id": "f-d141a290ad", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-d1e96d2aaa", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (basic worktrees explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-d2409a4b5e", "verdict": "keep", "rank": 3, "why": "Deep dive into the new DeepSeek agent harness; relevant to the worker tier", "tags": ["cost", "harness"]}
+{"id": "f-d2bbbd9dea", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic agent memory explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-d3eade3e01", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-d3f5f4029f", "verdict": "keep", "rank": 2, "why": "High-volume agentic setup (42k commits); practitioner reference, discount claims", "tags": ["orchestrator"]}
+{"id": "f-d556119202", "verdict": "keep", "rank": 2, "why": "LLM wiki in Obsidian as memory layer; example build", "tags": ["memory"]}
+{"id": "f-d5b816394b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic multi-agent explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-d65e232fc8", "verdict": "keep", "rank": 2, "why": "Twelve Claude Code features incl. subagents and CLAUDE.md; quick reference", "tags": ["tutorial"]}
+{"id": "f-d718d97402", "verdict": "keep", "rank": 2, "why": "Brendan O'Leary on agentic engineering; practitioner framing", "tags": ["tutorial"]}
+{"id": "f-d736a436d4", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic multi-agent explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-d8c509762c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-d8c8dbb35a", "verdict": "keep", "rank": 3, "why": "LangChain building a harness with Jev; the estate already uses Jev for judgement checks", "tags": ["harness"]}
+{"id": "f-d9e6b28176", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (basic worktrees explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-da85cda087", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-db069d7eef", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-dbb5ce8d15", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-dd15be6480", "verdict": "keep", "rank": 3, "why": "Forked subagents explained; forked context may cut brief-writing cost for workers", "tags": ["subagents", "cost"]}
+{"id": "f-de036cad2c", "verdict": "keep", "rank": 3, "why": "Warp's multi-agent orchestration launch; competitor UI to compare", "tags": ["orchestrator", "gui"]}
+{"id": "f-e16228e795", "verdict": "keep", "rank": 2, "why": "Agent observability and eval primer; vocabulary for traces", "tags": ["observability"]}
+{"id": "f-e173828864", "verdict": "keep", "rank": 3, "why": "Multi-agent orchestration patterns that work in production (AI Engineer); pattern catalogue", "tags": ["orchestrator"]}
+{"id": "f-e1ed2ee809", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "hype video (generic Codex usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-e316f727e3", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-e4125ad41e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic multi-agent explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-e42ef2c1f7", "verdict": "keep", "rank": 3, "why": "IndyDevDan on going beyond a single Claude Code agent; orchestration patterns", "tags": ["orchestrator"]}
+{"id": "f-e48d8d225e", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-e4d617e433", "verdict": "keep", "rank": 3, "why": "Pi versus OpenCode on the same Qwen model; shows harness choice matters for cheap-model workers", "tags": ["harness", "cost"]}
+{"id": "f-e5cb27fc8c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic agentic coding setup); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-e5df7958f2", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic multi-agent explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-e77f8a4b78", "verdict": "keep", "rank": 2, "why": "Hermes memory with Hindsight tutorial; plugin-level detail", "tags": ["memory"]}
+{"id": "f-e8452ff6ae", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-e994c7c997", "verdict": "keep", "rank": 2, "why": "A real feature built step by step with Claude Code; workflow reference", "tags": ["tutorial"]}
+{"id": "f-ecb7fdf0fc", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic build-an-agent content); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-ed0e1332cf", "verdict": "keep", "rank": 4, "why": "IndyDevDan: cmux orchestrating Claude Code and Pi agents; mixed-harness panes like Agent Base", "tags": ["orchestrator", "gui"]}
+{"id": "f-ed538e3aa5", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic context-engineering explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-ee1410197b", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Codex usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-ee67094453", "verdict": "keep", "rank": 2, "why": "Hooks in under 20 minutes; refresher", "tags": ["hooks"]}
+{"id": "f-f1e6b95d8d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic hooks tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-f3b58bd272", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic Codex usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-f3cf333bee", "verdict": "keep", "rank": 2, "why": "Zed parallel agents; competitor reference", "tags": ["orchestrator"]}
+{"id": "f-f53769f959", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic plugins overview); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-f5f85a41bb", "verdict": "keep", "rank": 2, "why": "Web Dev Cody's current agentic workflow; practitioner reference", "tags": ["tutorial"]}
+{"id": "f-f609c954b9", "verdict": "keep", "rank": 2, "why": "Simple parallel agents setup; reference", "tags": ["worktrees"]}
+{"id": "f-f69728adb1", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-f7454aba94", "verdict": "keep", "rank": 2, "why": "Builds a harness live in 30 minutes; mechanics refresher", "tags": ["harness"]}
+{"id": "f-f934336a65", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic hooks tutorial); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-f983734c80", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (OpenCode usage); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-fa189331c6", "verdict": "keep", "rank": 2, "why": "Karpathy LLM wiki applied to Hermes; example build", "tags": ["memory"]}
+{"id": "f-fdd915143c", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "general explainer (generic MCP server build/explainer); nothing Agent Base does not already know, covered by kept talks"}
+{"id": "f-ffbee2ba7d", "verdict": "drop", "rank": 1, "why": "", "tags": [], "note": "beginner/general tutorial (generic Claude Code tutorial); nothing Agent Base does not already know, covered by kept talks"}

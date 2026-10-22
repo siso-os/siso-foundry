@@ -1,0 +1,218 @@
+{"id": "f-041f97eb6e", "verdict": "keep", "rank": 2}
+{"id": "f-082beb2994", "verdict": "keep", "rank": 3, "why": "Work Sans is an OFL grotesque on Google Fonts, a solid body and display face for client sites.", "tags": ["font"]}
+{"id": "f-111a6fed05", "verdict": "keep", "rank": 3, "why": "Twemoji is an MIT SVG emoji set that gives consistent emoji rendering across platforms in apps.", "tags": ["emoji", "svg"]}
+{"id": "f-170c6b23b4", "verdict": "keep", "rank": 2}
+{"id": "f-1eb92787c6", "verdict": "keep", "rank": 4, "why": "Fluent UI System Icons is Microsoft's large MIT SVG set in regular and filled weights, a strong alternative icon family for dashboards.", "tags": ["icons", "svg"]}
+{"id": "f-2352d2467b", "verdict": "keep", "rank": 3, "why": "FlagKit is an MIT SVG flag set for locale pickers and country fields.", "tags": ["icons", "flags"]}
+{"id": "f-3402262786", "verdict": "keep", "rank": 2}
+{"id": "f-38d319aa52", "verdict": "drop", "note": "terminal Powerline patched fonts, not web UI"}
+{"id": "f-39a8363c2b", "verdict": "drop", "note": "gallery of terminal monospace fonts; not a web asset"}
+{"id": "f-3b4ce5564a", "verdict": "keep", "rank": 2}
+{"id": "f-3ce6f6cdd1", "verdict": "drop", "note": "Pan-CJK font; not needed for Latin client work"}
+{"id": "f-46fc9462dc", "verdict": "keep", "rank": 2}
+{"id": "f-481af68b63", "verdict": "keep", "rank": 2}
+{"id": "f-4b12ad2e17", "verdict": "keep", "rank": 3, "why": "Libre Franklin is an OFL Franklin Gothic revival, a dependable editorial sans for client sites.", "tags": ["font"]}
+{"id": "f-51f91f2f9e", "verdict": "drop", "note": "Windows 10 icon font superseded by SVG sets"}
+{"id": "f-56259ae40a", "verdict": "drop", "note": "emoji tracking app, not a UI asset"}
+{"id": "f-562e02b7fc", "verdict": "keep", "rank": 3, "why": "Super Tiny Icons are sub-1KB SVG brand and app logos, handy for social and integration rows.", "tags": ["icons", "logos", "svg"]}
+{"id": "f-593db6c661", "verdict": "keep", "rank": 2}
+{"id": "f-5b8f65d7f4", "verdict": "keep", "rank": 3, "why": "Barlow is an OFL grotesk variable superfamily with wide widths, good for display headings.", "tags": ["font", "variable"]}
+{"id": "f-5d1e475a08", "verdict": "keep", "rank": 2}
+{"id": "f-5e1362036e", "verdict": "drop", "note": "pure-CSS icon pack superseded by SVG sets"}
+{"id": "f-5e72740449", "verdict": "keep", "rank": 2}
+{"id": "f-5fc31f71d7", "verdict": "keep", "rank": 2}
+{"id": "f-61eae989ef", "verdict": "keep", "rank": 4, "why": "Monaspace is GitHub's OFL variable monospace superfamily, a standout code font for dev-tool and SaaS sites.", "tags": ["font", "mono", "variable"]}
+{"id": "f-637cb7290d", "verdict": "drop", "note": "dormant font editor; FontForge covers it"}
+{"id": "f-6967a8fa48", "verdict": "keep", "rank": 5, "why": "Inter is the OFL variable typeface designed for UIs, the default text face for dashboards and SaaS apps.", "tags": ["font", "variable", "ui"]}
+{"id": "f-6d5ee76c2c", "verdict": "keep", "rank": 1}
+{"id": "f-764b954bf3", "verdict": "keep", "rank": 2}
+{"id": "f-793ae6c750", "verdict": "drop", "note": "terminal patched fonts, not web UI"}
+{"id": "f-81e0580e01", "verdict": "drop", "note": "iOS icon font, superseded by SVG sets"}
+{"id": "f-82d44f1ee1", "verdict": "drop", "note": "RSpec formatter, not UI"}
+{"id": "f-8cfaff8af7", "verdict": "keep", "rank": 3, "why": "Octicons are GitHub's MIT SVG icons, a crisp set for developer-facing products.", "tags": ["icons", "svg"]}
+{"id": "f-94b4a2fce9", "verdict": "keep", "rank": 3, "why": "Devicon is an actively maintained MIT set of programming-language and tool logos for tech-stack sections.", "tags": ["icons", "logos"]}
+{"id": "f-9a50782f44", "verdict": "keep", "rank": 1}
+{"id": "f-9b7b9d6a29", "verdict": "keep", "rank": 2}
+{"id": "f-9bfef0f610", "verdict": "drop", "note": "CLI font manager, not a UI asset"}
+{"id": "f-a3849b05c2", "verdict": "keep", "rank": 1}
+{"id": "f-a3931223d0", "verdict": "drop", "note": "emoji list for GitHub, not a UI asset"}
+{"id": "f-a5c1cf4a37", "verdict": "keep", "rank": 3, "why": "Bootstrap Icons is an active MIT SVG library of 2,000+ icons usable without Bootstrap.", "tags": ["icons", "svg"]}
+{"id": "f-a860bfde78", "verdict": "keep", "rank": 1}
+{"id": "f-ac5ac594fe", "verdict": "drop", "note": "novelty Minecraft-style code font"}
+{"id": "f-ade5e7264e", "verdict": "drop", "note": "Node emoji utility, not UI"}
+{"id": "f-ae8bfb6d84", "verdict": "keep", "rank": 2}
+{"id": "f-afcbae1b89", "verdict": "drop", "note": "command-line emoji tool"}
+{"id": "f-b07b273089", "verdict": "keep", "rank": 3, "why": "Fira Code is the widely used OFL monospace with ligatures for code blocks.", "tags": ["font", "mono"]}
+{"id": "f-b2edd3bdd5", "verdict": "drop", "note": "localStorage font caching, an obsolete technique"}
+{"id": "f-b8a2c0c6f6", "verdict": "keep", "rank": 1}
+{"id": "f-c071dd7533", "verdict": "keep", "rank": 2}
+{"id": "f-c9b603572b", "verdict": "keep", "rank": 4, "why": "The Google Fonts source repo is the OFL catalogue behind next/font/google, the main font supply for client sites.", "tags": ["font"]}
+{"id": "f-d32fced78a", "verdict": "drop", "note": "terminal font (Menlo variant)"}
+{"id": "f-d3b05c67e6", "verdict": "keep", "rank": 1}
+{"id": "f-d7b2cf0df6", "verdict": "keep", "rank": 4, "why": "IBM Plex is an OFL sans/serif/mono superfamily, a strong cohesive type system for products.", "tags": ["font"]}
+{"id": "f-dc3b131f07", "verdict": "drop", "note": "novelty retro terminal font"}
+{"id": "f-dfe5c49aef", "verdict": "keep", "rank": 2}
+{"id": "f-e237de88c9", "verdict": "drop", "note": "joke font"}
+{"id": "f-e2adbfb34b", "verdict": "drop", "note": "emoji cheat-sheet page, not a UI asset"}
+{"id": "f-e7ac26236c", "verdict": "drop", "note": "emoji search site, not a UI asset"}
+{"id": "f-ec65c840ae", "verdict": "drop", "note": "jQuery-era text splitting, superseded by modern split-text libraries"}
+{"id": "f-f51810fbc4", "verdict": "keep", "rank": 2}
+{"id": "f-f57c20a1a3", "verdict": "keep", "rank": 4, "why": "Radix Icons are crisp 15x15 MIT icons that match Radix/shadcn primitives.", "tags": ["icons", "svg", "shadcn"]}
+{"id": "f-f815c6b360", "verdict": "keep", "rank": 2}
+{"id": "f-000b33a2f1", "verdict": "drop", "note": "audio vocal separation, not image/video/3D generation"}
+{"id": "f-02aac9d4d4", "verdict": "keep", "rank": 3, "why": "FastVideo is a unified inference and post-training framework that speeds up open video generation models.", "tags": ["video"]}
+{"id": "f-0399cfd898", "verdict": "drop", "note": "LLM inference, not image generation"}
+{"id": "f-04c1b59c5a", "verdict": "keep", "rank": 2}
+{"id": "f-0559f612ed", "verdict": "keep", "rank": 4, "why": "IC-Light relights images from lllyasviel, ideal for product shots and hero imagery.", "tags": ["image", "relight"]}
+{"id": "f-0e1b15bc7f", "verdict": "keep", "rank": 2}
+{"id": "f-15361376f9", "verdict": "drop", "note": "pose estimation superseded by comfyui_controlnet_aux preprocessors"}
+{"id": "f-195554aaf1", "verdict": "keep", "rank": 1}
+{"id": "f-1aeb5c4658", "verdict": "keep", "rank": 2}
+{"id": "f-1eff9f4674", "verdict": "drop", "note": "TTS audio, not image generation"}
+{"id": "f-1f0f7b7454", "verdict": "drop", "note": "voice conversion, not image generation"}
+{"id": "f-21b4a930ab", "verdict": "keep", "rank": 3, "why": "Fooocus is a simplified SDXL image generator for quick, low-friction image output.", "tags": ["image", "sdxl"]}
+{"id": "f-24c3acd4ce", "verdict": "drop", "note": "audio LLM, not image generation"}
+{"id": "f-2595a579e8", "verdict": "drop", "note": "agent framework, not image generation"}
+{"id": "f-2e1e620399", "verdict": "keep", "rank": 2}
+{"id": "f-2e406cd849", "verdict": "drop", "note": "NN compiler, not a generation tool"}
+{"id": "f-2eb4d2813b", "verdict": "keep", "rank": 2}
+{"id": "f-3489662fb4", "verdict": "keep", "rank": 1}
+{"id": "f-34eb3af51e", "verdict": "keep", "rank": 1}
+{"id": "f-38bdcb2557", "verdict": "keep", "rank": 4, "why": "VideoHelperSuite provides the standard ComfyUI nodes for loading, combining and exporting video.", "tags": ["comfyui", "video"]}
+{"id": "f-395395b22a", "verdict": "drop", "note": "video object tracking, not generation"}
+{"id": "f-3d86654a7d", "verdict": "drop", "note": "GUI-agent screen parsing, not image generation"}
+{"id": "f-3fceeaea89", "verdict": "keep", "rank": 1}
+{"id": "f-4440bf3729", "verdict": "drop", "note": "A1111 extension; SISO's stack is ComfyUI"}
+{"id": "f-450931f263", "verdict": "drop", "note": "vision-language understanding, not generation"}
+{"id": "f-482e0d60af", "verdict": "keep", "rank": 2}
+{"id": "f-4b17e4d41b", "verdict": "drop", "note": "audio/speech toolkit, not image generation"}
+{"id": "f-4c9c7ad9bb", "verdict": "drop", "note": "object detection, not generation"}
+{"id": "f-4e0565c05f", "verdict": "keep", "rank": 3, "why": "ProPainter does video inpainting for object removal and cleanup in video assets (check its licence).", "tags": ["video", "inpainting"]}
+{"id": "f-4e6b1008d9", "verdict": "drop", "note": "voice cloning, not image generation"}
+{"id": "f-4f658ace4c", "verdict": "keep", "rank": 1}
+{"id": "f-50c43aa28b", "verdict": "keep", "rank": 4, "why": "ComfyUI-3D-Pack brings mesh and UV-texture generation into ComfyUI for 3D assets.", "tags": ["comfyui", "3d"]}
+{"id": "f-50eacc8f4f", "verdict": "keep", "rank": 4, "why": "Wan 2.1 is a leading open Apache-2.0 video generation model family (later Wan releases may supersede it).", "tags": ["video"]}
+{"id": "f-511883b259", "verdict": "keep", "rank": 3, "why": "ComfyUI Deploy is a Vercel-like platform to serve ComfyUI workflows as APIs (AGPL).", "tags": ["comfyui", "deploy"]}
+{"id": "f-56b10cbec0", "verdict": "drop", "note": "narrow-niche ComfyUI node pack for live visuals"}
+{"id": "f-5873e9e019", "verdict": "keep", "rank": 2}
+{"id": "f-5e64476fee", "verdict": "keep", "rank": 1}
+{"id": "f-5f03454e73", "verdict": "keep", "rank": 1}
+{"id": "f-61eb6bb0ff", "verdict": "keep", "rank": 3, "why": "OpenCut is an MIT browser video editor, a reference or fork base for in-app video editing.", "tags": ["video", "editor"]}
+{"id": "f-62ea296824", "verdict": "keep", "rank": 1}
+{"id": "f-63debf4aee", "verdict": "drop", "note": "vision-language model, not generation; belongs in model research"}
+{"id": "f-6499f7fff7", "verdict": "keep", "rank": 1}
+{"id": "f-65a11db9ce", "verdict": "keep", "rank": 2}
+{"id": "f-6721844064", "verdict": "keep", "rank": 1}
+{"id": "f-6880b5d6e1", "verdict": "keep", "rank": 2}
+{"id": "f-6c095c7d15", "verdict": "keep", "rank": 1}
+{"id": "f-6e105ac999", "verdict": "drop", "note": "voice cloning, not image generation"}
+{"id": "f-6f12d7306c", "verdict": "keep", "rank": 1}
+{"id": "f-7155d7bbe9", "verdict": "drop", "note": "CV training library, not generation"}
+{"id": "f-7295e71569", "verdict": "keep", "rank": 3, "why": "InstantID generates identity-preserving portraits from one photo in seconds.", "tags": ["image", "identity"]}
+{"id": "f-72e7c9cc84", "verdict": "drop", "note": "omni LLM with speech, not image generation"}
+{"id": "f-7352b0c1dc", "verdict": "keep", "rank": 1}
+{"id": "f-7374af37a9", "verdict": "keep", "rank": 2}
+{"id": "f-73c0be7617", "verdict": "keep", "rank": 2}
+{"id": "f-75d7098188", "verdict": "drop", "note": "translation library, not UI"}
+{"id": "f-75e26e933b", "verdict": "keep", "rank": 4, "why": "ComfyUI-LTXVideo adds Lightricks' fast LTX-Video generation to ComfyUI.", "tags": ["comfyui", "video"]}
+{"id": "f-76553a8377", "verdict": "keep", "rank": 2}
+{"id": "f-77499c0b72", "verdict": "drop", "note": "speech generation, not image generation"}
+{"id": "f-788da01956", "verdict": "drop", "note": "voice conversion, not image generation"}
+{"id": "f-79e6d1f74a", "verdict": "drop", "note": "music generation, not image generation"}
+{"id": "f-7c296edea4", "verdict": "keep", "rank": 1}
+{"id": "f-7da51a8fe3", "verdict": "keep", "rank": 3, "why": "Step1X-Edit is an open Apache-2.0 instruction-based image editing model.", "tags": ["image", "edit"]}
+{"id": "f-82a387a2e3", "verdict": "keep", "rank": 1}
+{"id": "f-879ca4948b", "verdict": "keep", "rank": 2}
+{"id": "f-87bd198417", "verdict": "keep", "rank": 2}
+{"id": "f-89b6f4ea79", "verdict": "keep", "rank": 2}
+{"id": "f-8b0d5161a7", "verdict": "drop", "note": "TTS audio, not image generation"}
+{"id": "f-8deffc5759", "verdict": "keep", "rank": 1}
+{"id": "f-9144f5e628", "verdict": "drop", "note": "object detection, not generation"}
+{"id": "f-91bd5c9d0c", "verdict": "drop", "note": "Ollama Python client, not image generation"}
+{"id": "f-932866132c", "verdict": "keep", "rank": 1}
+{"id": "f-947283e68d", "verdict": "keep", "rank": 4, "why": "comfyui_controlnet_aux supplies the standard ControlNet preprocessors (depth, pose, lineart) for ComfyUI.", "tags": ["comfyui", "controlnet"]}
+{"id": "f-960197b976", "verdict": "drop", "note": "speech transcription, not image generation"}
+{"id": "f-99c27516b4", "verdict": "keep", "rank": 2}
+{"id": "f-a2f9acc698", "verdict": "drop", "note": "video transcoding CLI, not generation"}
+{"id": "f-a49597de61", "verdict": "keep", "rank": 1}
+{"id": "f-a50dbb5aa5", "verdict": "keep", "rank": 1}
+{"id": "f-ad12b103d8", "verdict": "keep", "rank": 4, "why": "VTracer converts raster images to clean SVG, turning generated art into scalable web assets.", "tags": ["svg", "vectorize"]}
+{"id": "f-ad83e22731", "verdict": "drop", "note": "audio TTS node, not image generation"}
+{"id": "f-af4c7ec09e", "verdict": "drop", "note": "vision-language model, not generation"}
+{"id": "f-b13a87ba28", "verdict": "keep", "rank": 2}
+{"id": "f-b4b12e091c", "verdict": "drop", "note": "vision-language model, not generation"}
+{"id": "f-b7c8643095", "verdict": "keep", "rank": 2}
+{"id": "f-b85cb707d8", "verdict": "keep", "rank": 1}
+{"id": "f-b9a241052f", "verdict": "keep", "rank": 1}
+{"id": "f-bcc728394d", "verdict": "keep", "rank": 4, "why": "Impact Pack is the staple ComfyUI detector/detailer suite for fixing faces and details.", "tags": ["comfyui", "image"]}
+{"id": "f-bd5ec0c52f", "verdict": "keep", "rank": 2}
+{"id": "f-bffd6cf8d0", "verdict": "drop", "note": "segmentation research, not generation"}
+{"id": "f-c3b17afca3", "verdict": "keep", "rank": 5, "why": "Kijai's WanVideoWrapper is the standard way to run Wan video models in ComfyUI.", "tags": ["comfyui", "video"]}
+{"id": "f-c3b5b155bf", "verdict": "drop", "note": "narrow-niche Wan Animate node pack"}
+{"id": "f-c894168c15", "verdict": "keep", "rank": 2}
+{"id": "f-c8d30e277a", "verdict": "keep", "rank": 2}
+{"id": "f-ccc5a09741", "verdict": "drop", "note": "audio TTS node, not image generation"}
+{"id": "f-cd8ac2cb9d", "verdict": "keep", "rank": 1}
+{"id": "f-ceecf96b32", "verdict": "keep", "rank": 2}
+{"id": "f-d43a9bb639", "verdict": "drop", "note": "CV backbone library, not generation"}
+{"id": "f-d4bb1fdc82", "verdict": "keep", "rank": 2}
+{"id": "f-d529a2e733", "verdict": "keep", "rank": 4, "why": "ComfyUI-RMBG does advanced background removal in ComfyUI, a constant need for product and portrait assets (GPL).", "tags": ["comfyui", "rmbg"]}
+{"id": "f-d882a6ba1a", "verdict": "keep", "rank": 2}
+{"id": "f-d8aa3e1a5f", "verdict": "drop", "note": "ImageMagick Python bindings, not generation"}
+{"id": "f-d9e3a6054e", "verdict": "drop", "note": "TTS audio, not image generation"}
+{"id": "f-daa13c4e6a", "verdict": "drop", "note": "audio mastering, not image generation"}
+{"id": "f-dadd08a244", "verdict": "drop", "note": "face recognition, not generation"}
+{"id": "f-db2e24401f", "verdict": "keep", "rank": 1}
+{"id": "f-dcf29b1820", "verdict": "drop", "note": "vision-language model, not generation"}
+{"id": "f-e0525b6cce", "verdict": "drop", "note": "A1111 templating extension; SISO's stack is ComfyUI"}
+{"id": "f-e10c1f3418", "verdict": "keep", "rank": 3, "why": "PuLID does fast identity customisation for portrait generation, including FLUX.", "tags": ["image", "identity"]}
+{"id": "f-e140740994", "verdict": "keep", "rank": 2}
+{"id": "f-e1da3d80a4", "verdict": "keep", "rank": 1}
+{"id": "f-ed872be7c5", "verdict": "keep", "rank": 3, "why": "SD-PPP bridges Photoshop and ComfyUI so designers can run AI generation inside Photoshop.", "tags": ["comfyui", "photoshop"]}
+{"id": "f-eddd064461", "verdict": "keep", "rank": 1}
+{"id": "f-f0c0d848a6", "verdict": "keep", "rank": 2}
+{"id": "f-f3b33ceadc", "verdict": "keep", "rank": 1}
+{"id": "f-f865a276e9", "verdict": "keep", "rank": 2}
+{"id": "f-f8853b20bc", "verdict": "drop", "note": "segmentation/tracking, not generation"}
+{"id": "f-f8958c337f", "verdict": "keep", "rank": 2}
+{"id": "f-f8f05ae3c1", "verdict": "drop", "note": "dialogue TTS, not image generation"}
+{"id": "f-fa63ad6606", "verdict": "drop", "note": "SDXL-era ComfyUI node pack, superseded"}
+{"id": "f-fd0f85543c", "verdict": "keep", "rank": 2}
+{"id": "f-fda87f116f", "verdict": "keep", "rank": 1}
+{"id": "f-01fd78637a", "verdict": "drop", "note": "dead Next.js + Redux PWA boilerplate"}
+{"id": "f-0fe138d545", "verdict": "drop", "note": "dated Next.js app, not a reusable shell"}
+{"id": "f-10b77fe838", "verdict": "drop", "note": "dated Next.js generator (styled-components era)"}
+{"id": "f-14b29f9b5c", "verdict": "keep", "rank": 2}
+{"id": "f-1642cb21d9", "verdict": "drop", "note": "dated team-dashboard app"}
+{"id": "f-25fd56ecc6", "verdict": "drop", "note": "Pages-router middleware, superseded by App Router handlers"}
+{"id": "f-2997b692e0", "verdict": "drop", "note": "dead Next.js 9 app"}
+{"id": "f-3143da29f7", "verdict": "drop", "note": "dead Next.js blog template"}
+{"id": "f-362e6da762", "verdict": "drop", "note": "Ruby dashboard framework"}
+{"id": "f-3e7702c1db", "verdict": "drop", "note": "dead Apollo/Next integration"}
+{"id": "f-4014b01d50", "verdict": "keep", "rank": 2}
+{"id": "f-4a8e4edcc8", "verdict": "drop", "note": "dated Next.js + Redux boilerplate"}
+{"id": "f-58e65f6fa3", "verdict": "drop", "note": "dead Next.js routing lib, superseded by built-in routing"}
+{"id": "f-5b6f62854d", "verdict": "keep", "rank": 2}
+{"id": "f-62845e15df", "verdict": "keep", "rank": 1}
+{"id": "f-6dec0ff8c3", "verdict": "keep", "rank": 2}
+{"id": "f-7c5e900882", "verdict": "keep", "rank": 3, "why": "Flowbite Admin Dashboard is a free Tailwind admin template, a reference for dashboard layouts.", "tags": ["admin", "tailwind"]}
+{"id": "f-8bc5d80daf", "verdict": "drop", "note": "Python dashboard port"}
+{"id": "f-8be4676bda", "verdict": "drop", "note": "superseded by next/image"}
+{"id": "f-8c8cfb9d10", "verdict": "keep", "rank": 2}
+{"id": "f-8efb954227", "verdict": "drop", "note": "TDD resource list, not UI"}
+{"id": "f-9696c9cbdb", "verdict": "drop", "note": "dead Next.js + Express + Redux starter"}
+{"id": "f-97fdbd4277", "verdict": "drop", "note": "dated Netlify blog template"}
+{"id": "f-982a5ccab0", "verdict": "keep", "rank": 2}
+{"id": "f-ad53f382c0", "verdict": "drop", "note": "npm navigation tool, not a shell"}
+{"id": "f-b31a62368b", "verdict": "drop", "note": "dead Next.js 9 boilerplate"}
+{"id": "f-b570cd4dd5", "verdict": "keep", "rank": 5, "why": "Vercel AI SDK is the TypeScript toolkit for streaming AI chat and generative UI in Next.js apps.", "tags": ["ai", "nextjs"]}
+{"id": "f-b5ceaacc32", "verdict": "keep", "rank": 3, "why": "Nextjs Starter Kit is an active batteries-included Next.js SaaS starter, but it has no licence so treat it as reference only.", "tags": ["saas", "nextjs", "no-licence"]}
+{"id": "f-b7ace2fff0", "verdict": "keep", "rank": 2}
+{"id": "f-b86fd175fc", "verdict": "drop", "note": "dated IoT dashboard builder"}
+{"id": "f-bd3c86c86b", "verdict": "drop", "note": "dated full-stack hackathon boilerplate"}
+{"id": "f-c52da750f8", "verdict": "drop", "note": "dated Next 10 / Tailwind 2 starter"}
+{"id": "f-d31ef5fa82", "verdict": "keep", "rank": 3, "why": "Start UI web is BearStudio's opinionated React/TypeScript app starter, a useful base for internal apps.", "tags": ["starter", "react"]}
+{"id": "f-d528e443f8", "verdict": "drop", "note": "mailto link helper, not a shell"}
+{"id": "f-e5adbfe5bb", "verdict": "drop", "note": "Pages-router session middleware, superseded"}
+{"id": "f-f33dab08fe", "verdict": "keep", "rank": 4, "why": "Next Enterprise is a production Next.js boilerplate with Tailwind, Radix, TypeScript, testing and CI.", "tags": ["nextjs", "starter"]}
+{"id": "f-fcc9d6ffc5", "verdict": "keep", "rank": 2}

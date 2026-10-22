@@ -1,0 +1,290 @@
+{
+ "_about": "Persistent research sources. `foundry refresh` runs the ones whose cadence has lapsed, then rebuilds. cmd is argv relative to the Foundry root, run with python3; {domain} expands to each domain for domain 'all'. Runtime state (last run, yield) lives in the data plane, not here.",
+ "sources": [
+  {
+   "name": "awwwards-sotd",
+   "domain": "ui",
+   "cmd": [
+    "research/tools/awards_harvest.py",
+    "--pages",
+    "3"
+   ],
+   "cadence_days": 7,
+   "owner": "RESEARCH",
+   "why": "New Awwwards Sites of the Day with thumbnails and tags."
+  },
+  {
+   "name": "awwwards-sotm",
+   "domain": "ui",
+   "cmd": [
+    "research/tools/awards_harvest.py",
+    "--list",
+    "sites_of_the_month",
+    "--pages",
+    "1"
+   ],
+   "cadence_days": 30,
+   "owner": "RESEARCH",
+   "why": "Awwwards Sites of the Month."
+  },
+  {
+   "name": "fwa",
+   "domain": "ui",
+   "cmd": [
+    "research/tools/awards_more.py",
+    "fwa",
+    "--pages",
+    "2"
+   ],
+   "cadence_days": 7,
+   "owner": "RESEARCH",
+   "why": "FWA of the Day and Month."
+  },
+  {
+   "name": "cssda",
+   "domain": "ui",
+   "cmd": [
+    "research/tools/awards_more.py",
+    "cssda",
+    "--pages",
+    "2"
+   ],
+   "cadence_days": 7,
+   "owner": "RESEARCH",
+   "why": "CSS Design Awards Website of the Day."
+  },
+  {
+   "name": "godly",
+   "domain": "ui",
+   "cmd": [
+    "research/tools/awards_more.py",
+    "godly"
+   ],
+   "cadence_days": 14,
+   "owner": "RESEARCH",
+   "why": "Godly / recent.design picks."
+  },
+  {
+   "name": "onepagelove",
+   "domain": "ui",
+   "cmd": [
+    "research/tools/awards_more.py",
+    "onepagelove",
+    "--pages",
+    "2"
+   ],
+   "cadence_days": 14,
+   "owner": "RESEARCH",
+   "why": "One Page Love picks."
+  },
+  {
+   "name": "award-stacks",
+   "domain": "ui",
+   "cmd": [
+    "research/tools/stack_probe.py",
+    "--area",
+    "awards"
+   ],
+   "cadence_days": 30,
+   "owner": "RESEARCH",
+   "why": "Libraries the newest award winners ship (skips sites already probed)."
+  },
+  {
+   "name": "award-studios",
+   "domain": "ui",
+   "cmd": [
+    "research/tools/studios.py",
+    "--min-wins",
+    "6"
+   ],
+   "cadence_days": 30,
+   "owner": "RESEARCH",
+   "why": "Studios with 6+ awards, their sites and stacks."
+  },
+  {
+   "name": "registry-directory",
+   "domain": "ui",
+   "cmd": [
+    "research/tools/registry_directory.py"
+   ],
+   "cadence_days": 7,
+   "owner": "RESEARCH",
+   "why": "Every public shadcn registry item (vault snapshot)."
+  },
+  {
+   "name": "lmarena",
+   "domain": "ui",
+   "cmd": [
+    "research/tools/lmarena.py"
+   ],
+   "cadence_days": 7,
+   "owner": "RESEARCH",
+   "why": "Image, edit and video models on LMArena human votes."
+  },
+  {
+   "name": "awesome-ui",
+   "domain": "ui",
+   "cmd": [
+    "research/tools/awesome_import.py",
+    "--domain",
+    "ui"
+   ],
+   "cadence_days": 30,
+   "owner": "RESEARCH",
+   "why": "UI awesome lists from the Foundry catalog snapshot (needs a newer snapshot to change)."
+  },
+  {
+   "name": "awesome-agent-bases",
+   "domain": "agent-bases",
+   "cmd": [
+    "research/tools/awesome_import.py",
+    "--domain",
+    "agent-bases"
+   ],
+   "cadence_days": 30,
+   "owner": "RESEARCH",
+   "why": "Agent awesome lists from the catalog snapshot."
+  },
+  {
+   "name": "agent-catalogs",
+   "domain": "agent-bases",
+   "cmd": [
+    "research/tools/agent_catalogs.py"
+   ],
+   "cadence_days": 7,
+   "owner": "RESEARCH",
+   "why": "claude-plugins.dev skills and plugins, MCP Registry, SkillsMP (vault snapshots)."
+  },
+  {
+   "name": "claude-channel",
+   "domain": "agent-bases",
+   "cmd": [
+    "research/tools/yt_harvest.py",
+    "--domain",
+    "agent-bases",
+    "--area",
+    "videos",
+    "--playlist",
+    "https://www.youtube.com/channel/UCV03SRZXJEz-hchIAogeJOg/videos"
+   ],
+   "cadence_days": 7,
+   "owner": "RESEARCH",
+   "why": "Every video on Anthropic's Claude channel."
+  },
+  {
+   "name": "agent-videos",
+   "domain": "agent-bases",
+   "cmd": [
+    "research/tools/yt_harvest.py",
+    "--domain",
+    "agent-bases",
+    "--area",
+    "videos",
+    "--per",
+    "30",
+    "claude code",
+    "codex cli",
+    "coding agents",
+    "agent orchestration",
+    "mcp server"
+   ],
+   "cadence_days": 7,
+   "owner": "RESEARCH",
+   "why": "This year's agent videos, relevance gated."
+  },
+  {
+   "name": "agent-repos",
+   "domain": "agent-bases",
+   "cmd": [
+    "research/tools/gh_search.py",
+    "--domain",
+    "agent-bases",
+    "--area",
+    "harnesses",
+    "--min-stars",
+    "300",
+    "coding agent",
+    "agent orchestration",
+    "claude code",
+    "herdr"
+   ],
+   "cadence_days": 14,
+   "owner": "RESEARCH",
+   "why": "Rising agent harness repos (needs curation after each run)."
+  },
+  {
+   "name": "open-asr",
+   "domain": "voice",
+   "cmd": [
+    "research/tools/asr_leaderboard.py"
+   ],
+   "cadence_days": 14,
+   "owner": "RESEARCH",
+   "why": "Open ASR Leaderboard: WER, speed, licence per open model."
+  },
+  {
+   "name": "voice-videos",
+   "domain": "voice",
+   "cmd": [
+    "research/tools/yt_harvest.py",
+    "--domain",
+    "voice",
+    "--area",
+    "videos",
+    "--per",
+    "30",
+    "voice ai agents",
+    "speech to text model",
+    "dictation app"
+   ],
+   "cadence_days": 14,
+   "owner": "RESEARCH",
+   "why": "This year's voice videos."
+  },
+  {
+   "name": "dictation-repos",
+   "domain": "voice",
+   "cmd": [
+    "research/tools/gh_search.py",
+    "--domain",
+    "voice",
+    "--area",
+    "dictation-apps",
+    "--min-stars",
+    "200",
+    "dictation app",
+    "voice typing",
+    "wispr flow alternative"
+   ],
+   "cadence_days": 14,
+   "owner": "RESEARCH",
+   "why": "New open dictation apps (needs curation)."
+  },
+  {
+   "name": "probe-github",
+   "domain": "all",
+   "cmd": [
+    "research/tools/probe.py",
+    "github",
+    "--domain",
+    "{domain}"
+   ],
+   "cadence_days": 7,
+   "owner": "RESEARCH",
+   "why": "Stars, licence, archived state for every repo record, per domain."
+  },
+  {
+   "name": "probe-web",
+   "domain": "all",
+   "cmd": [
+    "research/tools/probe.py",
+    "web",
+    "--domain",
+    "{domain}"
+   ],
+   "cadence_days": 7,
+   "owner": "RESEARCH",
+   "why": "Liveness and previews for new web records, per domain."
+  }
+ ]
+}

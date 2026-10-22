@@ -1,0 +1,20 @@
+{"lead": "https://github.com/topics/awesome-design-resources", "why": "Meta-topic for design resource lists", "rank": 4, "area": "assets"}
+{"lead": "https://github.com/topics/awesome-icons", "why": "Icon library and tool collections", "rank": 4, "area": "assets"}
+{"lead": "https://github.com/topics/awesome-fonts", "why": "Typography and font resource lists", "rank": 4, "area": "assets"}
+{"lead": "gh-search:awesome game assets", "why": "Extend game asset coverage for UI inspiration", "rank": 3, "area": "assets"}
+{"lead": "gh-search:awesome svg", "why": "SVG tools and animation resources", "rank": 3, "area": "assets"}
+{"lead": "gh-search:awesome-3d-printing", "why": "3D printing models for product mockups", "rank": 2, "area": "assets"}
+{"lead": "websearch:material design components free", "why": "Material Design libraries and templates", "rank": 3, "area": "assets"}
+{"lead": "websearch:bootstrap ui kits free", "why": "Web framework component libraries", "rank": 3, "area": "assets"}
+{"lead": "websearch:tailwind css templates free", "why": "Utility-first CSS templates", "rank": 3, "area": "assets"}
+{"lead": "https://github.com/topics/stable-diffusion-models", "why": "Community Stable Diffusion model collections", "rank": 4, "area": "image-gen"}
+{"lead": "https://github.com/topics/text-to-image", "why": "Text-to-image generation tools and models", "rank": 4, "area": "image-gen"}
+{"lead": "websearch:open source video generation", "why": "Open video generation models (extending image-gen)", "rank": 3, "area": "image-gen"}
+{"lead": "websearch:nerf neural radiance fields", "why": "3D reconstruction and novel view synthesis", "rank": 3, "area": "image-gen"}
+{"lead": "websearch:gan generative adversarial networks", "why": "Alternative generative model family", "rank": 2, "area": "image-gen"}
+{"lead": "websearch:diffusion model leaderboard", "why": "Ranking and comparison of diffusion models", "rank": 4, "area": "image-gen"}
+{"lead": "https://huggingface.co/spaces", "why": "Runnable AI model demos on Hugging Face", "rank": 4, "area": "image-gen"}
+{"lead": "websearch:open source text to 3d", "why": "Text-to-3D model and tool collection", "rank": 4, "area": "image-gen"}
+{"lead": "websearch:icon font custom generators", "why": "Build custom icon fonts from SVGs", "rank": 2, "area": "assets"}
+{"lead": "websearch:figma plugins free community", "why": "Extend Figma with free plugins", "rank": 3, "area": "assets"}
+{"lead": "websearch:blender free addons assets", "why": "3D modeling asset libraries for Blender", "rank": 3, "area": "assets"}

@@ -1,0 +1,353 @@
+{"id": "f-8946660e82", "verdict": "keep", "rank": 2, "tags": ["framework", "other-framework"]}
+{"id": "f-8959a7552f", "verdict": "keep", "rank": 2, "tags": ["framework", "other-framework"]}
+{"id": "f-896dd7d548", "verdict": "drop", "note": "terminal-based generative UI tool, not web UI"}
+{"id": "f-898a19617e", "verdict": "keep", "rank": 2, "tags": ["loaders"]}
+{"id": "f-8a0557862e", "verdict": "drop", "note": "superseded by react-intersection-observer"}
+{"id": "f-8a5100775c", "verdict": "drop", "note": "unmaintained React port of Element UI"}
+{"id": "f-8ab1a1164f", "verdict": "keep", "rank": 2, "tags": ["css-in-js", "headless"]}
+{"id": "f-8ad7f5682c", "verdict": "keep", "rank": 2, "tags": ["template", "shadcn"]}
+{"id": "f-8b02f3ee44", "verdict": "drop", "note": "superseded by Next.js metadata API / react-helmet-async"}
+{"id": "f-8b6ef38f30", "verdict": "drop", "note": "end-user app, not a UI library"}
+{"id": "f-8bdf632120", "verdict": "keep", "rank": 3, "why": "High-performance Next.js e-commerce template; reference for fast Next commerce builds.", "tags": ["template", "nextjs", "ecommerce"]}
+{"id": "f-8c32deca54", "verdict": "keep", "rank": 1, "tags": ["design-system"]}
+{"id": "f-8c9d345a67", "verdict": "keep", "rank": 3, "why": "Renders PDFs in React; drop-in for document viewers in client apps.", "tags": ["react", "pdf"]}
+{"id": "f-8cb3c89fdb", "verdict": "drop", "note": "Vue 2-era component kit, unmaintained"}
+{"id": "f-8d2d65a4dc", "verdict": "keep", "rank": 1, "tags": ["design-system"]}
+{"id": "f-8dd2bb304c", "verdict": "keep", "rank": 3, "why": "shadcn/Radix date-range picker with presets; ready to drop into dashboards.", "tags": ["shadcn", "date-picker"]}
+{"id": "f-8e742edd82", "verdict": "drop", "note": "unmaintained-era React library superseded by modern equivalents"}
+{"id": "f-8e8cce29b5", "verdict": "keep", "rank": 4, "why": "MCP server exposing shadcn/ui component structure to LLMs; lets SISO agents build against the registry accurately.", "tags": ["shadcn", "mcp", "agents"]}
+{"id": "f-8f482c5e1e", "verdict": "keep", "rank": 2, "tags": ["vue", "mobile-web"]}
+{"id": "f-903ac34d3d", "verdict": "drop", "note": "superseded by Motion (framer-motion) / react-spring"}
+{"id": "f-918cd7ccaa", "verdict": "drop", "note": "React Native only"}
+{"id": "f-9195786c99", "verdict": "drop", "note": "tiny state container, not UI; superseded"}
+{"id": "f-9196d9d950", "verdict": "drop", "note": "unmaintained; superseded by Embla/Swiper"}
+{"id": "f-9223f08dd7", "verdict": "drop", "note": "Material CSS framework from the jQuery era, superseded"}
+{"id": "f-92a2240c22", "verdict": "drop", "note": "Vue 2 mobile kit, unmaintained"}
+{"id": "f-9317dede23", "verdict": "drop", "note": "HTML sanitizer, non-UI utility"}
+{"id": "f-938ddf9802", "verdict": "keep", "rank": 2, "tags": ["vue", "framework"]}
+{"id": "f-938e2a3687", "verdict": "keep", "rank": 3, "why": "React components for Leaflet maps; the standard way to add interactive maps in React.", "tags": ["react", "maps"]}
+{"id": "f-93a0d92608", "verdict": "keep", "rank": 1, "tags": ["css-framework"]}
+{"id": "f-93edd26b5f", "verdict": "drop", "note": "obsolete React Router scroll helper"}
+{"id": "f-944f7fb000", "verdict": "keep", "rank": 3, "why": "Neobrutalism-styled Tailwind/shadcn components; ready-made bold aesthetic for client sites.", "tags": ["tailwind", "shadcn", "style"]}
+{"id": "f-946ee227bf", "verdict": "drop", "note": "Bootstrap/jQuery admin theme, superseded"}
+{"id": "f-94c5610847", "verdict": "keep", "rank": 1, "tags": ["react", "editor"]}
+{"id": "f-94c877e08a", "verdict": "drop", "note": "unmaintained-era React library superseded by modern equivalents"}
+{"id": "f-94cf74bc99", "verdict": "drop", "note": "unmaintained-era React library superseded by modern equivalents"}
+{"id": "f-94f58dcb4b", "verdict": "drop", "note": "unmaintained-era React library superseded by modern equivalents"}
+{"id": "f-955f4e01c8", "verdict": "drop", "note": "unmaintained, built on legacy Material UI v4"}
+{"id": "f-957765240b", "verdict": "keep", "rank": 2, "tags": ["react", "design-system"]}
+{"id": "f-959307306c", "verdict": "keep", "rank": 2, "tags": ["background", "particles"]}
+{"id": "f-95a108d768", "verdict": "keep", "rank": 2, "tags": ["react", "table"]}
+{"id": "f-95eed0318e", "verdict": "keep", "rank": 2, "tags": ["css-framework"]}
+{"id": "f-975765bc40", "verdict": "keep", "rank": 1, "tags": ["design-system"]}
+{"id": "f-97718e3823", "verdict": "keep", "rank": 3, "why": "Retro 8-bit themed React library on top of shadcn; distinctive registry style for playful client builds.", "tags": ["shadcn", "style"]}
+{"id": "f-97d4c9ba7e", "verdict": "keep", "rank": 2, "tags": ["i18n", "react"]}
+{"id": "f-9815a2c787", "verdict": "keep", "rank": 2, "tags": ["layout", "grid"]}
+{"id": "f-983f5119c2", "verdict": "keep", "rank": 2, "tags": ["tailwind", "vanilla-js"]}
+{"id": "f-98433fd84e", "verdict": "drop", "note": "Backbone glue, obsolete"}
+{"id": "f-98e6adf131", "verdict": "drop", "note": "minimal UI library, inactive"}
+{"id": "f-98ff004254", "verdict": "drop", "note": "old Masonry wrapper, superseded"}
+{"id": "f-9948d0a3d4", "verdict": "keep", "rank": 2, "tags": ["react", "design-system"]}
+{"id": "f-996b9282dd", "verdict": "drop", "note": "Vue 2-era kit, unmaintained"}
+{"id": "f-998b6609fc", "verdict": "drop", "note": "old FabricJS sketch wrapper"}
+{"id": "f-99bb44a3d4", "verdict": "keep", "rank": 2, "tags": ["react", "design-system"]}
+{"id": "f-99bb98afd4", "verdict": "keep", "rank": 2, "tags": ["react", "material"]}
+{"id": "f-99fdeee6ca", "verdict": "keep", "rank": 2, "tags": ["react", "table", "virtualized"]}
+{"id": "f-9a86fe193a", "verdict": "keep", "rank": 2, "tags": ["react-native-web"]}
+{"id": "f-9aa7f92aa6", "verdict": "keep", "rank": 1, "tags": ["react"]}
+{"id": "f-9ab3627222", "verdict": "keep", "rank": 2, "tags": ["angular", "admin"]}
+{"id": "f-9ab8d35a5f", "verdict": "keep", "rank": 2, "tags": ["vue", "tailwind"]}
+{"id": "f-9b26f42fbe", "verdict": "keep", "rank": 2, "tags": ["shadcn", "form"]}
+{"id": "f-9cbee1c197", "verdict": "drop", "note": "React Native only"}
+{"id": "f-9cfc39065d", "verdict": "keep", "rank": 2, "tags": ["react", "design-system"]}
+{"id": "f-9d424837dc", "verdict": "drop", "note": "superseded by Radix/shadcn Dialog"}
+{"id": "f-9d4490f39e", "verdict": "keep", "rank": 2, "tags": ["vue", "shadcn", "template"]}
+{"id": "f-9e34f06d46", "verdict": "keep", "rank": 3, "why": "Generates and renders UI live from natural-language prompts; useful for rapid prototyping of component ideas.", "tags": ["ai", "generative-ui"]}
+{"id": "f-9f6b3f2d2c", "verdict": "keep", "rank": 1, "tags": ["java", "other-framework"]}
+{"id": "f-9fd1dd9d58", "verdict": "keep", "rank": 3, "why": "Zoomable shadcn/Recharts chart demo; pattern for interactive dashboard charts.", "tags": ["shadcn", "charts"]}
+{"id": "f-a0f1901212", "verdict": "drop", "note": "web components lib, inactive; superseded by Lit"}
+{"id": "f-a17d8f0aa0", "verdict": "keep", "rank": 2, "tags": ["shadcn", "admin", "template"]}
+{"id": "f-a235b3ecb8", "verdict": "keep", "rank": 2, "tags": ["css", "design-system"]}
+{"id": "f-a34fff94b6", "verdict": "keep", "rank": 5, "why": "Tailwind CSS, the utility-first framework underpinning SISO's shadcn/ui stack and every app build.", "tags": ["tailwind", "css", "core"]}
+{"id": "f-a35307b72d", "verdict": "drop", "note": "old BuzzFeed CSS, inactive"}
+{"id": "f-a372e660f3", "verdict": "drop", "note": "end-user app, not a UI library"}
+{"id": "f-a396a7d04d", "verdict": "drop", "note": "unmaintained-era React library superseded by modern equivalents"}
+{"id": "f-a3c12a860e", "verdict": "drop", "note": "PureScript framework, out of scope"}
+{"id": "f-a3f72af320", "verdict": "keep", "rank": 3, "why": "Free shadcn/React/Tailwind landing page template; quick starting point for client landing pages.", "tags": ["shadcn", "landing", "template"]}
+{"id": "f-a44167097c", "verdict": "drop", "note": "state management, not UI"}
+{"id": "f-a4a6aa418b", "verdict": "keep", "rank": 2, "tags": ["react", "design-system"]}
+{"id": "f-a4db4dbd59", "verdict": "keep", "rank": 3, "why": "Lit, the standard library for fast web components; useful for framework-agnostic widgets.", "tags": ["web-components"]}
+{"id": "f-a552ab269e", "verdict": "keep", "rank": 2, "tags": ["react", "theming"]}
+{"id": "f-a5a143a783", "verdict": "keep", "rank": 3, "why": "Dependency-free, animatable SVG <qr-code> element; easy branded QR codes on sites.", "tags": ["web-components", "qr", "animation"]}
+{"id": "f-a5d20d1d68", "verdict": "keep", "rank": 2, "tags": ["web-components", "design-system"]}
+{"id": "f-a64ccb67bc", "verdict": "keep", "rank": 3, "why": "Next.js App Router starter with shadcn, Lucia auth and Prisma; fast scaffold for client apps.", "tags": ["nextjs", "shadcn", "starter"]}
+{"id": "f-a659152267", "verdict": "drop", "note": "old Electron CSS kit, inactive"}
+{"id": "f-a67e2e5a7f", "verdict": "keep", "rank": 2, "tags": ["design-system", "gov"]}
+{"id": "f-a6a4ac11ca", "verdict": "keep", "rank": 2, "tags": ["react", "admin"]}
+{"id": "f-a75053f160", "verdict": "keep", "rank": 2, "tags": ["icons"]}
+{"id": "f-a7937f6206", "verdict": "drop", "note": "AdminLTE/Vue 2 admin, obsolete"}
+{"id": "f-a7c0cb8171", "verdict": "keep", "rank": 3, "why": "Declarative Lottie player for React; easy vector animation embeds on marketing pages.", "tags": ["react", "lottie", "animation"]}
+{"id": "f-a7ce7ebf55", "verdict": "keep", "rank": 3, "why": "Victory data-viz components for React; solid charting option with recent activity.", "tags": ["react", "charts"]}
+{"id": "f-a800c30bf9", "verdict": "keep", "rank": 1, "tags": ["react", "design-system"]}
+{"id": "f-a857091078", "verdict": "drop", "note": "universal web framework, inactive"}
+{"id": "f-a87c23591c", "verdict": "keep", "rank": 1, "tags": ["react", "admin"]}
+{"id": "f-a8a630960f", "verdict": "drop", "note": "old typography toolkit, superseded by Tailwind typography/fluid type"}
+{"id": "f-a8cc312c37", "verdict": "keep", "rank": 4, "why": "Tiptap, the headless rich-text editor framework; first choice for editors in React/Next apps.", "tags": ["editor", "headless", "react"]}
+{"id": "f-a902052d91", "verdict": "drop", "note": "Webpack style loader, obsolete"}
+{"id": "f-a981cd12ac", "verdict": "drop", "note": "Vue 2 mobile kit, unmaintained"}
+{"id": "f-a9cf73152b", "verdict": "keep", "rank": 2, "tags": ["wordpress", "react", "tailwind"]}
+{"id": "f-aa5196e529", "verdict": "drop", "note": "LLM evaluation tool, not UI"}
+{"id": "f-aa6671d68f", "verdict": "keep", "rank": 2, "tags": ["react", "editor"]}
+{"id": "f-ab0495d9c0", "verdict": "drop", "note": "unmaintained-era React library superseded by modern equivalents"}
+{"id": "f-ab165a98ec", "verdict": "drop", "note": "Elm core library, out of scope"}
+{"id": "f-ab3dd16cc5", "verdict": "keep", "rank": 4, "why": "shadcn-compatible React Aria components to copy-paste; accessible alternative primitives for the registry.", "tags": ["shadcn", "react-aria", "registry"]}
+{"id": "f-ac4ee57247", "verdict": "keep", "rank": 2, "tags": ["shadcn", "web3"]}
+{"id": "f-ac9a897319", "verdict": "keep", "rank": 3, "why": "Curated list of design systems; reference catalogue for UI-HUB component research.", "tags": ["reference", "design-systems"]}
+{"id": "f-ad3404c771", "verdict": "keep", "rank": 2, "tags": ["react", "design-system"]}
+{"id": "f-ad6d772a86", "verdict": "keep", "rank": 2, "tags": ["screenshot", "dom"]}
+{"id": "f-adf61e2745", "verdict": "drop", "note": "Scala data-binding, out of scope"}
+{"id": "f-ae74a302b0", "verdict": "drop", "note": "unmaintained-era React library superseded by modern equivalents"}
+{"id": "f-aec4315f4d", "verdict": "keep", "rank": 1, "tags": ["unknown"]}
+{"id": "f-aefe32fc74", "verdict": "drop", "note": "LLM prompting library, not UI"}
+{"id": "f-af0b45f64f", "verdict": "drop", "note": "unmaintained-era React library superseded by modern equivalents"}
+{"id": "f-af1e35345d", "verdict": "keep", "rank": 3, "why": "React/Next Tailwind 4 admin dashboard template with TypeScript and dark mode; quick admin scaffold.", "tags": ["nextjs", "tailwind", "admin", "template"]}
+{"id": "f-b0841b303e", "verdict": "keep", "rank": 3, "why": "Sortable built with shadcn, Radix and dnd-kit; ready drag-and-drop list pattern.", "tags": ["shadcn", "dnd"]}
+{"id": "f-b0f418d08b", "verdict": "keep", "rank": 1, "tags": ["react", "design-system"]}
+{"id": "f-b142b41abd", "verdict": "drop", "note": "old Bootstrap 4 React kit, inactive"}
+{"id": "f-b172304627", "verdict": "keep", "rank": 2, "tags": ["css-framework"]}
+{"id": "f-b17e2b477a", "verdict": "drop", "note": "Vue 2 toolkit, dated"}
+{"id": "f-b1c81e5ab8", "verdict": "keep", "rank": 2, "tags": ["react", "design-system"]}
+{"id": "f-b1de4a9462", "verdict": "keep", "rank": 2, "tags": ["react", "aws"]}
+{"id": "f-b1dfc1bf46", "verdict": "keep", "rank": 2, "tags": ["react", "design-system"]}
+{"id": "f-b273df70ff", "verdict": "keep", "rank": 1, "tags": ["vue"]}
+{"id": "f-b28ce8b89c", "verdict": "keep", "rank": 2, "tags": ["shadcn", "rails"]}
+{"id": "f-b2b8b97026", "verdict": "keep", "rank": 2, "tags": ["react", "design-system"]}
+{"id": "f-b2d898c2ba", "verdict": "drop", "note": "Vue 2 toolkit, superseded by View Design"}
+{"id": "f-b3341cd077", "verdict": "keep", "rank": 2, "tags": ["react", "layout"]}
+{"id": "f-b33dfbf2a6", "verdict": "drop", "note": "WeChat mini-program charts, out of scope"}
+{"id": "f-b34872510a", "verdict": "keep", "rank": 3, "why": "CodeMirror component for React; standard choice for embedded code editors.", "tags": ["react", "code-editor"]}
+{"id": "f-b39d532392", "verdict": "drop", "note": "unmaintained Quill wrapper, superseded by Tiptap"}
+{"id": "f-b3db542479", "verdict": "keep", "rank": 2, "tags": ["angular"]}
+{"id": "f-b3eb6b392a", "verdict": "keep", "rank": 1, "tags": ["react"]}
+{"id": "f-b41434da6d", "verdict": "drop", "note": "old Swipe.js wrapper, superseded"}
+{"id": "f-b459c05250", "verdict": "drop", "note": "Vue desktop-native experiment, inactive"}
+{"id": "f-b491219393", "verdict": "drop", "note": "RAG knowledge-base tool, not UI"}
+{"id": "f-b5146a2153", "verdict": "keep", "rank": 2, "tags": ["nextjs", "components"]}
+{"id": "f-b52ddfd17b", "verdict": "drop", "note": "superseded by uhtml/Lit"}
+{"id": "f-b651037f55", "verdict": "drop", "note": "superseded by sonner/toast primitives"}
+{"id": "f-b6d5c5d3e9", "verdict": "keep", "rank": 2, "tags": ["react", "form"]}
+{"id": "f-b6ed25783f", "verdict": "drop", "note": "old Angular dashboard"}
+{"id": "f-b702ed3c91", "verdict": "drop", "note": "superseded by Embla carousel"}
+{"id": "f-b7a5ab330f", "verdict": "drop", "note": "React Native only"}
+{"id": "f-b86c3ae7ea", "verdict": "keep", "rank": 3, "why": "CLI adding customizable shadcn chat components; fast route to chat UIs in AI apps.", "tags": ["shadcn", "chat", "ai"]}
+{"id": "f-b888118c60", "verdict": "keep", "rank": 2, "tags": ["shadcn", "button"]}
+{"id": "f-b88f68857c", "verdict": "keep", "rank": 1, "tags": ["charts", "unknown"]}
+{"id": "f-b8c0177078", "verdict": "keep", "rank": 2, "tags": ["react", "tailwind", "design-system"]}
+{"id": "f-b90101bccc", "verdict": "keep", "rank": 3, "why": "Facebook's customizable, agent-ready open-source design system; worth evaluating as a reference for UI-HUB.", "tags": ["design-system", "agents"]}
+{"id": "f-b92a137bd2", "verdict": "keep", "rank": 3, "why": "Ant Design, mature enterprise React component library; fallback for dense data-heavy apps.", "tags": ["react", "design-system"]}
+{"id": "f-b990861b07", "verdict": "keep", "rank": 3, "why": "Theme editor for shadcn CSS variables; speeds up per-client theming.", "tags": ["shadcn", "theming"]}
+{"id": "f-b9acd8f4fa", "verdict": "keep", "rank": 1, "tags": ["react", "dialog"]}
+{"id": "f-b9e20232c5", "verdict": "drop", "note": "React Native only"}
+{"id": "f-ba3e28079c", "verdict": "keep", "rank": 2, "tags": ["svelte"]}
+{"id": "f-ba4b254026", "verdict": "drop", "note": "unmaintained React UI framework"}
+{"id": "f-bacd7a5637", "verdict": "keep", "rank": 2, "tags": ["web-components"]}
+{"id": "f-badf069a2b", "verdict": "keep", "rank": 3, "why": "Spreadsheet-like grid behaviour for React; useful for editable data apps.", "tags": ["react", "grid", "spreadsheet"]}
+{"id": "f-bb004c972f", "verdict": "keep", "rank": 3, "why": "Material UI, the most-used React component library; solid when a client needs Material design.", "tags": ["react", "material"]}
+{"id": "f-bb815fa25c", "verdict": "keep", "rank": 3, "why": "Gradient picker built with shadcn, Radix and Tailwind; ready for theme/brand editors.", "tags": ["shadcn", "color"]}
+{"id": "f-bc54fe3031", "verdict": "keep", "rank": 1, "tags": ["react", "web3"]}
+{"id": "f-bcf74976a4", "verdict": "drop", "note": "Vue 2 kit, unmaintained"}
+{"id": "f-bcfbe6c9e0", "verdict": "keep", "rank": 2, "tags": ["angular"]}
+{"id": "f-bd19584d5e", "verdict": "keep", "rank": 2, "tags": ["react", "payments", "form"]}
+{"id": "f-bd97fffc1e", "verdict": "keep", "rank": 3, "why": "MCP server and Figma plugin to read and modify Figma designs; lets agents pull designs into builds.", "tags": ["figma", "mcp", "agents"]}
+{"id": "f-be37557860", "verdict": "drop", "note": "browser automation/testing tool, not a UI library"}
+{"id": "f-be6a9057d0", "verdict": "keep", "rank": 4, "why": "React Hook Form, the form layer shadcn/ui Form is built on; default for Next.js forms.", "tags": ["react", "forms"]}
+{"id": "f-bed7c619ed", "verdict": "keep", "rank": 3, "why": "Free shadcn Next.js boilerplate with ChatGPT-style admin dashboard; AI app scaffold.", "tags": ["shadcn", "nextjs", "template", "ai"]}
+{"id": "f-bf68da911d", "verdict": "drop", "note": "SSR edge-include library, not UI"}
+{"id": "f-bf9dd2931d", "verdict": "keep", "rank": 2, "tags": ["react", "switch"]}
+{"id": "f-bff68cf94f", "verdict": "keep", "rank": 2, "tags": ["vue", "admin"]}
+{"id": "f-bffab0a2b0", "verdict": "keep", "rank": 3, "why": "Versatile Next.js landing page boilerplate; quick base for marketing campaign pages.", "tags": ["nextjs", "landing", "template"]}
+{"id": "f-c03bec9893", "verdict": "keep", "rank": 4, "why": "AutoForm renders shadcn forms automatically from a schema; cuts form boilerplate in client apps.", "tags": ["shadcn", "forms", "zod"]}
+{"id": "f-c16e4ce550", "verdict": "drop", "note": "awesome-list linter, not UI"}
+{"id": "f-c1791a9b16", "verdict": "keep", "rank": 4, "why": "Sandpack in-browser code sandboxes; ideal for live component previews in the UI-HUB registry docs.", "tags": ["code-preview", "registry", "docs"]}
+{"id": "f-c1d29237ec", "verdict": "keep", "rank": 2, "tags": ["react", "table"]}
+{"id": "f-c1db1a2790", "verdict": "drop", "note": "payment integration demo, not a UI library"}
+{"id": "f-c214eb2588", "verdict": "drop", "note": "superseded by Lucide (its maintained fork)"}
+{"id": "f-c2919f4897", "verdict": "keep", "rank": 1, "tags": ["react", "mobile-web"]}
+{"id": "f-c2b774f8a2", "verdict": "keep", "rank": 4, "why": "Tremor copy-paste chart and dashboard components on Tailwind; strong for analytics UIs.", "tags": ["tailwind", "charts", "dashboard"]}
+{"id": "f-c2ca10d1f1", "verdict": "drop", "note": "moved/deprecated; Vue 2 Bootstrap"}
+{"id": "f-c30970ce45", "verdict": "drop", "note": "deprecated by its author"}
+{"id": "f-c30ed977d2", "verdict": "keep", "rank": 3, "why": "Tauri + shadcn/ui scaffolder; quick start for desktop apps with SISO's component stack.", "tags": ["shadcn", "tauri", "desktop"]}
+{"id": "f-c373423a60", "verdict": "keep", "rank": 3, "why": "Simple shadcn/ui time picker; fills a gap in the base component set.", "tags": ["shadcn", "time-picker"]}
+{"id": "f-c3b7ca2955", "verdict": "keep", "rank": 3, "why": "Next.js starter with Tailwind, NextAuth and Stripe; fast scaffold for client SaaS apps.", "tags": ["nextjs", "starter"]}
+{"id": "f-c41ce674fd", "verdict": "drop", "note": "state management, not UI"}
+{"id": "f-c51286fdea", "verdict": "keep", "rank": 2, "tags": ["react", "forms"]}
+{"id": "f-c52354a4a1", "verdict": "keep", "rank": 1, "tags": ["css-framework"]}
+{"id": "f-c526a09bed", "verdict": "drop", "note": "unmaintained-era React library superseded by modern equivalents"}
+{"id": "f-c5453fd378", "verdict": "keep", "rank": 2, "tags": ["solid", "shadcn"]}
+{"id": "f-c566712aec", "verdict": "keep", "rank": 2, "tags": ["web-components"]}
+{"id": "f-c5cb226fdf", "verdict": "drop", "note": "Vue 2 mobile kit, unmaintained"}
+{"id": "f-c6a99eb6a6", "verdict": "keep", "rank": 2, "tags": ["angular", "carbon"]}
+{"id": "f-c7ab94696e", "verdict": "drop", "note": "discontinued design system"}
+{"id": "f-c7c5bc7465", "verdict": "drop", "note": "meme app, not UI library"}
+{"id": "f-c7ff50e089", "verdict": "drop", "note": "data-fetching library, not UI"}
+{"id": "f-c834238417", "verdict": "drop", "note": "Vue MDC adapter, obsolete"}
+{"id": "f-c928901438", "verdict": "drop", "note": "React.Children utils, not UI"}
+{"id": "f-c95cbcaa6a", "verdict": "keep", "rank": 3, "why": "No-code UI builder for React; possible visual editing layer for registry components.", "tags": ["react", "builder"]}
+{"id": "f-c99fbc6584", "verdict": "keep", "rank": 4, "why": "Novel Notion-style WYSIWYG editor with AI autocomplete on Tiptap; drop-in for AI-enabled apps.", "tags": ["editor", "tiptap", "ai"]}
+{"id": "f-c9e6b626cb", "verdict": "drop", "note": "React Native only"}
+{"id": "f-ca1bec6a7d", "verdict": "keep", "rank": 3, "why": "Schedule-X event calendar and date picker; modern calendar component for booking apps.", "tags": ["calendar"]}
+{"id": "f-ca2c69347d", "verdict": "keep", "rank": 2, "tags": ["web-components", "design-system"]}
+{"id": "f-ca6c9fad81", "verdict": "keep", "rank": 3, "why": "Extension components built on shadcn; extra pieces for the registry beyond the base set.", "tags": ["shadcn", "registry"]}
+{"id": "f-ca8648944f", "verdict": "keep", "rank": 2, "tags": ["dialog"]}
+{"id": "f-caacd5e7b9", "verdict": "keep", "rank": 3, "why": "Stepperize, a type-safe library for step-by-step flows; good for onboarding and checkout wizards.", "tags": ["react", "stepper"]}
+{"id": "f-cae9f51d93", "verdict": "keep", "rank": 3, "why": "Unopinionated Tailwind theming plugin; supports multi-theme client builds.", "tags": ["tailwind", "theming"]}
+{"id": "f-cb3dbf551b", "verdict": "keep", "rank": 2, "tags": ["css", "design-system"]}
+{"id": "f-cb63ac49ae", "verdict": "drop", "note": "Bootstrap cheatsheet, not a library"}
+{"id": "f-cbafa0a6cb", "verdict": "keep", "rank": 2, "tags": ["react", "maps"]}
+{"id": "f-cbd5a659ee", "verdict": "drop", "note": "Semantic UI Vue port, obsolete"}
+{"id": "f-ccfb2550f8", "verdict": "drop", "note": "Bulma React wrapper, inactive"}
+{"id": "f-ccfc2e2c9d", "verdict": "keep", "rank": 3, "why": "Type-safe React billing components (pricing tables, usage meters, upgrade flows); fast SaaS billing UI.", "tags": ["react", "billing", "shadcn"]}
+{"id": "f-ce844e3d5a", "verdict": "keep", "rank": 3, "why": "Reference list of accessible components and patterns; checklist for registry a11y.", "tags": ["a11y", "reference"]}
+{"id": "f-ceb27feca7", "verdict": "keep", "rank": 2, "tags": ["shadcn", "carousel"]}
+{"id": "f-cf0215dd09", "verdict": "drop", "note": "superseded by intersection-observer/native lazy loading"}
+{"id": "f-cf224bdebf", "verdict": "drop", "note": "SQL editor app, not a UI library"}
+{"id": "f-cf7a639af9", "verdict": "keep", "rank": 2, "tags": ["react", "layout"]}
+{"id": "f-d102e7caf4", "verdict": "drop", "note": "Bootstrap 3 Vue components, obsolete"}
+{"id": "f-d10f7cb291", "verdict": "keep", "rank": 1, "tags": ["forms"]}
+{"id": "f-d1adccf45b", "verdict": "keep", "rank": 2, "tags": ["design-system"]}
+{"id": "f-d217307ff5", "verdict": "drop", "note": "old enterprise React suite, inactive"}
+{"id": "f-d226d74957", "verdict": "keep", "rank": 1, "tags": ["web-components", "a11y"]}
+{"id": "f-d268a86e94", "verdict": "keep", "rank": 4, "why": "Untitled UI React components on React Aria and Tailwind; high-craft reference and source for the registry.", "tags": ["react-aria", "tailwind", "registry"]}
+{"id": "f-d2832f0d6d", "verdict": "keep", "rank": 2, "tags": ["design-system", "gov"]}
+{"id": "f-d34601c91b", "verdict": "drop", "note": "mini-program cross-platform framework, out of scope"}
+{"id": "f-d35971ba71", "verdict": "drop", "note": "Angular Semantic UI, obsolete"}
+{"id": "f-d3938ef63b", "verdict": "keep", "rank": 2, "tags": ["design-system", "gov"]}
+{"id": "f-d3d9f8477e", "verdict": "drop", "note": "end-user app, not a UI library"}
+{"id": "f-d3f4a3c8d4", "verdict": "keep", "rank": 1, "tags": ["design-system"]}
+{"id": "f-d3f9bd8d15", "verdict": "drop", "note": "obsolete touch shim"}
+{"id": "f-d3fc2e3925", "verdict": "keep", "rank": 3, "why": "Framework for generative user interfaces in React and Angular; option for AI-driven UI in apps.", "tags": ["generative-ui", "ai", "react"]}
+{"id": "f-d411dd552d", "verdict": "keep", "rank": 2, "tags": ["svelte", "tailwind"]}
+{"id": "f-d4a176e0cf", "verdict": "drop", "note": "LLM testing tool, not UI"}
+{"id": "f-d4b064db2b", "verdict": "keep", "rank": 2, "tags": ["react", "dnd"]}
+{"id": "f-d51963b9d0", "verdict": "keep", "rank": 2, "tags": ["date-picker"]}
+{"id": "f-d57532650b", "verdict": "keep", "rank": 3, "why": "shadcn phone input with country validation; common form need covered.", "tags": ["shadcn", "form"]}
+{"id": "f-d5b881c622", "verdict": "keep", "rank": 1, "tags": ["css-framework"]}
+{"id": "f-d604243dfd", "verdict": "keep", "rank": 2, "tags": ["svelte", "carbon"]}
+{"id": "f-d68e8b1b86", "verdict": "keep", "rank": 2, "tags": ["svelte", "headless"]}
+{"id": "f-d6f2cb53a5", "verdict": "keep", "rank": 2, "tags": ["spreadsheet"]}
+{"id": "f-d72c8836f9", "verdict": "keep", "rank": 2, "tags": ["shadcn", "combobox"]}
+{"id": "f-d81d1af400", "verdict": "keep", "rank": 2, "tags": ["shadcn", "pricing"]}
+{"id": "f-d87f1c51de", "verdict": "keep", "rank": 2, "tags": ["design-system"]}
+{"id": "f-d8aaf99575", "verdict": "keep", "rank": 3, "why": "shadcn/Tailwind cookie consent banner; needed on almost every client site.", "tags": ["shadcn", "consent"]}
+{"id": "f-d9405beb06", "verdict": "drop", "note": "superseded by highcharts-react-official"}
+{"id": "f-d97ebe3786", "verdict": "drop", "note": "headless CMS, not UI"}
+{"id": "f-d9b53aba73", "verdict": "drop", "note": "router library, not UI"}
+{"id": "f-d9f03769c3", "verdict": "keep", "rank": 2, "tags": ["css", "retro"]}
+{"id": "f-da5325ea30", "verdict": "drop", "note": "unmaintained-era React library superseded by modern equivalents"}
+{"id": "f-da5e8c49ee", "verdict": "keep", "rank": 3, "why": "Preline prebuilt Tailwind UI components; broad pattern source for sites.", "tags": ["tailwind", "components"]}
+{"id": "f-daca25237d", "verdict": "drop", "note": "unmaintained-era React library superseded by modern equivalents"}
+{"id": "f-db0cc88a49", "verdict": "keep", "rank": 4, "why": "Official Tailwind typography plugin; default prose styling for blogs and MDX content.", "tags": ["tailwind", "typography"]}
+{"id": "f-db45a59f1c", "verdict": "drop", "note": "obsolete UWP-style React kit"}
+{"id": "f-db60565355", "verdict": "keep", "rank": 2, "tags": ["react", "query-builder"]}
+{"id": "f-dbb8ee8189", "verdict": "drop", "note": "layui/jQuery admin, obsolete"}
+{"id": "f-dc004fc8bd", "verdict": "drop", "note": "state management, not UI"}
+{"id": "f-dc938540ac", "verdict": "keep", "rank": 2, "tags": ["web-components", "sap"]}
+{"id": "f-dcda286acb", "verdict": "drop", "note": "session library, not UI"}
+{"id": "f-dd4e292968", "verdict": "drop", "note": "Vue 2 kit, inactive"}
+{"id": "f-ddd1aef6bb", "verdict": "drop", "note": "unmaintained; superseded by cmdk/downshift"}
+{"id": "f-de568e8bc8", "verdict": "keep", "rank": 2, "tags": ["react", "design-system"]}
+{"id": "f-dedc80e1ea", "verdict": "keep", "rank": 3, "why": "Image cropper built on shadcn and react-image-crop; ready avatar/upload cropping.", "tags": ["shadcn", "image"]}
+{"id": "f-e05ed57acc", "verdict": "keep", "rank": 2, "tags": ["react", "date-picker"]}
+{"id": "f-e08fec85cf", "verdict": "keep", "rank": 3, "why": "Unopinionated accessible tree component for React; good for file/nav trees.", "tags": ["react", "tree", "a11y"]}
+{"id": "f-e0d2b2c2ce", "verdict": "keep", "rank": 2, "tags": ["react", "button"]}
+{"id": "f-e1423fd4c9", "verdict": "drop", "note": "React Native only"}
+{"id": "f-e1cbfb9171", "verdict": "keep", "rank": 2, "tags": ["vue", "admin"]}
+{"id": "f-e273cbe995", "verdict": "keep", "rank": 2, "tags": ["react", "mobile-web"]}
+{"id": "f-e338c0a271", "verdict": "keep", "rank": 3, "why": "Next.js template with site, blog and docs; base for client docs portals.", "tags": ["nextjs", "docs", "template"]}
+{"id": "f-e36ef4a6d4", "verdict": "keep", "rank": 3, "why": "Reshaped accessible React and Figma components; polished system to borrow from.", "tags": ["react", "design-system", "figma"]}
+{"id": "f-e3b0d6f637", "verdict": "drop", "note": "AI search app, not UI library"}
+{"id": "f-e3f74d7248", "verdict": "keep", "rank": 3, "why": "Dynamic shadcn form builder; speeds up building validated forms.", "tags": ["shadcn", "forms", "builder"]}
+{"id": "f-e42c5e189b", "verdict": "keep", "rank": 3, "why": "Maily email editor; drop-in for building branded email templates in apps.", "tags": ["email", "editor"]}
+{"id": "f-e4c6bdfa97", "verdict": "keep", "rank": 2, "tags": ["html", "hypermedia"]}
+{"id": "f-e4eb454146", "verdict": "keep", "rank": 2, "tags": ["react", "json"]}
+{"id": "f-e562b9015b", "verdict": "keep", "rank": 1, "tags": ["react", "gov"]}
+{"id": "f-e574a03eb0", "verdict": "drop", "note": "inactive React chart lib"}
+{"id": "f-e5bc4098b4", "verdict": "keep", "rank": 2, "tags": ["templates"]}
+{"id": "f-e60d3e4347", "verdict": "drop", "note": "Firefox Photon system, archived era"}
+{"id": "f-e6519b3fbb", "verdict": "keep", "rank": 2, "tags": ["mantine", "table"]}
+{"id": "f-e65cb7d305", "verdict": "keep", "rank": 2, "tags": ["vue", "carbon"]}
+{"id": "f-e66cb50cca", "verdict": "keep", "rank": 2, "tags": ["css-in-js"]}
+{"id": "f-e6b6311970", "verdict": "drop", "note": "MVVM framework, obsolete"}
+{"id": "f-e703790205", "verdict": "drop", "note": "class-sorting CLI, superseded by prettier-plugin-tailwindcss"}
+{"id": "f-e71c494cb3", "verdict": "drop", "note": "cross-platform mini-app framework, out of scope"}
+{"id": "f-e75988cb1d", "verdict": "keep", "rank": 1, "tags": ["bootstrap", "admin"]}
+{"id": "f-e76a3156d0", "verdict": "drop", "note": "Redux-bound notifications, superseded"}
+{"id": "f-e795994cd5", "verdict": "drop", "note": "old dashboard tool"}
+{"id": "f-e7b7e75fc8", "verdict": "drop", "note": "Angular dragula wrapper, superseded"}
+{"id": "f-e7ce916cd2", "verdict": "drop", "note": "unmaintained-era React library superseded by modern equivalents"}
+{"id": "f-e7d1760c39", "verdict": "keep", "rank": 4, "why": "Ariakit accessible primitives for rich web apps; strong headless base alongside Radix.", "tags": ["headless", "a11y", "react"]}
+{"id": "f-e7de8677af", "verdict": "keep", "rank": 2, "tags": ["hybrid-mobile"]}
+{"id": "f-e8644603a5", "verdict": "drop", "note": "superseded by @gsap/react useGSAP"}
+{"id": "f-e8c7fc58b3", "verdict": "keep", "rank": 2, "tags": ["angular", "design-system"]}
+{"id": "f-e8e9e2c145", "verdict": "drop", "note": "LLM security scanner, not UI"}
+{"id": "f-e8ee14980e", "verdict": "keep", "rank": 2, "tags": ["react", "rating"]}
+{"id": "f-e96452e2a8", "verdict": "drop", "note": "AngularJS admin, obsolete"}
+{"id": "f-e9bf858b95", "verdict": "keep", "rank": 3, "why": "Advanced React cropper adaptable to any site design; for rich image editing.", "tags": ["react", "image"]}
+{"id": "f-ea12003eaa", "verdict": "keep", "rank": 3, "why": "IBM Carbon design system; mature, well-documented reference for enterprise UI.", "tags": ["design-system", "react"]}
+{"id": "f-ea35289795", "verdict": "keep", "rank": 2, "tags": ["shadcn", "stepper"]}
+{"id": "f-ea3a9800fc", "verdict": "keep", "rank": 3, "why": "AI search engine with generative answer UI on Next.js; reference for AI answer interfaces.", "tags": ["nextjs", "ai", "generative-ui"]}
+{"id": "f-eae11e8981", "verdict": "keep", "rank": 1, "tags": ["react", "date"]}
+{"id": "f-ec5d3d69c3", "verdict": "drop", "note": "superseded by ResizeObserver hooks"}
+{"id": "f-ec97ff2406", "verdict": "keep", "rank": 2, "tags": ["shadcn", "admin"]}
+{"id": "f-eca8c14e5a", "verdict": "keep", "rank": 2, "tags": ["angular", "headless"]}
+{"id": "f-ecd93a97a9", "verdict": "drop", "note": "superseded by CSS/media-query hooks"}
+{"id": "f-ed11a0ecf7", "verdict": "keep", "rank": 3, "why": "Keen Slider, performant touch carousel; lightweight slider for marketing sites.", "tags": ["carousel", "touch"]}
+{"id": "f-eda452893f", "verdict": "drop", "note": "Vue 2 Element, superseded by Element Plus"}
+{"id": "f-edf00dc28d", "verdict": "keep", "rank": 2, "tags": ["vue"]}
+{"id": "f-ef029c07d5", "verdict": "drop", "note": "React Native only"}
+{"id": "f-ef6b15d2fb", "verdict": "keep", "rank": 2, "tags": ["jsx-alternative"]}
+{"id": "f-ef6b58f881", "verdict": "drop", "note": "minimal virtual DOM, inactive"}
+{"id": "f-f022193649", "verdict": "keep", "rank": 3, "why": "shadcn multi-select component; fills a common gap in the base set.", "tags": ["shadcn", "select"]}
+{"id": "f-f0bc8f066f", "verdict": "drop", "note": "Redux auth, obsolete"}
+{"id": "f-f0f5ff6987", "verdict": "keep", "rank": 2, "tags": ["react", "design-system"]}
+{"id": "f-f225c62676", "verdict": "drop", "note": "Backbone, obsolete era"}
+{"id": "f-f23092f829", "verdict": "keep", "rank": 2, "tags": ["angular", "antd"]}
+{"id": "f-f3192500e1", "verdict": "keep", "rank": 2, "tags": ["nextjs", "supabase", "shadcn"]}
+{"id": "f-f34e9a5b21", "verdict": "drop", "note": "old Chartist wrapper"}
+{"id": "f-f3592cdefe", "verdict": "drop", "note": "state controller, not UI"}
+{"id": "f-f3608022c8", "verdict": "drop", "note": "React Native only"}
+{"id": "f-f391bd040f", "verdict": "keep", "rank": 2, "tags": ["react", "picker"]}
+{"id": "f-f3ff755c1b", "verdict": "keep", "rank": 2, "tags": ["react", "table"]}
+{"id": "f-f42c5c949c", "verdict": "drop", "note": "old D3 wrapper"}
+{"id": "f-f5ba2d1b77", "verdict": "keep", "rank": 3, "why": "Electron Forge + shadcn/ui template; desktop app scaffold on the SISO stack.", "tags": ["shadcn", "electron", "desktop"]}
+{"id": "f-f5cce6109a", "verdict": "keep", "rank": 1, "tags": ["dom"]}
+{"id": "f-f5e25c4845", "verdict": "keep", "rank": 2, "tags": ["vue"]}
+{"id": "f-f665a59f21", "verdict": "keep", "rank": 2, "tags": ["shadcn", "theming"]}
+{"id": "f-f66a766d6c", "verdict": "keep", "rank": 2, "tags": ["react", "search"]}
+{"id": "f-f806df8f00", "verdict": "keep", "rank": 3, "why": "React Intersection Observer hooks; triggers lightweight scroll reveals and lazy loads.", "tags": ["react", "scroll"]}
+{"id": "f-f87ad12efd", "verdict": "keep", "rank": 2, "tags": ["image", "zoom"]}
+{"id": "f-f9731f7b00", "verdict": "keep", "rank": 1, "tags": ["react", "image"]}
+{"id": "f-f9d21e5f31", "verdict": "drop", "note": "jQuery-era framework, superseded by Tailwind"}
+{"id": "f-fa15dfaa08", "verdict": "drop", "note": "description is unrelated text; obsolete framework"}
+{"id": "f-fa3a921b19", "verdict": "keep", "rank": 1, "tags": ["react", "design-system"]}
+{"id": "f-fa682f954b", "verdict": "drop", "note": "Rails integration tooling, not UI"}
+{"id": "f-fae660d18d", "verdict": "keep", "rank": 2, "tags": ["react", "design-system"]}
+{"id": "f-fafe096e7d", "verdict": "drop", "note": "obsolete experiment"}
+{"id": "f-fb308276d7", "verdict": "drop", "note": "unmaintained styled-system kit"}
+{"id": "f-fb9d5733ab", "verdict": "drop", "note": "unmaintained-era React library superseded by modern equivalents"}
+{"id": "f-fba691f9c1", "verdict": "drop", "note": "old React perf debugger"}
+{"id": "f-fc0efc518c", "verdict": "keep", "rank": 4, "why": "CopilotKit React UI and runtime for in-app copilots and generative UI; leading choice for AI app features.", "tags": ["ai", "generative-ui", "react"]}
+{"id": "f-fc22181169", "verdict": "drop", "note": "superseded by Radix/React Aria"}
+{"id": "f-fc583a6d9a", "verdict": "drop", "note": "Vue/WeUI kit, obsolete"}
+{"id": "f-fca19d5c12", "verdict": "drop", "note": "data framework, not UI"}
+{"id": "f-fd98e9d381", "verdict": "keep", "rank": 4, "why": "daisyUI, the most popular Tailwind component library; fast themed components for sites.", "tags": ["tailwind", "components"]}
+{"id": "f-fda7cb1ad8", "verdict": "drop", "note": "React Native only"}
+{"id": "f-fdf58250f4", "verdict": "drop", "note": "inactive utility collection"}
+{"id": "f-fe19f9bfb8", "verdict": "drop", "note": "Redux utility, not UI"}
+{"id": "f-fe6c487131", "verdict": "drop", "note": "Reflux-era editor, obsolete"}
+{"id": "f-fe87695587", "verdict": "keep", "rank": 2, "tags": ["angular"]}
+{"id": "f-fea6efb8c8", "verdict": "keep", "rank": 2, "tags": ["react", "design-system"]}
+{"id": "f-ff25ded127", "verdict": "drop", "note": "Vue 2 mobile kit, obsolete"}
+{"id": "f-ff6b733e69", "verdict": "keep", "rank": 1, "tags": ["web-components"]}
+{"id": "f-ff6d2b1d11", "verdict": "drop", "note": "IE8-era sortable, obsolete"}
+{"id": "f-fff2e2f4c1", "verdict": "keep", "rank": 3, "why": "react-window virtualised lists and grids; keeps large data views fast.", "tags": ["react", "virtualization"]}

@@ -1,0 +1,65 @@
+{
+ "_about": "Which awesome lists in the Foundry catalog feed which area of this domain; research/tools/awesome_import.py reads it.",
+ "lists": [
+  {
+   "list": "RyanAlberts/best-of-Agent-Harnesses",
+   "area": "harnesses",
+   "min_stars": 100
+  },
+  {
+   "list": "RUCAIBox/awesome-agent-harness",
+   "area": "harnesses",
+   "min_stars": 100
+  },
+  {
+   "list": "shaftoe/awesome-pi-coding-agent",
+   "area": "harnesses",
+   "min_stars": 100
+  },
+  {
+   "list": "Ariestar/awesome-agent-cli",
+   "area": "harnesses",
+   "min_stars": 300
+  },
+  {
+   "list": "RoggeOhta/awesome-codex-cli",
+   "area": "harnesses",
+   "min_stars": 100
+  },
+  {
+   "list": "VoltAgent/awesome-agent-skills",
+   "area": "skill-hubs",
+   "min_stars": 200
+  },
+  {
+   "list": "jqueryscript/awesome-claude-code",
+   "area": "skill-hubs",
+   "min_stars": 200
+  },
+  {
+   "list": "GetBindu/awesome-claude-code-and-skills",
+   "area": "skill-hubs",
+   "min_stars": 200
+  },
+  {
+   "list": "hashgraph-online/awesome-codex-plugins",
+   "area": "skill-hubs",
+   "min_stars": 50
+  },
+  {
+   "list": "tairov/awesome-agents.md",
+   "area": "skill-hubs",
+   "min_stars": 200
+  },
+  {
+   "list": "TeleAI-UAGI/Awesome-Agent-Memory",
+   "area": "memory",
+   "min_stars": 100
+  },
+  {
+   "list": "tolkonepiu/best-of-mcp-servers",
+   "area": "mcp",
+   "min_stars": 500
+  }
+ ]
+}

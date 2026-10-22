@@ -1,0 +1,453 @@
+{"id": "f-01849dbbc0", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-0231a3912c", "verdict": "keep", "rank": 3, "why": "SVG line-drawing animation library (15k stars); quick path-draw reveals for logos and illustrations when GSAP DrawSVG is overkill.", "tags": ["svg", "animation"]}
+{"id": "f-03111f3068", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-0324fda286", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-044ce633e2", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-04ea06934b", "verdict": "keep", "rank": 3, "why": "Renderer-agnostic 2D drawing and animation API (SVG/canvas/WebGL); good for illustrative motion pieces on sites.", "tags": ["2d", "creative-coding"]}
+{"id": "f-0572f0543f", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-05c83a5bfc", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-061fa973b3", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-071e785300", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-0831ed2915", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-086a7c98c6", "verdict": "keep", "rank": 1, "tags": ["css", "animation", "legacy"]}
+{"id": "f-08bf90c74c", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-09acd2b392", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-09fa5ffbba", "verdict": "keep", "rank": 3, "why": "Matt DesLauriers' curated list of graphics programming resources; strong onboarding reading for shader and WebGL work.", "tags": ["resource", "shaders"]}
+{"id": "f-0a37829e23", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-0a40f1625a", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-0a4f901352", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-0abcffbf2c", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-0b5318b6a3", "verdict": "keep", "rank": 3, "why": "Maintained Cannon.js physics fork used with three.js and React Three Fiber (use-cannon) for simple rigid-body scenes.", "tags": ["physics", "threejs", "r3f"]}
+{"id": "f-0c5fc23aaa", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-0c82b98e39", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-0d29faae1b", "verdict": "keep", "rank": 2, "tags": ["webgl", "dataviz"]}
+{"id": "f-0d3ebecec4", "verdict": "keep", "rank": 2, "tags": ["webgl"]}
+{"id": "f-0d74b36ec9", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-0d9db59efd", "verdict": "keep", "rank": 3, "why": "Canvas 2D framework with interactivity (react-konva); useful for editor-style React apps rather than award motion.", "tags": ["canvas", "react"]}
+{"id": "f-0e2e698486", "verdict": "keep", "rank": 3, "why": "Curated GLSL resource list; a jumping-off point for shader techniques used in three.js materials.", "tags": ["glsl", "resource"]}
+{"id": "f-0e87cb238a", "verdict": "drop", "note": "Godot-only plugin; native engine, not web."}
+{"id": "f-0f3392837b", "verdict": "keep", "rank": 1, "tags": ["threejs", "water"]}
+{"id": "f-115772bc10", "verdict": "keep", "rank": 1, "tags": ["webgl"]}
+{"id": "f-1204ea2330", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-12f98bbdc6", "verdict": "drop", "note": "Non-graphics or off-domain tool for web 3D/motion."}
+{"id": "f-138c100518", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-164ddc8254", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-1683cffacf", "verdict": "drop", "note": "Non-graphics or off-domain tool for web 3D/motion."}
+{"id": "f-16d7bf9fa1", "verdict": "keep", "rank": 3, "why": "Portable noise library with JavaScript and GLSL ports; drop-in noise for procedural shaders and motion.", "tags": ["noise", "glsl", "procedural"]}
+{"id": "f-16f92df5f4", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-1813fa5823", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-181beb1882", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-18251133bb", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-18f4642950", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-1912661969", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-192277783f", "verdict": "keep", "rank": 3, "why": "Curated list of creative-technology studios and collectives; maps the competitors and inspiration sources for award builds.", "tags": ["resource", "studios"]}
+{"id": "f-1b0fce85ca", "verdict": "keep", "rank": 2, "tags": ["webgpu", "rust"]}
+{"id": "f-1b673b9c5d", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-1c3359c46d", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-1c39917ac5", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-1c9eec1d1b", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-1d39451d53", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-1da8398515", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-1e11664f62", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-1e41a87e55", "verdict": "keep", "rank": 2, "tags": ["webgl", "text-effects"]}
+{"id": "f-1e456d0de8", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-1e98ef9382", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-1f24a258ba", "verdict": "keep", "rank": 3, "why": "TypeScript creative-coding and visualization library; handy for generative 2D canvas pieces.", "tags": ["creative-coding", "canvas"]}
+{"id": "f-1f75f28c16", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-20b4bed1af", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-21a5b128d1", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-21cb7337e9", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-22732fab87", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-2286e2bf3e", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-232dbe43ef", "verdict": "keep", "rank": 2, "tags": ["gaussian-splatting", "webgpu"]}
+{"id": "f-236bbf4253", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-23b36542f0", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-23decca737", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-24b63a757f", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-24ce287f25", "verdict": "keep", "rank": 2, "tags": ["webgl", "maps", "inspiration"]}
+{"id": "f-267401bc04", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-27785be4ee", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-29136d386a", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-29aadeec1d", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-29e59a2edb", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-2a5d5ce6e9", "verdict": "drop", "note": "Non-graphics or off-domain tool for web 3D/motion."}
+{"id": "f-2a89d5d8cd", "verdict": "keep", "rank": 1, "tags": ["glsl", "textures"]}
+{"id": "f-2aa06220cc", "verdict": "drop", "note": "Non-graphics or off-domain tool for web 3D/motion."}
+{"id": "f-2be383fc4b", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-2c1198f546", "verdict": "keep", "rank": 3, "why": "Animate On Scroll (28k stars); lightweight scroll reveals for simple sites, though GSAP ScrollTrigger supersedes it for award work.", "tags": ["scroll", "animation"]}
+{"id": "f-2c5d9c7af3", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-2c672d2994", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-2c779046c8", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-2cc94a123d", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-2ce723f7cb", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-2e33ed4947", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-2eaa9431d8", "verdict": "keep", "rank": 4, "why": "Rapier physics engine with wasm/JS bindings; the modern physics backend behind react-three-rapier for R3F scenes.", "tags": ["physics", "wasm", "r3f"]}
+{"id": "f-2ed8b6d454", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-2f1b5e26d9", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-2f3b3f0f02", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-2fd7105aba", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-303f1ab35e", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-30aad6e004", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-30bf62e116", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-311da0a82c", "verdict": "keep", "rank": 1, "tags": ["mocap", "animation-data"]}
+{"id": "f-317ed465a0", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-32b0eb5c7e", "verdict": "keep", "rank": 2, "tags": ["webgl", "debugging"]}
+{"id": "f-3327c91854", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-33be117948", "verdict": "keep", "rank": 3, "why": "Transforms SVGs into React components; standard tooling for icon and illustration pipelines in SISO's React apps.", "tags": ["svg", "react", "tooling"]}
+{"id": "f-33d56e6bda", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-345115b8b5", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-346422cc7c", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-34fdccaa12", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-3574d2fd83", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-35c580e351", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-3685f3e2f2", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-36900b1f49", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-36add237be", "verdict": "keep", "rank": 4, "why": "Mesh optimization library whose gltfpack and meshopt decoder ship in three.js; key for small, fast-loading web 3D assets.", "tags": ["gltf", "optimization", "pipeline"]}
+{"id": "f-375015ddfb", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-383ee6a37f", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-3861a33edd", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-3aa221a20f", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-3ab867f9a7", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-3bff80507f", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-3dd2c6b595", "verdict": "keep", "rank": 2, "tags": ["vector", "canvas"]}
+{"id": "f-3e1bca1435", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-3e89aa6f98", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-40d6055e4f", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-41a660e536", "verdict": "keep", "rank": 2, "tags": ["threejs", "water"]}
+{"id": "f-4217518a7a", "verdict": "drop", "note": "Godot-only plugin; native engine, not web."}
+{"id": "f-42906ff238", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-43c654e58b", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-43f81df482", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-445fafea1a", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-4486fd3ba5", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-44d9753557", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-4558fc8172", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-45f43e00a8", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-46b0c8f0ae", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-478ef7a609", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-47b4b3132d", "verdict": "keep", "rank": 3, "why": "JavaScript library for interactive procedural 2D/3D shaders with a built-in raymarcher; quick route to SDF hero visuals.", "tags": ["shaders", "raymarching", "procedural"]}
+{"id": "f-48848c0e17", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-49169dbdf6", "verdict": "keep", "rank": 3, "why": "Lightweight SVG manipulation and animation library; useful for programmatic SVG graphics and simple motion.", "tags": ["svg", "animation"]}
+{"id": "f-496e5ec761", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-4ad065ed8b", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-4af1d42b68", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-4b41ca3c91", "verdict": "keep", "rank": 2, "tags": ["generative", "resource"]}
+{"id": "f-4b96e5471d", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-4c2f96c9df", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-4c77f27943", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-4ce71bb743", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-4d10222362", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-4d24d2a2b8", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-4d50a9d4a6", "verdict": "drop", "note": "Non-graphics or off-domain tool for web 3D/motion."}
+{"id": "f-4d875cec80", "verdict": "drop", "note": "Non-graphics or off-domain tool for web 3D/motion."}
+{"id": "f-4e01cd03de", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-4f82eb1456", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-5020379e8f", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-516d203149", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-52a5a62d00", "verdict": "drop", "note": "Godot-only plugin; native engine, not web."}
+{"id": "f-53f472742a", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-543f130171", "verdict": "keep", "rank": 3, "why": "mo.js motion graphics toolbelt for the web; bursts and shape tweens for playful micro-interactions.", "tags": ["animation", "motion-graphics"]}
+{"id": "f-5604055226", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-57b116d0ae", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-584e4d5fe8", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-592eec4b13", "verdict": "keep", "rank": 4, "why": "Khronos KTX/Basis tools for compressed GPU textures in glTF; cuts texture memory and load time on three.js sites.", "tags": ["textures", "ktx2", "gltf", "pipeline"]}
+{"id": "f-5a5eeda3b5", "verdict": "keep", "rank": 2, "tags": ["inspiration", "codepen"]}
+{"id": "f-5b700dea8e", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-5b92d1e88e", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-5bc35cb3ff", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-5c9775d683", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-5d6564a59f", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-5e025b6df7", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-5e09bffbd7", "verdict": "keep", "rank": 3, "why": "Step-by-step guide to SSAO, depth of field, lighting and normal mapping; techniques transfer directly to three.js post-processing.", "tags": ["shaders", "tutorial", "postprocessing"]}
+{"id": "f-5e305d13be", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-5e47a00f91", "verdict": "keep", "rank": 1, "tags": ["scroll", "legacy"]}
+{"id": "f-5e9b489602", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-5efa0139d5", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-5f9b65e4c5", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-6002c4dd3b", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-6041abb022", "verdict": "keep", "rank": 2, "tags": ["webgl", "spec"]}
+{"id": "f-60e7491581", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-612f01cf07", "verdict": "keep", "rank": 3, "why": "Spine 2D skeletal animation runtimes including web (TS, Pixi, three.js); for character animation authored in Spine.", "tags": ["2d-animation", "runtime"]}
+{"id": "f-6176cbfdbf", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-61b5f4014e", "verdict": "keep", "rank": 2, "tags": ["web3d", "presentation"]}
+{"id": "f-61d85cf4d6", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-62e53975f8", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-62fadc2265", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-631c24c266", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-636c7e676f", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-6423e5aa5c", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-665821cfa4", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-66b90290c7", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-67a2cbc9c7", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-68285054c2", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-687c77b5e1", "verdict": "keep", "rank": 2, "tags": ["aframe", "webxr", "resource"]}
+{"id": "f-689a1363c8", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-68ea2d4fa7", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-69eff730d3", "verdict": "keep", "rank": 4, "why": "The glTF specification and samples; the asset format every three.js and R3F build ships 3D models in.", "tags": ["gltf", "spec"]}
+{"id": "f-6acb5d95c9", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-6b6f1785bd", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-6bc2b46625", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-6c03101e9f", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-6c08ca63e9", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-6c336ecfa3", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-6d06f913d5", "verdict": "keep", "rank": 2, "tags": ["webgl", "tutorial"]}
+{"id": "f-6d35851a73", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-6daaf33d0d", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-6e0052fef4", "verdict": "keep", "rank": 2, "tags": ["animation", "ik", "web3d"]}
+{"id": "f-6e1a01fb69", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-6eefe70a46", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-6f2dff84a0", "verdict": "keep", "rank": 2, "tags": ["threejs", "navmesh"]}
+{"id": "f-703aa9830c", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-7086f88401", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-70a8c6ee9a", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-70d59f01d6", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-710e1dd8a0", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-7217f18ded", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-721f400918", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-725636e11f", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-727060462d", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-74584c9032", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-74fc38b126", "verdict": "keep", "rank": 2, "tags": ["threejs", "water"]}
+{"id": "f-76823d9dea", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-7749630928", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-77968d7eee", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-78273b8cb9", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-7832043a08", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-784aacc8fc", "verdict": "drop", "note": "Godot-only plugin; native engine, not web."}
+{"id": "f-78845331d2", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-79dd5a4cbf", "verdict": "keep", "rank": 2, "tags": ["easing"]}
+{"id": "f-7a3f1aec99", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-7aa4d6a4ea", "verdict": "keep", "rank": 1, "tags": ["dataviz", "resource"]}
+{"id": "f-7ae57608c5", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-7bbe5bb913", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-7c02ce0d3b", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-7c8aace632", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-7cde2e7c0c", "verdict": "keep", "rank": 3, "why": "Tutorial building a full rasterizer with WebGPU compute shaders; solid learning path for the WebGPU shift.", "tags": ["webgpu", "compute", "tutorial"]}
+{"id": "f-7d2baba4f8", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-7d9cd1a97e", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-7da256282a", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-7dbce216a0", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-7e84a64a16", "verdict": "keep", "rank": 2, "tags": ["web3d", "engine"]}
+{"id": "f-7ea1948b34", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-805117090d", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-808f615da8", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-80ced90313", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-81506c78a7", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-82319bc082", "verdict": "drop", "note": "Dead WebGL/vector-era library superseded by three.js and modern tools."}
+{"id": "f-83f1eff262", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-8430a991e2", "verdict": "keep", "rank": 1, "tags": ["threejs", "svelte", "legacy"]}
+{"id": "f-8434edd0ff", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-855e20b750", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-8839f53827", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-8a717ef8d6", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-8a7eb3dc96", "verdict": "keep", "rank": 3, "why": "Modern creative-coding toolkit for the web (sketch runner with live params and exports); speeds up generative visual prototyping.", "tags": ["creative-coding", "tooling"]}
+{"id": "f-8b2980d190", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-8bfbeb0b20", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-8cc354f41f", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-8e15932cbb", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-8e970087c5", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-8ea918f3c5", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-8f9579bf15", "verdict": "keep", "rank": 3, "why": "Cesium's glTF content pipeline (Draco compression, separation, conversion); asset optimization step before shipping 3D to web.", "tags": ["gltf", "pipeline"]}
+{"id": "f-8fe02347b0", "verdict": "drop", "note": "Non-graphics or off-domain tool for web 3D/motion."}
+{"id": "f-905c9577a6", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-906344e044", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-9147d6794b", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-924f70204a", "verdict": "keep", "rank": 2, "tags": ["gltf", "pipeline"]}
+{"id": "f-92595638bd", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-9285ebe64c", "verdict": "drop", "note": "Non-graphics or off-domain tool for web 3D/motion."}
+{"id": "f-93456b4eae", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-943c0b2c73", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-9494954a93", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-9568f515d9", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-95ff659bdf", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-9748b6efcd", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-97d09e067d", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-97f4e10bca", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-9848ff743d", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-9870fffe54", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-988b65d63c", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-992d55962f", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-999dc6e8ca", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-9a12c10441", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-9a9145a049", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-9b766c5fc3", "verdict": "keep", "rank": 1, "tags": ["physics", "legacy"]}
+{"id": "f-9be3ad2347", "verdict": "keep", "rank": 3, "why": "Interactive workshop teaching GLSL shaders from first principles; good onboarding for shader work in three.js.", "tags": ["glsl", "tutorial"]}
+{"id": "f-9bf6398026", "verdict": "keep", "rank": 2, "tags": ["pbr", "wasm"]}
+{"id": "f-9c198b4a98", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-9d59d6ccf3", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-9f2b90ae48", "verdict": "keep", "rank": 1, "tags": ["physics", "2d", "legacy"]}
+{"id": "f-9f71a6616a", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-a010c3942d", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-a05f9cfc0b", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-a12fce6ba5", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-a25b8d7650", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-a279db167c", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-a308927c78", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-a32436db4b", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-a4634d3de0", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-a49ed75786", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-a5438fce6d", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-a59e1da55a", "verdict": "keep", "rank": 2, "tags": ["shaders", "generative"]}
+{"id": "f-a5a83b17be", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-a5f5cb00f3", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-a640875b64", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-a65630c331", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-a6e81893ea", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-a79e73e34e", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-a8115aab00", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-a82ac93f70", "verdict": "keep", "rank": 2, "tags": ["css", "loaders"]}
+{"id": "f-a96810896f", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-a96978c770", "verdict": "keep", "rank": 2, "tags": ["svg", "progress"]}
+{"id": "f-a9e2b585a9", "verdict": "keep", "rank": 2, "tags": ["shaders", "react", "tooling"]}
+{"id": "f-aaf7c30732", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-abe578a503", "verdict": "drop", "note": "Dead WebGL/vector-era library superseded by three.js and modern tools."}
+{"id": "f-acb78304a2", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-ae37a8b819", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-ae818b9224", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-ae829e4138", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-aed847fee5", "verdict": "keep", "rank": 2, "tags": ["glsl", "tooling"]}
+{"id": "f-aeed5a29f4", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-b019d2c6dd", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-b01dd924b1", "verdict": "keep", "rank": 1, "tags": ["image-effects"]}
+{"id": "f-b19b14a908", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-b1b37f6c45", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-b2071a797b", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-b232ded908", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-b25fcf985d", "verdict": "keep", "rank": 1, "tags": ["animation", "legacy"]}
+{"id": "f-b298e558b8", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-b36901f116", "verdict": "drop", "note": "Godot-only plugin; native engine, not web."}
+{"id": "f-b3883ec9ec", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-b388c61a7d", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-b3f006d0ca", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-b430023822", "verdict": "keep", "rank": 3, "why": "Cheat-sheet translating math notation to code; helps when porting shader and graphics papers into JS/GLSL.", "tags": ["math", "resource"]}
+{"id": "f-b47746af8e", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-b47e75031a", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-b4cfae2358", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-b4eec33849", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-b610306913", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-b631a324ac", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-b66b258b45", "verdict": "drop", "note": "Dead WebGL/vector-era library superseded by three.js and modern tools."}
+{"id": "f-b676d2d00d", "verdict": "keep", "rank": 2, "tags": ["webgl"]}
+{"id": "f-b7284c2da4", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-b822dee426", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-b8479c6759", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-b961a4614e", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-b9bf352230", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-b9f5126540", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-bb56486c31", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-bb574c44e2", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-bba757b0ea", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-bc4cac8ec1", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-bd7c8685e5", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-bdb67be89f", "verdict": "keep", "rank": 2, "tags": ["rendering", "tutorial"]}
+{"id": "f-bdf268c4f1", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-be27e897e8", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-bfd9e213a8", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-c01ef52ccf", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-c02e4ea8de", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-c0aad4b153", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-c109f68768", "verdict": "keep", "rank": 2, "tags": ["glsl", "tutorial"]}
+{"id": "f-c2b59bd333", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-c35a860e1e", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-c3b690207b", "verdict": "keep", "rank": 2, "tags": ["graphics", "resource"]}
+{"id": "f-c40c0e08c4", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-c56b6b312c", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-c5d700bf23", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-c5f7e1e30f", "verdict": "keep", "rank": 2, "tags": ["threejs", "maps"]}
+{"id": "f-c693ebb1b4", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-c727e9493c", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-c7954366df", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-c84f4d0208", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-c8bee5e92e", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-c92344c55f", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-c957e46f9c", "verdict": "keep", "rank": 2, "tags": ["glsl", "tooling"]}
+{"id": "f-ca96146751", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-caaa5d68bd", "verdict": "keep", "rank": 3, "why": "Fast dynamic CSG built on three-mesh-bvh; boolean geometry for interactive three.js configurators and effects.", "tags": ["threejs", "csg"]}
+{"id": "f-cbc3200cc9", "verdict": "keep", "rank": 3, "why": "Typing-animation library (16k stars); quick typewriter headline effects on marketing sites.", "tags": ["text", "animation"]}
+{"id": "f-cbe9bd842b", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-cc2c699f43", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-cc84b1b1c5", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-cd2fa4c1a2", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-cd35441921", "verdict": "keep", "rank": 3, "why": "The WebGPU specification repo; the reference for where three.js WebGPU and TSL are heading.", "tags": ["webgpu", "spec"]}
+{"id": "f-cdb46833b7", "verdict": "keep", "rank": 1, "tags": ["shaders", "legacy"]}
+{"id": "f-ce23c437e2", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-ce9886a4a4", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-cedd929730", "verdict": "keep", "rank": 2, "tags": ["glsl", "lighting", "tutorial"]}
+{"id": "f-cff8fb574a", "verdict": "keep", "rank": 1, "tags": ["photogrammetry", "resource"]}
+{"id": "f-d1de744d69", "verdict": "keep", "rank": 1, "tags": ["animation", "legacy"]}
+{"id": "f-d1fdefad7e", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-d24cc5d98f", "verdict": "keep", "rank": 2, "tags": ["physics", "wasm"]}
+{"id": "f-d39224eb80", "verdict": "keep", "rank": 4, "why": "LYGIA granular multi-language shader library (GLSL/WGSL and more); production-ready noise, SDF, lighting and color functions for three.js shaders.", "tags": ["shaders", "glsl", "wgsl"]}
+{"id": "f-d3b9c4ad64", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-d41a5ba8c6", "verdict": "keep", "rank": 1, "tags": ["css", "animation", "legacy"]}
+{"id": "f-d4239e6820", "verdict": "drop", "note": "Non-graphics or off-domain tool for web 3D/motion."}
+{"id": "f-d51b954986", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-d55d3239d8", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-d5b17d932a", "verdict": "keep", "rank": 1, "tags": ["animation", "legacy"]}
+{"id": "f-d6a1a1fee3", "verdict": "keep", "rank": 2, "tags": ["threejs", "shaders", "tutorial"]}
+{"id": "f-d827abae8e", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-d82fe4ddcf", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-d926c299a9", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-d976133744", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-d991a244a1", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-d9d73e0c68", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-daa133a973", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-dc11eb17c2", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-dd0890884c", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-dde521a651", "verdict": "keep", "rank": 3, "why": "Canvas library with object model and animation (31k stars); fits editor and design-tool features in SISO's React apps.", "tags": ["canvas", "editor"]}
+{"id": "f-de3024f2af", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-de798030ba", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-df17cd49cb", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-e2df4f4f28", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-e2fdda56b7", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-e30b8ae57d", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-e3b1ef6f81", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-e3c5f953fb", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-e5680b76e3", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-e64a2fb95a", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-e690ed2034", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-e702df9276", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-e72a3393a8", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-e77d2ef9e2", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-e7ce62b1f5", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-e81fb7ffb0", "verdict": "keep", "rank": 2, "tags": ["css", "loaders"]}
+{"id": "f-e89df802c3", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-e915d051d9", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-e9f2afe16c", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}
+{"id": "f-ea2f6b3dd2", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-ebd4c1ea23", "verdict": "keep", "rank": 1, "tags": ["gamedev", "resource"]}
+{"id": "f-ed1b175e67", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-ed7dd7691f", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-ee1506522d", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-ee3ab7d34c", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-ee493ec181", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-ee58d3cb38", "verdict": "drop", "note": "Godot-only plugin; native engine, not web."}
+{"id": "f-ee5ecbc20a", "verdict": "keep", "rank": 3, "why": "Large library of matcap textures; instant stylized materials for three.js MeshMatcapMaterial without lighting setups.", "tags": ["textures", "matcap", "threejs"]}
+{"id": "f-eeb14de482", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-eef59e20cf", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-efcaecc088", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-efed2b4255", "verdict": "drop", "note": "Dead WebGL/vector-era library superseded by three.js and modern tools."}
+{"id": "f-f02e348204", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-f078b1d21d", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-f0fca18c01", "verdict": "keep", "rank": 2, "tags": ["threejs", "blender", "pipeline"]}
+{"id": "f-f14ac4dd32", "verdict": "keep", "rank": 1, "tags": ["text", "animation"]}
+{"id": "f-f1920108c6", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-f1b9215e24", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-f1d18330c0", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-f232ff03c1", "verdict": "drop", "note": "Non-graphics or off-domain tool for web 3D/motion."}
+{"id": "f-f287edddb7", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-f2e77887cd", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-f4e4cbadb4", "verdict": "keep", "rank": 1, "tags": ["animation", "legacy"]}
+{"id": "f-f593bf4707", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-f59c19a872", "verdict": "drop", "note": "Academic/ML research code (NeRF, generative 3D, CV, audio) with no direct web use."}
+{"id": "f-f6a763d1f4", "verdict": "drop", "note": "Unreal Engine plugin/tooling; native-only, not web."}
+{"id": "f-f6bec474fd", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-f873e93fc8", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-f8dde1cb90", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-f9525ef07e", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-fa7eb561ac", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-fbc28f09c1", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-fe886d75e9", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-fe9e5d44fe", "verdict": "drop", "note": "Unity-only (C#) tooling; does not ship to the web stack SISO uses."}
+{"id": "f-ff2b383a34", "verdict": "drop", "note": "Blender add-on/desktop DCC tooling; not a web 3D/motion resource."}
+{"id": "f-ffefc74f49", "verdict": "drop", "note": "Desktop/native graphics engine, renderer, DCC or app (C/C++/C#/Java/Swift/Python); not shipped to the web."}

@@ -1,0 +1,8 @@
+{"lead": "https://www.fab.com/ free monthly assets and Quixel Megascans (403 to curl; needs browser probe)", "why": "Megascans moved to Fab; huge free/paid photoscanned library, licence terms changed 2024-25", "rank": 5, "area": "assets"}
+{"lead": "https://3d.si.edu/ Smithsonian Open Access 3D (403 to curl)", "why": "CC0 museum-grade scanned 3D models; verify via camofox", "rank": 4, "area": "assets"}
+{"lead": "https://uncut.wtf/ and https://www.streamlinehq.com/ (bot-blocked: 454/429)", "why": "Uncut = free contemporary display fonts; Streamline = 100k icons incl. free 3D/illustration sets", "rank": 4, "area": "assets"}
+{"lead": "Awwwards SOTD/SOTY stack mining: https://www.awwwards.com/websites/three-js/", "why": "Extract which libs (OGL, Lenis, GSAP, Unicorn) winners actually ship, to rank our 3D stack by evidence", "rank": 5, "area": "3d-motion"}
+{"lead": "gh-search: three.js TSL WebGPU node material examples", "why": "TSL/WebGPURenderer is where Three.js is heading; need a curated set of TSL effects for UI-HUB", "rank": 4, "area": "3d-motion"}
+{"lead": "https://ideogram.ai/ and Google Gemini image (Nano Banana) (ideogram 403 to curl)", "why": "Top proprietary generators for text-in-image and edits; rank on the Artificial Analysis arena", "rank": 3, "area": "image-gen"}
+{"lead": "gh-search: Wan-Video/Wan2.1 and Hunyuan video for hero loops", "why": "Open video models for generated background loops; Wan2.1 repo verified, licence Apache-2.0", "rank": 3, "area": "image-gen"}
+{"lead": "https://www.radix-ui.com/icons and https://heropatterns.com/", "why": "Resolved 200 but cut for space: Radix 15x15 icons (MIT) and SVG repeating patterns (CC BY 4.0)", "rank": 2, "area": "assets"}

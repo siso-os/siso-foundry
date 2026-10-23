@@ -106,7 +106,8 @@ FIELDS = ("title", "kind", "area", "licence", "preview", "why", "by", "date", "s
 def build_domain(domain):
     base = RESEARCH / domain
     obs_dir = base / "observations"
-    old = {r["key"]: r for r in read_jsonl(base / "records.jsonl")}
+    # Rejected records keep their id and first_seen too; read from records.jsonl alone, every build re-dated them.
+    old = {r["key"]: r for r in read_jsonl(base / "records.jsonl") + read_jsonl(base / "rejected.jsonl")}
     aliases = {a: r["key"] for r in old.values() for a in r.get("aliases", [])}
     records, leads, bad = {}, {}, 0
     for path in sorted(obs_dir.glob("*.jsonl")):
